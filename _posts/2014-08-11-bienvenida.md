@@ -37,5 +37,5 @@ Bienvenido a mi blog, ojalá podamos mejorar nuestro entorno y oportunidades jun
 
 Noé.
 
-Gracias a [@paulinabustosa](http://wwww.twitter.com/paulinabustosa) y [@jyr](http://wwww.twitter.com/jyr) por sus sugerencias
+Gracias a [@paulinabustosa](http://www.twitter.com/paulinabustosa) y [@jyr](http://www.twitter.com/jyr) por sus sugerencias
 para este post.
