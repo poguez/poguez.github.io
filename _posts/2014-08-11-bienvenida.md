@@ -1,7 +1,10 @@
 ---
-layout: page
-title: Sobre mi.
-permalink: /sobre-mi/
+layout: post
+title: "Bienvenida"
+quote: "Sharing is caring."
+image: /media/2014-08-11-bienvenida/cover.jpg
+video: false
+comments: true
 ---
 
 #Bienvenida
@@ -21,17 +24,17 @@ del Instituto Nacional de Astrofísica Óptica y Electrónica a cargo del Ph.D. 
 y como ingeniero de Redes VoIP en Arisanet.
 
 Toda esta mezcla de distintas experiencias que he tenido me ha formado algunas opiniones sobre emprendimiento, 
-desarrollo de software, desarrollo tecnológico, transferencia tecnológica,innovación cívica, Datos Abiertos (Open Data),
+desarrollo de software, desarrollo tecnológico, transferencia tecnológica, innovación cívica, Datos Abiertos (Open Data),
 Conocimiento Abierto (Open Knowledge) y un poco de negocios. En el aspecto de ciencias de la computación he aprendido sobre
-desarrollo web Full-Stack, sistemas ubicuos, sistemas distribuidos y análisis/visualización de datos.
+desarrollo web full-stack, sistemas ubicuos, sistemas distribuidos y análisis/visualización de datos.
 
 Todos los días me esfuerzo por ser una mejor persona y espero que ninguno de los puntos de vista que exponga
 te incomoden, no son definitivos y son perfectibles. Siempre estoy abierto a escuchar nuevas ideas y proyectos,
-puedes encontrarme en:[noe@hackersandfounders.com](mailto:noe@hackersandfounders.com)
+puedes encontrarme en: [noe@hackersandfounders.com](mailto:noe@hackersandfounders.com)
 
 Bienvenido a mi blog, ojalá podamos mejorar nuestro entorno y oportunidades juntos.
 
-Sharing is caring.
+<cite>Sharing is caring.</cite>
 
 
 Noé.

@@ -3,6 +3,7 @@ html, body, div, span, applet, object, iframe, caption, p {
 	border: 0 0 0 0;
 	font: inherit;
 	color: inherit;
+  text-align:justify;
 }
 
 html, body {

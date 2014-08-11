@@ -6,16 +6,16 @@ highlighter:	pygments
 permalink:	/blog/:title
 
 # Setup
-title:		Thinny
+title:		El blog de Noé Domínguez
 tagline:	'blog'
-description:	'My personal blog.'
-url:		http://camporez.com
-commentsystem:	google
-disqus:		example
+description:	'Mi blog personal sobre tecnología & programación'
+url:		http://poguez.github.io
+commentsystem:	disqus
+disqus:		poguez
 
 author:
-  name:		'Ian Camporez Brunelli'
-  url:		https://google.com/+IanCamporezBrunelli
+  name:		'Noé Domínguez Porras'
+url:		https://mx.linkedin.com/in/noedominguez/
 
 paginate:	5
 
@@ -25,33 +25,33 @@ cover:		/assets/images/cover.jpg
 
 social:
   - icon:	twitter
-    url:	https://twitter.com/iancamporez
-    desc:	Follow me on twitter
+    url:	https://twitter.com/noe_dgz
+    desc:	Sígueme en Twitter
 
   - icon:	github
-    url:	https://github.com/camporez
-    desc:	Fork me on github
+    url:	https://github.com/poguez
+    desc:	Sigue mis proyectos en Github
 
   - icon:	googleplus-alt
-    url:	https://google.com/+IanCamporezBrunelli
-    desc:	Add me on google+
+    url:	https://google.com/+NoeDominguez
+    desc:	Agrégame en google+
 
   - icon:	feed
-    url:	http://camporez.com/atom.xml
-    desc:	Subscribe to my feed
+    url:	http://poguez.github.io/atom.xml
+    desc:	Suscríbete a mi feed
     
 menu:
   - title:	Home
     url:	/
     
-  - title:	About
-    url:	/about
+  - title:	Sobre mi
+    url:	/sobre-mi
     
 copyright:
-  author:	Camporez
-  url:		http://camporez.com
-  type_title:	Some rights reserved
+  author:	Noé Domínguez
+  url:		http://poguez.github.io
+  type_title:	Algunos derechos reservados
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
-google_analytics:
+google_analytics: UA-41550586-1
