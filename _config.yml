@@ -8,16 +8,16 @@ permalink:	/blog/:title
 # Setup
 title:		El blog de Noé Domínguez
 tagline:	'blog'
-description:	'Mi blog personal sobre tecnología & programación'
+description:	'Mi blog personal, tecnología & programación'
 url:		http://poguez.github.io
 commentsystem:	disqus
 disqus:		poguez
 
 author:
   name:		'Noé Domínguez Porras'
-url:		https://mx.linkedin.com/in/noedominguez/
+url: https://poguez.github.io
 
-paginate:	5
+paginate:	10
 
 # Custom vars
 icon:		/assets/images/icon.png
