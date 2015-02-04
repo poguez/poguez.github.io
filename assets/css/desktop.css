@@ -5,11 +5,10 @@ header, footer {
 }
 
 #post-info {
-  width:100%;
-  bottom: 0px;
+	width: 100%;
+	padding-left: 20%;
+	bottom: 100px;
   background-color: rgba(17, 17, 17, 0.29);
-  padding: 50px;
-  border-bottom: 75px;
   border-color: rgba(17,17,17,0.29);
 }
 
