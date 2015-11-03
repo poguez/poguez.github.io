@@ -1,10 +1,11 @@
 ---
 layout: post
+
 title: ¡Felicidades Datamx.io! Premio a la Innovación en Transparencia 2015
 quote: "1er lugar. Los Datos Abiertos llegaron para quedarse"
 image: /media/2015-10-08-premio-transparencia/00-borealis.jpg
-author:
-  name: Equipo Codeando México
+video: false
+comments: true
 ---
 
 En [Mayo del 2013] (https://web.archive.org/web/20130618120954/http://blog.codeandomexico.org/) anunciamos que se abría la
