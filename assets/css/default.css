@@ -1,6 +1,6 @@
 html, body, div, span, applet, object, iframe, caption, p {
 	margin: 0 0 0 0;
-	border: 0 0 0 0;
+	border: 0;
 	font: inherit;
 	color: inherit;
   text-align:justify;
@@ -74,6 +74,8 @@ img {
 #post-info h1 {
 	font-weight: bold;
 	margin: 15px 0px;
+	max-width: 70%;
+	text-align: left;
 }
 
 #post-info h2 {
@@ -384,7 +386,7 @@ pre code {
 	-moz-osx-font-smoothing: antialiased;
 	 -webkit-font-smoothing: antialiased;
 	         font-smoothing: antialiased;
-	
+
 	letter-spacing: 1.2pt;
 	font-size: 12px;
 	font-weight: 600;
