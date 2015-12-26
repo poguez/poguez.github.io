@@ -12,6 +12,7 @@ description:	'Mi blog personal, tecnología & programación'
 url:		http://poguez.github.io
 commentsystem:	disqus
 disqus:		poguez
+fb_app_id: 181345208885623
 
 author:
   name:		'Noé Domínguez Porras'
@@ -39,14 +40,14 @@ social:
   - icon:	feed
     url:	http://poguez.github.io/atom.xml
     desc:	Suscríbete a mi feed
-    
+
 menu:
   - title:	Home
     url:	/
-    
+
   - title:	Sobre mi
     url:	/sobre-mi
-    
+
 copyright:
   author:	Noé Domínguez
   url:		http://poguez.github.io
