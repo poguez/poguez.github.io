@@ -8,6 +8,8 @@ comments: true
 layout: post
 ---
 
+<div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg"></div>
+
 Hoy presentamos [Datamx](http://datamx.io) en el Premio a la Innovación en Transparencia 2015 en donde nos fue otorgado el primer lugar en la categoría de Personas Físicas y Asociaciones Civiles. Fue un honor poder compartir parte de la experiencia que aprendimos en alrededor de 2 años de trabajo y quisimos hacer énfasis en contar la historia de [Datamx](http://datamx.io) no en el fin hasta donde ha llegado, si no por los principios de los que partió y de las historias que hemos documentado, hay mucho que contar.
 
 Estuvimos un par de años en contacto continuo con Gobierno, sociedad civil y ciudadanos interesados en cambiar su entorno, principalmente nos involucramos juntos en nuevas maneras de llevar innovación a nuestra sociedad de manera cívica. Cabe destacar que Codeando México y por lo tanto [Datamx](http://datamx.io) parten de 3 grandes pilares que dan forma a nuestro trabajo:
