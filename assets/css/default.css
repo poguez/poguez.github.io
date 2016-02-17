@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, caption, p {
 	border: 0;
 	font: inherit;
 	color: inherit;
-  text-align:justify;
+
 }
 
 html, body {
@@ -179,6 +179,7 @@ img {
 	color: #313131;
 	line-height: 1.5;
 	position: relative;
+	text-align:left;
 }
 
 #comments {
