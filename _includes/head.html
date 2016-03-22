@@ -3,7 +3,7 @@
 	<link href="//gmpg.org/xfn/11" rel="profile">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-	{% if page.post %}
+	{% if page.post || layout.post %}
 	<meta name="description" content="{% if page.quote %}{{ page.quote }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}" />
 	<meta itemprop="image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.icon }}{% endif %}" />
 	{% include facebook_opengraph.html %}
