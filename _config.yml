@@ -56,3 +56,6 @@ copyright:
 
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics: UA-41550586-1
+
+# Jekyll Gems
+gems: [jekyll-paginate]
