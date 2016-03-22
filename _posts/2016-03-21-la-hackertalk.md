@@ -12,7 +12,7 @@ comments: true
 Hace un par de meses conocí a un grupo de hackers, ahora amigos, que tenían un
 video blog por Internet que me gusta mucho por su formato y contenidos: [Hackertalk](http://www.hackertalk.co).
 [Martín](https://twitter.com/mvrtxn), [Abraham](https://twitter.com/abraham_gnz),
-[Fran](https://twitter.com/FranPR9), [Diego](https://twitter.com/Diegeekster) y
+[Fran](https://twitter.com/FranPR9), [Diego](https://twitter.com/Diegeekster), [Nacho](https://twitter.com/allnacho) y
 varios amigos más, a lo largo de varios episodios entrevistan a algunos hackers
 y líderes de iniciativas en donde se habla de emprendimiento  en  tecnología y
 software, con las dificultades que ello implica.
