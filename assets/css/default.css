@@ -35,9 +35,11 @@ footer {
 }
 
 p {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #515151;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	line-height: 2em;
+	font-size: 18px;
+	color: rgba(0,0,0,0.8);
 }
 
 a {
