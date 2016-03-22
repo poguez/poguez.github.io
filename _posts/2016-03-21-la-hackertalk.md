@@ -42,8 +42,7 @@ manera de pensar detrás.
 Te invito a que veas el video y dejes un par de comentarios para enriquecer
 la plática y de lo que mejor te ha servido en tu experiencia:
 
-<br>
-<br>
+
 {% include iframe.html url="https://www.youtube.com/embed/ckTO-XeiEKE" width="100%" description="Hackertalk 41: Startups, emprendimiento social y desarrollo de software." %}
 
 
