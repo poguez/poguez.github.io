@@ -1,2 +1,10 @@
-<div id="article-img"><a href="{{ include.url }}" target="_blank"><img src="{{ include.url }}" alt="{{ include.description }}"{% if include.width %} width="{{ include.width }}"{% endif %} /></a>
-<blockquote style="border-left: 10px solid #D5D5D5;">{{ include.description }}</blockquote></div>
+<div id="article-img">
+  <a href="{{ include.url }}" target="_blank">
+    <img src="{{ include.url }}"
+      {% if include.description %}alt="{{ include.description }}" {% endif %}
+      {% if include.width %} width="{{ include.width }}"{% endif %} />
+  </a>
+  {% if include.description %}
+  <blockquote style="border-left: 10px solid #D5D5D5;">{{ include.description }}</blockquote>
+  {% endif %}
+</div>
