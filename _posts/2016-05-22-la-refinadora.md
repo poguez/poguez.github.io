@@ -10,20 +10,6 @@ comments: true
 # Inteligencia y automatización para las salas de prensa
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 El día 18 y 19 de abril tuvimos la oportunidad de asistir a un evento patrocinado por la Mozilla Foundation y la Knight Foundation: La Reunión de Código de [Open News 2016  en Austin, TX](https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/). Esta iniciativa consiste en crear soluciones de Software de Código Abierto para equipos de periodismo. Los equipos fueron seleccionados para desarrollar sus proyectos a través de Internet y fuimos el primer equipo internacional en participar en la dinámica. Cabe destacar que los participantes del evento venían de distintos contextos, algunos de Radios Públicas Nacionales (NPR), The New York Times, periodistas investigadores, The Marshall Project -que cubre el Sistema de Justicia de Estados Unidos y durante el evento ganaron un Pulitzer-, periodistas independientes, entre otros. Todos en una dinámica parecida a un hackatón donde la colaboración y trabajo intensivo de dos días se materializó en avances de un proyecto de código abierto que ayudará a la automatización de las salas de prensa de Estados Unidos y seguramente México.
 
 
@@ -57,5 +43,6 @@ Te invito a que revises el repositorio de La Refinadora en [github.com/civica-di
 
 Noé Domínguez([@poguez](https://github.com/poguez))
 
-
+Foto de portada de Sandra Barrón
 [Post originalmente escrito para el [blog](http://blog.civica.digital) de Civica.digital]
+
