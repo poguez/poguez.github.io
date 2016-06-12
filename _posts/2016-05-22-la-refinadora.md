@@ -7,7 +7,7 @@ image: "/media/2016-05-22-la-refinadora/portada.jpg"
 comments: true
 ---
 
-# Inteligencia y automatización para las salas de prensa
+__Inteligencia y automatización para las salas de prensa__
 
 
 El día 18 y 19 de abril tuvimos la oportunidad de asistir a un evento patrocinado por la Mozilla Foundation y la Knight Foundation: La Reunión de Código de [Open News 2016  en Austin, TX](https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/). Esta iniciativa consiste en crear soluciones de Software de Código Abierto para equipos de periodismo. Los equipos fueron seleccionados para desarrollar sus proyectos a través de Internet y fuimos el primer equipo internacional en participar en la dinámica. Cabe destacar que los participantes del evento venían de distintos contextos, algunos de Radios Públicas Nacionales (NPR), The New York Times, periodistas investigadores, The Marshall Project -que cubre el Sistema de Justicia de Estados Unidos y durante el evento ganaron un Pulitzer-, periodistas independientes, entre otros. Todos en una dinámica parecida a un hackatón donde la colaboración y trabajo intensivo de dos días se materializó en avances de un proyecto de código abierto que ayudará a la automatización de las salas de prensa de Estados Unidos y seguramente México.
@@ -21,6 +21,8 @@ Los proyectos notablemente se enfocaron en dos vías temáticas: Recolección, y
 
 {% include image.html url="/media/2016-05-22-la-refinadora/logo-refinadora.png" width="100%" description="Diseño de Sandra Barrón" %}
 
+_Diseño de Sandra Barrón_
+
 El equipo de Cívica Digital: Sandra Barrón como Diseñadora de producto, Miguel Morán a.k.a. Mikesaurio y un servidor como desarrolladores de software asistimos con la propuesta de [La Refinadora](https://github.com/civica-digital/la-refinadora). Este proyecto lo iniciamos con la organización de [México Abierto](https://github.com/mxabierto) y  tenemos interés en seguir desarrollándolo de manera colaborativa. La Refinadora, es un proyecto que te ayuda a validar datasets conforme a un formato estándar. Esto quiere decir que si tienes información en algún formato abierto, como un CSV, puedes validar: que las fechas estén conforme al estándar ISO-8601, que un CSV cumpla con su formato, podrías incluso validar una codificación, entre otras validaciones y formatos de información.
 
 
@@ -30,10 +32,13 @@ La importancia de La Refinadora consiste en que necesitamos ayuda para mejorar l
 La Refinadora fue pensada en estos principios y es por eso que cuando se diseñó por primera vez se consideró la posibilidad de utilizar contenedores con Docker, para crear entornos aislados para la ejecución de scripts en distintos lenguajes. Hemos detectado varios lenguajes, dependiendo del equipo que trabaje la información. Empero, si necesitas utilizar Clojure, entonces utiliza una imagen de Docker que tenga la JVM. Si necesitas ejecutar tu script con Python, entonces usa una imagen que tenga configurado un intérprete de Python y que todas sus utilerías o dependencias sean configurables. Debe ser fácil ofrecer un entorno de ejecución diverso para las entidades que necesitan diversidad y al mismo tiempo ser estándar, las posibilidades con contenedores se expanden y cada vez son más accesibles.
 
 {% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora-demo.png" width="100%" class="zoomable" description="La nueva interfaz que diseñamos para La Refinadora e implementada por Mikesaurio"%}
+_La nueva interfaz que diseñamos para La Refinadora e implementada por Mikesaurio y Sandra_
+
 
 La interfaz, detectamos con los usuarios, debe de ser plural y disponible para distintos perfiles de usuario técnicos en la programación y otros no tanto. Es por eso que, además de una interfaz para hacer ingesta por Catálogos de Datos en formato [DCAT](https://www.w3.org/TR/vocab-dcat/), que ya es usada por [defecto en La Unión Europea](https://joinup.ec.europa.eu/asset/dcat_application_profile/description) y [México](http://www.dof.gob.mx/nota_detalle.php?codigo=5397117&fecha=18/06/2015), creamos ahora una interfaz para subir archivos por web de manera sencilla. Ahora podrás arrastrar tus archivos desde una carpeta a la interfaz web y seleccionar los verificadores. Con esto mejoramos la accesibilidad para tareas no automatizadas y usuarios de perfiles no tan técnicos.
 
 {% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora.jpg" width="100%" class="zoomable" description="En la presentación de los demos" %}
+_En la presentación de los demos_
 
 La experiencia fue enriquecedora, porque trabajamos con periodistas e informáticos en este tema y fue increíble haber conocido a uno de los creadores de [Tábula](http://tabula.technology/), que ya tiene una larga historia entre quienes comenzamos a liberar datos de PDFs. Sin embargo, nos queda claro que este tipo de reuniones especializadas sirven para hacer camino con nuevas herramientas para el procesamiento de información, que puedan servir a las tareas de: Análisis de Datos, Periodismo de datos y visualización de datos. Este sigue siendo una tarea muy especializada y hay que seguir desarrollando proyectos que puedan ayudar a esta importante tarea.
 
