@@ -204,6 +204,12 @@ img {
 	border-bottom: 0px;
 }
 
+#article-img img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 a.site-title:hover, .copyright a:hover {
 	text-decoration: underline;
 }
