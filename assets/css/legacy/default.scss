@@ -104,15 +104,20 @@ img {
 }
 
 #home-title {
-	left: 50%;
-	top: 50%;
-	background-repeat: no-repeat;
+	bottom: 0%;
+	width: 100%;
+	height: 20%;
+	background-color: rgba(17, 17, 17, 0.29);
+	text-align: center;
 	position: absolute;
-	border-radius: 50%;
 	transition-duration: .25s;
 	z-index: 1;
+	font-family: "orator-std-medium";
 }
+#home-title > p{
+	color: #fff;
 
+}
 .site-icon-home {
 	width: 150px;
 	height: 150px;

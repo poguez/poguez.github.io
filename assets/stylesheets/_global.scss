@@ -1,0 +1,54 @@
+body {
+  background-color: $white;
+  color: $dark-gray;
+}
+
+.strong, strong{
+  color: $black;
+}
+.logo{
+  max-width: 300px;
+  margin: 0 auto;
+}
+.landing{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  .container {
+    text-align: center;
+    max-width: 80vw;
+    img{
+      max-width: 100%;
+    }
+    h1 {
+      font-weight: 200;
+    }
+  }
+  .informes{
+    font-size: 0.8em;
+  }
+}
+
+
+@media only screen
+  and (min-device-width: 1200px){
+  p{
+    font-size: 1.2em;
+  }
+  .informes{
+    font-size: 1em;
+  }
+}
+@media only screen
+  and (min-device-width: 2000px){
+  p{
+    font-size: 1.4em;
+  }
+  .informes{
+    font-size: 1.2em;
+    ul > li{
+      font-size: 1.2em;
+    }
+  }
+}

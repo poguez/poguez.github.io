@@ -22,7 +22,7 @@ paginate:	10
 
 # Custom vars
 icon:		/assets/images/icon.png
-cover:		/assets/images/cover.jpg
+cover:		/assets/images/beaux_arts_2013.jpg
 
 social:
   - icon:	twitter
@@ -54,8 +54,16 @@ copyright:
   type_title:	Algunos derechos reservados
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
+
+# Assets & Styles
+
+sass:
+  sass_dir: /assets/css
+#  style: compressed
+
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics: UA-41550586-1
 
 # Jekyll Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, bourbon]
+
