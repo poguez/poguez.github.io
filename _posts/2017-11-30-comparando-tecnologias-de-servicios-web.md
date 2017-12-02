@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparando tecnologías para crear servicios web y  GraphQL"
+title: "Comparando tecnologías para crear servicios web: SOA, REST y GraphQL"
 quote: "¿Qué opciones tengo para hacerlo?"
 image: false
 image: "/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg"
@@ -27,7 +27,7 @@ soluciones  para hacer servicios que nos parecen horribles y poco intuitivas.
 Parecen crípticas porque incluso están hechas con XML, un lenguaje de descripción que te han contado que se hizo 
 hace mil años.
 Te toca llegar a servicios web que tienen otro estilo arquitectónico y otras descripciones que no habías visto.
-Por ejemplo, te mandan una descripción de un servicio en [WSDL (Web Services Description Language)](https://www.w3.org/TR/2007/REC-wsdl20-20070626/)y no sabes cómo usarla.
+Por ejemplo, te mandan una descripción de un servicio en [WSDL (Web Services Description Language)](https://www.w3.org/TR/2007/REC-wsdl20-20070626/) y no sabes cómo usarla.
 Te mandan un _endpoint_ que te regresa un XML para que uses [SOAP (Simple Object Access Protocol)](https://www.w3.org/TR/soap) y tampoco sabes cómo se describen los datos.
 Incluso hay la posibilidad de que te manden el _endpoint_ para consultar un directorio de servicios [UDDI (Universal Description, Discovery, and Integration)](https://www.oasis-open.org/committees/uddi-spec/).
 Es horrible pasar de un paradigma como REST donde los elementos se describen en la URL a uno en el que tienes
