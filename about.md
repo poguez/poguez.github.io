@@ -4,8 +4,6 @@ title: Sobre mi
 permalink: /sobre-mi/
 ---
 
-# Bienvenida
-
 Me llamo Noé Domínguez Porras, me gusta hacer ingeniería de software y ciencias computacionales.
 Me gusta hacer cosas y aprender otras nuevas, creo que el aprendizaje es algo que haces por ti y es muy personal.
 Creo también en lo métodos de desescolarizar a nuestra sociedad para aprovechar la inteligencia de las personas.
