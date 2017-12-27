@@ -22,7 +22,7 @@ paginate:	10
 
 # Custom vars
 icon:		/assets/images/icon.png
-cover:		/assets/images/beaux_arts_2013.jpg
+cover:		/assets/images/cover_cafe.jpg
 
 social:
   - icon:	twitter
