@@ -1,7 +1,7 @@
 <div id="article-img">
   <a href="{{ include.url }}" target="_blank">
     <img src="{{ include.url }}"
-      {% if include.description %}alt="{{ include.description }}" {% endif %}
+      {% if include.description %}alt="{{ include.description | strip_html }}" {% endif %}
       {% if include.width %} width="{{ include.width }}"{% endif %} />
   </a>
   {% if include.description %}
