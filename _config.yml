@@ -9,7 +9,6 @@ permalink:	/blog/:title
 title:		El blog de Noé Domínguez
 tagline:	'blog'
 description:	'Mi blog personal, tecnología & programación'
-url:		http://poguez.github.io
 commentsystem:	disqus
 disqus:		poguez
 fb_app_id: 181345208885623
@@ -19,6 +18,19 @@ author:
 url: https://poguez.github.io
 
 paginate:	10
+
+languages:
+  - name:	'Spanish'
+    code:	es
+    url:	'/es'
+    permalink:	'/es/blog/:title'
+
+  - name:	'English'
+    code:	en
+    url:	'/en'
+    permalink:	'/en/blog/:title'
+
+default_lang: es
 
 # Custom vars
 icon:		/assets/images/icon.png
@@ -66,4 +78,6 @@ google_analytics: UA-41550586-1
 
 # Jekyll Gems
 gems: [jekyll-paginate, bourbon]
+# Plugins
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
 
