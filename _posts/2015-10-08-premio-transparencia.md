@@ -5,7 +5,7 @@ quote: "1st place. Open Data is here to stay"
 image: /media/2015-10-08-premio-transparencia/00-borealis.jpg
 video: false
 comments: true
-permalink: "/en/blogcongratulations-datamx-io-innovation-in-transparency-award-2015/"
+permalink: "/en/blog/congratulations-datamx-io-innovation-in-transparency-award-2015/"
 tags: [ "open-data", "open-government", "civic-hacking", "ckan", "datamx", "transparency", "inai", "civic-app-accelerator-fund", "avina", "codeando-mexico" ]
 lang: "en"
 ---

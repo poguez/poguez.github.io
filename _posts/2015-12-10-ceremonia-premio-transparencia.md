@@ -6,7 +6,7 @@ image: /media/2015-12-10-ceremonia-premio-transparencia/cover.jpg
 video: false
 comments: true
 layout: post
-permalink: "/en/blogceremony-for-the-innovation-in-transparency-award-2015/"
+permalink: "/en/blog/ceremony-for-the-innovation-in-transparency-award-2015/"
 tags: [ "open-data", "open-government", "civic-hacking", "ckan", "datamx", "transparency", "inai", "civic-app-accelerator-fund", "avina", "codeando-mexico" ]
 lang: "en"
 ---

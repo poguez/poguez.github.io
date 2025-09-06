@@ -5,7 +5,7 @@ quote: "The first night in Seoul."
 image: /media/2010-11-14-barbas/cover.jpg
 video: false
 comments: true
-permalink: "/en/blogsugar-beards/"
+permalink: "/en/blog/sugar-beards/"
 tags: [ "travel", "korea", "seoul", "food" ]
 lang: "en"
 ---

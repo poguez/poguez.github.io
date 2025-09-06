@@ -5,7 +5,7 @@ quote: "This is a post I wrote in November (2011), sorry for the untimeliness of
 image: /assets/images/ramyeon/cocina.jpg
 video: false
 comments: true
-permalink: "/en/blogmrs-ramyeon/"
+permalink: "/en/blog/mrs-ramyeon/"
 tags: [ "travel", "korea", "seoul", "food", "ramyeon", "noodles", "instant-noodles", "cheese", "kimchi" ]
 lang: "en"
 ---
