@@ -1,53 +1,46 @@
 ---
 layout: post
-title: "La Refinadora y los bots en Open News, Austin 2016"
-quote: "Hackeando las salas de prensa con Bots y automatización"
+title: "The Refinadora and Bots at Open News, Austin 2016"
+quote: "Hacking newsrooms with Bots and automation"
 image: false
 image: "/media/2016-05-22-la-refinadora/portada.jpg"
 comments: true
+permalink: "/en/blog/the-refinadora-and-bots-at-open-news-austin-2016/"
+tags: [ "open-news", "bots", "automation", "journalism", "data-journalism", "open-source", "la-refinadora", "civic-hacking", "open-data", "docker", "python", "data-validation", "data-quality", "codeando-mexico", "civica-digital" ]
+lang: "en"
 ---
 
-__Inteligencia y automatización para las salas de prensa__
+__Intelligence and automation for newsrooms__
 
+On April 18 and 19, we had the opportunity to attend an event sponsored by the Mozilla Foundation and the Knight Foundation: The [Open News 2016 Code Convening in Austin, TX](https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/). This initiative consists of creating Open Source Software solutions for journalism teams. The teams were selected to develop their projects over the Internet, and we were the first international team to participate in the dynamic. It is worth noting that the event participants came from different backgrounds, some from National Public Radios (NPR), The New York Times, investigative journalists, The Marshall Project—which covers the US Justice System and won a Pulitzer during the event—independent journalists, among others. All in a dynamic similar to a hackathon where collaboration and intensive work over two days materialized in advances of an open source project that will help automate newsrooms in the United States and surely Mexico.
 
-El día 18 y 19 de abril tuvimos la oportunidad de asistir a un evento patrocinado por la Mozilla Foundation y la Knight Foundation: La Reunión de Código de [Open News 2016  en Austin, TX](https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/). Esta iniciativa consiste en crear soluciones de Software de Código Abierto para equipos de periodismo. Los equipos fueron seleccionados para desarrollar sus proyectos a través de Internet y fuimos el primer equipo internacional en participar en la dinámica. Cabe destacar que los participantes del evento venían de distintos contextos, algunos de Radios Públicas Nacionales (NPR), The New York Times, periodistas investigadores, The Marshall Project -que cubre el Sistema de Justicia de Estados Unidos y durante el evento ganaron un Pulitzer-, periodistas independientes, entre otros. Todos en una dinámica parecida a un hackatón donde la colaboración y trabajo intensivo de dos días se materializó en avances de un proyecto de código abierto que ayudará a la automatización de las salas de prensa de Estados Unidos y seguramente México.
+One thing I personally liked is that the event is focused on testing a new way to make hackathons more effective, with projects that have already started and need feedback to continue their development. At the same time, the event was like a mini-conference because there was time to share challenges in: journalism, data analysis, and technology management in news portals. Sharing experiences openly about best practices and especially solutions to common problems was one of the most enriching experiences for all teams.
 
+The projects notably focused on two thematic paths: Collection and use of information, and automation of reports with metrics for portals through bots. Neil, an independent programmer who does not yet work on any journalism team, made an automatic Podcast generator from text. It's like programming a bot that turns news into audio. Automation and reliable use of information was the guiding principle for all teams.
 
-Una de las cosas que personalmente me gustó es que el evento está enfocado en probar  una nueva manera de hacer más efectivos los hackatones, con proyectos que ya han iniciado y necesitan retroalimentación para continuar su desarrollo. Al mismo tiempo que el evento fue como una mini-conferencia porque hubo tiempo para compartir retos en: el periodismo, análisis de datos y la administración de la tecnología en los portales de noticias. Compartir experiencias de manera abierta sobre buenas prácticas y especialmente la solución a problemas en común fue una de las experiencias más enriquecedoras para todos los equipos.
+{% include image.html url="/media/2016-05-22-la-refinadora/logo-refinadora.png" width="100%" description="Design by Sandra Barrón" %}
 
+_Design by Sandra Barrón_
 
-Los proyectos notablemente se enfocaron en dos vías temáticas: Recolección, y uso de información y automatización de reportes con métricas para portales a través de bots. Neil, un programador independiente que aún no trabaja en ningún equipo de periodismo, hizo un generador automático de Podcasts a partir de texto. Es como programar un bot que convierta las noticias en audio. La automatización y el uso fiable de información fue el eje rector de todos los equipos.
+The Cívica Digital team: Sandra Barrón as product designer, Miguel Morán a.k.a. Mikesaurio, and myself as software developers attended with the proposal of [La Refinadora](https://github.com/civica-digital/la-refinadora). We started this project with the organization [México Abierto](https://github.com/mxabierto) and are interested in continuing to develop it collaboratively. La Refinadora is a project that helps you validate datasets according to a standard format. This means that if you have information in an open format, like a CSV, you can validate: that dates are according to the ISO-8601 standard, that a CSV meets its format, you could even validate encoding, among other validations and information formats.
 
+The importance of La Refinadora is that we need help to improve the quality of datasets. A couple of years ago, we perhaps had a dilemma about how to help create an Open Data strategy, how to help publish that data and have the community use it. But technically, at this moment, it is relevant to help make information homogeneous, to conform to standards, and to be able to do it massively and automatically in any language. There are even authors like McCallum and Gleason in 'Business Models for the Data Economy' (O'Reilly Media, 2012) who assert that one of the economic niches where value can be created with data is _Filtering and Refining (data)_ so that clients of our information can trust it. Thus, data analysts, businesses, and journalists can use information from Open Data sources with confidence. And for those who do not trust the source, it would serve so they can verify it.
 
-{% include image.html url="/media/2016-05-22-la-refinadora/logo-refinadora.png" width="100%" description="Diseño de Sandra Barrón" %}
+La Refinadora was conceived with these principles, and that's why when it was first designed, the possibility of using containers with Docker was considered, to create isolated environments for running scripts in different languages. We have detected several languages, depending on the team working with the information. However, if you need to use Clojure, then use a Docker image with the JVM. If you need to run your script with Python, then use an image with a configured Python interpreter and all its utilities or dependencies configurable. It should be easy to offer a diverse execution environment for entities that need diversity and at the same time be standard; the possibilities with containers expand and are increasingly accessible.
 
-_Diseño de Sandra Barrón_
+{% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora-demo.png" width="100%" class="zoomable" description="The new interface we designed for La Refinadora and implemented by Mikesaurio"%}
+_The new interface we designed for La Refinadora and implemented by Mikesaurio and Sandra_
 
-El equipo de Cívica Digital: Sandra Barrón como Diseñadora de producto, Miguel Morán a.k.a. Mikesaurio y un servidor como desarrolladores de software asistimos con la propuesta de [La Refinadora](https://github.com/civica-digital/la-refinadora). Este proyecto lo iniciamos con la organización de [México Abierto](https://github.com/mxabierto) y  tenemos interés en seguir desarrollándolo de manera colaborativa. La Refinadora, es un proyecto que te ayuda a validar datasets conforme a un formato estándar. Esto quiere decir que si tienes información en algún formato abierto, como un CSV, puedes validar: que las fechas estén conforme al estándar ISO-8601, que un CSV cumpla con su formato, podrías incluso validar una codificación, entre otras validaciones y formatos de información.
+The interface, as we detected with users, must be plural and available for different user profiles, both technical in programming and not so much. That's why, in addition to an interface for ingesting by Data Catalogs in [DCAT](https://www.w3.org/TR/vocab-dcat/) format, which is already used by default in the European Union and [Mexico](http://www.dof.gob.mx/nota_detalle.php?codigo=5397117&fecha=18/06/2015), we now created an interface to upload files via web easily. Now you can drag your files from a folder to the web interface and select the validators. With this, we improve accessibility for non-automated tasks and users with less technical profiles.
 
+{% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora.jpg" width="100%" class="zoomable" description="At the demo presentation" %}
+_At the demo presentation_
 
-La importancia de La Refinadora consiste en que necesitamos ayuda para mejorar la calidad de los conjuntos de datos. Hace un par de años teníamos, quizá, un dilema sobre cómo poder ayudar a que hubiera una estrategia de Datos Abiertos, cómo ayudar a que se pudiesen publicar esos datos y que la comunidad los usara. Pero en el tema técnico, en este momento, es relevante ayudar a que la información sea homogénea, que se conforme con estándares y a que lo puedas hacer de manera masiva y automática en cualquier lenguaje. Incluso hay autores como McCallum y Gleason en 'Business Models for the Data Economy' (O'Reilly Media, 2012) que aseveran que uno de los nichos económicos con los que se puede crear valor con datos es el de _Filtrar y Refinar (datos)_ para que los clientes de nuestra información puedan confiar. Así, analistas de datos, negocios y periodistas, pueden usar la información proveniente de fuentes de Datos Abiertos con seguridad. Y para quien no confían en la fuente entonces serviría para que puedan verificarla.
+The experience was enriching because we worked with journalists and IT professionals on this topic, and it was incredible to meet one of the creators of [Tabula](http://tabula.technology/), which already has a long history among those who started liberating data from PDFs. However, it is clear to us that these types of specialized meetings help pave the way with new tools for information processing, which can serve tasks such as: Data Analysis, Data Journalism, and Data Visualization. This remains a very specialized task, and we must continue developing projects that can help with this important task.
 
-
-La Refinadora fue pensada en estos principios y es por eso que cuando se diseñó por primera vez se consideró la posibilidad de utilizar contenedores con Docker, para crear entornos aislados para la ejecución de scripts en distintos lenguajes. Hemos detectado varios lenguajes, dependiendo del equipo que trabaje la información. Empero, si necesitas utilizar Clojure, entonces utiliza una imagen de Docker que tenga la JVM. Si necesitas ejecutar tu script con Python, entonces usa una imagen que tenga configurado un intérprete de Python y que todas sus utilerías o dependencias sean configurables. Debe ser fácil ofrecer un entorno de ejecución diverso para las entidades que necesitan diversidad y al mismo tiempo ser estándar, las posibilidades con contenedores se expanden y cada vez son más accesibles.
-
-{% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora-demo.png" width="100%" class="zoomable" description="La nueva interfaz que diseñamos para La Refinadora e implementada por Mikesaurio"%}
-_La nueva interfaz que diseñamos para La Refinadora e implementada por Mikesaurio y Sandra_
-
-
-La interfaz, detectamos con los usuarios, debe de ser plural y disponible para distintos perfiles de usuario técnicos en la programación y otros no tanto. Es por eso que, además de una interfaz para hacer ingesta por Catálogos de Datos en formato [DCAT](https://www.w3.org/TR/vocab-dcat/), que ya es usada por [defecto en La Unión Europea](https://joinup.ec.europa.eu/asset/dcat_application_profile/description) y [México](http://www.dof.gob.mx/nota_detalle.php?codigo=5397117&fecha=18/06/2015), creamos ahora una interfaz para subir archivos por web de manera sencilla. Ahora podrás arrastrar tus archivos desde una carpeta a la interfaz web y seleccionar los verificadores. Con esto mejoramos la accesibilidad para tareas no automatizadas y usuarios de perfiles no tan técnicos.
-
-{% include image.html url="/media/2016-05-22-la-refinadora/la-refinadora.jpg" width="100%" class="zoomable" description="En la presentación de los demos" %}
-_En la presentación de los demos_
-
-La experiencia fue enriquecedora, porque trabajamos con periodistas e informáticos en este tema y fue increíble haber conocido a uno de los creadores de [Tábula](http://tabula.technology/), que ya tiene una larga historia entre quienes comenzamos a liberar datos de PDFs. Sin embargo, nos queda claro que este tipo de reuniones especializadas sirven para hacer camino con nuevas herramientas para el procesamiento de información, que puedan servir a las tareas de: Análisis de Datos, Periodismo de datos y visualización de datos. Este sigue siendo una tarea muy especializada y hay que seguir desarrollando proyectos que puedan ayudar a esta importante tarea.
-
-
-Te invito a que revises el repositorio de La Refinadora en [github.com/civica-digital/la-refinadora](https://github.com/civica-digital/la-refinadora). Por el momento creamos también una nueva documentación en Inglés para que desarrolladores de todo el mundo puedan ayudarnos a mejorar el primer diseño. Si sabes Python, Docker y te interesa esta herramienta para Datos Abiertos te invitamos a escribirnos  en Github y si vas a Pycon-US 2016 te esperamos en los Sprints.
-
+I invite you to check out the La Refinadora repository at [github.com/civica-digital/la-refinadora](https://github.com/civica-digital/la-refinadora). For now, we have also created new documentation in English so that developers worldwide can help us improve the first design. If you know Python, Docker, and are interested in this Open Data tool, we invite you to write to us on Github, and if you go to Pycon-US 2016, we'll see you at the Sprints.
 
 Noé Domínguez([@poguez](https://github.com/poguez))
 
-Foto de portada de Sandra Barrón
-[Post originalmente escrito para el [blog](http://blog.civica.digital) de Civica.digital]
-
+Cover photo by Sandra Barrón
+[Post originally written for the [blog](http://blog.civica.digital) of Civica.digital]

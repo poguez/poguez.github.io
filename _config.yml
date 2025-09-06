@@ -15,22 +15,13 @@ fb_app_id: 181345208885623
 
 author:
   name:		'Noé Domínguez Porras'
+
 url: https://poguez.github.io
 
-paginate:	10
+paginate:	20
 
-languages:
-  - name:	'Spanish'
-    code:	es
-    url:	'/es'
-    permalink:	'/es/blog/:title'
-
-  - name:	'English'
-    code:	en
-    url:	'/en'
-    permalink:	'/en/blog/:title'
-
-default_lang: es
+languages: ["en", "es"]
+default_lang: "en"
 
 # Custom vars
 icon:		/assets/images/icon.png
@@ -44,10 +35,6 @@ social:
   - icon:	github
     url:	https://github.com/poguez
     desc:	Sigue mis proyectos en Github
-
-  - icon:	googleplus-alt
-    url:	https://google.com/+NoeDominguez
-    desc:	Agrégame en google+
 
   - icon:	feed
     url:	http://poguez.github.io/atom.xml
@@ -66,7 +53,15 @@ copyright:
   type_title:	Algunos derechos reservados
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
-
+# don’t localize assets/static files
+exclude_from_localizations:
+  - assets
+  - images
+  - css
+  - js
+  - favicon.ico
+  - CNAME
+  -
 # Assets & Styles
 
 sass:
@@ -79,5 +74,5 @@ google_analytics: UA-41550586-1
 # Jekyll Gems
 gems: [jekyll-paginate, bourbon]
 # Plugins
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
+plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot]
 

@@ -1,78 +1,33 @@
 ---
 layout: post
 title: "Mrs. Ramyeon"
-quote: "Este es un post que escribí en Noviembre(de 2011), disculpen la atemporalidad de la historia de mi vida."
+quote: "This is a post I wrote in November (2011), sorry for the untimeliness of my life story."
 image: /assets/images/ramyeon/cocina.jpg
 video: false
 comments: true
+permalink: "/en/blogmrs-ramyeon/"
+tags: [ "travel", "korea", "seoul", "food", "ramyeon", "noodles", "instant-noodles", "cheese", "kimchi" ]
+lang: "en"
 ---
 
-Hace muuuucho tiempo que no escribo, la verdad es que he estado muy ocupado estos días. He tenido una experiencia
-un tanto de sentimientos encontrados sobre mi estancia. La verdad es que he tenido que trabajar muy duro, como nunca
-lo había hecho y a diferencia de México,  el estrés no solo está concentrado cuando se acerca la semana de examenes
-sino durante todos los días. Mis hábitos del sueño se han trastornado, ahora estoy durmiendo cuando sale el sol,
-pues es en la madrugada es cuando puedo ganar mas tiempo efectivo de estudio y tareas. No creo que sea lo peor
-que me ha pasado porque he procurado dormir almenos 5 horas diarias, solo que en otra hora del día. Mi desayuno es
-a las 2 de la tarde, mi comida a es a la 6 y mi cena es por ahí de la 1 de la mañana o las 12. En general, no está
-tan mal a pesar de que  he tenido en realidad poco tiempo para mí o para visitar Corea. Tal vez vaya a tener Enero
-libre, pero me han dicho que el invierno es muy crudo y solamente puedes permanecer en tu casa o salir a beber a un
-bar. Bueno, eso me lo dijeron en un bar así que mejor no le tomen mucha atención a mi comentario.
+It's been a loooong time since I last wrote, honestly I've been very busy these days. I've had a somewhat mixed experience about my stay. The truth is I've had to work very hard, like never before, and unlike Mexico, the stress isn't just concentrated when exam week approaches but every single day. My sleep habits have been disrupted, now I sleep when the sun rises, since it's at dawn when I can get the most effective study and work time. I don't think it's the worst thing that's happened to me because I've tried to sleep at least 5 hours a day, just at a different time. My breakfast is at 2 pm, my lunch at 6, and my dinner is around 1 am or midnight. Overall, it's not so bad even though I've actually had little time for myself or to visit Korea. Maybe I'll have January free, but I've been told winter is very harsh and you can only stay home or go out drinking at a bar. Well, that's what they told me at a bar so maybe don't pay too much attention to that comment.
 
+Today I decided to make a little space to write, one of those moments when you just lie in bed, when you read the news... the atrocities happening back home, the time you check your email, when you chat with someone you meet while walking, the time it takes to brush your teeth... These are things that give meaning to your day when you're very busy, or rather, they break the routine. So I'm going to share with you some of those rare and short moments.
 
-Hoy decidí hacerme un pequeño espacio para escribir, un rato de esos en los que a veces solamente te tiras en la cama,
-en los que lees las noticias… las atrocidades que están pasando en casa, el tiempo en el que revisas tu correo, en el
-que platicas con alguien que te encuentras mientras caminas, el tiempo que te toma lavarte los dientes… Son cosas que
-le dan sentido a tu día cuando estás muy ocupado, o más bien te sacan de la rutina. Así que voy a compartir con
-ustedes algunos de esos momentos raros y cortos.
-
-
-Un día en el que salí de clases a las 3 de la tarde se me ocurrió acudir a la cafetería que está cerca del departamento
-de Ingeniería Eléctrica y Ciencias computacionales. Decidí entrar por el lado donde está la tiendita, donde la señora
-que atiende parece ser que siempre te regaña, además de que es muy “malencarada”. Pasé a ver a la barra de alimentos
-por si acaso seguían sirviendo y ya no había nada, me sentí muy loser la verdad porque tenía mucha hambre, entonces
-seguí mi camino para ir en busca de frutos y raíces comestibles que hubiera en el jardín -Bazzinga!- . Por casualidad
-esta vez decidí atravesar la cafetería para poder llegar a la biblioteca, cuando me encontré con que al otro lado había
-un lugar secreto donde estaban sirviendo fideos. Hasta entonces no lo había visto, pues nunca había atravesado hacia a
-la biblioteca por adentro de la cafetería.
-
+One day when I left class at 3 pm, I thought of going to the cafeteria near the Electrical Engineering and Computer Science department. I decided to enter from the side where the little shop is, where the lady who works there always seems to scold you and is very "grumpy". I went to check the food counter just in case they were still serving, but there was nothing left, I felt very loser honestly because I was very hungry, so I continued on my way to look for fruits and edible roots in the garden -Bazinga!-. By chance, this time I decided to cross the cafeteria to get to the library, when I found that on the other side there was a secret place where they were serving noodles. Until then I hadn't seen it, since I'd never crossed to the library through the cafeteria before.
 
 {% include image.html url="/assets/images/ramyeon/ramyeon_arroz.jpg" width="100%" description="Cheeselicious" %}
 
-
-Ahí solamente hay una cajera y una señora preparando al menos 5 platos de fideos (Ramen 라면) a la vez sobre la parrilla.
-Nadie hace ruido, todos comen y nadie platica. Decidí preguntarle a la cajera que era lo que vendían, ella me contestó
-Ramyeon de Queso (치즈라면) 1,500(원) wons, Ramyeon de queso y arroz (치즈라면고 밥) 2,000(원) wons.  El Ramyeon es una comida
-muy barata, además de popular en Corea y en el mundo. Según la Wikipedia estos fideos precocidos nacieron en Japón bajo
-la mano de [Momofuku Andō](https://en.wikipedia.org/wiki/Momofuku_Ando) en el año de 1952. Es una comida bastante barata,
-poco nutritiva, sin fibra, con 3 gramos de Sodio, pero muy rica en carbohidratos. Una porción tiene entre 350 y 550 calorías
-normalmente dependiendo del paquete, lo que puede representar en su máximo cerca del 50% de la ingesta calórica promedio
-(1,200 cal). Es muy popular en los estudiantes asiáticos consumir Ramyeon en las madrugadas o incluso como snack durante
-el día y es incluso un remedio para las noches de juerga.
-
-
-
+There, there's only one cashier and a lady preparing at least 5 bowls of noodles (Ramen 라면) at a time on the grill. Nobody makes noise, everyone eats and nobody talks. I asked the cashier what they sold, she answered Cheese Ramyeon (치즈라면) 1,500(원) wons, Cheese Ramyeon with rice (치즈라면고 밥) 2,000(원) wons. Ramyeon is a very cheap and popular food in Korea and the world. According to Wikipedia, these instant noodles originated in Japan by [Momofuku Andō](https://en.wikipedia.org/wiki/Momofuku_Ando) in 1952. It's quite cheap, not very nutritious, no fiber, 3 grams of sodium, but very rich in carbohydrates. A serving has between 350 and 550 calories depending on the package, which can represent up to 50% of the average caloric intake (1,200 cal). It's very popular among Asian students to eat Ramyeon late at night or even as a snack during the day, and it's even a remedy for party nights.
 
 <cite>
-Fun fact: se dice que el ramen se consumió mucho en Japón después de la segunda guerra mundial, las condiciones económicas no eran
-muy favorables.
+Fun fact: it's said that ramen was widely consumed in Japan after World War II, when economic conditions were not very favorable.
 </cite>
 
-
-
-
-La señora que prepara los fideos, a quien por definición le asignaremos el alias  Mrs. Ramyeon, es toda una celebridad en la escuela
-y a decir de mi compañero de cuarto, coreano, prepara los mejores fideos de COREA. No sé a cuantos y que lugares haya ido a comer
-Ramyeon, ni si en su familia hasta el agua se les queme, pero por experiencia propia puedo decirles que están muy buenos. La
-combinación ganadora es Ramyeon con arroz (치즈라면고 밥), y Kimchi, no mezclados en la sopa sino cada uno por separado. El
-kimchi al igual que el agua afortunadamente es cortesía de la casa y puedes tomar el que quieras. El modo más popular de
-comerlos es: primero comes los fideos con el Kimchi, sin terminarte el caldo, una vez terminados los fideos puedes comer tu
-arroz a cucharadas y sopeado.
+The lady who prepares the noodles, whom we'll call Mrs. Ramyeon by definition, is a celebrity at the school and according to my Korean roommate, she makes the best noodles in KOREA. I don't know how many places he's been to eat Ramyeon, nor if his family burns even the water, but from my own experience I can tell you they're very good. The winning combination is Cheese Ramyeon with rice (치즈라면고 밥), and Kimchi, not mixed in the soup but each separately. Kimchi, like water, is fortunately complimentary and you can take as much as you want. The most popular way to eat them is: first you eat the noodles with Kimchi, without finishing the broth, once the noodles are gone you eat your rice by the spoonful and dipped in the soup.
 
 {% include image.html url="/assets/images/ramyeon/kimchi.jpg" width="100%" description="Kimchi" %}
 
-El Ramyeon es considerado económicamente como un bien inferior, el cual cuando bajan los ingresos su demanda aumenta. En
-realidad no sé cuando sea la temporada en la que se consuman más fideos en la escuela, pero para analizar los [Freakonomics]
-(http://en.wikipedia.org/wiki/Freakonomics) de este platillo bastaría con  hacerle una entrevista a Mrs. Ramyeon, quien es
-una celebridad en potencia.
+Ramyeon is considered an inferior good economically, meaning when incomes drop, its demand increases. I don't really know when is the season when more noodles are consumed at school, but to analyze the [Freakonomics](http://en.wikipedia.org/wiki/Freakonomics) of this dish, it would be enough to interview Mrs. Ramyeon, who is a celebrity in the making.
 
-el siempre fan del queso, Noé.
+Always a cheese fan, Noé.

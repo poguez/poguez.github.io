@@ -1,49 +1,36 @@
 ---
 layout: post
-title: "Conectando datos"
-quote: "[Recomendación de lectura] La evolución de datos estructurados y Schema.org."
+title: "Connecting Data"
+quote: "[Recommended reading] The evolution of structured data and Schema.org."
 image: false
 image: "/media/2017-02-15-schema-dot-org/portada.jpg"
 comments: true
+permalink: "/en/blog/schema-org-evolution-of-structured-data-on-the-web/"
+tags: [ "web", "schema.org", "structured data", "linked data", "semantic web", "open data", "tim berners lee", "w3c", "html5", "json-ld", "microdata", "rdfa" ]
+lang: "en"
 ---
 
-Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la 
-creación de datos estructurados y que puedan ser descritos para encontrar relaciones. 
-De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. 
-No se refería exclusivamente a documentos sino también se refería a recursos físicos como equipamiento, máquinas. 
-Se refirió también a personas y a sus habilidades como parte de un sistema que tiene información ligada. 
-En su conjunto lo que creó dentro del CERN fue un sitema para lidiar con la pérdida de información en un sistema que evoluciona complejamente,
-La solución derivó en un sistema distribuido de hipertexto. 
-Pueden ver a detalle la solución propuesta en [Information Management: A Proposal (1989)](https://www.w3.org/History/1989/proposal.html).
+When I was working with Open Data, one of the concerns that persisted in publishing open data was the creation of structured data that could be described to find relationships. In fact, since the Web was created, Tim Berners Lee had the vision of making a system where interconnected information could be managed. He was not referring exclusively to documents but also to physical resources like equipment, machines. He also referred to people and their skills as part of a system with linked information. Altogether, what he created at CERN was a system to deal with information loss in a system that evolves complexly. The solution resulted in a distributed hypertext system. You can see the proposed solution in detail in [Information Management: A Proposal (1989)](https://www.w3.org/History/1989/proposal.html).
 
 {% include image.html url="/media/2017-02-15-schema-dot-org/the-web.png" width="100%" description="The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)" %}
 
-El Consorcio de la WWW [(W3C)](http://www.w3c.org) describe las mejores prácticas para publicar datos estructurados en la Web en su [wiki](https://www.w3.org/wiki/LinkedData). 
-Un sitio contribuido comunmente usado en la comunidad de Open Data es [5 &#9734; Open Data ](http://5stardata.info/) que incluye una aproximación a 
-través de [RDF](https://www.w3.org/RDF/) y el [Linked Data](https://www.w3.org/standards/semanticweb/data). 
+The World Wide Web Consortium [(W3C)](http://www.w3c.org) describes best practices for publishing structured data on the Web in its [wiki](https://www.w3.org/wiki/LinkedData). A commonly used contributed site in the Open Data community is [5 ★ Open Data](http://5stardata.info/) which includes an approach through [RDF](https://www.w3.org/RDF/) and [Linked Data](https://www.w3.org/standards/semanticweb/data).
 
-Les recomiendo este artículo de [Communications of the ACM](http://cacm.acm.org/) donde discuten varias aproximaciones que ha habido a la 
-creación de datos estructurados en documentos HTML.
-Hay algo que me parece interesante es que el uso de software como Wordpress y Drupal ha ayudado a la creación de 
-información estructurada porque hay distribuciones o plugins que lo incluyen por defecto.
-Algunos conceptos que mencionan y que hemos probablemente visto son los formatos vCard, hCalendar. 
-Esta información ayuda a los asistentes personales como Siri, Google Now a encontrar información de manera más fácil. 
-O permite a nuestros teléfono inteligentes acciones como guardar una vCard en tus contactos o agregar una cita en tu calendario en formato hCalendar.
-Ojalá puedan leerlo y comentar sobre si lo han usado o cuál sería la siguiente manera de utilizarlo en sus sitios.
-Pueden ver alguno vocabularios definidos sobre como describir una [receta de cocina](http://schema.org/Recipe), un [negocio](http://schema.org/LocalBusiness),
-un [hotel y sus variantes](http://schema.org/docs/hotels.html).
+I recommend this article from [Communications of the ACM](http://cacm.acm.org/) where they discuss several approaches to creating structured data in HTML documents.
+Something I find interesting is that the use of software like Wordpress and Drupal has helped the creation of structured information because there are distributions or plugins that include it by default.
+Some concepts they mention and that we've probably seen are the vCard and hCalendar formats.
+This information helps personal assistants like Siri, Google Now to find information more easily. Or it allows our smartphones to perform actions like saving a vCard to your contacts or adding an appointment to your calendar in hCalendar format.
+Hopefully you can read it and comment on whether you've used it or what would be the next way to use it on your sites.
+You can see some defined vocabularies on how to describe a [recipe](http://schema.org/Recipe), a [business](http://schema.org/LocalBusiness), a [hotel and its variants](http://schema.org/docs/hotels.html).
 
-Se me ocurren muchas cosas con comida, me he dado cuenta que foursquare-Swarm es pésimo para encontrar comida mexicana de manera específica. 
-Crear vocabularios y un sistema más especializado probablemente nos podría ayudar a encontrar mejor información 
-sobre qué visitar en México para comer. 
+Many ideas come to mind with food; I've noticed that foursquare-Swarm is terrible for finding Mexican food specifically. Creating vocabularies and a more specialized system could probably help us find better information about where to eat in Mexico.
 
-{% include image.html url="/media/2017-02-15-schema-dot-org/diningcode.jpg" width="50%" left="25%" description="Aplicación de Android Dining Code(다이닝코드)" %}
+{% include image.html url="/media/2017-02-15-schema-dot-org/diningcode.jpg" width="50%" left="25%" description="Dining Code Android App(다이닝코드)" %}
 
-Algo que me gusta de Corea es la manera en que hay servicios acoplados a sus necesidades y a su cultura.
-Tal vez en otra ocasión podamos hacer un overview de  [Dining Code](http://www.diningcode.co.kr/) que es una aplicación
-que te ayuda a encontrar lugares en Corea para comer a través de reviews de blogs, comentarios y platillos. 
-Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno está en los detalles.
+Something I like about Korea is the way services are tailored to their needs and culture.
+Maybe another time we can do an overview of [Dining Code](http://www.diningcode.co.kr/), an app that helps you find places to eat in Korea through blog reviews, comments, and dishes.
+It's something I like, because for app users, heaven and hell are in the details.
 
-El artículo lo pueden encontrar en: [Schema.org: Evolution of Structured Data on the Web](http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext)
+You can find the article at: [Schema.org: Evolution of Structured Data on the Web](http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext)
 
 Photo: [Flickr/melancholija](https://www.flickr.com/photos/melancholija/8067666973/)

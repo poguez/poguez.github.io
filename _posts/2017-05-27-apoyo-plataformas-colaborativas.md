@@ -1,51 +1,40 @@
 ---
 layout: post
-title: "Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet"
-quote: "Después de 9 meses regreso a compartir buenas prácticas de crowdsourcing"
-image: false
+title: "I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet"
+quote: "After 9 months, I return to share best practices in crowdsourcing"
 image: "/media/2017-05-27-apoyo-plataformas-colaborativas/portada.jpg"
 comments: true
+permalink: "/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/"
+tags: [ "web", "crowdsourcing", "citizen participation", "collaborative platforms", "internet", "kaist", "south korea" ]
+lang: "en"
 ---
 
-# Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet
+# I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet
 
-Como saben algunos de ustedes hace unos meses que estoy en Corea del sur.
-Desde septiembre estoy instalado en el [Web Engineering Lab](http://webeng.kaist.ac.kr), reencontré y me encuentro desarrollando mi vida académica.
-Tal vez no había dejado de aprender, porque había estado trabajando con métodos menos formales de aprendizaje.
-Como tutoriales, talleres, pláticas en meetups, conferencias donde compartimos buenas prácticas de ingeniería de software. 
-Todas ellas también contribuyen a tu desarrollo, sin embargo, me fue un poco difícil en principio adaptarme a lo académico.
-Mientras que anteriormente estaba expandiendo mi conocimiento hacia un dominio de generalista, 
-la investigación es lo contrario. Después de acostumbrarme ahora lo disfruto.
+As some of you know, I've been in South Korea for a few months.
+Since September, I've been based at the [Web Engineering Lab](http://webeng.kaist.ac.kr), rediscovering and developing my academic life.
+Maybe I hadn't stopped learning, because I had been working with less formal learning methods—tutorials, workshops, talks at meetups, conferences where we share best practices in software engineering. All of these also contribute to your development, but it was a bit difficult for me at first to adapt to the academic environment. While previously I was expanding my knowledge toward a generalist domain, research is the opposite. After getting used to it, I now enjoy it.
 
-Antes creí estar enterado de lo que ocurre con el [_**Crowdsourcing**_](https://www.wired.com/2006/06/crowds/).
-Estar al tanto de cómo se usaban las plataformas para la participación de usuarios.
-Cómo promover la participación ciudadana en procesos abiertos por internet.
-Pero mi conocimiento era prácticamente empírico y poco profundo.
-Por eso me decidí a tomar la primera clase que ofreció el profesor [Juho Kim](http://juhokim.com) en _Crowdsourcing_.
-Fue su primera clase como profesor en KAIST, después de graduarse de [MIT](http://mit.edu) con 
-[Learnersourcing: Improving Learning with Collective Learner Activity](https://dspace.mit.edu/handle/1721.1/101464).
-Aprendimos leyendo cerca de 50+ papers y discusiones sobre este tema, que se [definió en 2006](https://www.wired.com/2006/06/crowds/). 
-Aprendimos aspectos teóricos, técnicos, diseño de incentivos, análisis, experimentación, aprendizaje
-colaborativo, participación ciudadana, trabajo en equipo, ciencia ciudadana y percepción a través de la participación.
-Debo decir que fue una experiencia significativa tomar este curso y moverme hacia una mayor profundidad en el tema. 
-Sin embargo, en México es un tema que no se ha explorado con profundidad en los servicios de Internet.
-Considero que por la escasez de materiales de aprendizaje es oportuno compartirlo con la comunidad  de empresas 
-y desarrolladores mexicanos.
- 
-Durante julio 2017 estaré en México de visita con ganas de aportar a tus proyectos. 
-Quiero compartir de lo que he aprendido para que diseñemos mejores servicios en Internet y software.
-Me gustaría que me escribas para compartir tu experiencia y tus preocupaciones en tu servicio.
-Te será de reelevancia si tienes un proyecto que incluya: participación de tus usuarios, participación ciudadana
-o el diseño de plataformas colaborativas.
-Platiquemos, mándame un correo a [poguez@kaist.ac.kr](mailto:poguez@kaist.ac.kr). 
-Voy a estar disponible en este tiempo para asesorar tu plataforma y te ayudaré a encontrar un mejor diseño. 
-Si eres una empresa podemos hacer un entrenamiento y si somos varias personas podemos agendar un curso. 
-Sería un placer transferir conocimiento de lo que he aprendido en el tema.
+Before, I thought I was aware of what was happening with [_**Crowdsourcing**_](https://www.wired.com/2006/06/crowds/).
+Being aware of how platforms were used for user participation.
+How to promote citizen participation in open processes online.
+But my knowledge was practically empirical and shallow.
+That's why I decided to take the first class offered by Professor [Juho Kim](http://juhokim.com) in _Crowdsourcing_.
+It was his first class as a professor at KAIST, after graduating from [MIT](http://mit.edu) with [Learnersourcing: Improving Learning with Collective Learner Activity](https://dspace.mit.edu/handle/1721.1/101464).
+We learned by reading about 50+ papers and discussions on this topic, which was [defined in 2006](https://www.wired.com/2006/06/crowds/).
+We learned theoretical, technical aspects, incentive design, analysis, experimentation, collaborative learning, citizen participation, teamwork, citizen science, and perception through participation.
+I must say it was a significant experience to take this course and move toward greater depth in the subject. However, in Mexico, it is a topic that has not been deeply explored in Internet services. I believe that due to the scarcity of learning materials, it is timely to share it with the community of Mexican companies and developers.
 
+During July 2017, I will be visiting Mexico, eager to contribute to your projects.
+I want to share what I've learned so we can design better Internet and software services.
+I would like you to write to me to share your experience and your concerns about your service.
+It will be relevant to you if you have a project that includes: user participation, citizen participation, or the design of collaborative platforms.
+Let's talk, send me an email at [poguez@kaist.ac.kr](mailto:poguez@kaist.ac.kr).
+If you are a company, we can do a training, and if there are several people, we can schedule a course.
+It would be a pleasure to transfer knowledge of what I've learned on the topic.
 
-¡Nos vemos pronto!
+See you soon!
 
 Noé.
 
-
-Foto de portada: Unsplash/ Jezael Melgoza
+Cover photo: Unsplash/ Jezael Melgoza

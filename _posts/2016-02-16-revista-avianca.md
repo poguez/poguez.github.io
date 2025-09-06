@@ -1,34 +1,25 @@
 ---
-layout: post
-title: "Entrevista para Avianca: Hackatons, talleres de ideas."
-quote: "Cómo son los hackatones."
-image: /media/2016-02-16-revista-avianca/cover.jpg
-video: false
-comments: true
+layout: "post"
+title: "Interview for Avianca: Hackathons, idea workshops."
+quote: "What hackathons are like."
+image: "/media/2016-02-16-revista-avianca/cover.jpg"
+video: "false"
+comments: "true"
+permalink: "/en/blogavianca-magazine/"
+tags: ["open-data", "civic-hacking", "hackathon", "avianca", "codeando-mexico", "datamx"]
+lang: "en"
 ---
 
-Se me ocurrió revisar que sale cuando escribo mi nombre en Google y me encontré
-con mi nombre en una revista: *Avianca en Revista*. Una revista que se distribuye
-en los vuelos de la aerolínea entre varios países de Sudamérica como: Costa Rica,
-El Salvador, Colombia, Perú, Brasil, Argentina, Uruguay, México y Estados Unidos.
-¿Cuánta gente lo habrá leído?, me emociona.
+I thought of checking what comes up when I type my name in Google and I found my name in a magazine: *Avianca en Revista*. A magazine distributed on flights of the airline between several South American countries such as: Costa Rica, El Salvador, Colombia, Peru, Brazil, Argentina, Uruguay, Mexico, and the United States. How many people must have read it? It excites me.
 
-
-En el 2013 organizamos nuestro primer hackaton cívico, entonces le llamabamos
-*hackatones de datos abiertos*. Y al parecer por alguna nota indexada me contactó
-una periodista Argentina, Gabriela Origlia, a quien agradezco habernos encontrado
-para platicar del tema que entonces vislumbraba algunas aplicaciones prácticas
-y dinámicas que aún se estaban explorando. Les invito a que lean el artículo para
-aprender un poco más sobre lo que es un hackatón, pues el artículo está en la
-sección de tendencias de negocios, escrito en un lenguaje accesible para los que no
-están tan familiarizados con la jerga de la computación y la tecnología.
+In 2013 we organized our first civic hackathon, back then we called them *open data hackathons*. And apparently, because of some indexed note, an Argentine journalist, Gabriela Origlia, contacted me, whom I thank for finding us to talk about the topic that then foresaw some practical and dynamic applications that were still being explored. I invite you to read the article to learn a bit more about what a hackathon is, as the article is in the business trends section, written in accessible language for those not so familiar with computing and technology jargon.
 
 <br>
 <br>
-{% include iframe.html url="http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/index.html#/254/" width="100%" description="La revista en web es visible en PC"%}
+{% include iframe.html url="http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/index.html#/254/" width="100%" description="The magazine is visible on PC"%}
 
-Incluso si quieres bajarla puedes hacerlo [aquí en PDF](http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf) y ver la página 253.
+If you want to download it, you can do so [here in PDF](http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf) and see page 253.
 
-Me emociona porque es la primera vez que me citan en una publicación con ISBN.
+I'm excited because it's the first time I've been cited in a publication with an ISBN.
 
 Noé.

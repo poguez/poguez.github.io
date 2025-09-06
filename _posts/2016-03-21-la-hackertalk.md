@@ -1,54 +1,30 @@
 ---
-layout: post
-title: "Hackertalk, emprendimiento, hackers y entrevistas."
-quote: "Un videoblog en Internet de cultura hacker y startups."
-image: false
+layout: "post"
+title: "Hackertalk, entrepreneurship, hackers and interviews."
+quote: "A video blog on the Internet about hacker culture and startups."
+image: "false"
 image: "/media/2016-03-21-hackertalk/hackertalk.jpg"
 video:
   mp4: "/media/2016-03-21-hackertalk/hackertalk.mp4"
-comments: true
+comments: "true"
+permalink: "/en/bloghackertalk-entrepreneurship-hackers-and-interviews/"
+tags: ["hackertalk", "entrepreneurship", "startups", "software-development", "interviews", "hackers", "technology", "la-madriguera", "puebla", "hackers-and-founders"]
+lang: "en"
 ---
 
-Hace un par de meses conocí a un grupo de hackers, ahora amigos, que tenían un
-video blog por Internet que me gusta mucho por su formato y contenidos: [Hackertalk](http://www.hackertalk.co).
-[Martín](https://twitter.com/mvrtxn), [Abraham](https://twitter.com/abraham_gnz),
-[Fran](https://twitter.com/FranPR9), [Diego](https://twitter.com/Diegeekster), [Nacho](https://twitter.com/allnacho) y
-varios amigos más, a lo largo de varios episodios entrevistan a algunos hackers
-y líderes de iniciativas en donde se habla de emprendimiento  en  tecnología y
-software, con las dificultades que ello implica.
+A couple of months ago I met a group of hackers, now friends, who had an Internet video blog that I really like for its format and content: [Hackertalk](http://www.hackertalk.co).
+[Martín](https://twitter.com/mvrtxn), [Abraham](https://twitter.com/abraham_gnz), [Fran](https://twitter.com/FranPR9), [Diego](https://twitter.com/Diegeekster), [Nacho](https://twitter.com/allnacho) and several more friends, throughout several episodes interview some hackers and leaders of initiatives where they talk about entrepreneurship in technology and software, with all the difficulties that implies.
 
-No es una tarea fácil hacer una empresa de base tecnológica, sobre todo cuando
-tienes todo por delante por hacer y dificultades que enfrentar. Una de las dificultades
-más grandes que tienen en México las empresas de base tecnológica es el tiempo en
-que la Investigación y Desarrollo (I&D) impactan a la sociedad en productos que mejoren
-sus vidas. UNESCO ha hablado de este problema y lo marca como uno de los componentes
-clave para que países en desarrollo puedan ofrecer servicios y productos de
-alta tecnología y conocimiento complejo.
+It's not an easy task to build a technology-based company, especially when you have everything ahead of you to do and difficulties to face. One of the biggest challenges that technology-based companies in Mexico face is the time it takes for Research and Development (R&D) to impact society in products that improve lives. UNESCO has talked about this problem and marks it as one of the key components for developing countries to offer high-tech and complex knowledge services and products.
 
-Uno de los aprendizajes que he tenido como desarrollador en startups de base tecnológica,
-siendo más específico de software, es que nos hacen falta mejores maneras de aprender
-habilidades nucleares y una de las causas a las que siempre he sumado es que
-se suba el nivel de plática tecnica al rededor de la tarea de desarrollar Software.
+One of the lessons I've learned as a developer in technology-based startups, specifically software, is that we lack better ways to learn core skills, and one of the causes I've always added is to raise the level of technical discussion around the task of developing software.
 
-Platicando un poco más sobre las soluciones que hay en programación, una de mis
-favoritas es el uso de frameworks y de bibliotecas open source para elevar el
-nivel que tienes de concimiento en Ingeniería y Desarrollo de Software.
-Es bueno empezar por ahí porque puedes aprender que hay soluciones que tienen bases
-específicas por diseño que se definen antes de empezar a codificar, esos
-detalles hacen grandes diferencias a la hora de escribir software y son parte
-de su filosofía. Todos  los lenguajes y frameworks tienen una filosofía o
-manera de pensar detrás.
+Talking a bit more about programming solutions, one of my favorites is the use of frameworks and open source libraries to raise your level of knowledge in Software Engineering and Development. It's good to start there because you can learn that there are solutions with specific design foundations defined before you start coding; those details make a big difference when writing software and are part of its philosophy. All languages and frameworks have a philosophy or way of thinking behind them.
 
-Te invito a que veas el video y dejes un par de comentarios para enriquecer
-la plática y de lo que mejor te ha servido en tu experiencia:
+I invite you to watch the video and leave a couple of comments to enrich the discussion and share what has worked best for you in your experience:
 
+{% include iframe.html url="https://www.youtube.com/embed/ckTO-XeiEKE" width="100%" description="Hackertalk 41: Startups, social entrepreneurship and software development." %}
 
-{% include iframe.html url="https://www.youtube.com/embed/ckTO-XeiEKE" width="100%" description="Hackertalk 41: Startups, emprendimiento social y desarrollo de software." %}
-
-
-En este episodio estuvimos en [La Madriguera](http://www.la-madriguera.mx)
-en San Pedro Cholula, que muy amablemente recibe las meetups de Software en Puebla.
-Y que además te regala tu primer día para trabajar con una taza de café.
-
+In this episode we were at [La Madriguera](http://www.la-madriguera.mx) in San Pedro Cholula, which kindly hosts Software meetups in Puebla. And they also give you your first day to work with a cup of coffee.
 
 Noé.

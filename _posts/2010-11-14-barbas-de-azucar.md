@@ -1,39 +1,26 @@
 ---
 layout: post
-title: "Barbas de azucar"
-quote: "La primera noche en Seoul."
+title: "Sugar Beards"
+quote: "The first night in Seoul."
 image: /media/2010-11-14-barbas/cover.jpg
 video: false
 comments: true
+permalink: "/en/blogsugar-beards/"
+tags: [ "travel", "korea", "seoul", "food" ]
+lang: "en"
 ---
 
-La primera noche que dormimos como la gente normal en Seoul fue jueves 26 de agosto.
-La verdad es que quedé muy contento con el lugar que nos habían recomendado en el centro
-de atención turística, pues el lugar estaba muy limpio agradable y como dicen en el Distrito
-Federal: traía ondita. El lugar se llama Banana Backpackers y está cerca de la estación Anguk(안국역),
-un lugar muy cercano a varios lugares turísticos en Seoul. Ahí puedes encontrar todo tipo de souvenirs,
-baratos en general y algunos restaurantes de precios muy accesibles.
+The first night we slept like normal people in Seoul was Thursday, August 26th.
+Honestly, I was very happy with the place recommended to us at the tourist information center, as it was very clean, pleasant, and as they say in Mexico City: it had a vibe. The place is called Banana Backpackers and it's near Anguk Station (안국역), a spot very close to several tourist attractions in Seoul. There you can find all kinds of souvenirs, generally cheap, and some restaurants with very affordable prices.
 
-{% include image.html url="/media/2010-11-14-barbas/callejon.jpg" width="100%" description="Callejón con comida en Anguk-dong (안국동)." %}
+{% include image.html url="/media/2010-11-14-barbas/callejon.jpg" width="100%" description="Alley with food in Anguk-dong (안국동)." %}
 
 {% include image.html url="/media/2010-11-14-barbas/bananas.jpg" width="100%" description="Banana Backpackers Hostel" %}
 
-Cerca el hostal caminamos sin destino alguno y con él único propósito de encontrar un lugar donde alimentar
-nuestras ya rumiantes tripas. No quisimos pedir ningún tipo de  referencia para agregarle un poco de misterio
-a nuestra jornada. A veces creo que las mejores cosas de la vida son las que te toman por sorpresa no importando
-si sean buenas o malas. Prefiero también tener una dósis ocasional de las malas porque en general te vuelves un
-poco menos exigente con la vida y puedes ser feliz sólo con lo necesario. Afortunadamente el destino nos puso
-una jugada “de pechito” y encontramos un muy buen lugar a un par de cuadras de ahí.
+Near the hostel, we walked aimlessly with the sole purpose of finding a place to feed our already rumbling stomachs. We didn't want to ask for any kind of reference to add a bit of mystery to our journey. Sometimes I think the best things in life are those that take you by surprise, whether good or bad. I also prefer to have an occasional dose of the bad because, in general, you become a little less demanding with life and can be happy with just the essentials. Fortunately, fate gave us an easy win and we found a very good place a couple of blocks away.
 
-Ya sabes es ese callejón que a veces ves en fotos que por su angostura jurarías que los orientales viven
-unos encima de otros. Ahí realicé lo que fue mi primera comida coreana cocinada en Corea, ya que la
-hamburguesa de Bulgogi (불고기 버거) que comí en McDonalds del aeropuerto de Incheon no cuenta. Lo que
-comí ahí  fue Kimchi jjigae(김치찌개) que estaba muy picoso y caliente. Naturalmente como la mayoría de
-las sopas en Corea nos la llevaron a la mesa aún hirviendo, pero aún así tratamos de comerla de inmediato.
-Ya por estos días en los que cumplo ya casi tres meses aquí la comida caliente ya no representa para mí un problema.
+You know, it's that alley you sometimes see in photos that, because of its narrowness, you'd swear people in the East live on top of each other. There I had my first Korean meal cooked in Korea, since the Bulgogi burger (불고기 버거) I ate at the Incheon airport McDonald's doesn't count. What I ate there was Kimchi jjigae (김치찌개), which was very spicy and hot. Naturally, like most soups in Korea, they brought it to the table still boiling, but even so, we tried to eat it right away. By now, after almost three months here, hot food is no longer a problem for me.
 
-Más adelante salimos a caminar y nos encontramos con un par de coreanos que dicen que aman México y venden dulces,
-que en coreano se llaman barbas de azúcar. Vean la historia de como se hacen esos dulces.
-
+Later, we went for a walk and met a couple of Koreans who say they love Mexico and sell sweets, which in Korean are called sugar beards. See the story of how these sweets are made.
 
 {% include youtube.html url="https://www.youtube.com/embed/xCHnOkXEC1E" width="100%" description="Korea Medley" %}

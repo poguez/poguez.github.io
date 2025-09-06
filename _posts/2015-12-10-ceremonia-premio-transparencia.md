@@ -1,59 +1,57 @@
 ---
 layout: post
-title: "Ceremonia al Premio de Innovación en Transparencia 2015"
-quote: " El trabajo de Datamx, su comunidad y principios."
+title: "Ceremony for the Innovation in Transparency Award 2015"
+quote: "The work of Datamx, its community and principles."
 image: /media/2015-12-10-ceremonia-premio-transparencia/cover.jpg
 video: false
 comments: true
 layout: post
+permalink: "/en/blogceremony-for-the-innovation-in-transparency-award-2015/"
+tags: [ "open-data", "open-government", "civic-hacking", "ckan", "datamx", "transparency", "inai", "civic-app-accelerator-fund", "avina", "codeando-mexico" ]
+lang: "en"
 ---
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg"></div>
 
-Hoy presentamos [Datamx](http://datamx.io) en el Premio a la Innovación en Transparencia 2015 en donde nos fue otorgado el primer lugar en la categoría de Personas Físicas y Asociaciones Civiles. Fue un honor poder compartir parte de la experiencia que aprendimos en alrededor de 2 años de trabajo y quisimos hacer énfasis en contar la historia de [Datamx](http://datamx.io) no en el fin hasta donde ha llegado, si no por los principios de los que partió y de las historias que hemos documentado, hay mucho que contar.
+Today we presented [Datamx](http://datamx.io) at the Innovation in Transparency Award 2015, where we were awarded first place in the category of Individuals and Civil Associations. It was an honor to share part of the experience we learned in about 2 years of work, and we wanted to emphasize telling the story of [Datamx](http://datamx.io) not just by how far it has come, but by the principles it started from and the stories we've documented—there's a lot to tell.
 
-Estuvimos un par de años en contacto continuo con Gobierno, sociedad civil y ciudadanos interesados en cambiar su entorno, principalmente nos involucramos juntos en nuevas maneras de llevar innovación a nuestra sociedad de manera cívica. Cabe destacar que Codeando México y por lo tanto [Datamx](http://datamx.io) parten de 3 grandes pilares que dan forma a nuestro trabajo:
-- La innovación abierta.
-- El acceso a información a través de datos abiertos.
-- La creación de herramientas de código que promueven la colaboración en práctica.
-
+We spent a couple of years in continuous contact with government, civil society, and citizens interested in changing their environment, mainly getting involved together in new ways to bring innovation to our society in a civic way. It is worth noting that Codeando México and therefore [Datamx](http://datamx.io) are based on 3 major pillars that shape our work:
+- Open innovation.
+- Access to information through open data.
+- The creation of code tools that promote practical collaboration.
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/01_mantra_datamx.jpg"></div>
 
-
-[Datamx](http://datamx.io) logró desarrollar una solución orgánica de lo que los ciudadanos necesitaban, siempre ha estado en nuestra filosofía el construir herramientas con los ciudadanos y no para ciudadanos, promovemos un flujo creativo que incluye al usuario. [Datamx](http://datamx.io) lleva el mismo en su mantra.
+[Datamx](http://datamx.io) managed to develop an organic solution to what citizens needed. It has always been our philosophy to build tools with citizens and not for citizens, promoting a creative flow that includes the user. [Datamx](http://datamx.io) carries this in its mantra.
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/02_flujo_datos.jpg"></div>
 
-Una muestra de eso es que cuando [Datamx](http://datamx.io) nació solo tenía el objetivo de publicar y consumir datos. Posteriormente generamos un flujo de publicación y consumo de datos para la ciudadanía que involucró crear el [Centro de Apertura de Datos](http://apertura.datamx.io), donde se pueden solicitar datos para su apertura así como analizar el pulso de qué es lo que demanda la ciudadanía. Más allá de los lineamientos técnicos de los datos abiertos nos dimos cuenta que la ciudadanía demanda *datos oportunos*.
-
+An example of this is that when [Datamx](http://datamx.io) was born, its only goal was to publish and consume data. Later, we generated a data publication and consumption flow for citizens that involved creating the [Open Data Center](http://apertura.datamx.io), where you can request data to be opened and analyze the pulse of what citizens are demanding. Beyond the technical guidelines of open data, we realized that citizens demand *timely data*.
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/03_casos_exito.jpg"></div>
 
+## Data Standards
 
-## Los estándares de datos
-
-La mejor manera que [Datamx](http://datamx.io) pudo haber conseguido a sus primeros aliados fue a través de colaborar con Asociaciones Civiles, ellas tienen conocimiento específico y especializado muy valioso, es por eso que se abrió un canal para proponer estándares de datos. En principio, se privilegia a la discusión de manera abierta, así como también se promueve que sea una referencia compartida tanto en México como América Latina. Si te gustaría conocerlo puedes verlo en [estándares.datamx.io](http://estandares.datamx.io).
+The best way [Datamx](http://datamx.io) could have gained its first allies was by collaborating with Civil Associations, which have very valuable specific and specialized knowledge. That's why a channel was opened to propose data standards. In principle, open discussion is privileged, and it is also promoted as a shared reference both in Mexico and Latin America. If you'd like to know more, you can see it at [estandares.datamx.io](http://estandares.datamx.io).
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/04_viajes_transparentes.jpg"></div>
 
-## Las aplicaciones cívicas
+## Civic Applications
 
-Otro de los temas que nos entusiasman son las aplicaciones cívicas, se crearon algunas con fines informativos o se usaron para crear soluciones cívicas. Uno de los proyectos que a veces tomamos como ejemplo es la aplicación Viajes Transparentes, que se hizo con el entonces Instituto Federal de Acceso a la Información Pública, ahora INAI. De ahí nos gustaría destacar un cambio de cultura que ocurre para las nuevas adquisiciones de software:
+Another topic that excites us is civic applications, some were created for informational purposes or used to create civic solutions. One of the projects we sometimes use as an example is the Viajes Transparentes application, which was made with the then Federal Institute for Access to Public Information, now INAI. From there, we would like to highlight a cultural change that is happening for new software acquisitions:
 
-- El uso de datos abiertos para aplicaciones ahora es un elemento de valor.
-- El uso de código abierto y tecnología abierta también se promueve.
-- Se procura involucrar equipos más pequeños que tienen propuestas valiosas, lo que lo hace más inclusivo.
-- El Código Abierto por defecto se promueve en vía de un efecto multiplicador y de reutilización en otras instituciones.
+- The use of open data for applications is now a value element.
+- The use of open source code and open technology is also promoted.
+- Efforts are made to involve smaller teams with valuable proposals, making it more inclusive.
+- Open Source by default is promoted as a multiplier effect and for reuse in other institutions.
 
 <div class="zoomable"><img src="/media/2015-12-10-ceremonia-premio-transparencia/05_brigadas.jpg"></div>
 
-## Las comunidades de hacking cívico
-Codeando México encuentra grupos de ciudadanos y mentes motivadas que quieren cambiar la colectividad y la ciudadanía. En el Gobierno los grupos se mueven en jerarquías, en contraste, estos grupos de ciudadanos se mueven en estructuras parecidas a las redes. Ellos participan con un enfoque de colaboración en práctica y dirigidos hacia una meta común. Estos ciudadanos probablemente se conocen gracias al Internet pues las comunidades temáticas son más fáciles de encontrar. Las Comunidades de Hacking Cívico son exactamente ese lugar donde se puede conocer a otros perfiles con el mismo interés cívico en persona. Algunos de los eventos que hicimos en conjunto con las Comunidades de Hacking Cívico y la comunidad en línea fueron la [Carrera Open Data MX 2015](http://blog.codeandomexico.org/2015/04/13/ganadores-carreraopendatamx/), el [Censo de Datos Abiertos](http://blog.codeandomexico.org/2014/12/12/open-data-census-ciudades/), hackatones y Civic Hack Nights.
+## Civic Hacking Communities
+Codeando México finds groups of citizens and motivated minds who want to change collectivity and citizenship. In government, groups move in hierarchies; in contrast, these citizen groups move in network-like structures. They participate with a practical collaboration focus and are directed toward a common goal. These citizens probably know each other thanks to the Internet, as thematic communities are easier to find. Civic Hacking Communities are exactly that place where you can meet others with the same civic interest in person. Some of the events we did together with Civic Hacking Communities and the online community were the [Open Data MX Race 2015](http://blog.codeandomexico.org/2015/04/13/ganadores-carreraopendatamx/), the [Open Data Census](http://blog.codeandomexico.org/2014/12/12/open-data-census-ciudades/), hackathons, and Civic Hack Nights.
 
-[Datamx](http://datamx.io) como sistema se diluye entre la comunidad, la comunidad es la gran constructora del significado que tiene la plataforma. Quedó en la ceremonia que este ha sido una pequeña parte del camino que hemos recorrido y que podemos compartir. Más importante aún, permanecerá en el recuerdo el mensaje de que hay muchos ciudadanos interesados en la mejora del entorno y que quieren colaborar, que la transparencia es mejor cuando nos es útil y que hoy es un gran día que celebramos con ustedes.
+[Datamx](http://datamx.io) as a system is diluted among the community; the community is the great builder of the platform's meaning. It was clear at the ceremony that this has been a small part of the journey we've traveled and can share. More importantly, the message remains that there are many citizens interested in improving the environment and wanting to collaborate, that transparency is better when it is useful, and that today is a great day we celebrate with you.
 
+Post originally written for [Codeando México](http://blog.codeandomexico.org).
 
-Post originalmente escrito para [Codeando México](http://blog.codeandomexico.org).
-
-Foto de [TomHall NZ](https://www.flickr.com/photos/tom_hall_nz/17004434418/).
+Photo by [TomHall NZ](https://www.flickr.com/photos/tom_hall_nz/17004434418/).

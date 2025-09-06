@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# ruby "2.4.10"
+ruby "3.4.5"
 gem 'jekyll', "~> 4.4"
 gem 'jekyll-paginate'
 gem 'guard'
@@ -20,4 +20,4 @@ gem "sass"
 gem "mini_magick"
 gem "jekyll-haml"
 gem "bourbon"
-gem "jekyll-multiple-languages-plugin"
+gem "jekyll-polyglot"

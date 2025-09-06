@@ -1,25 +1,27 @@
 ---
 layout: post
-title: "Tomando oportunidades"
-quote: "Me ocuparé en nuevos proyectos para la web."
+title: "Seizing Opportunities"
+quote: "I will focus on new projects for the web."
 image: false
 image: "/media/2016-08-07-hola-maestria/portada.jpg"
 comments: true
+permalink: "/en/blog/seizing-opportunities/"
+tags: [ "life", "opportunities", "education", "masters", "kaist", "south korea", "civic tech", "codeando mexico", "civica digital" ]
+lang: "en"
 ---
 
-# Tomando oportunidades
+# Seizing Opportunities
 
-Este blogpost que hoy escribo es para dar gracias. A partir de julio dejé de tiempo completo a dos organizaciones con las que he colaborado por estos últimos dos años: [Cívica Digital](http://civica.digital) y [Codeando México](http://codeandomexico.org). En el camino nos conocimos muchos colaborando y estoy muy agradecido. No se preocupen, seguiré en contacto en lo que les pueda ayudar.
+This blog post I write today is to give thanks. As of July, I left two organizations I had collaborated with full-time for the past two years: [Cívica Digital](http://civica.digital) and [Codeando México](http://codeandomexico.org). Along the way, I met many people through collaboration and I am very grateful. Don't worry, I will stay in touch and help where I can.
 
-Prontamente -en Septiembre- comenzaré una maestría en [Ciencias Computacionales](http://cs.kaist.ac.kr) en el [Korean Advanced Institute of Science and Technology](http://www.kaist.edu). Un nuevo proyecto que tenía rezagado hace tiempo y que me emociona mucho. Me emociona porque voy con una beca del gobierno de la República de Corea que me permitirá estudiar sin preocupaciones de manutención.
+Soon—in September—I will begin a master's degree in [Computer Science](http://cs.kaist.ac.kr) at the [Korean Advanced Institute of Science and Technology](http://www.kaist.edu). A new project I had postponed for some time and that excites me a lot. I'm excited because I go with a scholarship from the government of the Republic of Korea that will allow me to study without financial worries.
 
-Este momento lo venía postergando desde que terminé mi licenciatura en 2012. Y agradezco que en este tiempo me he encontrado con gran gente, con la que he colaborado y sobre todo he aprendido mucho en el camino. Una de las oportunidades que estoy muy contento de haber aprovechado es: proponer soluciones a las preocupaciones sociales que tenemos los mexicanos. Es una inquietud que no se va, ¿qué es lo que nos frena de en el avance social?, ¿en dónde nos ayuda el software?, ¿la tecnología es lo que nos faltaba para cambiar como sociedad? hay muchas cosas en las que podemos mejorar y cada una necesita su propia propuesta. Hay una inquietud generalizada de que queremos ser una mejor sociedad mexicana y me siento muy contento porque hay gente trabajando en hacerlo. La clave hasta hora es ser propositivos y tener la paciencia para explicar nuevas maneras de hacer las cosas con eficiencia, eficacia e inclusión.
+I had been postponing this moment since I finished my bachelor's degree in 2012. And I am grateful that during this time I have met great people, with whom I have collaborated and above all learned a lot along the way. One of the opportunities I am very happy to have taken advantage of is: proposing solutions to the social concerns we Mexicans have. It's a concern that doesn't go away—what holds us back in social progress? Where does software help us? Is technology what we needed to change as a society? There are many things we can improve, and each needs its own proposal. There is a widespread desire to be a better Mexican society, and I am very happy because there are people working to make it happen. The key so far is to be proactive and have the patience to explain new ways of doing things with efficiency, effectiveness, and inclusion.
 
-Sin embargo, no dejaré este tipo de colaboraciones, estoy tomando un poco de inspiración para lo que viene.
-Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores soluciones en el campo de la tecnología. Poco a poco iré encontrando como poder proponer en el campo académico pues es nuevo para mi. Mientras aprendo sigamos en contacto que hay muchas cosas por hacer.
+However, I will not stop these types of collaborations; I am taking a bit of inspiration for what comes next. I want to be a better element for our society that can offer better solutions in the field of technology. Little by little, I will find how to propose in the academic field since it is new to me. While I learn, let's stay in touch—there are many things to do.
 
 Noé Domínguez([@poguez](https://github.com/poguez))
 
-Pueden también encontrarme en mi correo académico: noe_dgz *en* kaist.ac.kr.
+You can also find me at my academic email: noe_dgz *at* kaist.ac.kr.
 
-Foto de portada licencia CC: Seoul By Emile-Victor Portenart
+Cover photo CC license: Seoul By Emile-Victor Portenart
