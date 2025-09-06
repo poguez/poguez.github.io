@@ -16,7 +16,7 @@ fb_app_id: 181345208885623
 author:
   name:		'Noé Domínguez Porras'
 
-url: https://poguez.github.io
+url: https://noedominguez.com
 
 paginate:	20
 
@@ -75,4 +75,3 @@ google_analytics: UA-41550586-1
 gems: [jekyll-paginate, bourbon]
 # Plugins
 plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot]
-
