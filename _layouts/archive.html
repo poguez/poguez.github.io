@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<header class="clean" style="height: 200px; background-image: url({{ site.cover }});">
+  {% include top.html %}
+  <div id="home-title">
+    <p class="monospace-font">{{ page.title | default: "Archives" }}</p>
+  </div>
+</header>
+
+<div id="middle">
+  <div id="post-list">
+    {% if page.posts and page.posts.size > 0 %}
+      {% for post in page.posts %}
+        <div>
+          <span class="post-date">{{ post.date | date_to_long_string }}</span>
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </div>
+        <br>
+      {% endfor %}
+    {% else %}
+      <p>No posts found.</p>
+    {% endif %}
+  </div>
+</div>
+
+<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
+  <p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+</footer>
+

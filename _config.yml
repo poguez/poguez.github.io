@@ -74,4 +74,16 @@ google_analytics: UA-41550586-1
 # Jekyll Gems
 gems: [jekyll-paginate, bourbon]
 # Plugins
-plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot]
+plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot, jekyll-archives]
+
+# jekyll-archives configuration
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /category/:name/
+    tag: /tag/:name/
