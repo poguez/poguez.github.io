@@ -40,7 +40,7 @@ social:
     desc:	Sigue mis proyectos en Github
 
   - icon:	feed
-    url:	http://poguez.github.io/atom.xml
+    url:	http://noedominguez.com/atom.xml
     desc:	Suscríbete a mi feed
 
 menu:
@@ -52,7 +52,7 @@ menu:
 
 copyright:
   author:	Noé Domínguez
-  url:		http://poguez.github.io
+  url:		http://noedominguez.com
   type_title:	Algunos derechos reservados
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
@@ -64,7 +64,6 @@ exclude_from_localizations:
   - js
   - favicon.ico
   - CNAME
-  -
 # Assets & Styles
 
 sass:
