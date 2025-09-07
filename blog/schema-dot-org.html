@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link href="//gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+	<meta name="description" content="[Recomendación de lectura] La evolución de datos estructurados y Schema.org." />
+	<meta itemprop="image" content="https://noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" />
+	<meta property="og:description" content="[Recomendación de lectura] La evolución de datos estructurados y Schema.org." />
+<meta property="og:image" content="https://noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" />
+<meta property="og:title" content="Conectando datos" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noedominguez.com/blog/schema-dot-org" />
+<meta property="fb:app_id" content="181345208885623" />
+<meta property="og:site_name" content="El blog de Noé Domínguez" />
+
+
+
+	<title>Conectando datos &middot; El blog de Noé Domínguez</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="/assets/css/mobile.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fenix:400,400italic">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="apple-touch-icon" href="https://noedominguez.com/assets/images/icon.png">
+	<link rel="shortcut icon" href="https://noedominguez.com/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://noedominguez.com/atom.xml">
+	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
+	
+	<!-- Asynchronous Google Analytics snippet -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-41550586-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+
+	<body>
+		<header class="clean" style="background-image: url(/media/2017-02-15-schema-dot-org/portada.jpg); height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<p class="menu-title">El blog de Noé Domínguez<p>
+	<div class="menu" style="background-color: #1a1a1a; z-index: -1;"></div>
+	
+		<a href="/">Home</a>
+	
+		<a href="/sobre-mi">Sobre mi</a>
+	
+	<hr>
+	
+		<a href="https://twitter.com/noe_dgz" class="social-links-menu" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" class="social-links-menu" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="http://noedominguez.com/atom.xml" class="social-links-menu" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+<div class="social-links" data-stellar-ratio="0.1">
+	
+		<a href="https://twitter.com/noe_dgz" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="http://noedominguez.com/atom.xml" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+
+	<div id="post-info" data-stellar-ratio="0.7">
+		<h1>Conectando datos</h1>
+		
+			<h2>[Recomendación de lectura] La evolución de datos estructurados y Schema.org.</h2>
+		
+		<a class="site-title" href="https://noedominguez.com"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>El blog de Noé Domínguez</a>, 15 February 2017
+	</div>
+	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="middle">
+	<div id="article">
+		<p>Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la 
+creación de datos estructurados y que puedan ser descritos para encontrar relaciones. 
+De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. 
+No se refería exclusivamente a documentos sino también se refería a recursos físicos como equipamiento, máquinas. 
+Se refirió también a personas y a sus habilidades como parte de un sistema que tiene información ligada. 
+En su conjunto lo que creó dentro del CERN fue un sitema para lidiar con la pérdida de información en un sistema que evoluciona complejamente,
+La solución derivó en un sistema distribuido de hipertexto. 
+Pueden ver a detalle la solución propuesta en <a href="https://www.w3.org/History/1989/proposal.html">Information Management: A Proposal (1989)</a>.</p>
+
+<div id="article-img">
+  <a href="/media/2017-02-15-schema-dot-org/the-web.png" target="_blank">
+    <img src="/media/2017-02-15-schema-dot-org/the-web.png" alt="The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)" width="100%" />
+  </a>
+  
+  <blockquote style="border-left: 10px solid #D5D5D5;">The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)</blockquote>
+  
+</div>
+
+<p>El Consorcio de la WWW <a href="http://www.w3c.org">(W3C)</a> describe las mejores prácticas para publicar datos estructurados en la Web en su <a href="https://www.w3.org/wiki/LinkedData">wiki</a>. 
+Un sitio contribuido comunmente usado en la comunidad de Open Data es <a href="http://5stardata.info/">5 ☆ Open Data </a> que incluye una aproximación a 
+través de <a href="https://www.w3.org/RDF/">RDF</a> y el <a href="https://www.w3.org/standards/semanticweb/data">Linked Data</a>.</p>
+
+<p>Les recomiendo este artículo de <a href="http://cacm.acm.org/">Communications of the ACM</a> donde discuten varias aproximaciones que ha habido a la 
+creación de datos estructurados en documentos HTML.
+Hay algo que me parece interesante es que el uso de software como Wordpress y Drupal ha ayudado a la creación de 
+información estructurada porque hay distribuciones o plugins que lo incluyen por defecto.
+Algunos conceptos que mencionan y que hemos probablemente visto son los formatos vCard, hCalendar. 
+Esta información ayuda a los asistentes personales como Siri, Google Now a encontrar información de manera más fácil. 
+O permite a nuestros teléfono inteligentes acciones como guardar una vCard en tus contactos o agregar una cita en tu calendario en formato hCalendar.
+Ojalá puedan leerlo y comentar sobre si lo han usado o cuál sería la siguiente manera de utilizarlo en sus sitios.
+Pueden ver alguno vocabularios definidos sobre como describir una <a href="http://schema.org/Recipe">receta de cocina</a>, un <a href="http://schema.org/LocalBusiness">negocio</a>,
+un <a href="http://schema.org/docs/hotels.html">hotel y sus variantes</a>.</p>
+
+<p>Se me ocurren muchas cosas con comida, me he dado cuenta que foursquare-Swarm es pésimo para encontrar comida mexicana de manera específica. 
+Crear vocabularios y un sistema más especializado probablemente nos podría ayudar a encontrar mejor información 
+sobre qué visitar en México para comer.</p>
+
+<div id="article-img">
+  <a href="/media/2017-02-15-schema-dot-org/diningcode.jpg" target="_blank">
+    <img src="/media/2017-02-15-schema-dot-org/diningcode.jpg" alt="Aplicación de Android Dining Code(다이닝코드)" width="50%" />
+  </a>
+  
+  <blockquote style="border-left: 10px solid #D5D5D5;">Aplicación de Android Dining Code(다이닝코드)</blockquote>
+  
+</div>
+
+<p>Algo que me gusta de Corea es la manera en que hay servicios acoplados a sus necesidades y a su cultura.
+Tal vez en otra ocasión podamos hacer un overview de  <a href="http://www.diningcode.co.kr/">Dining Code</a> que es una aplicación
+que te ayuda a encontrar lugares en Corea para comer a través de reviews de blogs, comentarios y platillos. 
+Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno está en los detalles.</p>
+
+<p>El artículo lo pueden encontrar en: <a href="http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext">Schema.org: Evolution of Structured Data on the Web</a></p>
+
+<p>Photo: <a href="https://www.flickr.com/photos/melancholija/8067666973/">Flickr/melancholija</a></p>
+
+	</div>
+	
+	<div id="comments">
+		
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		var disqus_shortname = 'poguez';
+
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+	</div>
+	
+</div>
+
+<footer class="clean" style="background-image: url(/media/2017-05-27-apoyo-plataformas-colaborativas/portada.jpg); height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+	<div id="nav-icon" style="top: 60px;" data-stellar-ratio="0.8">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
+		<h3>Read next</h3>
+		<a href="/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/">
+			<h1>I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet</h1>
+			
+				<h2>After 9 months, I return to share best practices in crowdsourcing</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2025, <a href="http://noedominguez.com" target="_blank">Noé Domínguez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Algunos derechos reservados</a>.</p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
+
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+		    $.stellar({
+		    	responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+		    });
+		});
+		</script>
+	</body>
+</html>

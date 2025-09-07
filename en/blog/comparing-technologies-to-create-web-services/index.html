@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link href="//gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+	<meta name="description" content="What options do I have to do it?" />
+	<meta itemprop="image" content="https://noedominguez.com/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg" />
+	<meta property="og:description" content="What options do I have to do it?" />
+<meta property="og:image" content="https://noedominguez.com/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg" />
+<meta property="og:title" content="Comparing Technologies to Create Web Services: SOA, REST, and GraphQL" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://noedominguez.com/en/blog/comparing-technologies-to-create-web-services/" />
+<meta property="fb:app_id" content="181345208885623" />
+<meta property="og:site_name" content="El blog de Noé Domínguez" />
+
+
+
+	<title>Comparing Technologies to Create Web Services: SOA, REST, and GraphQL &middot; El blog de Noé Domínguez</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="/assets/css/mobile.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fenix:400,400italic">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="apple-touch-icon" href="https://noedominguez.com/assets/images/icon.png">
+	<link rel="shortcut icon" href="https://noedominguez.com/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://noedominguez.com/atom.xml">
+	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
+	
+	<!-- Asynchronous Google Analytics snippet -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-41550586-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+
+	<body>
+		<header class="clean" style="background-image: url(/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg); height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<p class="menu-title">El blog de Noé Domínguez<p>
+	<div class="menu" style="background-color: #1a1a1a; z-index: -1;"></div>
+	
+		<a href="/">Home</a>
+	
+		<a href="/sobre-mi">Sobre mi</a>
+	
+	<hr>
+	
+		<a href="https://twitter.com/noe_dgz" class="social-links-menu" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" class="social-links-menu" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="http://noedominguez.com/atom.xml" class="social-links-menu" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+<div class="social-links" data-stellar-ratio="0.1">
+	
+		<a href="https://twitter.com/noe_dgz" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="http://noedominguez.com/atom.xml" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+
+	<div id="post-info" data-stellar-ratio="0.7">
+		<h1>Comparing Technologies to Create Web Services: SOA, REST, and GraphQL</h1>
+		
+			<h2>What options do I have to do it?</h2>
+		
+		<a class="site-title" href="https://noedominguez.com"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>El blog de Noé Domínguez</a>, 30 November 2017
+	</div>
+	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="middle">
+	<div id="article">
+		<h1 id="i-want-to-create-a-web-service-what-are-my-options">I want to create a Web Service, what are my options?</h1>
+
+<p>A couple of months ago, we asked a question that more than one developer has faced:
+What are my options for creating a web service or web API?
+I researched and presented at <a href="https://www.meetup.com/es/DevNightsMX/events/241391717/">Devnights Summer edition 2016</a>.
+I know, it’s been several months since then, but <em><strong>sharing is caring</strong></em>.</p>
+
+<p>It often happens that when we enter the world of web programming, we learn to make services with the <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST (Representational State Transfer)</a> model.
+We usually arrive at opinionated frameworks where technical design decisions have already been made and REST is there by default.
+In my case, I started with Ruby on Rails, where REST comes by default.
+Other examples where you might have started like this are: Django REST Framework, Play, Zend, Yii, Laravel, Sails, among others. If that’s the case, it’s almost certain you started with REST.</p>
+
+<p>When you’re a novice programmer—or Junior as recruiters say—your knowledge base is constantly changing.
+And probably, between learning the framework and creating your first application, you end up encountering other solutions for making services that seem horrible and unintuitive.
+They seem cryptic because they’re even made with XML, a description language you’ve been told was made ages ago.
+You have to deal with web services that have another architectural style and other descriptions you’ve never seen.
+For example, you’re sent a service description in <a href="https://www.w3.org/TR/2007/REC-wsdl20-20070626/">WSDL (Web Services Description Language)</a> and don’t know how to use it.
+You’re given an endpoint that returns XML for you to use <a href="https://www.w3.org/TR/soap">SOAP (Simple Object Access Protocol)</a> and you don’t know how the data is described.
+There’s even the possibility that you’re given an endpoint to consult a service directory <a href="https://www.oasis-open.org/committees/uddi-spec/">UDDI (Universal Description, Discovery, and Integration)</a>.
+It’s horrible to go from a paradigm like REST, where elements are described in the URL, to one where you have to do it with XML.
+We usually associate these technologies with Java, .NET, or enterprise solutions and think they’re complicated.
+It’s true, they can be complicated but they solve specific problems.</p>
+
+<p>In this presentation, we explore what services are, what web services are.
+We remember that the official architecture of the Web is SOA.
+We list the main SOA technologies for making services: SOAP, WSDL, and UDDI.
+We review REST and its main design components.
+We also explore one of the most innovative and new options: GraphQL.
+The innovation of GraphQL is that it’s more than an architectural proposal for making services. GraphQL is also a query language to simplify multiple web service endpoints.</p>
+
+<p>The presentation is embedded here and on <a href="https://speakerdeck.com/poguez/comparando-tecnologias-para-servicios-y-servicios-web">Speaker Deck</a>.</p>
+
+<script async="" class="speakerdeck-embed" data-id="a32b97469daf4e778b7490565f785fc3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p><a href="https://speakerdeck.com/poguez/">My other presentations</a></p>
+
+<p>Leave your comments and questions here.</p>
+
+<p>Noé.</p>
+
+<p>Cover photo: Noé Domínguez / Creative Commons Attribution-NonCommercial 4.0 International</p>
+
+	</div>
+	
+	<div id="comments">
+		
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		var disqus_shortname = 'poguez';
+
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+	</div>
+	
+</div>
+
+<footer class="clean" style="background-image: url(/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg); height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+	<div id="nav-icon" style="top: 60px;" data-stellar-ratio="0.8">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
+		<h3>Read next</h3>
+		<a href="/blog/comparando-tecnologias-de-servicios-web">
+			<h1>Comparando tecnologías para crear servicios web: SOA, REST y GraphQL</h1>
+			
+				<h2>¿Qué opciones tengo para hacerlo?</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2025, <a href="http://noedominguez.com" target="_blank">Noé Domínguez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5" target="_blank">Algunos derechos reservados</a>.</p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
+
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+		    $.stellar({
+		    	responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+		    });
+		});
+		</script>
+	</body>
+</html>
