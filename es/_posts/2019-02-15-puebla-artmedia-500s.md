@@ -1,12 +1,13 @@
 ---
-layout: "post"
+layout: post
 title: "ArtMedia de la herencia histórica a la era digital"
 quote: "Hacia los 500 años de la Ciudad de Puebla"
 image: "/media/2019-02-15-puebla-500anys/cover.jpg"
-video: "false"
-comments: "true"
-lang: "es"
+video: false
+comments: true
 permalink: "/es/blog/puebla-artmedia-500s/"
+tags: [ "puebla", "artmedia", "tecnologia", "ciudadania", "democracia", "arte", "diseno", "innovacion", "cultura", "sociedad", "futuro" ]
+lang: "es"
 ---
 
 En el año de 2013, Puebla coqueteaba con una idea en materia de innovación y diseño: la postulación a la red de ciudades creativas de la UNESCO.  Durante algunos años en conjunto con el gobierno municipal de Puebla, sociedad civil, academia, e industria,  trabajamos en la creación de un Mapa de Ruta. Se definieron varios proyectos que pudieran postular exitosamente a Puebla dentro de un conjunto selecto de ciudades que buscan fomentar el potencial creativo.
