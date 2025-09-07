@@ -2,11 +2,11 @@
 layout: post
 title: "¡Felicidades Datamx.io! Premio a la Innovación en Transparencia 2015"
 quote: "1er lugar. Los Datos Abiertos llegaron para quedarse"
-image: /media/2015-10-08-premio-transparencia/00-borealis.jpg
+image: "/media/2015-10-08-premio-transparencia/00-borealis.jpg"
 video: false
 comments: true
-permalink: /es/blog/premio-transparencia/
-tags: [transparencia, datos abiertos, premio]
+permalink: "/es/blog/premio-transparencia/"
+tags: ["transparencia", "datos abiertos", "premio", "INAI", "innovación", "cívico", "hacktivismo"]
 lang: "es"
 ---
 

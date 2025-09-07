@@ -2,11 +2,11 @@
 layout: post
 title: "Bienvenida"
 quote: "Sharing is caring."
-image: /media/2014-08-11-bienvenida/cover.jpg
+image: "/media/2014-08-11-bienvenida/cover.jpg"
 video: false
 comments: true
-permalink: /es/blog/bienvenida/
-tags: [presentación, personal, tecnología]
+permalink: "/es/blog/bienvenida/"
+tags: ["presentación", "personal", "tecnología"]
 lang: "es"
 ---
 

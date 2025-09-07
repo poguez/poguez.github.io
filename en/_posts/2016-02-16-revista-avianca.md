@@ -1,10 +1,10 @@
 ---
-layout: "post"
+layout: post
 title: "Interview for Avianca: Hackathons, idea workshops."
 quote: "What hackathons are like."
 image: "/media/2016-02-16-revista-avianca/cover.jpg"
-video: "false"
-comments: "true"
+video: false
+comments: true
 permalink: "/en/blog/avianca-magazine/"
 tags: ["open-data", "civic-hacking", "hackathon", "avianca", "codeando-mexico", "datamx"]
 lang: "en"

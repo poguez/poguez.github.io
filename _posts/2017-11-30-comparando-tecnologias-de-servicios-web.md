@@ -1,10 +1,14 @@
 ---
-layout: "post"
+layout: post
 title: "Comparando tecnologías para crear servicios web: SOA, REST y GraphQL"
 quote: "¿Qué opciones tengo para hacerlo?"
-image: "false"
+image: false
 image: "/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg"
-comments: "true"
+comments: true
+permalink: "/es/blog/servicios-web/"
+tags: ["servicios web", "web services", "REST", "SOAP", "WSDL", "UDDI", "GraphQL", "API", "web API"]
+lang: "es"
+
 ---
 
 # Quiero crear un Servicio Web, ¿cuáles son mis opciones?

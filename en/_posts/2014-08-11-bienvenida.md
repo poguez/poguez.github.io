@@ -1,10 +1,10 @@
 ---
-layout: "post"
+layout: post
 title: "Welcome"
 quote: "Sharing is caring."
 image: "/media/2014-08-11-bienvenida/cover.jpg"
-video: "false"
-comments: "true"
+video: false
+comments: true
 permalink: "/en/blog/welcome/"
 tags: ["welcome", "about-me", "introduction", "blog"]
 lang: "en"

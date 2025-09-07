@@ -2,13 +2,12 @@
 layout: post
 title: "Hackertalk, emprendimiento, hackers y entrevistas."
 quote: "Un videoblog en Internet de cultura hacker y startups."
-image: false
 image: "/media/2016-03-21-hackertalk/hackertalk.jpg"
 video:
   mp4: "/media/2016-03-21-hackertalk/hackertalk.mp4"
 comments: true
-permalink: /es/blog/la-hackertalk/
-tags: [hackers, emprendimiento, entrevistas]
+permalink: "/es/blog/la-hackertalk/"
+tags: ["hackers", "emprendimiento", "entrevistas"]
 lang: "es"
 ---
 

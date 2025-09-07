@@ -1,10 +1,13 @@
 ---
-layout: "post"
+layout: post
 title: "Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet"
 quote: "Después de 9 meses regreso a compartir buenas prácticas de crowdsourcing"
-image: "false"
+image: false
 image: "/media/2017-05-27-apoyo-plataformas-colaborativas/portada.jpg"
-comments: "true"
+comments: true
+permalink: "/es/blog/asesoria-crowdsourcing/"
+tags: ["crowdsourcing", "plataformas colaborativas", "participación ciudadana", "diseño de plataformas", "corea del sur", "kaist"]
+lang: "es"
 ---
 
 # Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet

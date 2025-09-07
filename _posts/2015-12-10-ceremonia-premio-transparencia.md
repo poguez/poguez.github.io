@@ -5,7 +5,6 @@ quote: " El trabajo de Datamx, su comunidad y principios."
 image: /media/2015-12-10-ceremonia-premio-transparencia/cover.jpg
 video: false
 comments: true
-layout: post
 permalink: /es/blog/ceremonia-premio-transparencia/
 tags: [transparencia, datos abiertos, comunidad]
 lang: "es"

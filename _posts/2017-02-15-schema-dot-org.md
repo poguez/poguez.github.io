@@ -1,10 +1,13 @@
 ---
-layout: "post"
+layout: post
 title: "Conectando datos"
 quote: "[Recomendación de lectura] La evolución de datos estructurados y Schema.org."
-image: "false"
+image: false
 image: "/media/2017-02-15-schema-dot-org/portada.jpg"
-comments: "true"
+comments: true
+permalink: "/es/blog/schema-dot-org/"
+tags: ["schema.org", "datos estructurados", "linked data", "open data", "web semántica"]
+lang: "es"
 ---
 
 Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la 

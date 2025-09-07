@@ -1,12 +1,12 @@
 ---
-layout: "post"
+layout: post
 title: "Hackertalk, entrepreneurship, hackers and interviews."
 quote: "A video blog on the Internet about hacker culture and startups."
-image: "false"
+image: false
 image: "/media/2016-03-21-hackertalk/hackertalk.jpg"
 video:
   mp4: "/media/2016-03-21-hackertalk/hackertalk.mp4"
-comments: "true"
+comments: true
 permalink: "/en/blog/hackertalk-entrepreneurship-hackers-and-interviews/"
 tags: ["hackertalk", "entrepreneurship", "startups", "software-development", "interviews", "hackers", "technology", "la-madriguera", "puebla", "hackers-and-founders"]
 lang: "en"

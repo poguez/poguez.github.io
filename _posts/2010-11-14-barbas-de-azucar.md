@@ -1,10 +1,10 @@
 ---
-layout: "post"
+layout: post
 title: "Barbas de azucar"
 quote: "La primera noche en Seoul."
 image: "/media/2010-11-14-barbas/cover.jpg"
-video: "false"
-comments: "true"
+video: false
+comments: true
 permalink: "/es/blog/barbas-de-azucar/"
 tags: ["viaje", "corea", "comida"]
 lang: "es"

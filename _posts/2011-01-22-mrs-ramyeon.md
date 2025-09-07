@@ -2,11 +2,11 @@
 layout: post
 title: "Mrs. Ramyeon"
 quote: "Este es un post que escribí en Noviembre(de 2011), disculpen la atemporalidad de la historia de mi vida."
-image: /assets/images/ramyeon/cocina.jpg
+image: "/assets/images/ramyeon/cocina.jpg"
 video: false
 comments: true
-permalink: /es/blog/mrs-ramyeon/
-tags: [corea, comida, vida]
+permalink: "/es/blog/mrs-ramyeon/"
+tags: ["corea", "comida", "vida", "ramyeon", "fideos", "kimchi"]
 lang: "es"
 ---
 
