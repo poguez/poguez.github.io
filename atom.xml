@@ -4,7 +4,7 @@
  <title>El blog de Noé Domínguez</title>
  <link href="https://www.noedominguez.com/atom.xml" rel="self"/>
  <link href="https://www.noedominguez.com/"/>
- <updated>2025-09-07T01:16:23+00:00</updated>
+ <updated>2025-09-07T20:39:37+00:00</updated>
  <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
@@ -137,9 +137,9 @@ The innovation of GraphQL is that it’s more than an architectural proposal for
  
  <entry>
    <title>Comparando tecnologías para crear servicios web: SOA, REST y GraphQL</title>
-   <link href="https://www.noedominguez.com/blog/comparando-tecnologias-de-servicios-web"/>
+   <link href="https://www.noedominguez.com/es/blog/servicios-web/"/>
    <updated>2017-11-30T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/blog/comparando-tecnologias-de-servicios-web</id>
+   <id>https://www.noedominguez.com/es/blog/comparando-tecnologias-de-servicios-web</id>
    <content type="html">&lt;h1 id=&quot;quiero-crear-un-servicio-web-cuáles-son-mis-opciones&quot;&gt;Quiero crear un Servicio Web, ¿cuáles son mis opciones?&lt;/h1&gt;
 
 &lt;p&gt;Hace un par de meses nos planteábamos una pregunta por la que más de un desarrollador ha pasado:
@@ -229,9 +229,9 @@ It would be a pleasure to transfer knowledge of what I’ve learned on the topic
  
  <entry>
    <title>Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet</title>
-   <link href="https://www.noedominguez.com/blog/apoyo-plataformas-colaborativas"/>
+   <link href="https://www.noedominguez.com/es/blog/asesoria-crowdsourcing/"/>
    <updated>2017-05-27T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/blog/apoyo-plataformas-colaborativas</id>
+   <id>https://www.noedominguez.com/es/blog/apoyo-plataformas-colaborativas</id>
    <content type="html">&lt;h1 id=&quot;visitaré-méxico-y-me-gustaría-asesorar-el-diseño-de-plataformas-colaborativas-en-internet&quot;&gt;Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet&lt;/h1&gt;
 
 &lt;p&gt;Como saben algunos de ustedes hace unos meses que estoy en Corea del sur.
@@ -323,9 +323,9 @@ It’s something I like, because for app users, heaven and hell are in the detai
  
  <entry>
    <title>Conectando datos</title>
-   <link href="https://www.noedominguez.com/blog/schema-dot-org"/>
+   <link href="https://www.noedominguez.com/es/blog/schema-dot-org/"/>
    <updated>2017-02-15T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/blog/schema-dot-org</id>
+   <id>https://www.noedominguez.com/es/blog/schema-dot-org</id>
    <content type="html">&lt;p&gt;Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la 
 creación de datos estructurados y que puedan ser descritos para encontrar relaciones. 
 De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. 
@@ -408,9 +408,9 @@ Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno e
  
  <entry>
    <title>Tomando oportunidades</title>
-   <link href="https://www.noedominguez.com/blog/hola-maestria"/>
+   <link href="https://www.noedominguez.com/es/blog/tomando-oportunidades/"/>
    <updated>2016-08-07T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/blog/hola-maestria</id>
+   <id>https://www.noedominguez.com/es/blog/hola-maestria</id>
    <content type="html">&lt;h1 id=&quot;tomando-oportunidades&quot;&gt;Tomando oportunidades&lt;/h1&gt;
 
 &lt;p&gt;Este blogpost que hoy escribo es para dar gracias. A partir de julio dejé de tiempo completo a dos organizaciones con las que he colaborado por estos últimos dos años: &lt;a href=&quot;http://civica.digital&quot;&gt;Cívica Digital&lt;/a&gt; y &lt;a href=&quot;http://codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;. En el camino nos conocimos muchos colaborando y estoy muy agradecido. No se preocupen, seguiré en contacto en lo que les pueda ayudar.&lt;/p&gt;
@@ -674,28 +674,33 @@ Y que además te regala tu primer día para trabajar con una taza de café.&lt;/
    <link href="https://www.noedominguez.com/es/blog/revista-avianca/"/>
    <updated>2016-02-16T00:00:00+00:00</updated>
    <id>https://www.noedominguez.com/es/blog/revista-avianca</id>
-   <content type="html">&lt;p&gt;I thought of checking what comes up when I type my name in Google and I found
-my name in a magazine: &lt;em&gt;Avianca en Revista&lt;/em&gt;. A magazine distributed
-on flights of the airline between several South American countries such as: Costa Rica,
-El Salvador, Colombia, Peru, Brazil, Argentina, Uruguay, Mexico, and the United States.
-How many people must have read it? It excites me.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Se me ocurrió revisar que sale cuando escribo mi nombre en Google y me encontré
+con mi nombre en una revista: &lt;em&gt;Avianca en Revista&lt;/em&gt;. Una revista que se distribuye
+en los vuelos de la aerolínea entre varios países de Sudamérica como: Costa Rica,
+El Salvador, Colombia, Perú, Brasil, Argentina, Uruguay, México y Estados Unidos.
+¿Cuánta gente lo habrá leído?, me emociona.&lt;/p&gt;
 
-&lt;p&gt;In 2013 we organized our first civic hackathon, back then we called them
-&lt;em&gt;open data hackathons&lt;/em&gt;. And apparently, because of some indexed note, an Argentine journalist, Gabriela Origlia, contacted me, whom I thank for finding us to talk about the topic that then foresaw some practical and dynamic applications that were still being explored. I invite you to read the article to
-learn a bit more about what a hackathon is, as the article is in the business trends section, written in accessible language for those not so familiar with computing and technology jargon.&lt;/p&gt;
+&lt;p&gt;En el 2013 organizamos nuestro primer hackaton cívico, entonces le llamabamos
+&lt;em&gt;hackatones de datos abiertos&lt;/em&gt;. Y al parecer por alguna nota indexada me contactó
+una periodista Argentina, Gabriela Origlia, a quien agradezco habernos encontrado
+para platicar del tema que entonces vislumbraba algunas aplicaciones prácticas
+y dinámicas que aún se estaban explorando. Les invito a que lean el artículo para
+aprender un poco más sobre lo que es un hackatón, pues el artículo está en la
+sección de tendencias de negocios, escrito en un lenguaje accesible para los que no
+están tan familiarizados con la jerga de la computación y la tecnología.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;div id=&quot;article-img&quot;&gt;
     &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/index.html#/254/&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The magazine is visible on PC&lt;/blockquote&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;La revista en web es visible en PC&lt;/blockquote&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;If you want to download it, you can do so &lt;a href=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf&quot;&gt;here in PDF&lt;/a&gt; and see page 253.&lt;/p&gt;
+&lt;p&gt;Incluso si quieres bajarla puedes hacerlo &lt;a href=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf&quot;&gt;aquí en PDF&lt;/a&gt; y ver la página 253.&lt;/p&gt;
 
-&lt;p&gt;I’m excited because it’s the first time I’ve been cited in a publication with an ISBN.&lt;/p&gt;
+&lt;p&gt;Me emociona porque es la primera vez que me citan en una publicación con ISBN.&lt;/p&gt;
 
 &lt;p&gt;Noé.&lt;/p&gt;
 </content>
