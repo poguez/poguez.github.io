@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>El blog de Noé Domínguez</title>
- <link href="https://noedominguez.com/es/atom.xml" rel="self"/>
- <link href="https://noedominguez.com/es/"/>
- <updated>2025-09-07T00:31:16+00:00</updated>
- <id>https://noedominguez.com</id>
+ <link href="https://www.noedominguez.com/es/atom.xml" rel="self"/>
+ <link href="https://www.noedominguez.com/es/"/>
+ <updated>2025-09-07T00:48:31+00:00</updated>
+ <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>ArtMedia: From Historical Heritage to the Digital Era</title>
-   <link href="https://noedominguez.com/es/blog/puebla-artmedia-500s/"/>
+   <link href="https://www.noedominguez.com/es/blog/puebla-artmedia-500s/"/>
    <updated>2019-02-15T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/puebla-artmedia-500s</id>
+   <id>https://www.noedominguez.com/es/blog/puebla-artmedia-500s</id>
    <content type="html">&lt;p&gt;In 2013, Puebla flirted with an idea in innovation and design: applying to the UNESCO Creative Cities Network. For several years, together with the municipal government of Puebla, civil society, academia, and industry, we worked on creating a Roadmap. Several projects were defined that could successfully position Puebla within a select group of cities seeking to foster creative potential.&lt;/p&gt;
 
 &lt;p&gt;However, Puebla is a capital that is still defining how to use technology to its advantage. In working groups, according to the industry, it has been proposed that technology and design be used to boost the automotive, textile, and materials industries. However, today technology has shown us that it can be present in any industry and can also change our daily lives.&lt;/p&gt;
@@ -88,9 +88,9 @@
  
  <entry>
    <title>Comparando tecnologías para crear servicios web: SOA, REST y GraphQL</title>
-   <link href="https://noedominguez.com/es/blog/comparando-tecnologias-de-servicios-web"/>
+   <link href="https://www.noedominguez.com/es/blog/comparando-tecnologias-de-servicios-web"/>
    <updated>2017-11-30T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/blog/comparando-tecnologias-de-servicios-web</id>
+   <id>https://www.noedominguez.com/blog/comparando-tecnologias-de-servicios-web</id>
    <content type="html">&lt;h1 id=&quot;quiero-crear-un-servicio-web-cuáles-son-mis-opciones&quot;&gt;Quiero crear un Servicio Web, ¿cuáles son mis opciones?&lt;/h1&gt;
 
 &lt;p&gt;Hace un par de meses nos planteábamos una pregunta por la que más de un desarrollador ha pasado:
@@ -143,9 +143,9 @@ GraphQL también es un lenguaje de consultas para simplificar múltiples enpoint
  
  <entry>
    <title>Comparing Technologies to Create Web Services: SOA, REST, and GraphQL</title>
-   <link href="https://noedominguez.com/en/blog/comparing-technologies-to-create-web-services/"/>
+   <link href="https://www.noedominguez.com/en/blog/comparing-technologies-to-create-web-services/"/>
    <updated>2017-11-30T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/comparando-tecnologias-de-servicios-web</id>
+   <id>https://www.noedominguez.com/en/blog/comparando-tecnologias-de-servicios-web</id>
    <content type="html">&lt;h1 id=&quot;i-want-to-create-a-web-service-what-are-my-options&quot;&gt;I want to create a Web Service, what are my options?&lt;/h1&gt;
 
 &lt;p&gt;A couple of months ago, we asked a question that more than one developer has faced:
@@ -192,9 +192,9 @@ The innovation of GraphQL is that it’s more than an architectural proposal for
  
  <entry>
    <title>Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet</title>
-   <link href="https://noedominguez.com/es/blog/apoyo-plataformas-colaborativas"/>
+   <link href="https://www.noedominguez.com/es/blog/apoyo-plataformas-colaborativas"/>
    <updated>2017-05-27T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/blog/apoyo-plataformas-colaborativas</id>
+   <id>https://www.noedominguez.com/blog/apoyo-plataformas-colaborativas</id>
    <content type="html">&lt;h1 id=&quot;visitaré-méxico-y-me-gustaría-asesorar-el-diseño-de-plataformas-colaborativas-en-internet&quot;&gt;Visitaré México y me gustaría asesorar el diseño de plataformas colaborativas en Internet&lt;/h1&gt;
 
 &lt;p&gt;Como saben algunos de ustedes hace unos meses que estoy en Corea del sur.
@@ -240,9 +240,9 @@ Sería un placer transferir conocimiento de lo que he aprendido en el tema.&lt;/
  
  <entry>
    <title>I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet</title>
-   <link href="https://noedominguez.com/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/"/>
+   <link href="https://www.noedominguez.com/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/"/>
    <updated>2017-05-27T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/apoyo-plataformas-colaborativas</id>
+   <id>https://www.noedominguez.com/en/blog/apoyo-plataformas-colaborativas</id>
    <content type="html">&lt;h1 id=&quot;i-will-visit-mexico-and-would-like-to-advise-on-the-design-of-collaborative-platforms-on-the-internet&quot;&gt;I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet&lt;/h1&gt;
 
 &lt;p&gt;As some of you know, I’ve been in South Korea for a few months.
@@ -277,9 +277,9 @@ It would be a pleasure to transfer knowledge of what I’ve learned on the topic
  
  <entry>
    <title>Conectando datos</title>
-   <link href="https://noedominguez.com/es/blog/schema-dot-org"/>
+   <link href="https://www.noedominguez.com/es/blog/schema-dot-org"/>
    <updated>2017-02-15T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/blog/schema-dot-org</id>
+   <id>https://www.noedominguez.com/blog/schema-dot-org</id>
    <content type="html">&lt;p&gt;Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la 
 creación de datos estructurados y que puedan ser descritos para encontrar relaciones. 
 De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. 
@@ -339,9 +339,9 @@ Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno e
  
  <entry>
    <title>Connecting Data</title>
-   <link href="https://noedominguez.com/en/blog/schema-org-evolution-of-structured-data-on-the-web/"/>
+   <link href="https://www.noedominguez.com/en/blog/schema-org-evolution-of-structured-data-on-the-web/"/>
    <updated>2017-02-15T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/schema-dot-org</id>
+   <id>https://www.noedominguez.com/en/blog/schema-dot-org</id>
    <content type="html">&lt;p&gt;When I was working with Open Data, one of the concerns that persisted in publishing open data was the creation of structured data that could be described to find relationships. In fact, since the Web was created, Tim Berners Lee had the vision of making a system where interconnected information could be managed. He was not referring exclusively to documents but also to physical resources like equipment, machines. He also referred to people and their skills as part of a system with linked information. Altogether, what he created at CERN was a system to deal with information loss in a system that evolves complexly. The solution resulted in a distributed hypertext system. You can see the proposed solution in detail in &lt;a href=&quot;https://www.w3.org/History/1989/proposal.html&quot;&gt;Information Management: A Proposal (1989)&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;
@@ -385,9 +385,9 @@ It’s something I like, because for app users, heaven and hell are in the detai
  
  <entry>
    <title>Tomando oportunidades</title>
-   <link href="https://noedominguez.com/es/blog/hola-maestria"/>
+   <link href="https://www.noedominguez.com/es/blog/hola-maestria"/>
    <updated>2016-08-07T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/blog/hola-maestria</id>
+   <id>https://www.noedominguez.com/blog/hola-maestria</id>
    <content type="html">&lt;h1 id=&quot;tomando-oportunidades&quot;&gt;Tomando oportunidades&lt;/h1&gt;
 
 &lt;p&gt;Este blogpost que hoy escribo es para dar gracias. A partir de julio dejé de tiempo completo a dos organizaciones con las que he colaborado por estos últimos dos años: &lt;a href=&quot;http://civica.digital&quot;&gt;Cívica Digital&lt;/a&gt; y &lt;a href=&quot;http://codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;. En el camino nos conocimos muchos colaborando y estoy muy agradecido. No se preocupen, seguiré en contacto en lo que les pueda ayudar.&lt;/p&gt;
@@ -409,9 +409,9 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  
  <entry>
    <title>Seizing Opportunities</title>
-   <link href="https://noedominguez.com/en/blog/seizing-opportunities/"/>
+   <link href="https://www.noedominguez.com/en/blog/seizing-opportunities/"/>
    <updated>2016-08-07T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/hola-maestria</id>
+   <id>https://www.noedominguez.com/en/blog/hola-maestria</id>
    <content type="html">&lt;h1 id=&quot;seizing-opportunities&quot;&gt;Seizing Opportunities&lt;/h1&gt;
 
 &lt;p&gt;This blog post I write today is to give thanks. As of July, I left two organizations I had collaborated with full-time for the past two years: &lt;a href=&quot;http://civica.digital&quot;&gt;Cívica Digital&lt;/a&gt; and &lt;a href=&quot;http://codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;. Along the way, I met many people through collaboration and I am very grateful. Don’t worry, I will stay in touch and help where I can.&lt;/p&gt;
@@ -432,9 +432,9 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  
  <entry>
    <title>La Refinadora y los bots en Open News, Austin 2016</title>
-   <link href="https://noedominguez.com/es/blog/la-refinadora/"/>
+   <link href="https://www.noedominguez.com/es/blog/la-refinadora/"/>
    <updated>2016-05-22T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/la-refinadora</id>
+   <id>https://www.noedominguez.com/es/blog/la-refinadora</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Inteligencia y automatización para las salas de prensa&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;El día 18 y 19 de abril tuvimos la oportunidad de asistir a un evento patrocinado por la Mozilla Foundation y la Knight Foundation: La Reunión de Código de &lt;a href=&quot;https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/&quot;&gt;Open News 2016  en Austin, TX&lt;/a&gt;. Esta iniciativa consiste en crear soluciones de Software de Código Abierto para equipos de periodismo. Los equipos fueron seleccionados para desarrollar sus proyectos a través de Internet y fuimos el primer equipo internacional en participar en la dinámica. Cabe destacar que los participantes del evento venían de distintos contextos, algunos de Radios Públicas Nacionales (NPR), The New York Times, periodistas investigadores, The Marshall Project -que cubre el Sistema de Justicia de Estados Unidos y durante el evento ganaron un Pulitzer-, periodistas independientes, entre otros. Todos en una dinámica parecida a un hackatón donde la colaboración y trabajo intensivo de dos días se materializó en avances de un proyecto de código abierto que ayudará a la automatización de las salas de prensa de Estados Unidos y seguramente México.&lt;/p&gt;
@@ -498,9 +498,9 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  
  <entry>
    <title>The Refinadora and Bots at Open News, Austin 2016</title>
-   <link href="https://noedominguez.com/en/blog/the-refinadora-and-bots-at-open-news-austin-2016/"/>
+   <link href="https://www.noedominguez.com/en/blog/the-refinadora-and-bots-at-open-news-austin-2016/"/>
    <updated>2016-05-22T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/la-refinadora</id>
+   <id>https://www.noedominguez.com/en/blog/la-refinadora</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Intelligence and automation for newsrooms&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;On April 18 and 19, we had the opportunity to attend an event sponsored by the Mozilla Foundation and the Knight Foundation: The &lt;a href=&quot;https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/&quot;&gt;Open News 2016 Code Convening in Austin, TX&lt;/a&gt;. This initiative consists of creating Open Source Software solutions for journalism teams. The teams were selected to develop their projects over the Internet, and we were the first international team to participate in the dynamic. It is worth noting that the event participants came from different backgrounds, some from National Public Radios (NPR), The New York Times, investigative journalists, The Marshall Project—which covers the US Justice System and won a Pulitzer during the event—independent journalists, among others. All in a dynamic similar to a hackathon where collaboration and intensive work over two days materialized in advances of an open source project that will help automate newsrooms in the United States and surely Mexico.&lt;/p&gt;
@@ -563,9 +563,9 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  
  <entry>
    <title>Hackertalk, emprendimiento, hackers y entrevistas.</title>
-   <link href="https://noedominguez.com/es/blog/la-hackertalk/"/>
+   <link href="https://www.noedominguez.com/es/blog/la-hackertalk/"/>
    <updated>2016-03-21T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/la-hackertalk</id>
+   <id>https://www.noedominguez.com/es/blog/la-hackertalk</id>
    <content type="html">&lt;p&gt;Hace un par de meses conocí a un grupo de hackers, ahora amigos, que tenían un
 video blog por Internet que me gusta mucho por su formato y contenidos: &lt;a href=&quot;http://www.hackertalk.co&quot;&gt;Hackertalk&lt;/a&gt;.
 &lt;a href=&quot;https://twitter.com/mvrtxn&quot;&gt;Martín&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/abraham_gnz&quot;&gt;Abraham&lt;/a&gt;,
@@ -616,9 +616,9 @@ Y que además te regala tu primer día para trabajar con una taza de café.&lt;/
  
  <entry>
    <title>Hackertalk, entrepreneurship, hackers and interviews.</title>
-   <link href="https://noedominguez.com/en/blog/hackertalk-entrepreneurship-hackers-and-interviews/"/>
+   <link href="https://www.noedominguez.com/en/blog/hackertalk-entrepreneurship-hackers-and-interviews/"/>
    <updated>2016-03-21T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/la-hackertalk</id>
+   <id>https://www.noedominguez.com/en/blog/la-hackertalk</id>
    <content type="html">&lt;p&gt;A couple of months ago I met a group of hackers, now friends, who had an Internet video blog that I really like for its format and content: &lt;a href=&quot;http://www.hackertalk.co&quot;&gt;Hackertalk&lt;/a&gt;.
 &lt;a href=&quot;https://twitter.com/mvrtxn&quot;&gt;Martín&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/abraham_gnz&quot;&gt;Abraham&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/FranPR9&quot;&gt;Fran&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Diegeekster&quot;&gt;Diego&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/allnacho&quot;&gt;Nacho&lt;/a&gt; and several more friends, throughout several episodes interview some hackers and leaders of initiatives where they talk about entrepreneurship in technology and software, with all the difficulties that implies.&lt;/p&gt;
 
@@ -645,9 +645,9 @@ Y que además te regala tu primer día para trabajar con una taza de café.&lt;/
  
  <entry>
    <title>Interview for Avianca: Hackathons, idea workshops.</title>
-   <link href="https://noedominguez.com/es/blog/revista-avianca/"/>
+   <link href="https://www.noedominguez.com/es/blog/revista-avianca/"/>
    <updated>2016-02-16T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/revista-avianca</id>
+   <id>https://www.noedominguez.com/es/blog/revista-avianca</id>
    <content type="html">&lt;p&gt;I thought of checking what comes up when I type my name in Google and I found
 my name in a magazine: &lt;em&gt;Avianca en Revista&lt;/em&gt;. A magazine distributed
 on flights of the airline between several South American countries such as: Costa Rica,
@@ -677,9 +677,9 @@ learn a bit more about what a hackathon is, as the article is in the business tr
  
  <entry>
    <title>Interview for Avianca: Hackathons, idea workshops.</title>
-   <link href="https://noedominguez.com/en/blog/avianca-magazine/"/>
+   <link href="https://www.noedominguez.com/en/blog/avianca-magazine/"/>
    <updated>2016-02-16T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/revista-avianca</id>
+   <id>https://www.noedominguez.com/en/blog/revista-avianca</id>
    <content type="html">&lt;p&gt;I thought of checking what comes up when I type my name in Google and I found my name in a magazine: &lt;em&gt;Avianca en Revista&lt;/em&gt;. A magazine distributed on flights of the airline between several South American countries such as: Costa Rica, El Salvador, Colombia, Peru, Brazil, Argentina, Uruguay, Mexico, and the United States. How many people must have read it? It excites me.&lt;/p&gt;
 
 &lt;p&gt;In 2013 we organized our first civic hackathon, back then we called them &lt;em&gt;open data hackathons&lt;/em&gt;. And apparently, because of some indexed note, an Argentine journalist, Gabriela Origlia, contacted me, whom I thank for finding us to talk about the topic that then foresaw some practical and dynamic applications that were still being explored. I invite you to read the article to learn a bit more about what a hackathon is, as the article is in the business trends section, written in accessible language for those not so familiar with computing and technology jargon.&lt;/p&gt;
@@ -703,9 +703,9 @@ learn a bit more about what a hackathon is, as the article is in the business tr
  
  <entry>
    <title>Ceremonia al Premio de Innovación en Transparencia 2015</title>
-   <link href="https://noedominguez.com/es/blog/ceremonia-premio-transparencia/"/>
+   <link href="https://www.noedominguez.com/es/blog/ceremonia-premio-transparencia/"/>
    <updated>2015-12-10T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/ceremonia-premio-transparencia</id>
+   <id>https://www.noedominguez.com/es/blog/ceremonia-premio-transparencia</id>
    <content type="html">&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg&quot; /&gt;&lt;/div&gt;
 
 &lt;p&gt;Hoy presentamos &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; en el Premio a la Innovación en Transparencia 2015 en donde nos fue otorgado el primer lugar en la categoría de Personas Físicas y Asociaciones Civiles. Fue un honor poder compartir parte de la experiencia que aprendimos en alrededor de 2 años de trabajo y quisimos hacer énfasis en contar la historia de &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; no en el fin hasta donde ha llegado, si no por los principios de los que partió y de las historias que hemos documentado, hay mucho que contar.&lt;/p&gt;
@@ -759,9 +759,9 @@ learn a bit more about what a hackathon is, as the article is in the business tr
  
  <entry>
    <title>Ceremony for the Innovation in Transparency Award 2015</title>
-   <link href="https://noedominguez.com/en/blog/ceremony-for-the-innovation-in-transparency-award-2015/"/>
+   <link href="https://www.noedominguez.com/en/blog/ceremony-for-the-innovation-in-transparency-award-2015/"/>
    <updated>2015-12-10T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/ceremonia-premio-transparencia</id>
+   <id>https://www.noedominguez.com/en/blog/ceremonia-premio-transparencia</id>
    <content type="html">&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg&quot; /&gt;&lt;/div&gt;
 
 &lt;p&gt;Today we presented &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; at the Innovation in Transparency Award 2015, where we were awarded first place in the category of Individuals and Civil Associations. It was an honor to share part of the experience we learned in about 2 years of work, and we wanted to emphasize telling the story of &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; not just by how far it has come, but by the principles it started from and the stories we’ve documented—there’s a lot to tell.&lt;/p&gt;
@@ -815,9 +815,9 @@ learn a bit more about what a hackathon is, as the article is in the business tr
  
  <entry>
    <title>¡Felicidades Datamx.io! Premio a la Innovación en Transparencia 2015</title>
-   <link href="https://noedominguez.com/es/blog/premio-transparencia/"/>
+   <link href="https://www.noedominguez.com/es/blog/premio-transparencia/"/>
    <updated>2015-10-08T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/premio-transparencia</id>
+   <id>https://www.noedominguez.com/es/blog/premio-transparencia</id>
    <content type="html">&lt;p&gt;En &lt;a href=&quot;https://web.archive.org/web/20130618120954/http://blog.codeandomexico.org/&quot;&gt;Mayo del 2013&lt;/a&gt; anunciamos que se abría la
 plataforma cívica de datos abiertos en el país. Nuestros objetivos fueron que se convirtiera en un espacio autónomo para la
 publicación y consumo de datos, independiente de cualquier gobierno u organización y que fuera una herramienta lista para
@@ -843,9 +843,9 @@ Foto: Flickr/trodel&lt;/p&gt;
  
  <entry>
    <title>Congratulations Datamx.io! Innovation in Transparency Award 2015</title>
-   <link href="https://noedominguez.com/en/blog/congratulations-datamx-io-innovation-in-transparency-award-2015/"/>
+   <link href="https://www.noedominguez.com/en/blog/congratulations-datamx-io-innovation-in-transparency-award-2015/"/>
    <updated>2015-10-08T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/premio-transparencia</id>
+   <id>https://www.noedominguez.com/en/blog/premio-transparencia</id>
    <content type="html">&lt;p&gt;In &lt;a href=&quot;https://web.archive.org/web/20130618120954/http://blog.codeandomexico.org/&quot;&gt;May 2013&lt;/a&gt; we announced the launch of the civic open data platform in the country. Our goals were for it to become an autonomous space for publishing and consuming data, independent of any government or organization, and to be a ready-to-use tool for institutions with good intentions to open their data. The topic of open data in Mexico was just beginning, and within a few months, we started to see civic hackers adding data from all over the country. Soon, this application became &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx.io&lt;/a&gt;, and we promoted the message: open data from citizens for citizens.&lt;/p&gt;
 
 &lt;p&gt;After adding &lt;a href=&quot;http://blog.codeandomexico.org/2015/06/22/limpia-tus-datos-en-la-nube-open-refine-en-datamx/&quot;&gt;features for data standardization&lt;/a&gt;, a &lt;a href=&quot;http://blog.codeandomexico.org/2014/08/28/centro-de-apertura-de-datos/&quot;&gt;center for open data requests&lt;/a&gt;, a &lt;a href=&quot;https://www.fayerwayer.com/2015/02/inicia-la-carrera-por-abrir-los-datos-publicos-de-mexico/&quot;&gt;race to open data in non-open formats&lt;/a&gt;, and above all &lt;a href=&quot;http://blog.codeandomexico.org/2014/09/19/datamx-a-un-anio/&quot;&gt;many lessons learned&lt;/a&gt;, Datamx.io became the support platform for citizens and organizations. By the end of 2015, more than &lt;a href=&quot;http://2015.datamx.io/&quot;&gt;1,000 datasets were published, over 10 civic applications were made, and events were organized throughout the country&lt;/a&gt;. Beyond the numbers, Datamx.io has represented the place where open data is promoted to solve the country’s most pressing problems. It also promotes a form of citizen participation that has only been possible through technology, because opening data is also about building cities and exercising citizenship.&lt;/p&gt;
@@ -865,9 +865,9 @@ Photo: Flickr/trodel&lt;/p&gt;
  
  <entry>
    <title>Una reseña de Open Data en AbreLATAM 2014</title>
-   <link href="https://noedominguez.com/es/blog/abrelatam2014-mesas/"/>
+   <link href="https://www.noedominguez.com/es/blog/abrelatam2014-mesas/"/>
    <updated>2014-10-13T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/AbreLATAM2014-mesas</id>
+   <id>https://www.noedominguez.com/es/blog/AbreLATAM2014-mesas</id>
    <content type="html">&lt;p&gt;Hace apenas un par de días tuvo lugar AbreLATAM 2014, el 30 de Septiembre del año en curso. Ya habíamos tenido
 la oportunidad de participar en el evento que ocurrió en Uruguay durante 2013. Este año, 9 de 10 personas del equipo de
 Codeando México estuvimos presentes para colaborar.&lt;/p&gt;
@@ -992,9 +992,9 @@ Flickr/pauloslachevsky&lt;/p&gt;
  
  <entry>
    <title>A Review of Open Data at AbreLATAM 2014</title>
-   <link href="https://noedominguez.com/en/blog/abreLATAM2014/"/>
+   <link href="https://www.noedominguez.com/en/blog/abreLATAM2014/"/>
    <updated>2014-10-13T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/AbreLATAM2014-mesas</id>
+   <id>https://www.noedominguez.com/en/blog/AbreLATAM2014-mesas</id>
    <content type="html">&lt;p&gt;Just a few days ago, AbreLATAM 2014 took place, on September 30th of this year. We had already had the opportunity to participate in the event that happened in Uruguay in 2013. This year, 9 out of 10 people from the Codeando México team were present to collaborate.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;AbreLATAM 2014 was an unconference&lt;/strong&gt;&lt;/p&gt;
@@ -1063,9 +1063,9 @@ Flickr/pauloslachevsky&lt;/p&gt;
  
  <entry>
    <title>Bienvenida</title>
-   <link href="https://noedominguez.com/es/blog/bienvenida/"/>
+   <link href="https://www.noedominguez.com/es/blog/bienvenida/"/>
    <updated>2014-08-11T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/bienvenida</id>
+   <id>https://www.noedominguez.com/es/blog/bienvenida</id>
    <content type="html">&lt;p&gt;Me llamo Noé Domínguez, actualmente me desempeño en el desarrollo e integración de software en México.
 El propósito de este blog es compartir algunas de las experiencias que he ido acumulando en los
 últimos años mientras desarrollo mi profesión y también sobre algunos retos a los que me he enfrentado.&lt;/p&gt;
@@ -1102,9 +1102,9 @@ para este post.&lt;/p&gt;
  
  <entry>
    <title>Welcome</title>
-   <link href="https://noedominguez.com/en/blog/welcome/"/>
+   <link href="https://www.noedominguez.com/en/blog/welcome/"/>
    <updated>2014-08-11T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/bienvenida</id>
+   <id>https://www.noedominguez.com/en/blog/bienvenida</id>
    <content type="html">&lt;p&gt;My name is Noé Domínguez, I currently work in software development and integration in Mexico.
 The purpose of this blog is to share some of the experiences I’ve accumulated over the past years while developing my profession and also some of the challenges I’ve faced.&lt;/p&gt;
 
@@ -1128,9 +1128,9 @@ Previously, I have also worked as an independent web developer, I enjoy entrepre
  
  <entry>
    <title>Un Hacker Cívico en el Pycon 2014</title>
-   <link href="https://noedominguez.com/es/blog/pycon2014/"/>
+   <link href="https://www.noedominguez.com/es/blog/pycon2014/"/>
    <updated>2014-04-25T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/pycon2014</id>
+   <id>https://www.noedominguez.com/es/blog/pycon2014</id>
    <content type="html">&lt;p&gt;Hace un par de años mientras cursaba una materia en la carrera sobre Desarrollo Web (&lt;em&gt;Web Development&lt;/em&gt;) 
 tuve la libertad de elegir con qué lenguaje de programación y artefactos quería aprender a programar 
 web. La única restricción que teníamos era hacer una aplicación que cumpliera con todos los principios 
@@ -1184,9 +1184,9 @@ en el siguiente post, diviértanse con los videos.&lt;/p&gt;
  
  <entry>
    <title>Mrs. Ramyeon</title>
-   <link href="https://noedominguez.com/es/blog/mrs-ramyeon/"/>
+   <link href="https://www.noedominguez.com/es/blog/mrs-ramyeon/"/>
    <updated>2011-01-22T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/mrs-ramyeon</id>
+   <id>https://www.noedominguez.com/es/blog/mrs-ramyeon</id>
    <content type="html">&lt;p&gt;Hace muuuucho tiempo que no escribo, la verdad es que he estado muy ocupado estos días. He tenido una experiencia
 un tanto de sentimientos encontrados sobre mi estancia. La verdad es que he tenido que trabajar muy duro, como nunca
 lo había hecho y a diferencia de México,  el estrés no solo está concentrado cuando se acerca la semana de examenes
@@ -1265,9 +1265,9 @@ una celebridad en potencia.&lt;/p&gt;
  
  <entry>
    <title>Boooom!!</title>
-   <link href="https://noedominguez.com/es/blog/boom/"/>
+   <link href="https://www.noedominguez.com/es/blog/boom/"/>
    <updated>2010-11-24T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/boom</id>
+   <id>https://www.noedominguez.com/es/blog/boom</id>
    <content type="html">&lt;p&gt;En este momento algunos puede estarse preguntando sobre lo que está pasando en Corea del Sur y la impresión que tuve sobre lo que pasó.
 Yo estaba saliendo de mi clase de Inteligencia Artificial, acababa de tener un examen de hora y media y no había desayunado.
 Salí del edificio del departamento de Ciencias Computacionales para ir a comer en la cafetería favorita Ramen de Queso (치즈라면).
@@ -1356,9 +1356,9 @@ el último eslabón para la plena reunificación de esta península.&lt;/p&gt;
  
  <entry>
    <title>Boooom!!</title>
-   <link href="https://noedominguez.com/en/blog/booom/"/>
+   <link href="https://www.noedominguez.com/en/blog/booom/"/>
    <updated>2010-11-24T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/boom</id>
+   <id>https://www.noedominguez.com/en/blog/boom</id>
    <content type="html">&lt;p&gt;At this moment, some may be wondering about what is happening in South Korea and my impression of what happened.
 I was leaving my Artificial Intelligence class, had just finished a ninety-minute exam, and hadn’t had breakfast.
 I left the Computer Science department building to eat at my favorite cafeteria, Cheese Ramen (치즈라면).
@@ -1412,9 +1412,9 @@ Back at the dorm, when I turned on my computer, I found some tweets telling me t
  
  <entry>
    <title>Barbas de azucar</title>
-   <link href="https://noedominguez.com/es/blog/barbas-de-azucar/"/>
+   <link href="https://www.noedominguez.com/es/blog/barbas-de-azucar/"/>
    <updated>2010-11-14T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/es/blog/barbas-de-azucar</id>
+   <id>https://www.noedominguez.com/es/blog/barbas-de-azucar</id>
    <content type="html">&lt;p&gt;La primera noche que dormimos como la gente normal en Seoul fue jueves 26 de agosto.
 La verdad es que quedé muy contento con el lugar que nos habían recomendado en el centro
 de atención turística, pues el lugar estaba muy limpio agradable y como dicen en el Distrito
@@ -1469,9 +1469,9 @@ que en coreano se llaman barbas de azúcar. Vean la historia de como se hacen es
  
  <entry>
    <title>Sugar Beards</title>
-   <link href="https://noedominguez.com/en/blog/sugar-beards/"/>
+   <link href="https://www.noedominguez.com/en/blog/sugar-beards/"/>
    <updated>2010-11-14T00:00:00+00:00</updated>
-   <id>https://noedominguez.com/en/blog/barbas-de-azucar</id>
+   <id>https://www.noedominguez.com/en/blog/barbas-de-azucar</id>
    <content type="html">&lt;p&gt;The first night we slept like normal people in Seoul was Thursday, August 26th.
 Honestly, I was very happy with the place recommended to us at the tourist information center, as it was very clean, pleasant, and as they say in Mexico City: it had a vibe. The place is called Banana Backpackers and it’s near Anguk Station (안국역), a spot very close to several tourist attractions in Seoul. There you can find all kinds of souvenirs, generally cheap, and some restaurants with very affordable prices.&lt;/p&gt;
 
