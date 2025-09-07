@@ -16,7 +16,7 @@ fb_app_id: 181345208885623
 author:
   name:		'Noé Domínguez Porras'
 
-url: https://noedominguez.com
+url: https://www.noedominguez.com
 
 # Pagination settings
 paginate:	20
@@ -40,7 +40,7 @@ social:
     desc:	Sigue mis proyectos en Github
 
   - icon:	feed
-    url:	http://noedominguez.com/atom.xml
+    url:	https://www.noedominguez.com/atom.xml
     desc:	Suscríbete a mi feed
 
 menu:
@@ -52,9 +52,9 @@ menu:
 
 copyright:
   author:	Noé Domínguez
-  url:		http://noedominguez.com
+  url: https://www.noedominguez.com
   type_title:	Algunos derechos reservados
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+  type_url:	https://creativecommons.org/licenses/by-nc/2.5
 
 # don’t localize assets/static files
 exclude_from_localizations:
