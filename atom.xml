@@ -4,7 +4,7 @@
  <title>El blog de Noé Domínguez</title>
  <link href="https://www.noedominguez.com/atom.xml" rel="self"/>
  <link href="https://www.noedominguez.com/"/>
- <updated>2025-09-07T20:39:37+00:00</updated>
+ <updated>2025-09-08T08:06:47+00:00</updated>
  <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
@@ -87,55 +87,6 @@
  </entry>
  
  <entry>
-   <title>Comparing Technologies to Create Web Services: SOA, REST, and GraphQL</title>
-   <link href="https://www.noedominguez.com/en/blog/comparing-technologies-to-create-web-services/"/>
-   <updated>2017-11-30T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/comparando-tecnologias-de-servicios-web</id>
-   <content type="html">&lt;h1 id=&quot;i-want-to-create-a-web-service-what-are-my-options&quot;&gt;I want to create a Web Service, what are my options?&lt;/h1&gt;
-
-&lt;p&gt;A couple of months ago, we asked a question that more than one developer has faced:
-What are my options for creating a web service or web API?
-I researched and presented at &lt;a href=&quot;https://www.meetup.com/es/DevNightsMX/events/241391717/&quot;&gt;Devnights Summer edition 2016&lt;/a&gt;.
-I know, it’s been several months since then, but &lt;em&gt;&lt;strong&gt;sharing is caring&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;It often happens that when we enter the world of web programming, we learn to make services with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;REST (Representational State Transfer)&lt;/a&gt; model.
-We usually arrive at opinionated frameworks where technical design decisions have already been made and REST is there by default.
-In my case, I started with Ruby on Rails, where REST comes by default.
-Other examples where you might have started like this are: Django REST Framework, Play, Zend, Yii, Laravel, Sails, among others. If that’s the case, it’s almost certain you started with REST.&lt;/p&gt;
-
-&lt;p&gt;When you’re a novice programmer—or Junior as recruiters say—your knowledge base is constantly changing.
-And probably, between learning the framework and creating your first application, you end up encountering other solutions for making services that seem horrible and unintuitive.
-They seem cryptic because they’re even made with XML, a description language you’ve been told was made ages ago.
-You have to deal with web services that have another architectural style and other descriptions you’ve never seen.
-For example, you’re sent a service description in &lt;a href=&quot;https://www.w3.org/TR/2007/REC-wsdl20-20070626/&quot;&gt;WSDL (Web Services Description Language)&lt;/a&gt; and don’t know how to use it.
-You’re given an endpoint that returns XML for you to use &lt;a href=&quot;https://www.w3.org/TR/soap&quot;&gt;SOAP (Simple Object Access Protocol)&lt;/a&gt; and you don’t know how the data is described.
-There’s even the possibility that you’re given an endpoint to consult a service directory &lt;a href=&quot;https://www.oasis-open.org/committees/uddi-spec/&quot;&gt;UDDI (Universal Description, Discovery, and Integration)&lt;/a&gt;.
-It’s horrible to go from a paradigm like REST, where elements are described in the URL, to one where you have to do it with XML.
-We usually associate these technologies with Java, .NET, or enterprise solutions and think they’re complicated.
-It’s true, they can be complicated but they solve specific problems.&lt;/p&gt;
-
-&lt;p&gt;In this presentation, we explore what services are, what web services are.
-We remember that the official architecture of the Web is SOA.
-We list the main SOA technologies for making services: SOAP, WSDL, and UDDI.
-We review REST and its main design components.
-We also explore one of the most innovative and new options: GraphQL.
-The innovation of GraphQL is that it’s more than an architectural proposal for making services. GraphQL is also a query language to simplify multiple web service endpoints.&lt;/p&gt;
-
-&lt;p&gt;The presentation is embedded here and on &lt;a href=&quot;https://speakerdeck.com/poguez/comparando-tecnologias-para-servicios-y-servicios-web&quot;&gt;Speaker Deck&lt;/a&gt;.&lt;/p&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;a32b97469daf4e778b7490565f785fc3&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/poguez/&quot;&gt;My other presentations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Leave your comments and questions here.&lt;/p&gt;
-
-&lt;p&gt;Noé.&lt;/p&gt;
-
-&lt;p&gt;Cover photo: Noé Domínguez / Creative Commons Attribution-NonCommercial 4.0 International&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Comparando tecnologías para crear servicios web: SOA, REST y GraphQL</title>
    <link href="https://www.noedominguez.com/es/blog/servicios-web/"/>
    <updated>2017-11-30T00:00:00+00:00</updated>
@@ -191,39 +142,51 @@ GraphQL también es un lenguaje de consultas para simplificar múltiples enpoint
  </entry>
  
  <entry>
-   <title>I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet</title>
-   <link href="https://www.noedominguez.com/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/"/>
-   <updated>2017-05-27T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/apoyo-plataformas-colaborativas</id>
-   <content type="html">&lt;h1 id=&quot;i-will-visit-mexico-and-would-like-to-advise-on-the-design-of-collaborative-platforms-on-the-internet&quot;&gt;I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet&lt;/h1&gt;
+   <title>Comparing Technologies to Create Web Services: SOA, REST, and GraphQL</title>
+   <link href="https://www.noedominguez.com/en/blog/comparing-technologies-to-create-web-services/"/>
+   <updated>2017-11-30T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/comparando-tecnologias-de-servicios-web</id>
+   <content type="html">&lt;h1 id=&quot;i-want-to-create-a-web-service-what-are-my-options&quot;&gt;I want to create a Web Service, what are my options?&lt;/h1&gt;
 
-&lt;p&gt;As some of you know, I’ve been in South Korea for a few months.
-Since September, I’ve been based at the &lt;a href=&quot;http://webeng.kaist.ac.kr&quot;&gt;Web Engineering Lab&lt;/a&gt;, rediscovering and developing my academic life.
-Maybe I hadn’t stopped learning, because I had been working with less formal learning methods—tutorials, workshops, talks at meetups, conferences where we share best practices in software engineering. All of these also contribute to your development, but it was a bit difficult for me at first to adapt to the academic environment. While previously I was expanding my knowledge toward a generalist domain, research is the opposite. After getting used to it, I now enjoy it.&lt;/p&gt;
+&lt;p&gt;A couple of months ago, we asked a question that more than one developer has faced:
+What are my options for creating a web service or web API?
+I researched and presented at &lt;a href=&quot;https://www.meetup.com/es/DevNightsMX/events/241391717/&quot;&gt;Devnights Summer edition 2016&lt;/a&gt;.
+I know, it’s been several months since then, but &lt;em&gt;&lt;strong&gt;sharing is caring&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Before, I thought I was aware of what was happening with &lt;a href=&quot;https://www.wired.com/2006/06/crowds/&quot;&gt;&lt;em&gt;&lt;strong&gt;Crowdsourcing&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;.
-Being aware of how platforms were used for user participation.
-How to promote citizen participation in open processes online.
-But my knowledge was practically empirical and shallow.
-That’s why I decided to take the first class offered by Professor &lt;a href=&quot;http://juhokim.com&quot;&gt;Juho Kim&lt;/a&gt; in &lt;em&gt;Crowdsourcing&lt;/em&gt;.
-It was his first class as a professor at KAIST, after graduating from &lt;a href=&quot;http://mit.edu&quot;&gt;MIT&lt;/a&gt; with &lt;a href=&quot;https://dspace.mit.edu/handle/1721.1/101464&quot;&gt;Learnersourcing: Improving Learning with Collective Learner Activity&lt;/a&gt;.
-We learned by reading about 50+ papers and discussions on this topic, which was &lt;a href=&quot;https://www.wired.com/2006/06/crowds/&quot;&gt;defined in 2006&lt;/a&gt;.
-We learned theoretical, technical aspects, incentive design, analysis, experimentation, collaborative learning, citizen participation, teamwork, citizen science, and perception through participation.
-I must say it was a significant experience to take this course and move toward greater depth in the subject. However, in Mexico, it is a topic that has not been deeply explored in Internet services. I believe that due to the scarcity of learning materials, it is timely to share it with the community of Mexican companies and developers.&lt;/p&gt;
+&lt;p&gt;It often happens that when we enter the world of web programming, we learn to make services with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;REST (Representational State Transfer)&lt;/a&gt; model.
+We usually arrive at opinionated frameworks where technical design decisions have already been made and REST is there by default.
+In my case, I started with Ruby on Rails, where REST comes by default.
+Other examples where you might have started like this are: Django REST Framework, Play, Zend, Yii, Laravel, Sails, among others. If that’s the case, it’s almost certain you started with REST.&lt;/p&gt;
 
-&lt;p&gt;During July 2017, I will be visiting Mexico, eager to contribute to your projects.
-I want to share what I’ve learned so we can design better Internet and software services.
-I would like you to write to me to share your experience and your concerns about your service.
-It will be relevant to you if you have a project that includes: user participation, citizen participation, or the design of collaborative platforms.
-Let’s talk, send me an email at &lt;a href=&quot;mailto:poguez@kaist.ac.kr&quot;&gt;poguez@kaist.ac.kr&lt;/a&gt;.
-If you are a company, we can do a training, and if there are several people, we can schedule a course.
-It would be a pleasure to transfer knowledge of what I’ve learned on the topic.&lt;/p&gt;
+&lt;p&gt;When you’re a novice programmer—or Junior as recruiters say—your knowledge base is constantly changing.
+And probably, between learning the framework and creating your first application, you end up encountering other solutions for making services that seem horrible and unintuitive.
+They seem cryptic because they’re even made with XML, a description language you’ve been told was made ages ago.
+You have to deal with web services that have another architectural style and other descriptions you’ve never seen.
+For example, you’re sent a service description in &lt;a href=&quot;https://www.w3.org/TR/2007/REC-wsdl20-20070626/&quot;&gt;WSDL (Web Services Description Language)&lt;/a&gt; and don’t know how to use it.
+You’re given an endpoint that returns XML for you to use &lt;a href=&quot;https://www.w3.org/TR/soap&quot;&gt;SOAP (Simple Object Access Protocol)&lt;/a&gt; and you don’t know how the data is described.
+There’s even the possibility that you’re given an endpoint to consult a service directory &lt;a href=&quot;https://www.oasis-open.org/committees/uddi-spec/&quot;&gt;UDDI (Universal Description, Discovery, and Integration)&lt;/a&gt;.
+It’s horrible to go from a paradigm like REST, where elements are described in the URL, to one where you have to do it with XML.
+We usually associate these technologies with Java, .NET, or enterprise solutions and think they’re complicated.
+It’s true, they can be complicated but they solve specific problems.&lt;/p&gt;
 
-&lt;p&gt;See you soon!&lt;/p&gt;
+&lt;p&gt;In this presentation, we explore what services are, what web services are.
+We remember that the official architecture of the Web is SOA.
+We list the main SOA technologies for making services: SOAP, WSDL, and UDDI.
+We review REST and its main design components.
+We also explore one of the most innovative and new options: GraphQL.
+The innovation of GraphQL is that it’s more than an architectural proposal for making services. GraphQL is also a query language to simplify multiple web service endpoints.&lt;/p&gt;
+
+&lt;p&gt;The presentation is embedded here and on &lt;a href=&quot;https://speakerdeck.com/poguez/comparando-tecnologias-para-servicios-y-servicios-web&quot;&gt;Speaker Deck&lt;/a&gt;.&lt;/p&gt;
+
+&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;a32b97469daf4e778b7490565f785fc3&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://speakerdeck.com/poguez/&quot;&gt;My other presentations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave your comments and questions here.&lt;/p&gt;
 
 &lt;p&gt;Noé.&lt;/p&gt;
 
-&lt;p&gt;Cover photo: Unsplash/ Jezael Melgoza&lt;/p&gt;
+&lt;p&gt;Cover photo: Noé Domínguez / Creative Commons Attribution-NonCommercial 4.0 International&lt;/p&gt;
 </content>
  </entry>
  
@@ -276,48 +239,39 @@ Sería un placer transferir conocimiento de lo que he aprendido en el tema.&lt;/
  </entry>
  
  <entry>
-   <title>Connecting Data</title>
-   <link href="https://www.noedominguez.com/en/blog/schema-org-evolution-of-structured-data-on-the-web/"/>
-   <updated>2017-02-15T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/schema-dot-org</id>
-   <content type="html">&lt;p&gt;When I was working with Open Data, one of the concerns that persisted in publishing open data was the creation of structured data that could be described to find relationships. In fact, since the Web was created, Tim Berners Lee had the vision of making a system where interconnected information could be managed. He was not referring exclusively to documents but also to physical resources like equipment, machines. He also referred to people and their skills as part of a system with linked information. Altogether, what he created at CERN was a system to deal with information loss in a system that evolves complexly. The solution resulted in a distributed hypertext system. You can see the proposed solution in detail in &lt;a href=&quot;https://www.w3.org/History/1989/proposal.html&quot;&gt;Information Management: A Proposal (1989)&lt;/a&gt;.&lt;/p&gt;
+   <title>I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet</title>
+   <link href="https://www.noedominguez.com/en/blog/i-will-visit-mexico-and-collaborative-platforms-on-the-internet/"/>
+   <updated>2017-05-27T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/apoyo-plataformas-colaborativas</id>
+   <content type="html">&lt;h1 id=&quot;i-will-visit-mexico-and-would-like-to-advise-on-the-design-of-collaborative-platforms-on-the-internet&quot;&gt;I will visit Mexico and would like to advise on the design of collaborative platforms on the Internet&lt;/h1&gt;
 
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2017-02-15-schema-dot-org/the-web.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2017-02-15-schema-dot-org/the-web.png&quot; alt=&quot;The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)&quot; width=&quot;100%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)&lt;/blockquote&gt;
-  
-&lt;/div&gt;
+&lt;p&gt;As some of you know, I’ve been in South Korea for a few months.
+Since September, I’ve been based at the &lt;a href=&quot;http://webeng.kaist.ac.kr&quot;&gt;Web Engineering Lab&lt;/a&gt;, rediscovering and developing my academic life.
+Maybe I hadn’t stopped learning, because I had been working with less formal learning methods—tutorials, workshops, talks at meetups, conferences where we share best practices in software engineering. All of these also contribute to your development, but it was a bit difficult for me at first to adapt to the academic environment. While previously I was expanding my knowledge toward a generalist domain, research is the opposite. After getting used to it, I now enjoy it.&lt;/p&gt;
 
-&lt;p&gt;The World Wide Web Consortium &lt;a href=&quot;http://www.w3c.org&quot;&gt;(W3C)&lt;/a&gt; describes best practices for publishing structured data on the Web in its &lt;a href=&quot;https://www.w3.org/wiki/LinkedData&quot;&gt;wiki&lt;/a&gt;. A commonly used contributed site in the Open Data community is &lt;a href=&quot;http://5stardata.info/&quot;&gt;5 ★ Open Data&lt;/a&gt; which includes an approach through &lt;a href=&quot;https://www.w3.org/RDF/&quot;&gt;RDF&lt;/a&gt; and &lt;a href=&quot;https://www.w3.org/standards/semanticweb/data&quot;&gt;Linked Data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before, I thought I was aware of what was happening with &lt;a href=&quot;https://www.wired.com/2006/06/crowds/&quot;&gt;&lt;em&gt;&lt;strong&gt;Crowdsourcing&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;.
+Being aware of how platforms were used for user participation.
+How to promote citizen participation in open processes online.
+But my knowledge was practically empirical and shallow.
+That’s why I decided to take the first class offered by Professor &lt;a href=&quot;http://juhokim.com&quot;&gt;Juho Kim&lt;/a&gt; in &lt;em&gt;Crowdsourcing&lt;/em&gt;.
+It was his first class as a professor at KAIST, after graduating from &lt;a href=&quot;http://mit.edu&quot;&gt;MIT&lt;/a&gt; with &lt;a href=&quot;https://dspace.mit.edu/handle/1721.1/101464&quot;&gt;Learnersourcing: Improving Learning with Collective Learner Activity&lt;/a&gt;.
+We learned by reading about 50+ papers and discussions on this topic, which was &lt;a href=&quot;https://www.wired.com/2006/06/crowds/&quot;&gt;defined in 2006&lt;/a&gt;.
+We learned theoretical, technical aspects, incentive design, analysis, experimentation, collaborative learning, citizen participation, teamwork, citizen science, and perception through participation.
+I must say it was a significant experience to take this course and move toward greater depth in the subject. However, in Mexico, it is a topic that has not been deeply explored in Internet services. I believe that due to the scarcity of learning materials, it is timely to share it with the community of Mexican companies and developers.&lt;/p&gt;
 
-&lt;p&gt;I recommend this article from &lt;a href=&quot;http://cacm.acm.org/&quot;&gt;Communications of the ACM&lt;/a&gt; where they discuss several approaches to creating structured data in HTML documents.
-Something I find interesting is that the use of software like Wordpress and Drupal has helped the creation of structured information because there are distributions or plugins that include it by default.
-Some concepts they mention and that we’ve probably seen are the vCard and hCalendar formats.
-This information helps personal assistants like Siri, Google Now to find information more easily. Or it allows our smartphones to perform actions like saving a vCard to your contacts or adding an appointment to your calendar in hCalendar format.
-Hopefully you can read it and comment on whether you’ve used it or what would be the next way to use it on your sites.
-You can see some defined vocabularies on how to describe a &lt;a href=&quot;http://schema.org/Recipe&quot;&gt;recipe&lt;/a&gt;, a &lt;a href=&quot;http://schema.org/LocalBusiness&quot;&gt;business&lt;/a&gt;, a &lt;a href=&quot;http://schema.org/docs/hotels.html&quot;&gt;hotel and its variants&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During July 2017, I will be visiting Mexico, eager to contribute to your projects.
+I want to share what I’ve learned so we can design better Internet and software services.
+I would like you to write to me to share your experience and your concerns about your service.
+It will be relevant to you if you have a project that includes: user participation, citizen participation, or the design of collaborative platforms.
+Let’s talk, send me an email at &lt;a href=&quot;mailto:poguez@kaist.ac.kr&quot;&gt;poguez@kaist.ac.kr&lt;/a&gt;.
+If you are a company, we can do a training, and if there are several people, we can schedule a course.
+It would be a pleasure to transfer knowledge of what I’ve learned on the topic.&lt;/p&gt;
 
-&lt;p&gt;Many ideas come to mind with food; I’ve noticed that foursquare-Swarm is terrible for finding Mexican food specifically. Creating vocabularies and a more specialized system could probably help us find better information about where to eat in Mexico.&lt;/p&gt;
+&lt;p&gt;See you soon!&lt;/p&gt;
 
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2017-02-15-schema-dot-org/diningcode.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2017-02-15-schema-dot-org/diningcode.jpg&quot; alt=&quot;Dining Code Android App(다이닝코드)&quot; width=&quot;50%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Dining Code Android App(다이닝코드)&lt;/blockquote&gt;
-  
-&lt;/div&gt;
+&lt;p&gt;Noé.&lt;/p&gt;
 
-&lt;p&gt;Something I like about Korea is the way services are tailored to their needs and culture.
-Maybe another time we can do an overview of &lt;a href=&quot;http://www.diningcode.co.kr/&quot;&gt;Dining Code&lt;/a&gt;, an app that helps you find places to eat in Korea through blog reviews, comments, and dishes.
-It’s something I like, because for app users, heaven and hell are in the details.&lt;/p&gt;
-
-&lt;p&gt;You can find the article at: &lt;a href=&quot;http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext&quot;&gt;Schema.org: Evolution of Structured Data on the Web&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Photo: &lt;a href=&quot;https://www.flickr.com/photos/melancholija/8067666973/&quot;&gt;Flickr/melancholija&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cover photo: Unsplash/ Jezael Melgoza&lt;/p&gt;
 </content>
  </entry>
  
@@ -384,25 +338,48 @@ Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno e
  </entry>
  
  <entry>
-   <title>Seizing Opportunities</title>
-   <link href="https://www.noedominguez.com/en/blog/seizing-opportunities/"/>
-   <updated>2016-08-07T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/hola-maestria</id>
-   <content type="html">&lt;h1 id=&quot;seizing-opportunities&quot;&gt;Seizing Opportunities&lt;/h1&gt;
+   <title>Connecting Data</title>
+   <link href="https://www.noedominguez.com/en/blog/schema-org-evolution-of-structured-data-on-the-web/"/>
+   <updated>2017-02-15T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/schema-dot-org</id>
+   <content type="html">&lt;p&gt;When I was working with Open Data, one of the concerns that persisted in publishing open data was the creation of structured data that could be described to find relationships. In fact, since the Web was created, Tim Berners Lee had the vision of making a system where interconnected information could be managed. He was not referring exclusively to documents but also to physical resources like equipment, machines. He also referred to people and their skills as part of a system with linked information. Altogether, what he created at CERN was a system to deal with information loss in a system that evolves complexly. The solution resulted in a distributed hypertext system. You can see the proposed solution in detail in &lt;a href=&quot;https://www.w3.org/History/1989/proposal.html&quot;&gt;Information Management: A Proposal (1989)&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This blog post I write today is to give thanks. As of July, I left two organizations I had collaborated with full-time for the past two years: &lt;a href=&quot;http://civica.digital&quot;&gt;Cívica Digital&lt;/a&gt; and &lt;a href=&quot;http://codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;. Along the way, I met many people through collaboration and I am very grateful. Don’t worry, I will stay in touch and help where I can.&lt;/p&gt;
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2017-02-15-schema-dot-org/the-web.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2017-02-15-schema-dot-org/the-web.png&quot; alt=&quot;The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The Web as a Distributed System Figure 2 from Information Management: A Proposal (1989)&lt;/blockquote&gt;
+  
+&lt;/div&gt;
 
-&lt;p&gt;Soon—in September—I will begin a master’s degree in &lt;a href=&quot;http://cs.kaist.ac.kr&quot;&gt;Computer Science&lt;/a&gt; at the &lt;a href=&quot;http://www.kaist.edu&quot;&gt;Korean Advanced Institute of Science and Technology&lt;/a&gt;. A new project I had postponed for some time and that excites me a lot. I’m excited because I go with a scholarship from the government of the Republic of Korea that will allow me to study without financial worries.&lt;/p&gt;
+&lt;p&gt;The World Wide Web Consortium &lt;a href=&quot;http://www.w3c.org&quot;&gt;(W3C)&lt;/a&gt; describes best practices for publishing structured data on the Web in its &lt;a href=&quot;https://www.w3.org/wiki/LinkedData&quot;&gt;wiki&lt;/a&gt;. A commonly used contributed site in the Open Data community is &lt;a href=&quot;http://5stardata.info/&quot;&gt;5 ★ Open Data&lt;/a&gt; which includes an approach through &lt;a href=&quot;https://www.w3.org/RDF/&quot;&gt;RDF&lt;/a&gt; and &lt;a href=&quot;https://www.w3.org/standards/semanticweb/data&quot;&gt;Linked Data&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I had been postponing this moment since I finished my bachelor’s degree in 2012. And I am grateful that during this time I have met great people, with whom I have collaborated and above all learned a lot along the way. One of the opportunities I am very happy to have taken advantage of is: proposing solutions to the social concerns we Mexicans have. It’s a concern that doesn’t go away—what holds us back in social progress? Where does software help us? Is technology what we needed to change as a society? There are many things we can improve, and each needs its own proposal. There is a widespread desire to be a better Mexican society, and I am very happy because there are people working to make it happen. The key so far is to be proactive and have the patience to explain new ways of doing things with efficiency, effectiveness, and inclusion.&lt;/p&gt;
+&lt;p&gt;I recommend this article from &lt;a href=&quot;http://cacm.acm.org/&quot;&gt;Communications of the ACM&lt;/a&gt; where they discuss several approaches to creating structured data in HTML documents.
+Something I find interesting is that the use of software like Wordpress and Drupal has helped the creation of structured information because there are distributions or plugins that include it by default.
+Some concepts they mention and that we’ve probably seen are the vCard and hCalendar formats.
+This information helps personal assistants like Siri, Google Now to find information more easily. Or it allows our smartphones to perform actions like saving a vCard to your contacts or adding an appointment to your calendar in hCalendar format.
+Hopefully you can read it and comment on whether you’ve used it or what would be the next way to use it on your sites.
+You can see some defined vocabularies on how to describe a &lt;a href=&quot;http://schema.org/Recipe&quot;&gt;recipe&lt;/a&gt;, a &lt;a href=&quot;http://schema.org/LocalBusiness&quot;&gt;business&lt;/a&gt;, a &lt;a href=&quot;http://schema.org/docs/hotels.html&quot;&gt;hotel and its variants&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;However, I will not stop these types of collaborations; I am taking a bit of inspiration for what comes next. I want to be a better element for our society that can offer better solutions in the field of technology. Little by little, I will find how to propose in the academic field since it is new to me. While I learn, let’s stay in touch—there are many things to do.&lt;/p&gt;
+&lt;p&gt;Many ideas come to mind with food; I’ve noticed that foursquare-Swarm is terrible for finding Mexican food specifically. Creating vocabularies and a more specialized system could probably help us find better information about where to eat in Mexico.&lt;/p&gt;
 
-&lt;p&gt;Noé Domínguez(&lt;a href=&quot;https://github.com/poguez&quot;&gt;@poguez&lt;/a&gt;)&lt;/p&gt;
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2017-02-15-schema-dot-org/diningcode.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2017-02-15-schema-dot-org/diningcode.jpg&quot; alt=&quot;Dining Code Android App(다이닝코드)&quot; width=&quot;50%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Dining Code Android App(다이닝코드)&lt;/blockquote&gt;
+  
+&lt;/div&gt;
 
-&lt;p&gt;You can also find me at my academic email: noe_dgz &lt;em&gt;at&lt;/em&gt; kaist.ac.kr.&lt;/p&gt;
+&lt;p&gt;Something I like about Korea is the way services are tailored to their needs and culture.
+Maybe another time we can do an overview of &lt;a href=&quot;http://www.diningcode.co.kr/&quot;&gt;Dining Code&lt;/a&gt;, an app that helps you find places to eat in Korea through blog reviews, comments, and dishes.
+It’s something I like, because for app users, heaven and hell are in the details.&lt;/p&gt;
 
-&lt;p&gt;Cover photo CC license: Seoul By Emile-Victor Portenart&lt;/p&gt;
+&lt;p&gt;You can find the article at: &lt;a href=&quot;http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext&quot;&gt;Schema.org: Evolution of Structured Data on the Web&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo: &lt;a href=&quot;https://www.flickr.com/photos/melancholija/8067666973/&quot;&gt;Flickr/melancholija&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -431,67 +408,25 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  </entry>
  
  <entry>
-   <title>The Refinadora and Bots at Open News, Austin 2016</title>
-   <link href="https://www.noedominguez.com/en/blog/the-refinadora-and-bots-at-open-news-austin-2016/"/>
-   <updated>2016-05-22T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/la-refinadora</id>
-   <content type="html">&lt;p&gt;&lt;strong&gt;Intelligence and automation for newsrooms&lt;/strong&gt;&lt;/p&gt;
+   <title>Seizing Opportunities</title>
+   <link href="https://www.noedominguez.com/en/blog/seizing-opportunities/"/>
+   <updated>2016-08-07T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/hola-maestria</id>
+   <content type="html">&lt;h1 id=&quot;seizing-opportunities&quot;&gt;Seizing Opportunities&lt;/h1&gt;
 
-&lt;p&gt;On April 18 and 19, we had the opportunity to attend an event sponsored by the Mozilla Foundation and the Knight Foundation: The &lt;a href=&quot;https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/&quot;&gt;Open News 2016 Code Convening in Austin, TX&lt;/a&gt;. This initiative consists of creating Open Source Software solutions for journalism teams. The teams were selected to develop their projects over the Internet, and we were the first international team to participate in the dynamic. It is worth noting that the event participants came from different backgrounds, some from National Public Radios (NPR), The New York Times, investigative journalists, The Marshall Project—which covers the US Justice System and won a Pulitzer during the event—independent journalists, among others. All in a dynamic similar to a hackathon where collaboration and intensive work over two days materialized in advances of an open source project that will help automate newsrooms in the United States and surely Mexico.&lt;/p&gt;
+&lt;p&gt;This blog post I write today is to give thanks. As of July, I left two organizations I had collaborated with full-time for the past two years: &lt;a href=&quot;http://civica.digital&quot;&gt;Cívica Digital&lt;/a&gt; and &lt;a href=&quot;http://codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;. Along the way, I met many people through collaboration and I am very grateful. Don’t worry, I will stay in touch and help where I can.&lt;/p&gt;
 
-&lt;p&gt;One thing I personally liked is that the event is focused on testing a new way to make hackathons more effective, with projects that have already started and need feedback to continue their development. At the same time, the event was like a mini-conference because there was time to share challenges in: journalism, data analysis, and technology management in news portals. Sharing experiences openly about best practices and especially solutions to common problems was one of the most enriching experiences for all teams.&lt;/p&gt;
+&lt;p&gt;Soon—in September—I will begin a master’s degree in &lt;a href=&quot;http://cs.kaist.ac.kr&quot;&gt;Computer Science&lt;/a&gt; at the &lt;a href=&quot;http://www.kaist.edu&quot;&gt;Korean Advanced Institute of Science and Technology&lt;/a&gt;. A new project I had postponed for some time and that excites me a lot. I’m excited because I go with a scholarship from the government of the Republic of Korea that will allow me to study without financial worries.&lt;/p&gt;
 
-&lt;p&gt;The projects notably focused on two thematic paths: Collection and use of information, and automation of reports with metrics for portals through bots. Neil, an independent programmer who does not yet work on any journalism team, made an automatic Podcast generator from text. It’s like programming a bot that turns news into audio. Automation and reliable use of information was the guiding principle for all teams.&lt;/p&gt;
+&lt;p&gt;I had been postponing this moment since I finished my bachelor’s degree in 2012. And I am grateful that during this time I have met great people, with whom I have collaborated and above all learned a lot along the way. One of the opportunities I am very happy to have taken advantage of is: proposing solutions to the social concerns we Mexicans have. It’s a concern that doesn’t go away—what holds us back in social progress? Where does software help us? Is technology what we needed to change as a society? There are many things we can improve, and each needs its own proposal. There is a widespread desire to be a better Mexican society, and I am very happy because there are people working to make it happen. The key so far is to be proactive and have the patience to explain new ways of doing things with efficiency, effectiveness, and inclusion.&lt;/p&gt;
 
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2016-05-22-la-refinadora/logo-refinadora.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2016-05-22-la-refinadora/logo-refinadora.png&quot; alt=&quot;Design by Sandra Barrón&quot; width=&quot;100%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Design by Sandra Barrón&lt;/blockquote&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;Design by Sandra Barrón&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The Cívica Digital team: Sandra Barrón as product designer, Miguel Morán a.k.a. Mikesaurio, and myself as software developers attended with the proposal of &lt;a href=&quot;https://github.com/civica-digital/la-refinadora&quot;&gt;La Refinadora&lt;/a&gt;. We started this project with the organization &lt;a href=&quot;https://github.com/mxabierto&quot;&gt;México Abierto&lt;/a&gt; and are interested in continuing to develop it collaboratively. La Refinadora is a project that helps you validate datasets according to a standard format. This means that if you have information in an open format, like a CSV, you can validate: that dates are according to the ISO-8601 standard, that a CSV meets its format, you could even validate encoding, among other validations and information formats.&lt;/p&gt;
-
-&lt;p&gt;The importance of La Refinadora is that we need help to improve the quality of datasets. A couple of years ago, we perhaps had a dilemma about how to help create an Open Data strategy, how to help publish that data and have the community use it. But technically, at this moment, it is relevant to help make information homogeneous, to conform to standards, and to be able to do it massively and automatically in any language. There are even authors like McCallum and Gleason in ‘Business Models for the Data Economy’ (O’Reilly Media, 2012) who assert that one of the economic niches where value can be created with data is &lt;em&gt;Filtering and Refining (data)&lt;/em&gt; so that clients of our information can trust it. Thus, data analysts, businesses, and journalists can use information from Open Data sources with confidence. And for those who do not trust the source, it would serve so they can verify it.&lt;/p&gt;
-
-&lt;p&gt;La Refinadora was conceived with these principles, and that’s why when it was first designed, the possibility of using containers with Docker was considered, to create isolated environments for running scripts in different languages. We have detected several languages, depending on the team working with the information. However, if you need to use Clojure, then use a Docker image with the JVM. If you need to run your script with Python, then use an image with a configured Python interpreter and all its utilities or dependencies configurable. It should be easy to offer a diverse execution environment for entities that need diversity and at the same time be standard; the possibilities with containers expand and are increasingly accessible.&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2016-05-22-la-refinadora/la-refinadora-demo.png&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2016-05-22-la-refinadora/la-refinadora-demo.png&quot; alt=&quot;The new interface we designed for La Refinadora and implemented by Mikesaurio&quot; width=&quot;100%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The new interface we designed for La Refinadora and implemented by Mikesaurio&lt;/blockquote&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;The new interface we designed for La Refinadora and implemented by Mikesaurio and Sandra&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The interface, as we detected with users, must be plural and available for different user profiles, both technical in programming and not so much. That’s why, in addition to an interface for ingesting by Data Catalogs in &lt;a href=&quot;https://www.w3.org/TR/vocab-dcat/&quot;&gt;DCAT&lt;/a&gt; format, which is already used by default in the European Union and &lt;a href=&quot;http://www.dof.gob.mx/nota_detalle.php?codigo=5397117&amp;amp;fecha=18/06/2015&quot;&gt;Mexico&lt;/a&gt;, we now created an interface to upload files via web easily. Now you can drag your files from a folder to the web interface and select the validators. With this, we improve accessibility for non-automated tasks and users with less technical profiles.&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2016-05-22-la-refinadora/la-refinadora.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2016-05-22-la-refinadora/la-refinadora.jpg&quot; alt=&quot;At the demo presentation&quot; width=&quot;100%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;At the demo presentation&lt;/blockquote&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;At the demo presentation&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The experience was enriching because we worked with journalists and IT professionals on this topic, and it was incredible to meet one of the creators of &lt;a href=&quot;http://tabula.technology/&quot;&gt;Tabula&lt;/a&gt;, which already has a long history among those who started liberating data from PDFs. However, it is clear to us that these types of specialized meetings help pave the way with new tools for information processing, which can serve tasks such as: Data Analysis, Data Journalism, and Data Visualization. This remains a very specialized task, and we must continue developing projects that can help with this important task.&lt;/p&gt;
-
-&lt;p&gt;I invite you to check out the La Refinadora repository at &lt;a href=&quot;https://github.com/civica-digital/la-refinadora&quot;&gt;github.com/civica-digital/la-refinadora&lt;/a&gt;. For now, we have also created new documentation in English so that developers worldwide can help us improve the first design. If you know Python, Docker, and are interested in this Open Data tool, we invite you to write to us on Github, and if you go to Pycon-US 2016, we’ll see you at the Sprints.&lt;/p&gt;
+&lt;p&gt;However, I will not stop these types of collaborations; I am taking a bit of inspiration for what comes next. I want to be a better element for our society that can offer better solutions in the field of technology. Little by little, I will find how to propose in the academic field since it is new to me. While I learn, let’s stay in touch—there are many things to do.&lt;/p&gt;
 
 &lt;p&gt;Noé Domínguez(&lt;a href=&quot;https://github.com/poguez&quot;&gt;@poguez&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Cover photo by Sandra Barrón
-[Post originally written for the &lt;a href=&quot;http://blog.civica.digital&quot;&gt;blog&lt;/a&gt; of Civica.digital]&lt;/p&gt;
+&lt;p&gt;You can also find me at my academic email: noe_dgz &lt;em&gt;at&lt;/em&gt; kaist.ac.kr.&lt;/p&gt;
+
+&lt;p&gt;Cover photo CC license: Seoul By Emile-Victor Portenart&lt;/p&gt;
 </content>
  </entry>
  
@@ -562,31 +497,67 @@ Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores sol
  </entry>
  
  <entry>
-   <title>Hackertalk, entrepreneurship, hackers and interviews.</title>
-   <link href="https://www.noedominguez.com/en/blog/hackertalk-entrepreneurship-hackers-and-interviews/"/>
-   <updated>2016-03-21T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/la-hackertalk</id>
-   <content type="html">&lt;p&gt;A couple of months ago I met a group of hackers, now friends, who had an Internet video blog that I really like for its format and content: &lt;a href=&quot;http://www.hackertalk.co&quot;&gt;Hackertalk&lt;/a&gt;.
-&lt;a href=&quot;https://twitter.com/mvrtxn&quot;&gt;Martín&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/abraham_gnz&quot;&gt;Abraham&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/FranPR9&quot;&gt;Fran&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Diegeekster&quot;&gt;Diego&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/allnacho&quot;&gt;Nacho&lt;/a&gt; and several more friends, throughout several episodes interview some hackers and leaders of initiatives where they talk about entrepreneurship in technology and software, with all the difficulties that implies.&lt;/p&gt;
+   <title>The Refinadora and Bots at Open News, Austin 2016</title>
+   <link href="https://www.noedominguez.com/en/blog/the-refinadora-and-bots-at-open-news-austin-2016/"/>
+   <updated>2016-05-22T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/la-refinadora</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Intelligence and automation for newsrooms&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;It’s not an easy task to build a technology-based company, especially when you have everything ahead of you to do and difficulties to face. One of the biggest challenges that technology-based companies in Mexico face is the time it takes for Research and Development (R&amp;amp;D) to impact society in products that improve lives. UNESCO has talked about this problem and marks it as one of the key components for developing countries to offer high-tech and complex knowledge services and products.&lt;/p&gt;
+&lt;p&gt;On April 18 and 19, we had the opportunity to attend an event sponsored by the Mozilla Foundation and the Knight Foundation: The &lt;a href=&quot;https://source.opennews.org/en-US/articles/when-bots-get-together-part-1/&quot;&gt;Open News 2016 Code Convening in Austin, TX&lt;/a&gt;. This initiative consists of creating Open Source Software solutions for journalism teams. The teams were selected to develop their projects over the Internet, and we were the first international team to participate in the dynamic. It is worth noting that the event participants came from different backgrounds, some from National Public Radios (NPR), The New York Times, investigative journalists, The Marshall Project—which covers the US Justice System and won a Pulitzer during the event—independent journalists, among others. All in a dynamic similar to a hackathon where collaboration and intensive work over two days materialized in advances of an open source project that will help automate newsrooms in the United States and surely Mexico.&lt;/p&gt;
 
-&lt;p&gt;One of the lessons I’ve learned as a developer in technology-based startups, specifically software, is that we lack better ways to learn core skills, and one of the causes I’ve always added is to raise the level of technical discussion around the task of developing software.&lt;/p&gt;
+&lt;p&gt;One thing I personally liked is that the event is focused on testing a new way to make hackathons more effective, with projects that have already started and need feedback to continue their development. At the same time, the event was like a mini-conference because there was time to share challenges in: journalism, data analysis, and technology management in news portals. Sharing experiences openly about best practices and especially solutions to common problems was one of the most enriching experiences for all teams.&lt;/p&gt;
 
-&lt;p&gt;Talking a bit more about programming solutions, one of my favorites is the use of frameworks and open source libraries to raise your level of knowledge in Software Engineering and Development. It’s good to start there because you can learn that there are solutions with specific design foundations defined before you start coding; those details make a big difference when writing software and are part of its philosophy. All languages and frameworks have a philosophy or way of thinking behind them.&lt;/p&gt;
-
-&lt;p&gt;I invite you to watch the video and leave a couple of comments to enrich the discussion and share what has worked best for you in your experience:&lt;/p&gt;
+&lt;p&gt;The projects notably focused on two thematic paths: Collection and use of information, and automation of reports with metrics for portals through bots. Neil, an independent programmer who does not yet work on any journalism team, made an automatic Podcast generator from text. It’s like programming a bot that turns news into audio. Automation and reliable use of information was the guiding principle for all teams.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;
-    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/ckTO-XeiEKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Hackertalk 41: Startups, social entrepreneurship and software development.&lt;/blockquote&gt;
-
+  &lt;a href=&quot;/media/2016-05-22-la-refinadora/logo-refinadora.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2016-05-22-la-refinadora/logo-refinadora.png&quot; alt=&quot;Design by Sandra Barrón&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Design by Sandra Barrón&lt;/blockquote&gt;
+  
 &lt;/div&gt;
 
-&lt;p&gt;In this episode we were at &lt;a href=&quot;http://www.la-madriguera.mx&quot;&gt;La Madriguera&lt;/a&gt; in San Pedro Cholula, which kindly hosts Software meetups in Puebla. And they also give you your first day to work with a cup of coffee.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Design by Sandra Barrón&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Noé.&lt;/p&gt;
+&lt;p&gt;The Cívica Digital team: Sandra Barrón as product designer, Miguel Morán a.k.a. Mikesaurio, and myself as software developers attended with the proposal of &lt;a href=&quot;https://github.com/civica-digital/la-refinadora&quot;&gt;La Refinadora&lt;/a&gt;. We started this project with the organization &lt;a href=&quot;https://github.com/mxabierto&quot;&gt;México Abierto&lt;/a&gt; and are interested in continuing to develop it collaboratively. La Refinadora is a project that helps you validate datasets according to a standard format. This means that if you have information in an open format, like a CSV, you can validate: that dates are according to the ISO-8601 standard, that a CSV meets its format, you could even validate encoding, among other validations and information formats.&lt;/p&gt;
+
+&lt;p&gt;The importance of La Refinadora is that we need help to improve the quality of datasets. A couple of years ago, we perhaps had a dilemma about how to help create an Open Data strategy, how to help publish that data and have the community use it. But technically, at this moment, it is relevant to help make information homogeneous, to conform to standards, and to be able to do it massively and automatically in any language. There are even authors like McCallum and Gleason in ‘Business Models for the Data Economy’ (O’Reilly Media, 2012) who assert that one of the economic niches where value can be created with data is &lt;em&gt;Filtering and Refining (data)&lt;/em&gt; so that clients of our information can trust it. Thus, data analysts, businesses, and journalists can use information from Open Data sources with confidence. And for those who do not trust the source, it would serve so they can verify it.&lt;/p&gt;
+
+&lt;p&gt;La Refinadora was conceived with these principles, and that’s why when it was first designed, the possibility of using containers with Docker was considered, to create isolated environments for running scripts in different languages. We have detected several languages, depending on the team working with the information. However, if you need to use Clojure, then use a Docker image with the JVM. If you need to run your script with Python, then use an image with a configured Python interpreter and all its utilities or dependencies configurable. It should be easy to offer a diverse execution environment for entities that need diversity and at the same time be standard; the possibilities with containers expand and are increasingly accessible.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2016-05-22-la-refinadora/la-refinadora-demo.png&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2016-05-22-la-refinadora/la-refinadora-demo.png&quot; alt=&quot;The new interface we designed for La Refinadora and implemented by Mikesaurio&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The new interface we designed for La Refinadora and implemented by Mikesaurio&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;The new interface we designed for La Refinadora and implemented by Mikesaurio and Sandra&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The interface, as we detected with users, must be plural and available for different user profiles, both technical in programming and not so much. That’s why, in addition to an interface for ingesting by Data Catalogs in &lt;a href=&quot;https://www.w3.org/TR/vocab-dcat/&quot;&gt;DCAT&lt;/a&gt; format, which is already used by default in the European Union and &lt;a href=&quot;http://www.dof.gob.mx/nota_detalle.php?codigo=5397117&amp;amp;fecha=18/06/2015&quot;&gt;Mexico&lt;/a&gt;, we now created an interface to upload files via web easily. Now you can drag your files from a folder to the web interface and select the validators. With this, we improve accessibility for non-automated tasks and users with less technical profiles.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2016-05-22-la-refinadora/la-refinadora.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2016-05-22-la-refinadora/la-refinadora.jpg&quot; alt=&quot;At the demo presentation&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;At the demo presentation&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;At the demo presentation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The experience was enriching because we worked with journalists and IT professionals on this topic, and it was incredible to meet one of the creators of &lt;a href=&quot;http://tabula.technology/&quot;&gt;Tabula&lt;/a&gt;, which already has a long history among those who started liberating data from PDFs. However, it is clear to us that these types of specialized meetings help pave the way with new tools for information processing, which can serve tasks such as: Data Analysis, Data Journalism, and Data Visualization. This remains a very specialized task, and we must continue developing projects that can help with this important task.&lt;/p&gt;
+
+&lt;p&gt;I invite you to check out the La Refinadora repository at &lt;a href=&quot;https://github.com/civica-digital/la-refinadora&quot;&gt;github.com/civica-digital/la-refinadora&lt;/a&gt;. For now, we have also created new documentation in English so that developers worldwide can help us improve the first design. If you know Python, Docker, and are interested in this Open Data tool, we invite you to write to us on Github, and if you go to Pycon-US 2016, we’ll see you at the Sprints.&lt;/p&gt;
+
+&lt;p&gt;Noé Domínguez(&lt;a href=&quot;https://github.com/poguez&quot;&gt;@poguez&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Cover photo by Sandra Barrón
+[Post originally written for the &lt;a href=&quot;http://blog.civica.digital&quot;&gt;blog&lt;/a&gt; of Civica.digital]&lt;/p&gt;
 </content>
  </entry>
  
@@ -644,26 +615,29 @@ Y que además te regala tu primer día para trabajar con una taza de café.&lt;/
  </entry>
  
  <entry>
-   <title>Interview for Avianca: Hackathons, idea workshops.</title>
-   <link href="https://www.noedominguez.com/en/blog/avianca-magazine/"/>
-   <updated>2016-02-16T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/revista-avianca</id>
-   <content type="html">&lt;p&gt;I thought of checking what comes up when I type my name in Google and I found my name in a magazine: &lt;em&gt;Avianca en Revista&lt;/em&gt;. A magazine distributed on flights of the airline between several South American countries such as: Costa Rica, El Salvador, Colombia, Peru, Brazil, Argentina, Uruguay, Mexico, and the United States. How many people must have read it? It excites me.&lt;/p&gt;
+   <title>Hackertalk, entrepreneurship, hackers and interviews.</title>
+   <link href="https://www.noedominguez.com/en/blog/hackertalk-entrepreneurship-hackers-and-interviews/"/>
+   <updated>2016-03-21T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/la-hackertalk</id>
+   <content type="html">&lt;p&gt;A couple of months ago I met a group of hackers, now friends, who had an Internet video blog that I really like for its format and content: &lt;a href=&quot;http://www.hackertalk.co&quot;&gt;Hackertalk&lt;/a&gt;.
+&lt;a href=&quot;https://twitter.com/mvrtxn&quot;&gt;Martín&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/abraham_gnz&quot;&gt;Abraham&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/FranPR9&quot;&gt;Fran&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Diegeekster&quot;&gt;Diego&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/allnacho&quot;&gt;Nacho&lt;/a&gt; and several more friends, throughout several episodes interview some hackers and leaders of initiatives where they talk about entrepreneurship in technology and software, with all the difficulties that implies.&lt;/p&gt;
 
-&lt;p&gt;In 2013 we organized our first civic hackathon, back then we called them &lt;em&gt;open data hackathons&lt;/em&gt;. And apparently, because of some indexed note, an Argentine journalist, Gabriela Origlia, contacted me, whom I thank for finding us to talk about the topic that then foresaw some practical and dynamic applications that were still being explored. I invite you to read the article to learn a bit more about what a hackathon is, as the article is in the business trends section, written in accessible language for those not so familiar with computing and technology jargon.&lt;/p&gt;
+&lt;p&gt;It’s not an easy task to build a technology-based company, especially when you have everything ahead of you to do and difficulties to face. One of the biggest challenges that technology-based companies in Mexico face is the time it takes for Research and Development (R&amp;amp;D) to impact society in products that improve lives. UNESCO has talked about this problem and marks it as one of the key components for developing countries to offer high-tech and complex knowledge services and products.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;One of the lessons I’ve learned as a developer in technology-based startups, specifically software, is that we lack better ways to learn core skills, and one of the causes I’ve always added is to raise the level of technical discussion around the task of developing software.&lt;/p&gt;
+
+&lt;p&gt;Talking a bit more about programming solutions, one of my favorites is the use of frameworks and open source libraries to raise your level of knowledge in Software Engineering and Development. It’s good to start there because you can learn that there are solutions with specific design foundations defined before you start coding; those details make a big difference when writing software and are part of its philosophy. All languages and frameworks have a philosophy or way of thinking behind them.&lt;/p&gt;
+
+&lt;p&gt;I invite you to watch the video and leave a couple of comments to enrich the discussion and share what has worked best for you in your experience:&lt;/p&gt;
+
 &lt;div id=&quot;article-img&quot;&gt;
-    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/index.html#/254/&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/ckTO-XeiEKE&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The magazine is visible on PC&lt;/blockquote&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Hackertalk 41: Startups, social entrepreneurship and software development.&lt;/blockquote&gt;
 
 &lt;/div&gt;
 
-&lt;p&gt;If you want to download it, you can do so &lt;a href=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf&quot;&gt;here in PDF&lt;/a&gt; and see page 253.&lt;/p&gt;
-
-&lt;p&gt;I’m excited because it’s the first time I’ve been cited in a publication with an ISBN.&lt;/p&gt;
+&lt;p&gt;In this episode we were at &lt;a href=&quot;http://www.la-madriguera.mx&quot;&gt;La Madriguera&lt;/a&gt; in San Pedro Cholula, which kindly hosts Software meetups in Puebla. And they also give you your first day to work with a cup of coffee.&lt;/p&gt;
 
 &lt;p&gt;Noé.&lt;/p&gt;
 </content>
@@ -707,58 +681,28 @@ están tan familiarizados con la jerga de la computación y la tecnología.&lt;/
  </entry>
  
  <entry>
-   <title>Ceremony for the Innovation in Transparency Award 2015</title>
-   <link href="https://www.noedominguez.com/en/blog/ceremony-for-the-innovation-in-transparency-award-2015/"/>
-   <updated>2015-12-10T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/ceremonia-premio-transparencia</id>
-   <content type="html">&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg&quot; /&gt;&lt;/div&gt;
+   <title>Interview for Avianca: Hackathons, idea workshops.</title>
+   <link href="https://www.noedominguez.com/en/blog/avianca-magazine/"/>
+   <updated>2016-02-16T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/revista-avianca</id>
+   <content type="html">&lt;p&gt;I thought of checking what comes up when I type my name in Google and I found my name in a magazine: &lt;em&gt;Avianca en Revista&lt;/em&gt;. A magazine distributed on flights of the airline between several South American countries such as: Costa Rica, El Salvador, Colombia, Peru, Brazil, Argentina, Uruguay, Mexico, and the United States. How many people must have read it? It excites me.&lt;/p&gt;
 
-&lt;p&gt;Today we presented &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; at the Innovation in Transparency Award 2015, where we were awarded first place in the category of Individuals and Civil Associations. It was an honor to share part of the experience we learned in about 2 years of work, and we wanted to emphasize telling the story of &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; not just by how far it has come, but by the principles it started from and the stories we’ve documented—there’s a lot to tell.&lt;/p&gt;
+&lt;p&gt;In 2013 we organized our first civic hackathon, back then we called them &lt;em&gt;open data hackathons&lt;/em&gt;. And apparently, because of some indexed note, an Argentine journalist, Gabriela Origlia, contacted me, whom I thank for finding us to talk about the topic that then foresaw some practical and dynamic applications that were still being explored. I invite you to read the article to learn a bit more about what a hackathon is, as the article is in the business trends section, written in accessible language for those not so familiar with computing and technology jargon.&lt;/p&gt;
 
-&lt;p&gt;We spent a couple of years in continuous contact with government, civil society, and citizens interested in changing their environment, mainly getting involved together in new ways to bring innovation to our society in a civic way. It is worth noting that Codeando México and therefore &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; are based on 3 major pillars that shape our work:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Open innovation.&lt;/li&gt;
-  &lt;li&gt;Access to information through open data.&lt;/li&gt;
-  &lt;li&gt;The creation of code tools that promote practical collaboration.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div id=&quot;article-img&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/index.html#/254/&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/01_mantra_datamx.jpg&quot; /&gt;&lt;/div&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;The magazine is visible on PC&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; managed to develop an organic solution to what citizens needed. It has always been our philosophy to build tools with citizens and not for citizens, promoting a creative flow that includes the user. &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; carries this in its mantra.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/02_flujo_datos.jpg&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;If you want to download it, you can do so &lt;a href=&quot;http://www.aviancaenrevista.com/ediciones/flips/Avianca_en_Revista_Ed_18/pubData/source/AVIANCA%2018.pdf&quot;&gt;here in PDF&lt;/a&gt; and see page 253.&lt;/p&gt;
 
-&lt;p&gt;An example of this is that when &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; was born, its only goal was to publish and consume data. Later, we generated a data publication and consumption flow for citizens that involved creating the &lt;a href=&quot;http://apertura.datamx.io&quot;&gt;Open Data Center&lt;/a&gt;, where you can request data to be opened and analyze the pulse of what citizens are demanding. Beyond the technical guidelines of open data, we realized that citizens demand &lt;em&gt;timely data&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I’m excited because it’s the first time I’ve been cited in a publication with an ISBN.&lt;/p&gt;
 
-&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/03_casos_exito.jpg&quot; /&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;data-standards&quot;&gt;Data Standards&lt;/h2&gt;
-
-&lt;p&gt;The best way &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; could have gained its first allies was by collaborating with Civil Associations, which have very valuable specific and specialized knowledge. That’s why a channel was opened to propose data standards. In principle, open discussion is privileged, and it is also promoted as a shared reference both in Mexico and Latin America. If you’d like to know more, you can see it at &lt;a href=&quot;http://estandares.datamx.io&quot;&gt;estandares.datamx.io&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/04_viajes_transparentes.jpg&quot; /&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;civic-applications&quot;&gt;Civic Applications&lt;/h2&gt;
-
-&lt;p&gt;Another topic that excites us is civic applications, some were created for informational purposes or used to create civic solutions. One of the projects we sometimes use as an example is the Viajes Transparentes application, which was made with the then Federal Institute for Access to Public Information, now INAI. From there, we would like to highlight a cultural change that is happening for new software acquisitions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The use of open data for applications is now a value element.&lt;/li&gt;
-  &lt;li&gt;The use of open source code and open technology is also promoted.&lt;/li&gt;
-  &lt;li&gt;Efforts are made to involve smaller teams with valuable proposals, making it more inclusive.&lt;/li&gt;
-  &lt;li&gt;Open Source by default is promoted as a multiplier effect and for reuse in other institutions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/05_brigadas.jpg&quot; /&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;civic-hacking-communities&quot;&gt;Civic Hacking Communities&lt;/h2&gt;
-&lt;p&gt;Codeando México finds groups of citizens and motivated minds who want to change collectivity and citizenship. In government, groups move in hierarchies; in contrast, these citizen groups move in network-like structures. They participate with a practical collaboration focus and are directed toward a common goal. These citizens probably know each other thanks to the Internet, as thematic communities are easier to find. Civic Hacking Communities are exactly that place where you can meet others with the same civic interest in person. Some of the events we did together with Civic Hacking Communities and the online community were the &lt;a href=&quot;http://blog.codeandomexico.org/2015/04/13/ganadores-carreraopendatamx/&quot;&gt;Open Data MX Race 2015&lt;/a&gt;, the &lt;a href=&quot;http://blog.codeandomexico.org/2014/12/12/open-data-census-ciudades/&quot;&gt;Open Data Census&lt;/a&gt;, hackathons, and Civic Hack Nights.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; as a system is diluted among the community; the community is the great builder of the platform’s meaning. It was clear at the ceremony that this has been a small part of the journey we’ve traveled and can share. More importantly, the message remains that there are many citizens interested in improving the environment and wanting to collaborate, that transparency is better when it is useful, and that today is a great day we celebrate with you.&lt;/p&gt;
-
-&lt;p&gt;Post originally written for &lt;a href=&quot;http://blog.codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Photo by &lt;a href=&quot;https://www.flickr.com/photos/tom_hall_nz/17004434418/&quot;&gt;TomHall NZ&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Noé.&lt;/p&gt;
 </content>
  </entry>
  
@@ -819,24 +763,58 @@ están tan familiarizados con la jerga de la computación y la tecnología.&lt;/
  </entry>
  
  <entry>
-   <title>Congratulations Datamx.io! Innovation in Transparency Award 2015</title>
-   <link href="https://www.noedominguez.com/en/blog/congratulations-datamx-io-innovation-in-transparency-award-2015/"/>
-   <updated>2015-10-08T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/premio-transparencia</id>
-   <content type="html">&lt;p&gt;In &lt;a href=&quot;https://web.archive.org/web/20130618120954/http://blog.codeandomexico.org/&quot;&gt;May 2013&lt;/a&gt; we announced the launch of the civic open data platform in the country. Our goals were for it to become an autonomous space for publishing and consuming data, independent of any government or organization, and to be a ready-to-use tool for institutions with good intentions to open their data. The topic of open data in Mexico was just beginning, and within a few months, we started to see civic hackers adding data from all over the country. Soon, this application became &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx.io&lt;/a&gt;, and we promoted the message: open data from citizens for citizens.&lt;/p&gt;
+   <title>Ceremony for the Innovation in Transparency Award 2015</title>
+   <link href="https://www.noedominguez.com/en/blog/ceremony-for-the-innovation-in-transparency-award-2015/"/>
+   <updated>2015-12-10T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/ceremonia-premio-transparencia</id>
+   <content type="html">&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/00_premio.jpg&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;After adding &lt;a href=&quot;http://blog.codeandomexico.org/2015/06/22/limpia-tus-datos-en-la-nube-open-refine-en-datamx/&quot;&gt;features for data standardization&lt;/a&gt;, a &lt;a href=&quot;http://blog.codeandomexico.org/2014/08/28/centro-de-apertura-de-datos/&quot;&gt;center for open data requests&lt;/a&gt;, a &lt;a href=&quot;https://www.fayerwayer.com/2015/02/inicia-la-carrera-por-abrir-los-datos-publicos-de-mexico/&quot;&gt;race to open data in non-open formats&lt;/a&gt;, and above all &lt;a href=&quot;http://blog.codeandomexico.org/2014/09/19/datamx-a-un-anio/&quot;&gt;many lessons learned&lt;/a&gt;, Datamx.io became the support platform for citizens and organizations. By the end of 2015, more than &lt;a href=&quot;http://2015.datamx.io/&quot;&gt;1,000 datasets were published, over 10 civic applications were made, and events were organized throughout the country&lt;/a&gt;. Beyond the numbers, Datamx.io has represented the place where open data is promoted to solve the country’s most pressing problems. It also promotes a form of citizen participation that has only been possible through technology, because opening data is also about building cities and exercising citizenship.&lt;/p&gt;
+&lt;p&gt;Today we presented &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; at the Innovation in Transparency Award 2015, where we were awarded first place in the category of Individuals and Civil Associations. It was an honor to share part of the experience we learned in about 2 years of work, and we wanted to emphasize telling the story of &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; not just by how far it has come, but by the principles it started from and the stories we’ve documented—there’s a lot to tell.&lt;/p&gt;
 
-&lt;p&gt;Today we are happy to inform you that Datamx.io has been awarded &lt;a href=&quot;http://premiotransparencia.org.mx/SitePages/TrabajosGanadores.aspx&quot;&gt;1st place&lt;/a&gt; in the Innovation in Transparency Award 2015 in the category of Civil Organization projects. The &lt;a href=&quot;http://premiotransparencia.org.mx/&quot;&gt;Innovation in Transparency Award&lt;/a&gt; aims to recognize and disseminate the best experiences and innovations that consolidate and increase transparency in public management. It is led by the &lt;a href=&quot;http://www.inai.org.mx/&quot;&gt;National Institute for Transparency, Access to Information and Protection of Personal Data (INAI)&lt;/a&gt;; the &lt;a href=&quot;http://www.worldbank.org/&quot;&gt;World Bank&lt;/a&gt;; the &lt;a href=&quot;http://www.asf.gob.mx/Default/Index&quot;&gt;Federal Audit Office&lt;/a&gt;; the &lt;a href=&quot;http://www.inap.mx/portal/&quot;&gt;National Institute of Public Administration A.C&lt;/a&gt;; and the &lt;a href=&quot;http://www.funcionpublica.gob.mx/&quot;&gt;Ministry of Public Administration&lt;/a&gt;. We are very grateful for this recognition and take it as a great encouragement to continue growing civic hacking and open data in our country.&lt;/p&gt;
+&lt;p&gt;We spent a couple of years in continuous contact with government, civil society, and citizens interested in changing their environment, mainly getting involved together in new ways to bring innovation to our society in a civic way. It is worth noting that Codeando México and therefore &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; are based on 3 major pillars that shape our work:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open innovation.&lt;/li&gt;
+  &lt;li&gt;Access to information through open data.&lt;/li&gt;
+  &lt;li&gt;The creation of code tools that promote practical collaboration.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;This recognition is for the civic hackers of the country, the organizations that have opened data and promoted its use, the municipalities and agencies that have dared to go beyond transparency, and the communities that have used open data to create solutions to pressing problems. We deeply thank the &lt;a href=&quot;http://www.avina.net/&quot;&gt;Avina Foundation&lt;/a&gt;, &lt;a href=&quot;http://www.avinaamericas.org/&quot;&gt;Avina Americas&lt;/a&gt;, and the &lt;a href=&quot;http://appcivico.net/&quot;&gt;Civic App Accelerator Fund&lt;/a&gt; for their trust, financial support, and accompaniment to Datamx.io since its inception.&lt;/p&gt;
+&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/01_mantra_datamx.jpg&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;The experience of working on &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; has meant for Codeando México the opportunity to learn from civic hackers, civil associations, journalists, entrepreneurs, creatives, and many other profiles, the value and importance of Open Data in the country. This platform is a great step we have taken as a community, to create, unconditionally, the raw material for the civic innovation we need. &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; is here to stay and empower more communities in our country through Open Data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; managed to develop an organic solution to what citizens needed. It has always been our philosophy to build tools with citizens and not for citizens, promoting a creative flow that includes the user. &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; carries this in its mantra.&lt;/p&gt;
 
-&lt;p&gt;Get involved with &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; as a developer in our &lt;a href=&quot;https://github.com/codeandomexico&quot;&gt;Github repositories&lt;/a&gt;, as a journalist or citizen with the &lt;a href=&quot;http://slackformexico.herokuapp.com&quot;&gt;Civic Communities&lt;/a&gt;, as a civil society organization or government organizing events, &lt;a href=&quot;http://estandares.datamx.io/&quot;&gt;proposing standards&lt;/a&gt; and &lt;a href=&quot;http://datamx.io/&quot;&gt;publishing data.&lt;/a&gt; We all have our place in improving the context through data, let’s keep proposing solutions with information accessible to citizens.&lt;/p&gt;
+&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/02_flujo_datos.jpg&quot; /&gt;&lt;/div&gt;
 
-&lt;p&gt;Post originally written for Codeando México in collaboration with Paulina Bustos.
-Photo: Flickr/trodel&lt;/p&gt;
+&lt;p&gt;An example of this is that when &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; was born, its only goal was to publish and consume data. Later, we generated a data publication and consumption flow for citizens that involved creating the &lt;a href=&quot;http://apertura.datamx.io&quot;&gt;Open Data Center&lt;/a&gt;, where you can request data to be opened and analyze the pulse of what citizens are demanding. Beyond the technical guidelines of open data, we realized that citizens demand &lt;em&gt;timely data&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/03_casos_exito.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;data-standards&quot;&gt;Data Standards&lt;/h2&gt;
+
+&lt;p&gt;The best way &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; could have gained its first allies was by collaborating with Civil Associations, which have very valuable specific and specialized knowledge. That’s why a channel was opened to propose data standards. In principle, open discussion is privileged, and it is also promoted as a shared reference both in Mexico and Latin America. If you’d like to know more, you can see it at &lt;a href=&quot;http://estandares.datamx.io&quot;&gt;estandares.datamx.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/04_viajes_transparentes.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;civic-applications&quot;&gt;Civic Applications&lt;/h2&gt;
+
+&lt;p&gt;Another topic that excites us is civic applications, some were created for informational purposes or used to create civic solutions. One of the projects we sometimes use as an example is the Viajes Transparentes application, which was made with the then Federal Institute for Access to Public Information, now INAI. From there, we would like to highlight a cultural change that is happening for new software acquisitions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The use of open data for applications is now a value element.&lt;/li&gt;
+  &lt;li&gt;The use of open source code and open technology is also promoted.&lt;/li&gt;
+  &lt;li&gt;Efforts are made to involve smaller teams with valuable proposals, making it more inclusive.&lt;/li&gt;
+  &lt;li&gt;Open Source by default is promoted as a multiplier effect and for reuse in other institutions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;zoomable&quot;&gt;&lt;img src=&quot;/media/2015-12-10-ceremonia-premio-transparencia/05_brigadas.jpg&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;civic-hacking-communities&quot;&gt;Civic Hacking Communities&lt;/h2&gt;
+&lt;p&gt;Codeando México finds groups of citizens and motivated minds who want to change collectivity and citizenship. In government, groups move in hierarchies; in contrast, these citizen groups move in network-like structures. They participate with a practical collaboration focus and are directed toward a common goal. These citizens probably know each other thanks to the Internet, as thematic communities are easier to find. Civic Hacking Communities are exactly that place where you can meet others with the same civic interest in person. Some of the events we did together with Civic Hacking Communities and the online community were the &lt;a href=&quot;http://blog.codeandomexico.org/2015/04/13/ganadores-carreraopendatamx/&quot;&gt;Open Data MX Race 2015&lt;/a&gt;, the &lt;a href=&quot;http://blog.codeandomexico.org/2014/12/12/open-data-census-ciudades/&quot;&gt;Open Data Census&lt;/a&gt;, hackathons, and Civic Hack Nights.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://datamx.io&quot;&gt;Datamx&lt;/a&gt; as a system is diluted among the community; the community is the great builder of the platform’s meaning. It was clear at the ceremony that this has been a small part of the journey we’ve traveled and can share. More importantly, the message remains that there are many citizens interested in improving the environment and wanting to collaborate, that transparency is better when it is useful, and that today is a great day we celebrate with you.&lt;/p&gt;
+
+&lt;p&gt;Post originally written for &lt;a href=&quot;http://blog.codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://www.flickr.com/photos/tom_hall_nz/17004434418/&quot;&gt;TomHall NZ&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -869,73 +847,24 @@ Foto: Flickr/trodel&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>A Review of Open Data at AbreLATAM 2014</title>
-   <link href="https://www.noedominguez.com/en/blog/abreLATAM2014/"/>
-   <updated>2014-10-13T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/AbreLATAM2014-mesas</id>
-   <content type="html">&lt;p&gt;Just a few days ago, AbreLATAM 2014 took place, on September 30th of this year. We had already had the opportunity to participate in the event that happened in Uruguay in 2013. This year, 9 out of 10 people from the Codeando México team were present to collaborate.&lt;/p&gt;
+   <title>Congratulations Datamx.io! Innovation in Transparency Award 2015</title>
+   <link href="https://www.noedominguez.com/en/blog/congratulations-datamx-io-innovation-in-transparency-award-2015/"/>
+   <updated>2015-10-08T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/premio-transparencia</id>
+   <content type="html">&lt;p&gt;In &lt;a href=&quot;https://web.archive.org/web/20130618120954/http://blog.codeandomexico.org/&quot;&gt;May 2013&lt;/a&gt; we announced the launch of the civic open data platform in the country. Our goals were for it to become an autonomous space for publishing and consuming data, independent of any government or organization, and to be a ready-to-use tool for institutions with good intentions to open their data. The topic of open data in Mexico was just beginning, and within a few months, we started to see civic hackers adding data from all over the country. Soon, this application became &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx.io&lt;/a&gt;, and we promoted the message: open data from citizens for citizens.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;AbreLATAM 2014 was an unconference&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After adding &lt;a href=&quot;http://blog.codeandomexico.org/2015/06/22/limpia-tus-datos-en-la-nube-open-refine-en-datamx/&quot;&gt;features for data standardization&lt;/a&gt;, a &lt;a href=&quot;http://blog.codeandomexico.org/2014/08/28/centro-de-apertura-de-datos/&quot;&gt;center for open data requests&lt;/a&gt;, a &lt;a href=&quot;https://www.fayerwayer.com/2015/02/inicia-la-carrera-por-abrir-los-datos-publicos-de-mexico/&quot;&gt;race to open data in non-open formats&lt;/a&gt;, and above all &lt;a href=&quot;http://blog.codeandomexico.org/2014/09/19/datamx-a-un-anio/&quot;&gt;many lessons learned&lt;/a&gt;, Datamx.io became the support platform for citizens and organizations. By the end of 2015, more than &lt;a href=&quot;http://2015.datamx.io/&quot;&gt;1,000 datasets were published, over 10 civic applications were made, and events were organized throughout the country&lt;/a&gt;. Beyond the numbers, Datamx.io has represented the place where open data is promoted to solve the country’s most pressing problems. It also promotes a form of citizen participation that has only been possible through technology, because opening data is also about building cities and exercising citizenship.&lt;/p&gt;
 
-&lt;p&gt;Personally, I really like seminars and unconferences, as they are spaces where multiple people come together to share experiences and try to ensure the group has a uniform level of learning. I like them because they work very well both academically and technologically. I say this because, in the end, AbreLATAM 2014 was a platform for all attendees to accelerate knowledge and collaboration among Latin Americans working in transparency and with Open Data.&lt;/p&gt;
+&lt;p&gt;Today we are happy to inform you that Datamx.io has been awarded &lt;a href=&quot;http://premiotransparencia.org.mx/SitePages/TrabajosGanadores.aspx&quot;&gt;1st place&lt;/a&gt; in the Innovation in Transparency Award 2015 in the category of Civil Organization projects. The &lt;a href=&quot;http://premiotransparencia.org.mx/&quot;&gt;Innovation in Transparency Award&lt;/a&gt; aims to recognize and disseminate the best experiences and innovations that consolidate and increase transparency in public management. It is led by the &lt;a href=&quot;http://www.inai.org.mx/&quot;&gt;National Institute for Transparency, Access to Information and Protection of Personal Data (INAI)&lt;/a&gt;; the &lt;a href=&quot;http://www.worldbank.org/&quot;&gt;World Bank&lt;/a&gt;; the &lt;a href=&quot;http://www.asf.gob.mx/Default/Index&quot;&gt;Federal Audit Office&lt;/a&gt;; the &lt;a href=&quot;http://www.inap.mx/portal/&quot;&gt;National Institute of Public Administration A.C&lt;/a&gt;; and the &lt;a href=&quot;http://www.funcionpublica.gob.mx/&quot;&gt;Ministry of Public Administration&lt;/a&gt;. We are very grateful for this recognition and take it as a great encouragement to continue growing civic hacking and open data in our country.&lt;/p&gt;
 
-&lt;p&gt;Some curiosities we found at the event were that we found few strongly technical teams like Codeando México. That’s where our participation and the contribution we can make to the Latin American community is evident.&lt;/p&gt;
+&lt;p&gt;This recognition is for the civic hackers of the country, the organizations that have opened data and promoted its use, the municipalities and agencies that have dared to go beyond transparency, and the communities that have used open data to create solutions to pressing problems. We deeply thank the &lt;a href=&quot;http://www.avina.net/&quot;&gt;Avina Foundation&lt;/a&gt;, &lt;a href=&quot;http://www.avinaamericas.org/&quot;&gt;Avina Americas&lt;/a&gt;, and the &lt;a href=&quot;http://appcivico.net/&quot;&gt;Civic App Accelerator Fund&lt;/a&gt; for their trust, financial support, and accompaniment to Datamx.io since its inception.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The Tables I Participated In&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The experience of working on &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; has meant for Codeando México the opportunity to learn from civic hackers, civil associations, journalists, entrepreneurs, creatives, and many other profiles, the value and importance of Open Data in the country. This platform is a great step we have taken as a community, to create, unconditionally, the raw material for the civic innovation we need. &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; is here to stay and empower more communities in our country through Open Data.&lt;/p&gt;
 
-&lt;p&gt;AbreLATAM is an event that lasts only one day and there are many experiences to share. I took an active role even though I hadn’t originally planned to. I accompanied the technical discussion on Open Data at the tables I worked at and took notes to share later. The discussions focused on:&lt;/p&gt;
+&lt;p&gt;Get involved with &lt;a href=&quot;http://datamx.io/&quot;&gt;Datamx.io&lt;/a&gt; as a developer in our &lt;a href=&quot;https://github.com/codeandomexico&quot;&gt;Github repositories&lt;/a&gt;, as a journalist or citizen with the &lt;a href=&quot;http://slackformexico.herokuapp.com&quot;&gt;Civic Communities&lt;/a&gt;, as a civil society organization or government organizing events, &lt;a href=&quot;http://estandares.datamx.io/&quot;&gt;proposing standards&lt;/a&gt; and &lt;a href=&quot;http://datamx.io/&quot;&gt;publishing data.&lt;/a&gt; We all have our place in improving the context through data, let’s keep proposing solutions with information accessible to citizens.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Formats and standards for open data.&lt;/li&gt;
-  &lt;li&gt;When to use APIs and when to publish open databases.&lt;/li&gt;
-  &lt;li&gt;How can we integrate an open data repository in Latin America?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Open Data Standards and Formats&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;At the table on open data standards and formats, there was a very technical but at the same time very enriching talk for those who came without knowing much about it. We discussed a lot about the formats in which open data should be published. At that time, without intervening in descriptive or interconnected data topics that constitute the 4 and 5 stars of &lt;a href=&quot;http://5stardata.info/&quot;&gt;5 star Open Data&lt;/a&gt;, we documented:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;We need machine-readable and processable formats. That is, we need to know that our document is suitable for import into any program, free or proprietary, for calculations.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Accompanying our data with a data dictionary is very appropriate, especially to explain the variables and give some examples of how to use that data or how it was used in this database. See an example in the &lt;a href=&quot;http://datamx.io/dataset/viajes-de-trabajo-de-los-servidores-publicos-del-ifai&quot;&gt;Dataset from the IFAI Transparent Travel Challenge&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Character encoding in the data should also be standard and interoperable between operating systems.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;We must include a source for the data, as there is always an organization or person responsible behind that data. See the fields described in &lt;a href=&quot;http://project-open-data.github.io/&quot;&gt;Project Open Data&lt;/a&gt; like &lt;a href=&quot;http://project-open-data.github.io/schema/#mbox&quot;&gt;mbox&lt;/a&gt; and &lt;a href=&quot;http://project-open-data.github.io/schema/#publisher&quot;&gt;publisher&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The data holder must extend a license that must be open, that is, it must be explicit about how the data can be reused. You can review the &lt;a href=&quot;http://opendefinition.org/licenses/&quot;&gt;Open Definition&lt;/a&gt; project from the &lt;a href=&quot;http://okfn.org&quot;&gt;Open Knowledge Foundation&lt;/a&gt; where they analyze different licenses for Open Data. In fact, this is where all the licenses to choose from by default in the open data manager &lt;a href=&quot;http://ckan.org&quot;&gt;CKAN&lt;/a&gt; are imported from.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To document datasets in Mexico, we are using the DCAT standard, as is also being used in the European Union. You can see more details in the definitive application profile of the DCAT standard for data portals in the European Union (&lt;a href=&quot;https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-application-profile-data-portals-europe-final#download-links&quot;&gt;DCAT-AP&lt;/a&gt;).&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In general terms, and not very different from the Mexican context, organizations are concerned about how we can help governments publish more data and how NGOs can actively use it to make decisions and inform citizens about specific problems. In general, I think there was a very clear consensus in this edition about the use of Open Data in journalism, and that open data visualizations are one of the most effective ways of communication.&lt;/p&gt;
-
-&lt;p&gt;Another concern among NGOs is about the completeness of government spending data. The objective cycle, we agreed, is from when a budget is generated or assigned until it is exercised and has an impact on citizens’ lives. Remember that governments make decisions on behalf of citizens, hence the concern to evaluate the impact on citizens’ lives. On the same topic, Marcela Rozo from the World Bank told us about the initiative for the Open Contracting Data Standard, which is currently in Beta and can be commented on in English on its &lt;a href=&quot;http://www.open-contracting.org/beta-release-open-contracting-data-standards&quot;&gt;website&lt;/a&gt;. In fact, I had the pleasure of participating in a Sprint at PyconUS 2014 on analyzing databases from different countries to shape the open contracting standard, and I’ll tell you more in a future post.&lt;/p&gt;
-
-&lt;p&gt;Technically speaking, we are also concerned about education within government agencies so that they recognize themselves as an entity that operates and generates data. The integration of their data must be a priority, as it is currently generated in isolation. This can lead us to make better decisions and is one of the capabilities we need to develop as soon as possible. Remember that in January of this year, the first Chief Data Scientist was appointed to head the &lt;a href=&quot;http://www.ida.gov.sg/About-Us/Organisation-and-Team/Data-Sciences-Group&quot;&gt;Data Sciences Group&lt;/a&gt; in Singapore.&lt;/p&gt;
-
-&lt;p&gt;To close our experience at this table, we talked about &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx.io&lt;/a&gt;, I shared about our data opening center where we help individuals and organizations convert public data in closed or proprietary formats into machine-readable formats for analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homologated Data Base in the Region. Open Data or Open API?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Another very interesting table was where we discussed the use of &lt;strong&gt;application programming interfaces (API)&lt;/strong&gt; versus the use of databases in open formats. An important part of this discussion revolved around use cases for when to use an API and when to use a database in open formats. Every programmer’s dream and the trend of the Internet of Things is that everything has an API, but it’s much more expensive than just publishing the data on a portal. Also, we concluded that sometimes databases do need APIs, like when data needs to be published daily or even more frequently, that is, we need an API when data must be immediate or when it facilitates periodic tasks for the publisher. However, there are certain types of data that, even if not updated very frequently, are also important to have in API format. A particular use case could be alert data about emergencies or data that affects citizen safety.&lt;/p&gt;
-
-&lt;p&gt;Going a bit more towards the function of oversight or witness of the data, APIs must be accompanied by documents in open formats. Citizens must be able to download a “snapshot” of the current state of the database. In Mexico, it was mentioned, there are databases that change overnight.&lt;/p&gt;
-
-&lt;p&gt;As a personal conclusion from AbreLATAM 2014, I believe we need to bring data to citizens with effective communication. It’s not worth duplicating efforts or applications. The potential for cooperation among Latin Americans is immense. Also, Codeando México will continue to have a very active and proactive role so that software that actively uses data happens in the region.&lt;/p&gt;
-
-&lt;p&gt;I would also like to congratulate our sister organization &lt;a href=&quot;http://socialtic.org&quot;&gt;SocialTIC&lt;/a&gt; for organizing the event and for their constant concern to connect organizations in Latin America to solve the region’s social problems.&lt;/p&gt;
-
-&lt;p&gt;Photo: &lt;a href=&quot;https://www.flickr.com/photos/pauloslachevsky/14480968212/in/photolist-o4CKkJ-o4sBBB-4Y1zJJ-o2W3Gd-nMg6qb-o4CvCd-o4soFX-o4L3Pv-o4DEam-nMgeR9-nMgz6P-nMgfdQ-o4Dtpo-o4s6TD-4XWxza-o4Kj5T-9bJdSZ-9Kgh5Z-9bMir5-9bJdNX-9bJdVi-9bMirY-9bMisU-9bMivh-9bJdR4-oDFsnV&quot;&gt;La ciudad de los libros (CC)&lt;/a&gt;.
-Flickr/pauloslachevsky&lt;/p&gt;
+&lt;p&gt;Post originally written for Codeando México in collaboration with Paulina Bustos.
+Photo: Flickr/trodel&lt;/p&gt;
 </content>
  </entry>
  
@@ -1067,28 +996,73 @@ Flickr/pauloslachevsky&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Welcome</title>
-   <link href="https://www.noedominguez.com/en/blog/welcome/"/>
-   <updated>2014-08-11T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/bienvenida</id>
-   <content type="html">&lt;p&gt;My name is Noé Domínguez, I currently work in software development and integration in Mexico.
-The purpose of this blog is to share some of the experiences I’ve accumulated over the past years while developing my profession and also some of the challenges I’ve faced.&lt;/p&gt;
+   <title>A Review of Open Data at AbreLATAM 2014</title>
+   <link href="https://www.noedominguez.com/en/blog/abreLATAM2014/"/>
+   <updated>2014-10-13T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/AbreLATAM2014-mesas</id>
+   <content type="html">&lt;p&gt;Just a few days ago, AbreLATAM 2014 took place, on September 30th of this year. We had already had the opportunity to participate in the event that happened in Uruguay in 2013. This year, 9 out of 10 people from the Codeando México team were present to collaborate.&lt;/p&gt;
 
-&lt;p&gt;Currently, I work at &lt;a href=&quot;http://www.codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;, a non-profit association that combines open data, open innovation, and technology to transform institutions.
-In Puebla, I also work with the programmer community of the &lt;a href=&quot;http://www.hfpuebla.org&quot;&gt;Hackers and Founders Puebla&lt;/a&gt; chapter and &lt;a href=&quot;http://www.scala.org.mx&quot;&gt;Scala México&lt;/a&gt;.
-Previously, I have also worked as an independent web developer, I enjoy entrepreneurship and have worked at startups like Boletia Inc. I also collaborated for the Web Development lab at the Korea Advanced Institute of Science and Technology under Ph.D. In-Young Ko, in the optical networks lab at the National Institute of Astrophysics, Optics and Electronics under Ph.D. Ignacio Zaldívar, and as a VoIP Networks Engineer at Arisanet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AbreLATAM 2014 was an unconference&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;All this mix of different experiences has shaped some opinions about entrepreneurship, software development, technological development, technology transfer, civic innovation, Open Data, Open Knowledge, and a bit of business. In computer science, I’ve learned about full-stack web development, ubiquitous systems, distributed systems, and data analysis/visualization.&lt;/p&gt;
+&lt;p&gt;Personally, I really like seminars and unconferences, as they are spaces where multiple people come together to share experiences and try to ensure the group has a uniform level of learning. I like them because they work very well both academically and technologically. I say this because, in the end, AbreLATAM 2014 was a platform for all attendees to accelerate knowledge and collaboration among Latin Americans working in transparency and with Open Data.&lt;/p&gt;
 
-&lt;p&gt;Every day I strive to be a better person and I hope none of the viewpoints I express make you uncomfortable, they are not definitive and are perfectible. I’m always open to hearing new ideas and projects, you can reach me at: &lt;a href=&quot;mailto:noe@hackersandfounders.com&quot;&gt;noe@hackersandfounders.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Some curiosities we found at the event were that we found few strongly technical teams like Codeando México. That’s where our participation and the contribution we can make to the Latin American community is evident.&lt;/p&gt;
 
-&lt;p&gt;Welcome to my blog, I hope we can improve our environment and opportunities together.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Tables I Participated In&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;cite&gt;Sharing is caring.&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;AbreLATAM is an event that lasts only one day and there are many experiences to share. I took an active role even though I hadn’t originally planned to. I accompanied the technical discussion on Open Data at the tables I worked at and took notes to share later. The discussions focused on:&lt;/p&gt;
 
-&lt;p&gt;Noé.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Formats and standards for open data.&lt;/li&gt;
+  &lt;li&gt;When to use APIs and when to publish open databases.&lt;/li&gt;
+  &lt;li&gt;How can we integrate an open data repository in Latin America?&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Thanks to &lt;a href=&quot;http://www.twitter.com/paulinabustosa&quot;&gt;@paulinabustosa&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/jyr&quot;&gt;@jyr&lt;/a&gt; for their suggestions for this post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Open Data Standards and Formats&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At the table on open data standards and formats, there was a very technical but at the same time very enriching talk for those who came without knowing much about it. We discussed a lot about the formats in which open data should be published. At that time, without intervening in descriptive or interconnected data topics that constitute the 4 and 5 stars of &lt;a href=&quot;http://5stardata.info/&quot;&gt;5 star Open Data&lt;/a&gt;, we documented:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;We need machine-readable and processable formats. That is, we need to know that our document is suitable for import into any program, free or proprietary, for calculations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Accompanying our data with a data dictionary is very appropriate, especially to explain the variables and give some examples of how to use that data or how it was used in this database. See an example in the &lt;a href=&quot;http://datamx.io/dataset/viajes-de-trabajo-de-los-servidores-publicos-del-ifai&quot;&gt;Dataset from the IFAI Transparent Travel Challenge&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Character encoding in the data should also be standard and interoperable between operating systems.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We must include a source for the data, as there is always an organization or person responsible behind that data. See the fields described in &lt;a href=&quot;http://project-open-data.github.io/&quot;&gt;Project Open Data&lt;/a&gt; like &lt;a href=&quot;http://project-open-data.github.io/schema/#mbox&quot;&gt;mbox&lt;/a&gt; and &lt;a href=&quot;http://project-open-data.github.io/schema/#publisher&quot;&gt;publisher&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The data holder must extend a license that must be open, that is, it must be explicit about how the data can be reused. You can review the &lt;a href=&quot;http://opendefinition.org/licenses/&quot;&gt;Open Definition&lt;/a&gt; project from the &lt;a href=&quot;http://okfn.org&quot;&gt;Open Knowledge Foundation&lt;/a&gt; where they analyze different licenses for Open Data. In fact, this is where all the licenses to choose from by default in the open data manager &lt;a href=&quot;http://ckan.org&quot;&gt;CKAN&lt;/a&gt; are imported from.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To document datasets in Mexico, we are using the DCAT standard, as is also being used in the European Union. You can see more details in the definitive application profile of the DCAT standard for data portals in the European Union (&lt;a href=&quot;https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-application-profile-data-portals-europe-final#download-links&quot;&gt;DCAT-AP&lt;/a&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In general terms, and not very different from the Mexican context, organizations are concerned about how we can help governments publish more data and how NGOs can actively use it to make decisions and inform citizens about specific problems. In general, I think there was a very clear consensus in this edition about the use of Open Data in journalism, and that open data visualizations are one of the most effective ways of communication.&lt;/p&gt;
+
+&lt;p&gt;Another concern among NGOs is about the completeness of government spending data. The objective cycle, we agreed, is from when a budget is generated or assigned until it is exercised and has an impact on citizens’ lives. Remember that governments make decisions on behalf of citizens, hence the concern to evaluate the impact on citizens’ lives. On the same topic, Marcela Rozo from the World Bank told us about the initiative for the Open Contracting Data Standard, which is currently in Beta and can be commented on in English on its &lt;a href=&quot;http://www.open-contracting.org/beta-release-open-contracting-data-standards&quot;&gt;website&lt;/a&gt;. In fact, I had the pleasure of participating in a Sprint at PyconUS 2014 on analyzing databases from different countries to shape the open contracting standard, and I’ll tell you more in a future post.&lt;/p&gt;
+
+&lt;p&gt;Technically speaking, we are also concerned about education within government agencies so that they recognize themselves as an entity that operates and generates data. The integration of their data must be a priority, as it is currently generated in isolation. This can lead us to make better decisions and is one of the capabilities we need to develop as soon as possible. Remember that in January of this year, the first Chief Data Scientist was appointed to head the &lt;a href=&quot;http://www.ida.gov.sg/About-Us/Organisation-and-Team/Data-Sciences-Group&quot;&gt;Data Sciences Group&lt;/a&gt; in Singapore.&lt;/p&gt;
+
+&lt;p&gt;To close our experience at this table, we talked about &lt;a href=&quot;http://datamx.io&quot;&gt;Datamx.io&lt;/a&gt;, I shared about our data opening center where we help individuals and organizations convert public data in closed or proprietary formats into machine-readable formats for analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homologated Data Base in the Region. Open Data or Open API?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Another very interesting table was where we discussed the use of &lt;strong&gt;application programming interfaces (API)&lt;/strong&gt; versus the use of databases in open formats. An important part of this discussion revolved around use cases for when to use an API and when to use a database in open formats. Every programmer’s dream and the trend of the Internet of Things is that everything has an API, but it’s much more expensive than just publishing the data on a portal. Also, we concluded that sometimes databases do need APIs, like when data needs to be published daily or even more frequently, that is, we need an API when data must be immediate or when it facilitates periodic tasks for the publisher. However, there are certain types of data that, even if not updated very frequently, are also important to have in API format. A particular use case could be alert data about emergencies or data that affects citizen safety.&lt;/p&gt;
+
+&lt;p&gt;Going a bit more towards the function of oversight or witness of the data, APIs must be accompanied by documents in open formats. Citizens must be able to download a “snapshot” of the current state of the database. In Mexico, it was mentioned, there are databases that change overnight.&lt;/p&gt;
+
+&lt;p&gt;As a personal conclusion from AbreLATAM 2014, I believe we need to bring data to citizens with effective communication. It’s not worth duplicating efforts or applications. The potential for cooperation among Latin Americans is immense. Also, Codeando México will continue to have a very active and proactive role so that software that actively uses data happens in the region.&lt;/p&gt;
+
+&lt;p&gt;I would also like to congratulate our sister organization &lt;a href=&quot;http://socialtic.org&quot;&gt;SocialTIC&lt;/a&gt; for organizing the event and for their constant concern to connect organizations in Latin America to solve the region’s social problems.&lt;/p&gt;
+
+&lt;p&gt;Photo: &lt;a href=&quot;https://www.flickr.com/photos/pauloslachevsky/14480968212/in/photolist-o4CKkJ-o4sBBB-4Y1zJJ-o2W3Gd-nMg6qb-o4CvCd-o4soFX-o4L3Pv-o4DEam-nMgeR9-nMgz6P-nMgfdQ-o4Dtpo-o4s6TD-4XWxza-o4Kj5T-9bJdSZ-9Kgh5Z-9bMir5-9bJdNX-9bJdVi-9bMirY-9bMisU-9bMivh-9bJdR4-oDFsnV&quot;&gt;La ciudad de los libros (CC)&lt;/a&gt;.
+Flickr/pauloslachevsky&lt;/p&gt;
 </content>
  </entry>
  
@@ -1128,6 +1102,32 @@ puedes encontrarme en: &lt;a href=&quot;mailto:noe@hackersandfounders.com&quot;&
 
 &lt;p&gt;Gracias a &lt;a href=&quot;http://www.twitter.com/paulinabustosa&quot;&gt;@paulinabustosa&lt;/a&gt; y &lt;a href=&quot;http://www.twitter.com/jyr&quot;&gt;@jyr&lt;/a&gt; por sus sugerencias
 para este post.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome</title>
+   <link href="https://www.noedominguez.com/en/blog/welcome/"/>
+   <updated>2014-08-11T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/bienvenida</id>
+   <content type="html">&lt;p&gt;My name is Noé Domínguez, I currently work in software development and integration in Mexico.
+The purpose of this blog is to share some of the experiences I’ve accumulated over the past years while developing my profession and also some of the challenges I’ve faced.&lt;/p&gt;
+
+&lt;p&gt;Currently, I work at &lt;a href=&quot;http://www.codeandomexico.org&quot;&gt;Codeando México&lt;/a&gt;, a non-profit association that combines open data, open innovation, and technology to transform institutions.
+In Puebla, I also work with the programmer community of the &lt;a href=&quot;http://www.hfpuebla.org&quot;&gt;Hackers and Founders Puebla&lt;/a&gt; chapter and &lt;a href=&quot;http://www.scala.org.mx&quot;&gt;Scala México&lt;/a&gt;.
+Previously, I have also worked as an independent web developer, I enjoy entrepreneurship and have worked at startups like Boletia Inc. I also collaborated for the Web Development lab at the Korea Advanced Institute of Science and Technology under Ph.D. In-Young Ko, in the optical networks lab at the National Institute of Astrophysics, Optics and Electronics under Ph.D. Ignacio Zaldívar, and as a VoIP Networks Engineer at Arisanet.&lt;/p&gt;
+
+&lt;p&gt;All this mix of different experiences has shaped some opinions about entrepreneurship, software development, technological development, technology transfer, civic innovation, Open Data, Open Knowledge, and a bit of business. In computer science, I’ve learned about full-stack web development, ubiquitous systems, distributed systems, and data analysis/visualization.&lt;/p&gt;
+
+&lt;p&gt;Every day I strive to be a better person and I hope none of the viewpoints I express make you uncomfortable, they are not definitive and are perfectible. I’m always open to hearing new ideas and projects, you can reach me at: &lt;a href=&quot;mailto:noe@hackersandfounders.com&quot;&gt;noe@hackersandfounders.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to my blog, I hope we can improve our environment and opportunities together.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;Sharing is caring.&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;Noé.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://www.twitter.com/paulinabustosa&quot;&gt;@paulinabustosa&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/jyr&quot;&gt;@jyr&lt;/a&gt; for their suggestions for this post.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1206,62 +1206,6 @@ Fun fact: it’s said that ramen was widely consumed in Japan after World War II
 &lt;p&gt;Ramyeon is considered an inferior good economically, meaning when incomes drop, its demand increases. I don’t really know when is the season when more noodles are consumed at school, but to analyze the &lt;a href=&quot;http://en.wikipedia.org/wiki/Freakonomics&quot;&gt;Freakonomics&lt;/a&gt; of this dish, it would be enough to interview Mrs. Ramyeon, who is a celebrity in the making.&lt;/p&gt;
 
 &lt;p&gt;Always a cheese fan, Noé.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Boooom!!</title>
-   <link href="https://www.noedominguez.com/en/blog/booom/"/>
-   <updated>2010-11-24T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/boom</id>
-   <content type="html">&lt;p&gt;At this moment, some may be wondering about what is happening in South Korea and my impression of what happened.
-I was leaving my Artificial Intelligence class, had just finished a ninety-minute exam, and hadn’t had breakfast.
-I left the Computer Science department building to eat at my favorite cafeteria, Cheese Ramen (치즈라면).
-On the way, I ran into my Mexican friend who is also on exchange and joined my plan. We were talking about how demanding our classes have been these days, that my AI exam was difficult, long, a real challenge, and for him, his Modern Physics class had just subtly asked him to study over the weekend and do homework. We walked through the E11 cafeteria, which is my favorite, the food is of very good quality and always has good variety.
-We were arriving at the cashier when I saw an image like this:&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/assets/images/boom/north_korea_shells.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/assets/images/boom/north_korea_shells.jpg&quot; alt=&quot;That&apos;s how we saw it on TV.&quot; width=&quot;100%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;That&apos;s how we saw it on TV.&lt;/blockquote&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;Without thinking, I said to my buddy, look, the Korean Pearl Harbor “hahaha”, we laughed sarcastically. When we got to the noodle line, we found that serving time was over, the limit was 4 pm. But the lady who prepares them asked the cashier to still sell to us and one more person, she will definitely go to heaven. We ate, talked, laughed, until we returned to the dorms.
-Back at the dorm, when I turned on my computer, I found some tweets telling me to get out and asking if I was okay. Thanks for the concern to @PorrasMD @luion and @hectorgr. I opened one of the links they sent me and that’s when I realized that North Korea, for no reason, had started attacking South Korean territory.&lt;/p&gt;
-
-&lt;p&gt;The Korea conflict has been latent since the end of World War II and is the main heir of the Cold War. North Korea is completely closed to the world and any negotiation, as in the last decade it has violated agreements several times. The United Nations has been fooled. Some of these events are mentioned by the newspaper El País:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2002 – Secret Plans&lt;/strong&gt; – In June 2002, US intelligence services discovered that Pyongyang was trying to buy equipment to enrich uranium instead of plutonium. In October, it was confirmed that North Korea had a secret uranium enrichment program. The regime announced it would resume activities at the Yongbyon reactor and expelled inspectors from the International Atomic Energy Agency (IAEA).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2003 – Six-party Talks&lt;/strong&gt; – North Korea agreed to sit at the negotiating table with the US, South Korea, Japan, China, and Russia to discuss a disarmament program. In September 2005, it agreed to a disarmament plan in exchange for aid. A day later, the regime retracted.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2006 – First Nuclear Test&lt;/strong&gt; – In October, North Korea conducted its first nuclear test, causing international alarm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2007 – Back to Negotiation&lt;/strong&gt; – In February, North Korea again agreed to halt its nuclear program in exchange for aid.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2008 – Another Reversal&lt;/strong&gt; – In June 2008, Pyongyang announced the dismantling of its nuclear facilities and blew up the cooling tower at the Yongbyon reactor. But it reversed the decision two months later. In May 2009, Pyongyang conducted its second nuclear test: an underground atomic explosion with power similar to the atomic bomb dropped by the US on Nagasaki.&lt;/p&gt;
-
-&lt;p&gt;This year there have been other strong provocations from North Korea, a few weeks ago the G20 was held in Seoul and there was an exchange of fire between watchtowers totaling 5 shots. Let’s not forget the sinking of the submarine in which 46 crew members died in March, which North Korea denies responsibility for despite evidence of a fired torpedo. And now it fires about 170 artillery shells at Yeonpyeong Island, a week after what could be a uranium enrichment plant was discovered. Several news sources infer that the motive behind the military actions is Kim Jong-Un’s succession to power. Government propaganda.&lt;/p&gt;
-
-&lt;p&gt;It should be noted that the South Korean government has been the one to give in at all costs to end this war once and for all. This year it sent aid to victims of the summer floods. It promoted, together with the Red Cross, the reunion of families separated by the war. Hyundai president Chung Ju Yung promised years ago the construction of an industrial complex and a new train line that would unite the Koreas. During previous disarmament agreements, about 1,200,000 tons of rice (yes, rice again…) have been provided, and recently the proposal was made to submit a joint bid for the 2022 World Cup.&lt;/p&gt;
-
-&lt;p&gt;The South Korean climate regarding North Korean offenses yesterday is a bit tense, there is no widespread feeling that war could break out this time. But there is a sizable group that thinks so. Some see it with indifference, as people think North Korea has only been pretending to have power. Conceiving once again a possible war in which powers like the US and China would meet could be catastrophic. Remember that during the Korean War, the American, South Korean, and British armies took the entire peninsula in 1950. Until the government of the People’s Republic of China intervened in favor of North Korea. The red lives lost were about 1,200,000 people versus 750,000 green.&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/assets/images/boom/korean_war_timeline.gif&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/assets/images/boom/korean_war_timeline.gif&quot; alt=&quot;We&apos;re tough and we&apos;re many&quot; width=&quot;45%&quot; /&gt;
-  &lt;/a&gt;
-  
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;We&apos;re tough and we&apos;re many&lt;/blockquote&gt;
-  
-&lt;/div&gt;
-
-&lt;p&gt;I think giving the world a bit of hope with a peaceful solution to this conflict could be the best solution. During this first decade of the new millennium, we’ve only heard of war, crisis, crime, separation, desolation. This could be the last ray of hope to reunify Korea not only as a state but also as a society through the reunion of families. The people whose families were separated in 1953 are now elderly and could very likely be the last link for the full reunification of this peninsula.&lt;/p&gt;
-
-&lt;p&gt;Photo: Flickr/bcgovphotos&lt;/p&gt;
 </content>
  </entry>
  
@@ -1357,44 +1301,58 @@ el último eslabón para la plena reunificación de esta península.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Sugar Beards</title>
-   <link href="https://www.noedominguez.com/en/blog/sugar-beards/"/>
-   <updated>2010-11-14T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/barbas-de-azucar</id>
-   <content type="html">&lt;p&gt;The first night we slept like normal people in Seoul was Thursday, August 26th.
-Honestly, I was very happy with the place recommended to us at the tourist information center, as it was very clean, pleasant, and as they say in Mexico City: it had a vibe. The place is called Banana Backpackers and it’s near Anguk Station (안국역), a spot very close to several tourist attractions in Seoul. There you can find all kinds of souvenirs, generally cheap, and some restaurants with very affordable prices.&lt;/p&gt;
+   <title>Boooom!!</title>
+   <link href="https://www.noedominguez.com/en/blog/booom/"/>
+   <updated>2010-11-24T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/boom</id>
+   <content type="html">&lt;p&gt;At this moment, some may be wondering about what is happening in South Korea and my impression of what happened.
+I was leaving my Artificial Intelligence class, had just finished a ninety-minute exam, and hadn’t had breakfast.
+I left the Computer Science department building to eat at my favorite cafeteria, Cheese Ramen (치즈라면).
+On the way, I ran into my Mexican friend who is also on exchange and joined my plan. We were talking about how demanding our classes have been these days, that my AI exam was difficult, long, a real challenge, and for him, his Modern Physics class had just subtly asked him to study over the weekend and do homework. We walked through the E11 cafeteria, which is my favorite, the food is of very good quality and always has good variety.
+We were arriving at the cashier when I saw an image like this:&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2010-11-14-barbas/callejon.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2010-11-14-barbas/callejon.jpg&quot; alt=&quot;Alley with food in Anguk-dong (안국동).&quot; width=&quot;100%&quot; /&gt;
+  &lt;a href=&quot;/assets/images/boom/north_korea_shells.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/assets/images/boom/north_korea_shells.jpg&quot; alt=&quot;That&apos;s how we saw it on TV.&quot; width=&quot;100%&quot; /&gt;
   &lt;/a&gt;
   
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Alley with food in Anguk-dong (안국동).&lt;/blockquote&gt;
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;That&apos;s how we saw it on TV.&lt;/blockquote&gt;
   
 &lt;/div&gt;
 
+&lt;p&gt;Without thinking, I said to my buddy, look, the Korean Pearl Harbor “hahaha”, we laughed sarcastically. When we got to the noodle line, we found that serving time was over, the limit was 4 pm. But the lady who prepares them asked the cashier to still sell to us and one more person, she will definitely go to heaven. We ate, talked, laughed, until we returned to the dorms.
+Back at the dorm, when I turned on my computer, I found some tweets telling me to get out and asking if I was okay. Thanks for the concern to @PorrasMD @luion and @hectorgr. I opened one of the links they sent me and that’s when I realized that North Korea, for no reason, had started attacking South Korean territory.&lt;/p&gt;
+
+&lt;p&gt;The Korea conflict has been latent since the end of World War II and is the main heir of the Cold War. North Korea is completely closed to the world and any negotiation, as in the last decade it has violated agreements several times. The United Nations has been fooled. Some of these events are mentioned by the newspaper El País:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2002 – Secret Plans&lt;/strong&gt; – In June 2002, US intelligence services discovered that Pyongyang was trying to buy equipment to enrich uranium instead of plutonium. In October, it was confirmed that North Korea had a secret uranium enrichment program. The regime announced it would resume activities at the Yongbyon reactor and expelled inspectors from the International Atomic Energy Agency (IAEA).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2003 – Six-party Talks&lt;/strong&gt; – North Korea agreed to sit at the negotiating table with the US, South Korea, Japan, China, and Russia to discuss a disarmament program. In September 2005, it agreed to a disarmament plan in exchange for aid. A day later, the regime retracted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2006 – First Nuclear Test&lt;/strong&gt; – In October, North Korea conducted its first nuclear test, causing international alarm.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2007 – Back to Negotiation&lt;/strong&gt; – In February, North Korea again agreed to halt its nuclear program in exchange for aid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2008 – Another Reversal&lt;/strong&gt; – In June 2008, Pyongyang announced the dismantling of its nuclear facilities and blew up the cooling tower at the Yongbyon reactor. But it reversed the decision two months later. In May 2009, Pyongyang conducted its second nuclear test: an underground atomic explosion with power similar to the atomic bomb dropped by the US on Nagasaki.&lt;/p&gt;
+
+&lt;p&gt;This year there have been other strong provocations from North Korea, a few weeks ago the G20 was held in Seoul and there was an exchange of fire between watchtowers totaling 5 shots. Let’s not forget the sinking of the submarine in which 46 crew members died in March, which North Korea denies responsibility for despite evidence of a fired torpedo. And now it fires about 170 artillery shells at Yeonpyeong Island, a week after what could be a uranium enrichment plant was discovered. Several news sources infer that the motive behind the military actions is Kim Jong-Un’s succession to power. Government propaganda.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that the South Korean government has been the one to give in at all costs to end this war once and for all. This year it sent aid to victims of the summer floods. It promoted, together with the Red Cross, the reunion of families separated by the war. Hyundai president Chung Ju Yung promised years ago the construction of an industrial complex and a new train line that would unite the Koreas. During previous disarmament agreements, about 1,200,000 tons of rice (yes, rice again…) have been provided, and recently the proposal was made to submit a joint bid for the 2022 World Cup.&lt;/p&gt;
+
+&lt;p&gt;The South Korean climate regarding North Korean offenses yesterday is a bit tense, there is no widespread feeling that war could break out this time. But there is a sizable group that thinks so. Some see it with indifference, as people think North Korea has only been pretending to have power. Conceiving once again a possible war in which powers like the US and China would meet could be catastrophic. Remember that during the Korean War, the American, South Korean, and British armies took the entire peninsula in 1950. Until the government of the People’s Republic of China intervened in favor of North Korea. The red lives lost were about 1,200,000 people versus 750,000 green.&lt;/p&gt;
+
 &lt;div id=&quot;article-img&quot;&gt;
-  &lt;a href=&quot;/media/2010-11-14-barbas/bananas.jpg&quot; target=&quot;_blank&quot;&gt;
-    &lt;img src=&quot;/media/2010-11-14-barbas/bananas.jpg&quot; alt=&quot;Banana Backpackers Hostel&quot; width=&quot;100%&quot; /&gt;
+  &lt;a href=&quot;/assets/images/boom/korean_war_timeline.gif&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/assets/images/boom/korean_war_timeline.gif&quot; alt=&quot;We&apos;re tough and we&apos;re many&quot; width=&quot;45%&quot; /&gt;
   &lt;/a&gt;
   
-  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Banana Backpackers Hostel&lt;/blockquote&gt;
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;We&apos;re tough and we&apos;re many&lt;/blockquote&gt;
   
 &lt;/div&gt;
 
-&lt;p&gt;Near the hostel, we walked aimlessly with the sole purpose of finding a place to feed our already rumbling stomachs. We didn’t want to ask for any kind of reference to add a bit of mystery to our journey. Sometimes I think the best things in life are those that take you by surprise, whether good or bad. I also prefer to have an occasional dose of the bad because, in general, you become a little less demanding with life and can be happy with just the essentials. Fortunately, fate gave us an easy win and we found a very good place a couple of blocks away.&lt;/p&gt;
+&lt;p&gt;I think giving the world a bit of hope with a peaceful solution to this conflict could be the best solution. During this first decade of the new millennium, we’ve only heard of war, crisis, crime, separation, desolation. This could be the last ray of hope to reunify Korea not only as a state but also as a society through the reunion of families. The people whose families were separated in 1953 are now elderly and could very likely be the last link for the full reunification of this peninsula.&lt;/p&gt;
 
-&lt;p&gt;You know, it’s that alley you sometimes see in photos that, because of its narrowness, you’d swear people in the East live on top of each other. There I had my first Korean meal cooked in Korea, since the Bulgogi burger (불고기 버거) I ate at the Incheon airport McDonald’s doesn’t count. What I ate there was Kimchi jjigae (김치찌개), which was very spicy and hot. Naturally, like most soups in Korea, they brought it to the table still boiling, but even so, we tried to eat it right away. By now, after almost three months here, hot food is no longer a problem for me.&lt;/p&gt;
-
-&lt;p&gt;Later, we went for a walk and met a couple of Koreans who say they love Mexico and sell sweets, which in Korean are called sugar beards. See the story of how these sweets are made.&lt;/p&gt;
-
-&lt;div id=&quot;article-img&quot;&gt;
-    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xCHnOkXEC1E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Korea Medley&lt;/blockquote&gt;
-
-&lt;/div&gt;
-
+&lt;p&gt;Photo: Flickr/bcgovphotos&lt;/p&gt;
 </content>
  </entry>
  
@@ -1444,6 +1402,48 @@ Ya por estos días en los que cumplo ya casi tres meses aquí la comida caliente
 
 &lt;p&gt;Más adelante salimos a caminar y nos encontramos con un par de coreanos que dicen que aman México y venden dulces,
 que en coreano se llaman barbas de azúcar. Vean la historia de como se hacen esos dulces.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xCHnOkXEC1E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Korea Medley&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sugar Beards</title>
+   <link href="https://www.noedominguez.com/en/blog/sugar-beards/"/>
+   <updated>2010-11-14T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/barbas-de-azucar</id>
+   <content type="html">&lt;p&gt;The first night we slept like normal people in Seoul was Thursday, August 26th.
+Honestly, I was very happy with the place recommended to us at the tourist information center, as it was very clean, pleasant, and as they say in Mexico City: it had a vibe. The place is called Banana Backpackers and it’s near Anguk Station (안국역), a spot very close to several tourist attractions in Seoul. There you can find all kinds of souvenirs, generally cheap, and some restaurants with very affordable prices.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2010-11-14-barbas/callejon.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2010-11-14-barbas/callejon.jpg&quot; alt=&quot;Alley with food in Anguk-dong (안국동).&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Alley with food in Anguk-dong (안국동).&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2010-11-14-barbas/bananas.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2010-11-14-barbas/bananas.jpg&quot; alt=&quot;Banana Backpackers Hostel&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Banana Backpackers Hostel&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Near the hostel, we walked aimlessly with the sole purpose of finding a place to feed our already rumbling stomachs. We didn’t want to ask for any kind of reference to add a bit of mystery to our journey. Sometimes I think the best things in life are those that take you by surprise, whether good or bad. I also prefer to have an occasional dose of the bad because, in general, you become a little less demanding with life and can be happy with just the essentials. Fortunately, fate gave us an easy win and we found a very good place a couple of blocks away.&lt;/p&gt;
+
+&lt;p&gt;You know, it’s that alley you sometimes see in photos that, because of its narrowness, you’d swear people in the East live on top of each other. There I had my first Korean meal cooked in Korea, since the Bulgogi burger (불고기 버거) I ate at the Incheon airport McDonald’s doesn’t count. What I ate there was Kimchi jjigae (김치찌개), which was very spicy and hot. Naturally, like most soups in Korea, they brought it to the table still boiling, but even so, we tried to eat it right away. By now, after almost three months here, hot food is no longer a problem for me.&lt;/p&gt;
+
+&lt;p&gt;Later, we went for a walk and met a couple of Koreans who say they love Mexico and sell sweets, which in Korean are called sugar beards. See the story of how these sweets are made.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;
     &lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xCHnOkXEC1E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
