@@ -25,6 +25,7 @@ paginate_path: "/page/:num/"
 
 languages: ["en", "es"]
 default_lang: "en"
+default_locale_in_subfolder: true
 
 # Custom vars
 icon:		/assets/images/icon.png
