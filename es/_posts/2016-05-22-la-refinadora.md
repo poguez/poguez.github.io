@@ -6,6 +6,8 @@ image: false
 image: "/media/2016-05-22-la-refinadora/portada.jpg"
 comments: true
 permalink: "/es/blog/la-refinadora/"
+redirect_from:
+  - "/blog/la-refinadora/"
 tags: ["open data", "periodismo", "automatización", "bots", "hackathon"]
 lang: "es"
 ---

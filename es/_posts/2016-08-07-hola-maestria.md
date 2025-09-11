@@ -6,6 +6,8 @@ image: false
 image: "/media/2016-08-07-hola-maestria/portada.jpg"
 comments: true
 permalink: "/es/blog/tomando-oportunidades/"
+redirect_from:
+  - "/blog/tomando-oportunidades/"
 tags: ["maestría", "ciencia de la computación", "corea del sur", "kaist", "oportunidades", "nuevos proyectos"]
 lang: "es"
 ---

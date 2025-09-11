@@ -6,6 +6,8 @@ image: "/assets/images/ramyeon/cocina.jpg"
 video: false
 comments: true
 permalink: "/es/blog/mrs-ramyeon/"
+redirect_from: 
+    - "/blog/mrs-ramyeon/"
 tags: ["corea", "comida", "vida", "ramyeon", "fideos", "kimchi"]
 lang: "es"
 ---

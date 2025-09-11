@@ -7,6 +7,8 @@ video:
   mp4: "/media/2016-03-21-hackertalk/hackertalk.mp4"
 comments: true
 permalink: "/es/blog/la-hackertalk/"
+redirect_from:
+  - "blog/la-hackertalk/"
 tags: ["hackers", "emprendimiento", "entrevistas"]
 lang: "es"
 ---

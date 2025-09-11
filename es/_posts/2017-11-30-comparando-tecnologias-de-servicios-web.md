@@ -6,6 +6,8 @@ image: false
 image: "/media/2017-11-30-comparando-tecnologias-de-servicios-web/portada.jpg"
 comments: true
 permalink: "/es/blog/servicios-web/"
+redirect_from:
+  - "blog/servicios-web/"
 tags: ["servicios web", "web services", "REST", "SOAP", "WSDL", "UDDI", "GraphQL", "API", "web API"]
 lang: "es"
 

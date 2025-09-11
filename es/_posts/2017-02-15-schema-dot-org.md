@@ -6,6 +6,8 @@ image: false
 image: "/media/2017-02-15-schema-dot-org/portada.jpg"
 comments: true
 permalink: "/es/blog/schema-dot-org/"
+redirect_from:
+  - "/blog/schema-dot-org/"
 tags: ["schema.org", "datos estructurados", "linked data", "open data", "web semántica"]
 lang: "es"
 ---

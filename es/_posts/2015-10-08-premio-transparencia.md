@@ -6,6 +6,8 @@ image: "/media/2015-10-08-premio-transparencia/00-borealis.jpg"
 video: false
 comments: true
 permalink: "/es/blog/premio-transparencia/"
+redirect_from: 
+    - "/blog/premio-transparencia/"
 tags: ["transparencia", "datos abiertos", "premio", "INAI", "innovación", "cívico", "hacktivismo"]
 lang: "es"
 ---

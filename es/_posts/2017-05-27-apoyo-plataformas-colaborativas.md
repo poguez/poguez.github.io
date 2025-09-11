@@ -6,6 +6,8 @@ image: false
 image: "/media/2017-05-27-apoyo-plataformas-colaborativas/portada.jpg"
 comments: true
 permalink: "/es/blog/asesoria-crowdsourcing/"
+redirect_from:
+  - "blog/asesoria-crowdsourcing/"
 tags: ["crowdsourcing", "plataformas colaborativas", "participación ciudadana", "diseño de plataformas", "corea del sur", "kaist"]
 lang: "es"
 ---

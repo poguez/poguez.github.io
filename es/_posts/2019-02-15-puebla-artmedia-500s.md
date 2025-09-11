@@ -6,6 +6,8 @@ image: "/media/2019-02-15-puebla-500anys/cover.jpg"
 video: false
 comments: true
 permalink: "/es/blog/puebla-artmedia-500s/"
+redirect_from:
+  - "blog/puebla-artmedia-500s/"
 tags: [ "puebla", "artmedia", "tecnologia", "ciudadania", "democracia", "arte", "diseno", "innovacion", "cultura", "sociedad", "futuro" ]
 lang: "es"
 ---

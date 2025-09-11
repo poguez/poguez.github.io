@@ -6,6 +6,8 @@ image: "/media/2016-02-16-revista-avianca/cover.jpg"
 video: false
 comments: true
 permalink: "/es/blog/revista-avianca/"
+redirect_from:
+  - "blog/revista-avianca/"
 tags: ["entrevista", "hackathon", "avianca"]
 lang: "es"
 ---

@@ -6,6 +6,8 @@ image: "/media/2010-11-14-barbas/cover.jpg"
 video: false
 comments: true
 permalink: "/es/blog/barbas-de-azucar/"
+redirect_from:
+  - "blog/barbas-de-azucar/"
 tags: ["viaje", "corea", "comida"]
 lang: "es"
 ---
