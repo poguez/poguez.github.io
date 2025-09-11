@@ -5,7 +5,7 @@ quote: "Towards 500 years of the City of Puebla"
 image: /media/2019-02-15-puebla-500anys/cover.jpg
 video: false
 comments: true
-permalink: "/en/blog/puebla-artmedia-500s/"
+permalink: "/en/blog/en-puebla-artmedia-500s/"
 tags: [ "puebla", "artmedia", "technology", "design", "culture", "society", "future" ]
 lang: "en"
 ---

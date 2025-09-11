@@ -5,7 +5,7 @@ quote: "Este es un post que escribí en Noviembre(de 2011), disculpen la atempor
 image: "/assets/images/ramyeon/cocina.jpg"
 video: false
 comments: true
-permalink: "/es/blog/mrs-ramyeon/"
+permalink: "/es/blog/es-mrs-ramyeon/"
 redirect_from: 
     - "/blog/mrs-ramyeon/"
 tags: ["corea", "comida", "vida", "ramyeon", "fideos", "kimchi"]

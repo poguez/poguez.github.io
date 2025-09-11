@@ -26,6 +26,16 @@ paginate_path: "/page/:num/"
 languages: ["en", "es"]
 default_lang: "en"
 default_locale_in_subfolder: true
+lang_from_path: true
+
+# don’t localize assets/static files
+exclude_from_localizations:
+  - assets
+  - images
+  - css
+  - js
+  - favicon.ico
+  - CNAME
 
 # Custom vars
 icon:		/assets/images/icon.png
@@ -57,14 +67,6 @@ copyright:
   type_title:	Algunos derechos reservados
   type_url:	https://creativecommons.org/licenses/by-nc/2.5
 
-# don’t localize assets/static files
-exclude_from_localizations:
-  - assets
-  - images
-  - css
-  - js
-  - favicon.ico
-  - CNAME
 # Assets & Styles
 
 sass:
@@ -77,7 +79,7 @@ google_analytics: UA-41550586-1
 # Jekyll Gems
 gems: [jekyll-paginate, bourbon]
 # Plugins
-plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot, jekyll-archives]
+plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-feed, jekyll-polyglot, jekyll-archives, jekyll-redirect-from]
 
 # jekyll-archives configuration
 jekyll-archives:

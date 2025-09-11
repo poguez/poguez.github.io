@@ -4,7 +4,7 @@ title: "Una reseña de Open Data en AbreLATAM 2014"
 quote: "Una reseña de las mesas en las que participé."
 image: "/media/2014-10-13-AbreLATAM2014/biblioteca_de_mexico.jpg"
 comments: true
-permalink: "/es/blog/abrelatam2014-mesas/"
+permalink: "/es/blog/es-abrelatam2014-mesas/"
 redirect_from: 
   - "/blog/abrelatam2014-mesas/"
 tags: ["open data", "conferencia", "latinoamérica"]

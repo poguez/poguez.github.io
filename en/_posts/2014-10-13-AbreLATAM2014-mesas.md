@@ -4,7 +4,7 @@ title: "A Review of Open Data at AbreLATAM 2014"
 quote: "A review of the tables I participated in."
 image: /media/2014-10-13-AbreLATAM2014/biblioteca_de_mexico.jpg
 comments: true
-permalink: "/en/blog/abreLATAM2014/"
+permalink: "/en/blog/en-abreLATAM2014/"
 tags: [ "open-data", "open-government", "abrelatam", "abrelatam2014", "latin-america", "civic-hacking", "ckan", "datamx", "socialtic", "datapedia" ]
 lang: "en"
 ---
