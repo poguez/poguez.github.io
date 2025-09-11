@@ -4,7 +4,7 @@
  <title>El blog de Noé Domínguez</title>
  <link href="https://www.noedominguez.com/atom.xml" rel="self"/>
  <link href="https://www.noedominguez.com/"/>
- <updated>2025-09-11T21:38:07+00:00</updated>
+ <updated>2025-09-11T22:49:06+00:00</updated>
  <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
@@ -13,10 +13,84 @@
 
  
  <entry>
-   <title>ArtMedia: From Historical Heritage to the Digital Era</title>
-   <link href="https://www.noedominguez.com/en/blog/puebla-artmedia-500s/"/>
+   <title>ArtMedia de la herencia histórica a la era digital</title>
+   <link href="https://www.noedominguez.com/es/blog/puebla-artmedia-500s/"/>
    <updated>2019-02-15T00:00:00+00:00</updated>
-   <id>https://www.noedominguez.com/en/blog/puebla-artmedia-500s</id>
+   <id>https://www.noedominguez.com/es/blog/puebla-artmedia-500s</id>
+   <content type="html">&lt;p&gt;En el año de 2013, Puebla coqueteaba con una idea en materia de innovación y diseño: la postulación a la red de ciudades creativas de la UNESCO.  Durante algunos años en conjunto con el gobierno municipal de Puebla, sociedad civil, academia, e industria,  trabajamos en la creación de un Mapa de Ruta. Se definieron varios proyectos que pudieran postular exitosamente a Puebla dentro de un conjunto selecto de ciudades que buscan fomentar el potencial creativo.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, Puebla es una capital que aún se está definiendo en cómo utilizar la tecnología a su favor. En las mesas de trabajo, de acuerdo con la industria se ha planteado que la tecnología y el diseño se utilice para potenciar la industria automotriz, textil y de materiales. Sin embargo, hoy en día la tecnología nos ha demostrado que puede estar en cualquier industria y que además puede cambiar nuestra vida cotidiana.&lt;/p&gt;
+
+&lt;h3 id=&quot;quiénes-hacen-art-media-y-cómo-lo-usamos&quot;&gt;Quiénes hacen Art Media y cómo lo usamos&lt;/h3&gt;
+&lt;p&gt;Uno de los polos de desarrollo académico de que más admiro es el MIT Media Lab. Es un lugar en donde obtener un título de Artes exige el uso de la ingeniería para desarrollar nuevos temas académicos. A pesar de que pareciera que ahí ocurren proyectos interdisciplinarios, Joichi Ito -el director- lo define más como un lugar donde suceden proyectos antidisciplinarios. Estudiantes y profesores no solo colaboran entre disciplinas, sino que exploran el espacio que hay entre ellas y más allá. Actualmente, el laboratorio se define como un lugar donde ocurren proyectos en la intersección de tecnología, medios, ciencia, arte y diseño; en donde el mundo del cómputo no consiste simplemente en las computadoras, sino en adaptarlas a nuestro vivir, pues están en todos lados. Hoy en día, a través de ellas entregamos y recibimos un mensaje; son un medio de comunicación.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2019-02-15-puebla-500anys/whiplash.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2019-02-15-puebla-500anys/whiplash.jpg&quot; alt=&quot;Whiplash: How to Survive Our Faster Future by Joi Ito&quot; width=&quot;50%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;&lt;a href=&quot;https://amzn.to/2X3LslY&quot;&gt;Whiplash: How to Survive Our Faster Future by Joi Ito&lt;/a&gt;&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&quot;la-tecnología-como-coordinadora-de-la-nueva-organización-ciudadana&quot;&gt;La tecnología como coordinadora de la nueva organización ciudadana&lt;/h3&gt;
+
+&lt;p&gt;Las redes sociales e internet han demostrado ser plataformas tecnológicas útiles para crear nuevas formas de organización ciudadana. Han democratizado la información y se han posicionado como un nuevo medio de organización. Al mismo tiempo, presenciamos algunos retos y fenómenos que pueden habilitar el escalamiento de la cooperación ciudadana. Nos han enseñado nuevas maneras de organización y de gobernanza. Un buen ejemplo de organización a través de la tecnología es la manera en que nos enfrentamos al sismo del 19 de septiembre de 2017. México se organizó a través de sus ciudadanos de una manera ejemplar. Un grupo de colaboración interdisciplinaria entre computólogos, tecnólogos, arquitectos, ingenieros, analistas de datos, periodistas y ciudadanos ayudó a que la recuperación y la reacción ante los daños del sismo se dieran en cuestión de minutos.&lt;/p&gt;
+
+&lt;p&gt;Con la tecnología emergieron grupos y herramientas enfocados en la distribución de recursos, verificación de hechos, organización de trabajo, evaluación de riesgos, entre otras soluciones. De manera ejemplar, la utilizamos para distribuir recursos de una nueva manera, lo que rebasó la capacidad de nuestro Gobierno. En cuanto a la gobernanza, ciudadanos y Gobierno han creado nuevos canales de comunicación y de rendición de cuentas. La disponibilidad y el derecho a la información pública han hecho posible una dinámica nueva para la toma de decisiones y comunicación entre ambos.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/media/2019-02-15-puebla-500anys/revisa_mi_grieta_bot.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/media/2019-02-15-puebla-500anys/revisa_mi_grieta_bot.jpg&quot; alt=&quot;Diseño de Bot para Revisa Mi Grieta publicado en Fortune México&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Diseño de Bot para Revisa Mi Grieta publicado en Fortune México&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;h3 id=&quot;la-tecnología-puede-ser-transformadora-pero-nuestras-ciudades-se-mueven-en-la-dirección-contraria&quot;&gt;La tecnología puede ser transformadora, pero nuestras ciudades se mueven en la dirección contraria&lt;/h3&gt;
+&lt;p&gt;Podríamos decir que aprovechamos la tecnología al conectar a una persona aislada con otras y con recursos e información. La tecnología puede ser vinculante y promotora de la autonomía. Un ejemplo de cómo puede ayudar a conectar es la aplicación de citas Tinder, pues MIT Technology Review reportó que ha vinculado a personas desconectadas y ha aumenta- do los matrimonios interraciales&lt;sup&gt;1 &lt;/sup&gt;. Al mismo tiempo, tenemos una respues- ta tecnológica para crear un sistema financiero descentralizado a través de la tecnología del blockchain y Bitcoin&lt;sup&gt;2&lt;/sup&gt;. La moneda electrónica ha permitido crear un mercado de bienes y servicios descentralizado que, además, permite la transparencia en las transacciones. Todos los usuarios de Bitcoin están sujetos a la autonomía y transparencia por defecto.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, cuando nos trasladamos al análisis de la vida en nuestra metrópoli, nos encontramos con que nuestra ciudad se mueve en otra dinámica, contraria a lo que promueve la tecnología transformadora. Nos encontramos, por ejemplo, con que la ciudad segrega a sus habitantes a través de desarrollos habitacionales donde se han creado suburbios de élite y otros de interés social. Así, se han generado burbujas con realidades distintas y ajenas, que limitan el quehacer político y marginan. Podemos decir también que las grandes distancias entre los centros de trabajo y los centros de vivienda evitan que el ciudadano tenga autonomía en el uso de su tiempo, pues debe utilizarlo para trasladarse de su casa a su centro de trabajo, lo cual evita que lo use para su desarrollo y el de su comunidad.&lt;/p&gt;
+
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;OneJS=1&amp;amp;Operation=GetAdHtml&amp;amp;MarketPlace=US&amp;amp;source=ac&amp;amp;ref=tf_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=devlabsmx-20&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=8416665958&amp;amp;asins=8416665958&amp;amp;linkId=3fda9d4ba4dc3992c5d5d84e5e1456e7&amp;amp;show_border=true&amp;amp;link_opens_in_new_window=true&amp;amp;price_color=333333&amp;amp;title_color=0d14e3&amp;amp;bg_color=ffffff&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;h3 id=&quot;la-tecnología-ciudadana-para-la-democracia&quot;&gt;La tecnología ciudadana para la democracia&lt;/h3&gt;
+
+&lt;p&gt;Un objetivo deseable en el cual podemos emplear la tecnología hacia el año 2031 es extender el potencial del ciudadano en la transformación de su entorno. Podemos utilizar herramientas informativas para que extienda su entendimiento y tome decisiones más informadas y para que pueda crear un nuevo sentido en la toma de decisiones sobre su vida y la de su comunidad. El uso de datos públicos y abiertos extiende el entendimiento sobre lo que ocurre, sobre el ejercicio de presupuestos, y le ayuda para la reflexión y la toma de decisiones colectivas. En un futuro, el uso de plataformas tecnológicas posibilitará nuevas votaciones en línea para una democracia más participativa, líquida y efectiva: participativa porque se podrán hacer con mayor frecuencia consultas a los ciudadanos sobre problemas que les importan; líquida porque se crearán nuevos mecanismos de democracia con delegación de votos.&lt;/p&gt;
+
+&lt;p&gt;Así, en una democracia líquida los ciudadanos, dependiendo de las votaciones y la elección, pueden delegar su voto a alguien de su confianza. Si el ciudadano tiene confianza para que alguien vote por él en referendos de parques, podrá hacerlo, otro para infraestructura de agua y así sucesivamente. A través de plataformas electrónicas, se pueden tener las mejores características de la democracia representativa y la directa.&lt;/p&gt;
+
+&lt;h3 id=&quot;el-arte-y-su-propósito-en-la-tecnología&quot;&gt;El arte y su propósito en la tecnología&lt;/h3&gt;
+
+&lt;p&gt;La tecnología y el arte han creado una combinación muy dinámica a través de nuevos formatos que van más allá de las artes clásicas. A pesar de ello, el arte mismo sigue sacudiendo y sensibilizando a las personas; crea activaciones diversas y nuevos espacios. La tecnología puede servir para declarar un cambio o crear una conciencia en las personas. De esta manera, el arte con un mensaje, a través de la tecnología, puede proveer autonomía y no dependencia de una herramienta de control.&lt;/p&gt;
+
+&lt;p&gt;A veces vislumbramos que la tecnología nos está haciendo prisioneros de un formato de vida predefinido, que nos vigila y sigue cada uno de nuestros movimientos. Es verdad que esto ocurre, pero al mismo tiempo puede ser un vehículo para llevar mensajes de impacto para la transformación social. Cada vez es más importante acotar el espacio de lo que ocurre en el plano digital y en nuestra vida cotidiana. Ambas realidades pueden habilitar la conciencia colectiva y la cooperación. Sin embargo, es pertinente que este medio se mantenga neutral, libre y abierto. Es nuestra responsabilidad velar por la privacidad de nuestras vidas y por la libertad de expresión.&lt;/p&gt;
+
+&lt;p&gt;Hacia el 2031, otras tecnologías como la impresión 3D, la realidad virtual y la realidad aumentada servirán como medio para hacer más accesibles los sitios de patrimonio en nuestra ciudad. Podremos generar réplicas de espacios y personajes que nos trasladen a otras épocas; crear personajes y ava- tares que intervengan en espacios ciberfísicos, donde la realidad y el espacio virtual converjan en distintas formas. Lo anterior a través de visitantes virtuales, de nuevas experiencias sensoriales e incluso de sensores conectados a nuestro cerebro.&lt;/p&gt;
+
+&lt;p&gt;David Eagleman, profesor de neurociencia en la Universidad de Stanford, ha estudiado el fenómeno de la sustitución sensorial. Afirma que podemos tener un modelo sensorial similar a lo que experimenta el Señor Cara de Papa en Toy Story. De esta forma, podemos conectar y desconectar los sentidos a nuestro cerebro, cambiándolos de lugar, y estos deberían funcionar de la misma manera, pues el cerebro puede interpretarlos desde cualquier posición. Nuestros sentidos están acotados a un pequeño espectro sensorial al cual nuestro cerebro está adaptado. De la misma manera, se adaptaría a usar otros sentidos si los aumentáramos o si mejorásemos sus capacidades. Incluso, pueden ser más que sentidos locales; pueden ser sentidos aumentados por sensores fuera de nuestro cuerpo. Así, si conectáramos el estado del clima a nuestro cuerpo podríamos desarrollar un sentido consciente del clima, o sensible, por ejemplo, a la bolsa de valores.&lt;/p&gt;
+
+&lt;p&gt;El horizonte, hacia los 500 años de nuestra metrópoli, parece lejano, pero en realidad, la tecnología que está aquí hoy tendrá impacto en una década. Esto ocurrirá mientras nos damos a la tarea de desarrollar proyectos que mejoren nuestra metrópoli. Por ello, deberíamos trabajar para encontrar nuestras propias soluciones y utilizar nuestra propia filosofía para la creación de herramientas, con el fin de ser responsables y crear la tecnología que necesitamos, y usar el arte y el diseño como vehículos de desarrollo en nuestra propia realidad. Utilicemos nuestra imaginación como la tierra media para materializar nuestra realidad a través de la racionalidad. Dos mil treinta y uno, ahí estaremos pronto.&lt;/p&gt;
+
+&lt;p&gt;Referencias:&lt;/p&gt;
+
+&lt;p&gt;[1] &lt;a href=&quot;https://www.technologyreview.com/s/609091/first-evidence-that-online-dating-is-changing-the-nature-of-society/&quot;&gt;First Evidence That Online Dating Is Changing the Nature of Society&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Publicado en:
+“La Ciudad de Puebla hacia sus 500 años.”
+15.6 Art Media: De la herencia histórica a la era digital.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ArtMedia: From Historical Heritage to the Digital Era</title>
+   <link href="https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s/"/>
+   <updated>2019-02-15T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s</id>
    <content type="html">&lt;p&gt;In 2013, Puebla was flirting with an idea in innovation and design: applying to the UNESCO Creative Cities Network. For several years, together with the municipal government of Puebla, civil society, academia, and industry, we worked on creating a Roadmap. Several projects were defined that could successfully nominate Puebla within a select group of cities seeking to foster creative potential.&lt;/p&gt;
 
 &lt;p&gt;However, Puebla is a capital that is still defining how to use technology to its advantage. In the working groups, according to industry, it has been proposed that technology and design be used to boost the automotive, textile, and materials industries. However, today technology has shown us that it can be in any industry and can also change our daily lives.&lt;/p&gt;
@@ -870,7 +944,7 @@ Photo: Flickr/trodel&lt;/p&gt;
  
  <entry>
    <title>Una reseña de Open Data en AbreLATAM 2014</title>
-   <link href="https://www.noedominguez.com/es/blog/abrelatam2014-mesas/"/>
+   <link href="https://www.noedominguez.com/es/blog/es-abrelatam2014-mesas/"/>
    <updated>2014-10-13T00:00:00+00:00</updated>
    <id>https://www.noedominguez.com/es/blog/AbreLATAM2014-mesas</id>
    <content type="html">&lt;p&gt;Hace apenas un par de días tuvo lugar AbreLATAM 2014, el 30 de Septiembre del año en curso. Ya habíamos tenido
@@ -997,7 +1071,7 @@ Flickr/pauloslachevsky&lt;/p&gt;
  
  <entry>
    <title>A Review of Open Data at AbreLATAM 2014</title>
-   <link href="https://www.noedominguez.com/en/blog/abreLATAM2014/"/>
+   <link href="https://www.noedominguez.com/en/blog/en-abreLATAM2014/"/>
    <updated>2014-10-13T00:00:00+00:00</updated>
    <id>https://www.noedominguez.com/en/blog/AbreLATAM2014-mesas</id>
    <content type="html">&lt;p&gt;Just a few days ago, AbreLATAM 2014 took place, on September 30th of this year. We had already had the opportunity to participate in the event that happened in Uruguay in 2013. This year, 9 out of 10 people from the Codeando México team were present to collaborate.&lt;/p&gt;
@@ -1132,8 +1206,64 @@ Previously, I have also worked as an independent web developer, I enjoy entrepre
  </entry>
  
  <entry>
+   <title>Un Hacker Cívico en el Pycon 2014</title>
+   <link href="https://www.noedominguez.com/es/blog/es-pycon2014/"/>
+   <updated>2014-04-25T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/es/blog/pycon2014</id>
+   <content type="html">&lt;p&gt;Hace un par de años mientras cursaba una materia en la carrera sobre Desarrollo Web (&lt;em&gt;Web Development&lt;/em&gt;) 
+tuve la libertad de elegir con qué lenguaje de programación y artefactos quería aprender a programar 
+web. La única restricción que teníamos era hacer una aplicación que cumpliera con todos los principios 
+que habíamos estado aprendiendo en la clase. En conjunto con mi equipo decidimos hacer una aplicación 
+Multi-tier con Django (Python) y una app de extracción de datos en la web (&lt;em&gt;Web Scraping&lt;/em&gt;) en lenguaje Scala. 
+Desde entonces, me ha gustado seguir la actividad de la comunidad de Python.&lt;/p&gt;
+
+&lt;p&gt;Hace dos años conocí a un par de amigos Pythonistas que han asistido a varias conferencias del Pycon US 
+y me platicaron sobre las experiencias que compartían con los programadores, como conocían a figuras del 
+Open Source de manera abierta, cenando con ellos o incluso compartiendo una cerveza. Y es por eso que este año por segunda vez consecutiva asisto al Pycon US.
+El Pycon US este año se realizó en Montreal, Canadá, que a pesar de no estar en Estados Unidos tiene una 
+comunidad muy unida y participativa en la realización del evento. La verdad es que fue una ciudad excelente 
+para la realización del evento, que también será sede en 2015. Tuve la oportunidad de platicar con gente muy 
+interesante, como algunos desarrolladores de CKAN, el proyecto Open Source en el cual está basado &lt;a href=&quot;http://datamx.io/&quot;&gt;datamx.io&lt;/a&gt; y 
+otras plataformas de datos abiertos como &lt;a href=&quot;http://data.gov.uk/&quot;&gt;data.gov.uk&lt;/a&gt; y &lt;a href=&quot;https://www.data.gov/&quot;&gt;data.gov&lt;/a&gt;. Además, en conjunto con Ian Ward (&lt;a href=&quot;http://twitter.com/wardi&quot;&gt;@wardi&lt;/a&gt;) 
+organizamos un &lt;em&gt;Open Space&lt;/em&gt; sobre Datos Abiertos (&lt;em&gt;Open Data&lt;/em&gt;) y Gobierno Abierto(&lt;em&gt;Open Government&lt;/em&gt;) en donde participó gente de Estados Unidos, Canadá 
+y Australia. Interesante también fue ver pláticas y sprints de otros proyectos &lt;em&gt;Open Source&lt;/em&gt; como &lt;a href=&quot;http://scrapy.org&quot;&gt;Scrapy&lt;/a&gt;, &lt;a href=&quot;http://ipython.org/&quot;&gt;IPython&lt;/a&gt;, 
+&lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt;, &lt;a href=&quot;http://scikit-learn.org/&quot;&gt;SciKit learn&lt;/a&gt;, Open Contracting Data Standard, entre otros, que son importantes para el desarrollo de 
+aplicaciones en el ecosistema de Datos Abiertos de todo el mundo.&lt;/p&gt;
+
+&lt;p&gt;Python siempre se ha caracterizado por ser una comunidad muy heterogénea y ha hecho todo lo posible por hacer 
+alcanzar nuevos grupos de desarrolladores y de incluir a nuevos integrantes. Este año 33% de las &lt;a href=&quot;http://www.pyvideo.org&quot;&gt;pláticas&lt;/a&gt; que 
+estuvieron en la agenda fueron impartidas por mujeres y como cada año, PyLadies organizó una subasta para continuar 
+su programa de integración de nuevos usuarios a la programación en Python. Si tú eres mujer y estás leyendo este post 
+te invito a que participes haciendo “pip install pyladies” o revisa esta &lt;a href=&quot;http://www.pyladies.com/blog/pip-install-pyladies/&quot;&gt;entrada en el blog de Pyladies&lt;/a&gt; 
+para que puedas uniste a esta causa.&lt;/p&gt;
+
+&lt;p&gt;En este post quisiera finalmente recomendarles algunas de las pláticas organizadas dentro de la conferencia 
+que pueden servirles para su desarrollo como hacktivistas, si quieren revisar más entren a &lt;a href=&quot;http://www.pyvideo.org/&quot;&gt;PyVideo.org&lt;/a&gt;. 
+Sobre nuestra participación en el Sprint de Open Contracting Data Standard les platicaré con más detenimiento 
+en el siguiente post, diviértanse con los videos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Talleres&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2592/introduction-to-web-and-data-scraping-with-pyt&quot;&gt;Introduction to web and data scraping with Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2690/python-for-social-scientists&quot;&gt;Python for Social Scientists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2639/search-101-an-introduction-to-information-retrie&quot;&gt;Search 101 an introduction to information retrieval&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2563/how-to-formulate-a-science-problem-and-analyze&quot;&gt;How to formulate a science problem and analyze it with python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pláticas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2593/python-scraping-showdown-a-performance-and-accur&quot;&gt;Python scraping showdown a performance and accuracy review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2605/python-geographic-data-bffs&quot;&gt;Python + Geographic Data = BFFs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pyvideo.org/video/2657/diving-into-open-data-with-ipython-notebook-pan-0&quot;&gt;Diving into Open Data with IPython notebook &amp;amp; Pandas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>A Civic Hacker at Pycon 2014</title>
-   <link href="https://www.noedominguez.com/en/blog/pycon2014/"/>
+   <link href="https://www.noedominguez.com/en/blog/en-pycon2014/"/>
    <updated>2014-04-25T00:00:00+00:00</updated>
    <id>https://www.noedominguez.com/en/blog/pycon2014</id>
    <content type="html">&lt;p&gt;A couple of years ago, while taking a Web Development course in college, I had the freedom to choose which programming language and tools I wanted to learn web programming with. The only restriction we had was to make an application that met all the principles we had been learning in class. Together with my team, we decided to make a Multi-tier application with Django (Python) and a web data extraction (Web Scraping) app in Scala. Since then, I’ve enjoyed following the activity of the Python community.&lt;/p&gt;
@@ -1168,7 +1298,88 @@ Pycon US this year was held in Montreal, Canada, which, despite not being in the
  
  <entry>
    <title>Mrs. Ramyeon</title>
-   <link href="https://www.noedominguez.com/en/blog/mrs-ramyeon/"/>
+   <link href="https://www.noedominguez.com/es/blog/es-mrs-ramyeon/"/>
+   <updated>2011-01-22T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/es/blog/mrs-ramyeon</id>
+   <content type="html">&lt;p&gt;Hace muuuucho tiempo que no escribo, la verdad es que he estado muy ocupado estos días. He tenido una experiencia
+un tanto de sentimientos encontrados sobre mi estancia. La verdad es que he tenido que trabajar muy duro, como nunca
+lo había hecho y a diferencia de México,  el estrés no solo está concentrado cuando se acerca la semana de examenes
+sino durante todos los días. Mis hábitos del sueño se han trastornado, ahora estoy durmiendo cuando sale el sol,
+pues es en la madrugada es cuando puedo ganar mas tiempo efectivo de estudio y tareas. No creo que sea lo peor
+que me ha pasado porque he procurado dormir almenos 5 horas diarias, solo que en otra hora del día. Mi desayuno es
+a las 2 de la tarde, mi comida a es a la 6 y mi cena es por ahí de la 1 de la mañana o las 12. En general, no está
+tan mal a pesar de que  he tenido en realidad poco tiempo para mí o para visitar Corea. Tal vez vaya a tener Enero
+libre, pero me han dicho que el invierno es muy crudo y solamente puedes permanecer en tu casa o salir a beber a un
+bar. Bueno, eso me lo dijeron en un bar así que mejor no le tomen mucha atención a mi comentario.&lt;/p&gt;
+
+&lt;p&gt;Hoy decidí hacerme un pequeño espacio para escribir, un rato de esos en los que a veces solamente te tiras en la cama,
+en los que lees las noticias… las atrocidades que están pasando en casa, el tiempo en el que revisas tu correo, en el
+que platicas con alguien que te encuentras mientras caminas, el tiempo que te toma lavarte los dientes… Son cosas que
+le dan sentido a tu día cuando estás muy ocupado, o más bien te sacan de la rutina. Así que voy a compartir con
+ustedes algunos de esos momentos raros y cortos.&lt;/p&gt;
+
+&lt;p&gt;Un día en el que salí de clases a las 3 de la tarde se me ocurrió acudir a la cafetería que está cerca del departamento
+de Ingeniería Eléctrica y Ciencias computacionales. Decidí entrar por el lado donde está la tiendita, donde la señora
+que atiende parece ser que siempre te regaña, además de que es muy “malencarada”. Pasé a ver a la barra de alimentos
+por si acaso seguían sirviendo y ya no había nada, me sentí muy loser la verdad porque tenía mucha hambre, entonces
+seguí mi camino para ir en busca de frutos y raíces comestibles que hubiera en el jardín -Bazzinga!- . Por casualidad
+esta vez decidí atravesar la cafetería para poder llegar a la biblioteca, cuando me encontré con que al otro lado había
+un lugar secreto donde estaban sirviendo fideos. Hasta entonces no lo había visto, pues nunca había atravesado hacia a
+la biblioteca por adentro de la cafetería.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/assets/images/ramyeon/ramyeon_arroz.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/assets/images/ramyeon/ramyeon_arroz.jpg&quot; alt=&quot;Cheeselicious&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Cheeselicious&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;Ahí solamente hay una cajera y una señora preparando al menos 5 platos de fideos (Ramen 라면) a la vez sobre la parrilla.
+Nadie hace ruido, todos comen y nadie platica. Decidí preguntarle a la cajera que era lo que vendían, ella me contestó
+Ramyeon de Queso (치즈라면) 1,500(원) wons, Ramyeon de queso y arroz (치즈라면고 밥) 2,000(원) wons.  El Ramyeon es una comida
+muy barata, además de popular en Corea y en el mundo. Según la Wikipedia estos fideos precocidos nacieron en Japón bajo
+la mano de &lt;a href=&quot;https://en.wikipedia.org/wiki/Momofuku_Ando&quot;&gt;Momofuku Andō&lt;/a&gt; en el año de 1952. Es una comida bastante barata,
+poco nutritiva, sin fibra, con 3 gramos de Sodio, pero muy rica en carbohidratos. Una porción tiene entre 350 y 550 calorías
+normalmente dependiendo del paquete, lo que puede representar en su máximo cerca del 50% de la ingesta calórica promedio
+(1,200 cal). Es muy popular en los estudiantes asiáticos consumir Ramyeon en las madrugadas o incluso como snack durante
+el día y es incluso un remedio para las noches de juerga.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;
+Fun fact: se dice que el ramen se consumió mucho en Japón después de la segunda guerra mundial, las condiciones económicas no eran
+muy favorables.
+&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;La señora que prepara los fideos, a quien por definición le asignaremos el alias  Mrs. Ramyeon, es toda una celebridad en la escuela
+y a decir de mi compañero de cuarto, coreano, prepara los mejores fideos de COREA. No sé a cuantos y que lugares haya ido a comer
+Ramyeon, ni si en su familia hasta el agua se les queme, pero por experiencia propia puedo decirles que están muy buenos. La
+combinación ganadora es Ramyeon con arroz (치즈라면고 밥), y Kimchi, no mezclados en la sopa sino cada uno por separado. El
+kimchi al igual que el agua afortunadamente es cortesía de la casa y puedes tomar el que quieras. El modo más popular de
+comerlos es: primero comes los fideos con el Kimchi, sin terminarte el caldo, una vez terminados los fideos puedes comer tu
+arroz a cucharadas y sopeado.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;
+  &lt;a href=&quot;/assets/images/ramyeon/kimchi.jpg&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;/assets/images/ramyeon/kimchi.jpg&quot; alt=&quot;Kimchi&quot; width=&quot;100%&quot; /&gt;
+  &lt;/a&gt;
+  
+  &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Kimchi&lt;/blockquote&gt;
+  
+&lt;/div&gt;
+
+&lt;p&gt;El Ramyeon es considerado económicamente como un bien inferior, el cual cuando bajan los ingresos su demanda aumenta. En
+realidad no sé cuando sea la temporada en la que se consuman más fideos en la escuela, pero para analizar los [Freakonomics]
+(http://en.wikipedia.org/wiki/Freakonomics) de este platillo bastaría con  hacerle una entrevista a Mrs. Ramyeon, quien es
+una celebridad en potencia.&lt;/p&gt;
+
+&lt;p&gt;el siempre fan del queso, Noé.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mrs. Ramyeon</title>
+   <link href="https://www.noedominguez.com/en/blog/en-mrs-ramyeon/"/>
    <updated>2011-01-22T00:00:00+00:00</updated>
    <id>https://www.noedominguez.com/en/blog/mrs-ramyeon</id>
    <content type="html">&lt;p&gt;It’s been a loooong time since I last wrote, honestly I’ve been very busy these days. I’ve had a somewhat mixed experience about my stay. The truth is I’ve had to work very hard, like never before, and unlike Mexico, the stress isn’t just concentrated when exam week approaches but every single day. My sleep habits have been disrupted, now I sleep when the sun rises, since it’s at dawn when I can get the most effective study and work time. I don’t think it’s the worst thing that’s happened to me because I’ve tried to sleep at least 5 hours a day, just at a different time. My breakfast is at 2 pm, my lunch at 6, and my dinner is around 1 am or midnight. Overall, it’s not so bad even though I’ve actually had little time for myself or to visit Korea. Maybe I’ll have January free, but I’ve been told winter is very harsh and you can only stay home or go out drinking at a bar. Well, that’s what they told me at a bar so maybe don’t pay too much attention to that comment.&lt;/p&gt;
