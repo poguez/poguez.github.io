@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections on Data Platform development: My Personal Series"
 quote: "A personal reflection on the work I've been doing in the last six years building data platforms."
-image: false
+image: /media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg
 video: false
 comments: true
 permalink: "/en/blog/reflections-on-data-platform-development/"
