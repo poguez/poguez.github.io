@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Reflections on Data Platform development: My Personal Series"
-quote: "A personal reflection on the work I've been doing in the last six years building data platforms."
-image: false
+title: "Insights on Data Platform development: My Personal Series"
+quote: "Personal insights on the work I've been doing in the last six years building data platforms."
+image: /media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg
 video: false
 comments: true
-permalink: "/en/blog/reflections-on-data-platform-development/"
+permalink: "/en/blog/insights-on-data-platform-development/"
 lang: "en"
 tags: ["data-platforms", "career", "distributed-systems", "technical-series"]
 date: "2026-03-06"
@@ -13,7 +13,7 @@ series: "Building Data Platforms"
 post_number: 0
 ---
 
-# Reflections on Building Data Platform Masonry: My Personal Series
+# Insights on Data Platform development: My Personal Series
 
 Over the past six years I have been working at Adevinta.com. This was the first opportunity I took when I arrived in Barcelona.
 It feels like yesterday when I first met my teammates, time has passed very fast.
