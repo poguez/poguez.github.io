@@ -1,11 +1,5 @@
 ---
 layout: page
-title: Sobre mi
-permalink: /sobre-mi/
----
-
----
-layout: page
 lang: "es"
 title: "Sobre mi"
 translation_key: about
