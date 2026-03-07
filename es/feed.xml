@@ -1,4 +1,242 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.noedominguez.com/es/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.noedominguez.com/es/" rel="alternate" type="text/html" /><updated>2026-03-06T12:26:00+00:00</updated><id>https://www.noedominguez.com/feed.xml</id><title type="html">El blog de Noé Domínguez</title><subtitle>Mi blog personal, tecnología &amp; programación</subtitle><author><name>Noé Domínguez Porras</name></author><entry xml:lang="en"><title type="html">ArtMedia: From Historical Heritage to the Digital Era</title><link href="https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s/" rel="alternate" type="text/html" title="ArtMedia: From Historical Heritage to the Digital Era" /><published>2019-02-15T00:00:00+00:00</published><updated>2019-02-15T00:00:00+00:00</updated><id>https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s</id><content type="html" xml:base="https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s/"><![CDATA[<p>In 2013, Puebla was flirting with an idea in innovation and design: applying to the UNESCO Creative Cities Network. For several years, together with the municipal government of Puebla, civil society, academia, and industry, we worked on creating a Roadmap. Several projects were defined that could successfully nominate Puebla within a select group of cities seeking to foster creative potential.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.noedominguez.com/es/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.noedominguez.com/es/" rel="alternate" type="text/html" /><updated>2026-03-07T00:04:18+00:00</updated><id>https://www.noedominguez.com/feed.xml</id><title type="html">El blog de Noé Domínguez</title><subtitle>Mi blog personal, tecnología &amp; programación</subtitle><author><name>Noé Domínguez Porras</name></author><entry xml:lang="en"><title type="html">Insights on Data Platform development: My Personal Series</title><link href="https://www.noedominguez.com/en/blog/insights-on-data-platform-development/" rel="alternate" type="text/html" title="Insights on Data Platform development: My Personal Series" /><published>2026-03-06T00:00:00+00:00</published><updated>2026-03-06T00:00:00+00:00</updated><id>https://www.noedominguez.com/en/blog/reflections-on-dataplatform-development</id><content type="html" xml:base="https://www.noedominguez.com/en/blog/insights-on-data-platform-development/"><![CDATA[<h1 id="insights-on-data-platform-development-my-personal-series">Insights on Data Platform development: My Personal Series</h1>
+
+<p>Over the past six years I have been working at Adevinta.com. This was the first opportunity I took when I arrived in Barcelona.
+It feels like yesterday when I first met my teammates, time has passed very fast.
+Building a more stable personal life with Adriana and Emilia takes time and effort.
+During these years, I joined a central team called Yotta, where I started as a data generalist working across all things big data.
+As the team grew, we started specializing, and this is where I started doing focused work with Spark GDPR processing pipelines
+and other tooling related to data governance, access control, ownership, and cost engineering.</p>
+
+<p>So the problem is that I have been immersed in the work, moving from one challenge to the next.
+There are also moments when life gets more demanding, and you have to prioritize personal life and well-being.
+Since the pandemic, things have been shifting, in the world and in tech.
+These changes have structurally changed the way we live and the way we organize as companies and society.
+Some say the golden years of computer science and engineering jobs are over us, especially with the arrival of LLMs.
+I believe we’re at the beginning of a new era, one that needs principles and responsibility to guide it through the next decades.</p>
+
+<p>So during the last year, I have been working with AI-assisted tools. At first the tools were rough and not very useful,
+but the results have been improving as we learn how to use them.
+I did something I find exciting: I used it to catch up with the work I had been doing in the last years.
+I analyzed the commits I had made over the last six years, and find a way to surface recurring themes from that sea of 
+commits and reflect on them to keep growing.</p>
+
+<p>I will start writing about this journey in a series of blog posts that I will be publishing this year.
+This feels like a good opportunity to share and reconnect with friends and the community, since I’ve been quiet for a while.
+I can tell my old friends from Mexico: I’m still working with data, but lately I’ve been working mostly on self-service data platforms.
+This is a very interesting topic because it has a lot of technical challenges, but also organizational and human ones.
+Open data platforms (like CKAN) also have a lot of challenges, but for me it feels like I’ve just switched from one
+kind of data platform to another.</p>
+
+<h2 id="the-six-engineering-areas">The Six Engineering Areas</h2>
+
+<p>This series explores six areas that have shaped my work over these six years.
+Each area groups a cluster of related problems, patterns, and design decisions:</p>
+
+<h3 id="area-1-ai--developer-experience">Area 1: AI &amp; Developer Experience</h3>
+
+<p>Platform usability is a first-class concern. 
+If data engineers, scientists, analysts, or ML practitioners can’t figure out
+how to use your platform, they’ll build workarounds or avoid it entirely. 
+This area explores:</p>
+
+<ul>
+  <li><strong>Platform usability</strong></li>
+  <li><strong>Documentation</strong></li>
+  <li><strong>AI-assisted documentation</strong></li>
+</ul>
+
+<h3 id="area-2-access-control-ownership--governance">Area 2: Access Control, Ownership &amp; Governance</h3>
+
+<p>This became the core of my work with data platforms. 
+Shared data platforms are complex because they require 
+balancing access (enabling work) with control (maintaining privacy and safety). 
+This area explores:</p>
+
+<ul>
+  <li><strong>Defining ownership</strong></li>
+  <li><strong>Ownership resolution</strong></li>
+  <li><strong>Self-serve access control</strong></li>
+  <li><strong>Flexibility vs control</strong></li>
+</ul>
+
+<h3 id="area-3-distributed-systems-architecture">Area 3: Distributed Systems Architecture</h3>
+
+<p>Data platforms are distributed systems. 
+Understanding consistency, concurrency, and trade-offs is a must.
+Once you think you know the theory, the practice and business constraints are another story.
+This area explores:</p>
+
+<ul>
+  <li><strong>CAP theorem in practice</strong></li>
+  <li><strong>Distributed deletes and writes</strong></li>
+  <li><strong>Concurrency control</strong></li>
+</ul>
+
+<h3 id="area-4-cost-engineering--finops">Area 4: Cost Engineering &amp; FinOps</h3>
+
+<p>Shared platforms need cost visibility. 
+If no one knows what things cost, no one optimizes.
+This area explores:</p>
+
+<ul>
+  <li><strong>Cost attribution</strong></li>
+  <li><strong>Data lifecycle management</strong></li>
+  <li><strong>Chargeback systems</strong></li>
+</ul>
+
+<h3 id="area-5-fail-safety--compliance">Area 5: Fail Safety &amp; Compliance</h3>
+
+<p>Compile-time errors are better than runtime errors. 
+Runtime errors are better than production incidents.
+This area explores:</p>
+
+<ul>
+  <li><strong>Fail-safe, fail fast</strong></li>
+  <li><strong>Compliance checks</strong></li>
+  <li><strong>Production readiness checks</strong></li>
+</ul>
+
+<h3 id="area-6-systems-design-decisions">Area 6: Systems Design Decisions</h3>
+
+<p>The final area reflects on architectural decisions and their consequences:</p>
+
+<ul>
+  <li><strong>The multiple dimensions of privacy</strong></li>
+  <li><strong>Privacy is architecture</strong></li>
+  <li><strong>Architectural debt in data</strong></li>
+</ul>
+
+<p>Let’s start the conversation.</p>
+
+<hr />
+
+<p><strong>Questions for readers</strong>:</p>
+<ul>
+  <li>Which of these six areas resonates most with your current work?</li>
+  <li>What topics would you add to this list for a Data Platform engineer?</li>
+</ul>]]></content><author><name>Noé Domínguez Porras</name></author><category term="en" /><category term="data-platforms" /><category term="career" /><category term="distributed-systems" /><category term="technical-series" /><summary type="html"><![CDATA[Insights on Data Platform development: My Personal Series]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="es"><title type="html">Reflexiones sobre el desarrollo de plataformas de datos: Mi serie personal</title><link href="https://www.noedominguez.com/es/blog/reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/" rel="alternate" type="text/html" title="Reflexiones sobre el desarrollo de plataformas de datos: Mi serie personal" /><published>2026-03-06T00:00:00+00:00</published><updated>2026-03-06T00:00:00+00:00</updated><id>https://www.noedominguez.com/es/blog/reflexiones-sobre-el-desarrollo-de-plataformas-de-datos</id><content type="html" xml:base="https://www.noedominguez.com/es/blog/reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/"><![CDATA[<h1 id="reflexiones-sobre-la-construcción-de-plataformas-de-datos-mi-serie-personal">Reflexiones sobre la construcción de plataformas de datos: Mi serie personal</h1>
+
+<p>Durante los últimos seis años he estado trabajando en <a href="https://adevinta.com">Adevinta.com</a>. Esta fue la primera oportunidad que tomé cuando llegué a Barcelona.
+Parece que fue ayer cuando conocí por primera vez a mis compañeros de equipo, el tiempo ha pasado muy rápido.
+Construir una vida personal más estable con Adriana y Emilia requiere tiempo y también esfuerzo.
+Durante estos años, me uní a un equipo central llamado Yotta, donde empecé como data generalist trabajando con todo lo relacionado con big data.
+A medida que el equipo creció, comenzamos a especializarnos, y fue ahí donde empecé a hacer trabajo más enfocado con pipelines de Spark para el procesamiento de GDPR
+y otras herramientas relacionadas con data governance, access control, ownership e ingeniería de costos.</p>
+
+<p>El problema es que he estado inmerso en el trabajo, pasando de un reto al siguiente.
+También hay momentos en que la vida se vuelve más exigente y hay que priorizar la vida personal y el bienestar.
+Desde la pandemia, las cosas han estado cambiando, en el mundo y en tech.
+Estos cambios han transformado estructuralmente la forma en que vivimos y la manera en que nos organizamos como empresas y sociedad.
+Algunos dicen que los años dorados de las ciencias computacionales y los empleos en ingeniería quedaron atrás, especialmente con la llegada de los LLMs.
+Yo creo que estamos al inicio de una nueva era, una que necesita principios y responsabilidad para guiarla durante las próximas décadas.
+Sin embargo, la materia prima que ha dado forma a esta nueva era de la inteligencia artificial, que inició hace unos 25 años es la cantidad de datos recopilados.</p>
+
+<p>Durante el último año he estado trabajando con herramientas asistidas por IA. Al principio las herramientas eran rudimentarias y no muy útiles,
+pero los resultados han ido mejorando conforme aprendemos a usarlas, encontrar usos y entender sus limitaciones es algo que me gusta.
+Conectar LLMs con otras fuentes de datos via Model Context Protocol, es algo bastante interesante. 
+Por eso, quise hacer un ejercicio, antes de sepultar un par de proyectos analicé los commits que había realizado durante los últimos seis años, 
+buscando la manera de identificar temas recurrentes en ese mar de commits
+y reflexionar sobre ellos para seguir creciendo.</p>
+
+<p>Comenzaré a escribir sobre este recorrido en una serie de blog posts que publicaré a lo largo de este año.
+Esto me parece una buena oportunidad para compartir y reconectar con amigos y la comunidad, ya que he estado en silencio por un tiempo.
+Puedo decirles a mis amigos de México: sigo trabajando con datos, pero últimamente me he enfocado principalmente en self-service data platforms.
+Es un tema muy interesante porque tiene muchos retos técnicos, pero también organizacionales y humanos.
+Las open data platforms (como CKAN) también tienen muchos retos, pero para mí se siente como si simplemente hubiera pasado de un
+tipo de data platform a otro.</p>
+
+<h2 id="las-seis-áreas-de-ingeniería-de-datos-que-he-tocado">Las Seis Áreas de Ingeniería de datos que he tocado</h2>
+
+<p>Esta serie explora seis áreas que han dado forma a mi trabajo durante estos seis años.
+Cada área agrupa un conjunto de problemas, patrones y decisiones de diseño relacionados:</p>
+
+<h3 id="área-1-ai--experiencia-del-desarrollador">Área 1: AI &amp; Experiencia del desarrollador</h3>
+
+<p>La usabilidad de la plataforma es una preocupación de primer nivel.
+Si los {data} x {engineers, scientists, analysts} o ML engineers no pueden entender
+cómo usar tu plataforma, construirán maneras alternativas de hacer las cosas o simplemente la evitarán.
+Esta área explora:</p>
+
+<ul>
+  <li><em>Usabilidad de una Plataforma de datos</em></li>
+  <li><em>Documentación</em></li>
+  <li><em>Gobernanza de datos</em></li>
+</ul>
+
+<h3 id="área-2-control-de-acceso-propiedad-y-gobernanza">Área 2: Control de acceso, propiedad y gobernanza</h3>
+
+<p>Esto se convirtió en el núcleo de mi trabajo con data platforms.
+Las data platforms compartidas son complejas porque requieren
+equilibrar el acceso (habilitando el trabajo) con el control (manteniendo la seguridad).
+Esta área explora:</p>
+
+<ul>
+  <li><em>Definiendo propiedad</em></li>
+  <li><em>Averiguar la propiedad de recursos</em></li>
+  <li><em>Autoservicio de control de acceso</em></li>
+  <li><em>Flexibilidad vs control</em></li>
+</ul>
+
+<h3 id="área-3-arquitectura-de-sistemas-distribuidos">Área 3: Arquitectura de sistemas distribuidos</h3>
+
+<p>Las data platforms son sistemas distribuidos.
+Entender la consistencia, la concurrencia y los trade-offs es indispensable.
+Una vez que crees conocer la teoría, la práctica y las restricciones del negocio son otra historia.
+Esta área explora:</p>
+
+<ul>
+  <li><em>Teorema de CAP en la práctica</em></li>
+  <li><em>Borrado de datos y escrituras distribuidas</em></li>
+  <li><em>Control de concurrencia</em></li>
+</ul>
+
+<h3 id="área-4-cost-engineering--finops">Área 4: Cost Engineering &amp; FinOps</h3>
+
+<p>Las data platforms compartidas necesitan visibilidad de costos.
+Si nadie sabe cuánto cuestan las cosas, nadie las optimiza.
+Esta área explora:</p>
+
+<ul>
+  <li><em>Sistemas de contracargo</em></li>
+  <li><em>Atribución de costos</em></li>
+  <li><em>Administración del ciclo de datos</em></li>
+</ul>
+
+<h3 id="área-5-seguridad-ante-fallos-y-verificación-de-cumplimiento">Área 5: Seguridad ante fallos y verificación de cumplimiento</h3>
+
+<p>Los errores en tiempo de compilación son mejores que los errores en tiempo de ejecución.
+Los errores en tiempo de ejecución son mejores que los incidentes en producción.
+Esta área explora:</p>
+
+<ul>
+  <li><em>Falla seguro, falla rápido</em></li>
+  <li><em>Comprobación de cumplimiento</em></li>
+  <li><em>Comprobación de sistemas para producción</em></li>
+</ul>
+
+<h3 id="área-6-decisiones-de-diseño-de-sistemas">Área 6: Decisiones de diseño de sistemas</h3>
+
+<p>El área final reflexiona sobre las decisiones arquitectónicas y sus consecuencias:</p>
+
+<ul>
+  <li><em>Las multiples dimensiones de privacidad</em></li>
+  <li><em>Privacidad es arquitectura de sisemas</em></li>
+  <li><em>Deuda de arquitectura en datos</em></li>
+</ul>
+
+<p>Estos son un par de áreas que no pretenden ser exhaustivas, si no son solo un reflejo
+de algunos temas que han sido recurrentes en estos últimos años de ingeniería de datos.
+A pesar de que pueden ser temas técnicos, siempre tienen un componente humano y organizacional que es importante considerar.</p>
+
+<p>Empecemos la conversación.</p>
+
+<hr />
+
+<p><em>Preguntas para los lectores</em>:</p>
+<ul>
+  <li>¿Cuál de estas seis áreas resuena más con tu trabajo actual?</li>
+  <li>¿Qué temas añadirías a esta lista para un Data Platform Engineer?</li>
+</ul>]]></content><author><name>Noé Domínguez Porras</name></author><category term="es" /><category term="data-platforms" /><category term="career" /><category term="distributed-systems" /><category term="technical-series" /><summary type="html"><![CDATA[Reflexiones sobre la construcción de plataformas de datos: Mi serie personal]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2026-03-06-reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/cover.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">ArtMedia: From Historical Heritage to the Digital Era</title><link href="https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s/" rel="alternate" type="text/html" title="ArtMedia: From Historical Heritage to the Digital Era" /><published>2019-02-15T00:00:00+00:00</published><updated>2019-02-15T00:00:00+00:00</updated><id>https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s</id><content type="html" xml:base="https://www.noedominguez.com/en/blog/en-puebla-artmedia-500s/"><![CDATA[<p>In 2013, Puebla was flirting with an idea in innovation and design: applying to the UNESCO Creative Cities Network. For several years, together with the municipal government of Puebla, civil society, academia, and industry, we worked on creating a Roadmap. Several projects were defined that could successfully nominate Puebla within a select group of cities seeking to foster creative potential.</p>
 
 <p>However, Puebla is a capital that is still defining how to use technology to its advantage. In the working groups, according to industry, it has been proposed that technology and design be used to boost the automotive, textile, and materials industries. However, today technology has shown us that it can be in any industry and can also change our daily lives.</p>
 
@@ -371,33 +609,4 @@ Es algo que me gusta, pues para los usuarios de una app el cielo y el infierno e
 
 <p>El artículo lo pueden encontrar en: <a href="http://cacm.acm.org/magazines/2016/2/197422-schema-org/fulltext">Schema.org: Evolution of Structured Data on the Web</a></p>
 
-<p>Photo: <a href="https://www.flickr.com/photos/melancholija/8067666973/">Flickr/melancholija</a></p>]]></content><author><name>Noé Domínguez Porras</name></author><category term="es" /><category term="schema.org" /><category term="datos estructurados" /><category term="linked data" /><category term="open data" /><category term="web semántica" /><summary type="html"><![CDATA[Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la creación de datos estructurados y que puedan ser descritos para encontrar relaciones. De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. No se refería exclusivamente a documentos sino también se refería a recursos físicos como equipamiento, máquinas. Se refirió también a personas y a sus habilidades como parte de un sistema que tiene información ligada. En su conjunto lo que creó dentro del CERN fue un sitema para lidiar con la pérdida de información en un sistema que evoluciona complejamente, La solución derivó en un sistema distribuido de hipertexto. Pueden ver a detalle la solución propuesta en Information Management: A Proposal (1989).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Seizing Opportunities</title><link href="https://www.noedominguez.com/en/blog/seizing-opportunities/" rel="alternate" type="text/html" title="Seizing Opportunities" /><published>2016-08-07T00:00:00+00:00</published><updated>2016-08-07T00:00:00+00:00</updated><id>https://www.noedominguez.com/en/blog/hola-maestria</id><content type="html" xml:base="https://www.noedominguez.com/en/blog/seizing-opportunities/"><![CDATA[<h1 id="seizing-opportunities">Seizing Opportunities</h1>
-
-<p>This blog post I write today is to give thanks. As of July, I left two organizations I had collaborated with full-time for the past two years: <a href="http://civica.digital">Cívica Digital</a> and <a href="http://codeandomexico.org">Codeando México</a>. Along the way, I met many people through collaboration and I am very grateful. Don’t worry, I will stay in touch and help where I can.</p>
-
-<p>Soon—in September—I will begin a master’s degree in <a href="http://cs.kaist.ac.kr">Computer Science</a> at the <a href="http://www.kaist.edu">Korean Advanced Institute of Science and Technology</a>. A new project I had postponed for some time and that excites me a lot. I’m excited because I go with a scholarship from the government of the Republic of Korea that will allow me to study without financial worries.</p>
-
-<p>I had been postponing this moment since I finished my bachelor’s degree in 2012. And I am grateful that during this time I have met great people, with whom I have collaborated and above all learned a lot along the way. One of the opportunities I am very happy to have taken advantage of is: proposing solutions to the social concerns we Mexicans have. It’s a concern that doesn’t go away—what holds us back in social progress? Where does software help us? Is technology what we needed to change as a society? There are many things we can improve, and each needs its own proposal. There is a widespread desire to be a better Mexican society, and I am very happy because there are people working to make it happen. The key so far is to be proactive and have the patience to explain new ways of doing things with efficiency, effectiveness, and inclusion.</p>
-
-<p>However, I will not stop these types of collaborations; I am taking a bit of inspiration for what comes next. I want to be a better element for our society that can offer better solutions in the field of technology. Little by little, I will find how to propose in the academic field since it is new to me. While I learn, let’s stay in touch—there are many things to do.</p>
-
-<p>Noé Domínguez(<a href="https://github.com/poguez">@poguez</a>)</p>
-
-<p>You can also find me at my academic email: noe_dgz <em>at</em> kaist.ac.kr.</p>
-
-<p>Cover photo CC license: Seoul By Emile-Victor Portenart</p>]]></content><author><name>Noé Domínguez Porras</name></author><category term="en" /><category term="life" /><category term="opportunities" /><category term="education" /><category term="masters" /><category term="kaist" /><category term="south korea" /><category term="civic tech" /><category term="codeando mexico" /><category term="civica digital" /><summary type="html"><![CDATA[Seizing Opportunities]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2016-08-07-hola-maestria/portada.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2016-08-07-hola-maestria/portada.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="es"><title type="html">Tomando oportunidades</title><link href="https://www.noedominguez.com/es/blog/tomando-oportunidades/" rel="alternate" type="text/html" title="Tomando oportunidades" /><published>2016-08-07T00:00:00+00:00</published><updated>2016-08-07T00:00:00+00:00</updated><id>https://www.noedominguez.com/es/blog/hola-maestria</id><content type="html" xml:base="https://www.noedominguez.com/es/blog/tomando-oportunidades/"><![CDATA[<h1 id="tomando-oportunidades">Tomando oportunidades</h1>
-
-<p>Este blogpost que hoy escribo es para dar gracias. A partir de julio dejé de tiempo completo a dos organizaciones con las que he colaborado por estos últimos dos años: <a href="http://civica.digital">Cívica Digital</a> y <a href="http://codeandomexico.org">Codeando México</a>. En el camino nos conocimos muchos colaborando y estoy muy agradecido. No se preocupen, seguiré en contacto en lo que les pueda ayudar.</p>
-
-<p>Prontamente -en Septiembre- comenzaré una maestría en <a href="http://cs.kaist.ac.kr">Ciencias Computacionales</a> en el <a href="http://www.kaist.edu">Korean Advanced Institute of Science and Technology</a>. Un nuevo proyecto que tenía rezagado hace tiempo y que me emociona mucho. Me emociona porque voy con una beca del gobierno de la República de Corea que me permitirá estudiar sin preocupaciones de manutención.</p>
-
-<p>Este momento lo venía postergando desde que terminé mi licenciatura en 2012. Y agradezco que en este tiempo me he encontrado con gran gente, con la que he colaborado y sobre todo he aprendido mucho en el camino. Una de las oportunidades que estoy muy contento de haber aprovechado es: proponer soluciones a las preocupaciones sociales que tenemos los mexicanos. Es una inquietud que no se va, ¿qué es lo que nos frena de en el avance social?, ¿en dónde nos ayuda el software?, ¿la tecnología es lo que nos faltaba para cambiar como sociedad? hay muchas cosas en las que podemos mejorar y cada una necesita su propia propuesta. Hay una inquietud generalizada de que queremos ser una mejor sociedad mexicana y me siento muy contento porque hay gente trabajando en hacerlo. La clave hasta hora es ser propositivos y tener la paciencia para explicar nuevas maneras de hacer las cosas con eficiencia, eficacia e inclusión.</p>
-
-<p>Sin embargo, no dejaré este tipo de colaboraciones, estoy tomando un poco de inspiración para lo que viene.
-Quiero ser un mejor elemento para nuestra sociedad que pueda ofrecer mejores soluciones en el campo de la tecnología. Poco a poco iré encontrando como poder proponer en el campo académico pues es nuevo para mi. Mientras aprendo sigamos en contacto que hay muchas cosas por hacer.</p>
-
-<p>Noé Domínguez(<a href="https://github.com/poguez">@poguez</a>)</p>
-
-<p>Pueden también encontrarme en mi correo académico: noe_dgz <em>en</em> kaist.ac.kr.</p>
-
-<p>Foto de portada licencia CC: Seoul By Emile-Victor Portenart</p>]]></content><author><name>Noé Domínguez Porras</name></author><category term="es" /><category term="maestría" /><category term="ciencia de la computación" /><category term="corea del sur" /><category term="kaist" /><category term="oportunidades" /><category term="nuevos proyectos" /><summary type="html"><![CDATA[Tomando oportunidades]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2016-08-07-hola-maestria/portada.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2016-08-07-hola-maestria/portada.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Photo: <a href="https://www.flickr.com/photos/melancholija/8067666973/">Flickr/melancholija</a></p>]]></content><author><name>Noé Domínguez Porras</name></author><category term="es" /><category term="schema.org" /><category term="datos estructurados" /><category term="linked data" /><category term="open data" /><category term="web semántica" /><summary type="html"><![CDATA[Cuando estuve trabajando con Open Data una de las inquietudes que prevalició en la publicación de datos abiertos es la creación de datos estructurados y que puedan ser descritos para encontrar relaciones. De hecho, desde que se creó la Web Tim Berners Lee tenía la visión de hacer un sistema en donde se pudiera manejar información interconectada. No se refería exclusivamente a documentos sino también se refería a recursos físicos como equipamiento, máquinas. Se refirió también a personas y a sus habilidades como parte de un sistema que tiene información ligada. En su conjunto lo que creó dentro del CERN fue un sitema para lidiar con la pérdida de información en un sistema que evoluciona complejamente, La solución derivó en un sistema distribuido de hipertexto. Pueden ver a detalle la solución propuesta en Information Management: A Proposal (1989).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" /><media:content medium="image" url="https://www.noedominguez.com/media/2017-02-15-schema-dot-org/portada.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

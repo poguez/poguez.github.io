@@ -4,13 +4,270 @@
  <title>El blog de Noé Domínguez</title>
  <link href="https://www.noedominguez.com/atom.xml" rel="self"/>
  <link href="https://www.noedominguez.com/"/>
- <updated>2026-03-06T12:26:00+00:00</updated>
+ <updated>2026-03-07T00:04:18+00:00</updated>
  <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Reflexiones sobre el desarrollo de plataformas de datos: Mi serie personal</title>
+   <link href="https://www.noedominguez.com/es/blog/reflexiones-sobre-el-desarrollo-de-plataformas-de-datos/"/>
+   <updated>2026-03-06T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/es/blog/reflexiones-sobre-el-desarrollo-de-plataformas-de-datos</id>
+   <content type="html">&lt;h1 id=&quot;reflexiones-sobre-la-construcción-de-plataformas-de-datos-mi-serie-personal&quot;&gt;Reflexiones sobre la construcción de plataformas de datos: Mi serie personal&lt;/h1&gt;
+
+&lt;p&gt;Durante los últimos seis años he estado trabajando en &lt;a href=&quot;https://adevinta.com&quot;&gt;Adevinta.com&lt;/a&gt;. Esta fue la primera oportunidad que tomé cuando llegué a Barcelona.
+Parece que fue ayer cuando conocí por primera vez a mis compañeros de equipo, el tiempo ha pasado muy rápido.
+Construir una vida personal más estable con Adriana y Emilia requiere tiempo y también esfuerzo.
+Durante estos años, me uní a un equipo central llamado Yotta, donde empecé como data generalist trabajando con todo lo relacionado con big data.
+A medida que el equipo creció, comenzamos a especializarnos, y fue ahí donde empecé a hacer trabajo más enfocado con pipelines de Spark para el procesamiento de GDPR
+y otras herramientas relacionadas con data governance, access control, ownership e ingeniería de costos.&lt;/p&gt;
+
+&lt;p&gt;El problema es que he estado inmerso en el trabajo, pasando de un reto al siguiente.
+También hay momentos en que la vida se vuelve más exigente y hay que priorizar la vida personal y el bienestar.
+Desde la pandemia, las cosas han estado cambiando, en el mundo y en tech.
+Estos cambios han transformado estructuralmente la forma en que vivimos y la manera en que nos organizamos como empresas y sociedad.
+Algunos dicen que los años dorados de las ciencias computacionales y los empleos en ingeniería quedaron atrás, especialmente con la llegada de los LLMs.
+Yo creo que estamos al inicio de una nueva era, una que necesita principios y responsabilidad para guiarla durante las próximas décadas.
+Sin embargo, la materia prima que ha dado forma a esta nueva era de la inteligencia artificial, que inició hace unos 25 años es la cantidad de datos recopilados.&lt;/p&gt;
+
+&lt;p&gt;Durante el último año he estado trabajando con herramientas asistidas por IA. Al principio las herramientas eran rudimentarias y no muy útiles,
+pero los resultados han ido mejorando conforme aprendemos a usarlas, encontrar usos y entender sus limitaciones es algo que me gusta.
+Conectar LLMs con otras fuentes de datos via Model Context Protocol, es algo bastante interesante. 
+Por eso, quise hacer un ejercicio, antes de sepultar un par de proyectos analicé los commits que había realizado durante los últimos seis años, 
+buscando la manera de identificar temas recurrentes en ese mar de commits
+y reflexionar sobre ellos para seguir creciendo.&lt;/p&gt;
+
+&lt;p&gt;Comenzaré a escribir sobre este recorrido en una serie de blog posts que publicaré a lo largo de este año.
+Esto me parece una buena oportunidad para compartir y reconectar con amigos y la comunidad, ya que he estado en silencio por un tiempo.
+Puedo decirles a mis amigos de México: sigo trabajando con datos, pero últimamente me he enfocado principalmente en self-service data platforms.
+Es un tema muy interesante porque tiene muchos retos técnicos, pero también organizacionales y humanos.
+Las open data platforms (como CKAN) también tienen muchos retos, pero para mí se siente como si simplemente hubiera pasado de un
+tipo de data platform a otro.&lt;/p&gt;
+
+&lt;h2 id=&quot;las-seis-áreas-de-ingeniería-de-datos-que-he-tocado&quot;&gt;Las Seis Áreas de Ingeniería de datos que he tocado&lt;/h2&gt;
+
+&lt;p&gt;Esta serie explora seis áreas que han dado forma a mi trabajo durante estos seis años.
+Cada área agrupa un conjunto de problemas, patrones y decisiones de diseño relacionados:&lt;/p&gt;
+
+&lt;h3 id=&quot;área-1-ai--experiencia-del-desarrollador&quot;&gt;Área 1: AI &amp;amp; Experiencia del desarrollador&lt;/h3&gt;
+
+&lt;p&gt;La usabilidad de la plataforma es una preocupación de primer nivel.
+Si los {data} x {engineers, scientists, analysts} o ML engineers no pueden entender
+cómo usar tu plataforma, construirán maneras alternativas de hacer las cosas o simplemente la evitarán.
+Esta área explora:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Usabilidad de una Plataforma de datos&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Documentación&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Gobernanza de datos&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;área-2-control-de-acceso-propiedad-y-gobernanza&quot;&gt;Área 2: Control de acceso, propiedad y gobernanza&lt;/h3&gt;
+
+&lt;p&gt;Esto se convirtió en el núcleo de mi trabajo con data platforms.
+Las data platforms compartidas son complejas porque requieren
+equilibrar el acceso (habilitando el trabajo) con el control (manteniendo la seguridad).
+Esta área explora:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Definiendo propiedad&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Averiguar la propiedad de recursos&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Autoservicio de control de acceso&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Flexibilidad vs control&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;área-3-arquitectura-de-sistemas-distribuidos&quot;&gt;Área 3: Arquitectura de sistemas distribuidos&lt;/h3&gt;
+
+&lt;p&gt;Las data platforms son sistemas distribuidos.
+Entender la consistencia, la concurrencia y los trade-offs es indispensable.
+Una vez que crees conocer la teoría, la práctica y las restricciones del negocio son otra historia.
+Esta área explora:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Teorema de CAP en la práctica&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Borrado de datos y escrituras distribuidas&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Control de concurrencia&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;área-4-cost-engineering--finops&quot;&gt;Área 4: Cost Engineering &amp;amp; FinOps&lt;/h3&gt;
+
+&lt;p&gt;Las data platforms compartidas necesitan visibilidad de costos.
+Si nadie sabe cuánto cuestan las cosas, nadie las optimiza.
+Esta área explora:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Sistemas de contracargo&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Atribución de costos&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Administración del ciclo de datos&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;área-5-seguridad-ante-fallos-y-verificación-de-cumplimiento&quot;&gt;Área 5: Seguridad ante fallos y verificación de cumplimiento&lt;/h3&gt;
+
+&lt;p&gt;Los errores en tiempo de compilación son mejores que los errores en tiempo de ejecución.
+Los errores en tiempo de ejecución son mejores que los incidentes en producción.
+Esta área explora:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Falla seguro, falla rápido&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Comprobación de cumplimiento&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Comprobación de sistemas para producción&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;área-6-decisiones-de-diseño-de-sistemas&quot;&gt;Área 6: Decisiones de diseño de sistemas&lt;/h3&gt;
+
+&lt;p&gt;El área final reflexiona sobre las decisiones arquitectónicas y sus consecuencias:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Las multiples dimensiones de privacidad&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Privacidad es arquitectura de sisemas&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Deuda de arquitectura en datos&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estos son un par de áreas que no pretenden ser exhaustivas, si no son solo un reflejo
+de algunos temas que han sido recurrentes en estos últimos años de ingeniería de datos.
+A pesar de que pueden ser temas técnicos, siempre tienen un componente humano y organizacional que es importante considerar.&lt;/p&gt;
+
+&lt;p&gt;Empecemos la conversación.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Preguntas para los lectores&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;¿Cuál de estas seis áreas resuena más con tu trabajo actual?&lt;/li&gt;
+  &lt;li&gt;¿Qué temas añadirías a esta lista para un Data Platform Engineer?&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Insights on Data Platform development: My Personal Series</title>
+   <link href="https://www.noedominguez.com/en/blog/insights-on-data-platform-development/"/>
+   <updated>2026-03-06T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/reflections-on-dataplatform-development</id>
+   <content type="html">&lt;h1 id=&quot;insights-on-data-platform-development-my-personal-series&quot;&gt;Insights on Data Platform development: My Personal Series&lt;/h1&gt;
+
+&lt;p&gt;Over the past six years I have been working at Adevinta.com. This was the first opportunity I took when I arrived in Barcelona.
+It feels like yesterday when I first met my teammates, time has passed very fast.
+Building a more stable personal life with Adriana and Emilia takes time and effort.
+During these years, I joined a central team called Yotta, where I started as a data generalist working across all things big data.
+As the team grew, we started specializing, and this is where I started doing focused work with Spark GDPR processing pipelines
+and other tooling related to data governance, access control, ownership, and cost engineering.&lt;/p&gt;
+
+&lt;p&gt;So the problem is that I have been immersed in the work, moving from one challenge to the next.
+There are also moments when life gets more demanding, and you have to prioritize personal life and well-being.
+Since the pandemic, things have been shifting, in the world and in tech.
+These changes have structurally changed the way we live and the way we organize as companies and society.
+Some say the golden years of computer science and engineering jobs are over us, especially with the arrival of LLMs.
+I believe we’re at the beginning of a new era, one that needs principles and responsibility to guide it through the next decades.&lt;/p&gt;
+
+&lt;p&gt;So during the last year, I have been working with AI-assisted tools. At first the tools were rough and not very useful,
+but the results have been improving as we learn how to use them.
+I did something I find exciting: I used it to catch up with the work I had been doing in the last years.
+I analyzed the commits I had made over the last six years, and find a way to surface recurring themes from that sea of 
+commits and reflect on them to keep growing.&lt;/p&gt;
+
+&lt;p&gt;I will start writing about this journey in a series of blog posts that I will be publishing this year.
+This feels like a good opportunity to share and reconnect with friends and the community, since I’ve been quiet for a while.
+I can tell my old friends from Mexico: I’m still working with data, but lately I’ve been working mostly on self-service data platforms.
+This is a very interesting topic because it has a lot of technical challenges, but also organizational and human ones.
+Open data platforms (like CKAN) also have a lot of challenges, but for me it feels like I’ve just switched from one
+kind of data platform to another.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-six-engineering-areas&quot;&gt;The Six Engineering Areas&lt;/h2&gt;
+
+&lt;p&gt;This series explores six areas that have shaped my work over these six years.
+Each area groups a cluster of related problems, patterns, and design decisions:&lt;/p&gt;
+
+&lt;h3 id=&quot;area-1-ai--developer-experience&quot;&gt;Area 1: AI &amp;amp; Developer Experience&lt;/h3&gt;
+
+&lt;p&gt;Platform usability is a first-class concern. 
+If data engineers, scientists, analysts, or ML practitioners can’t figure out
+how to use your platform, they’ll build workarounds or avoid it entirely. 
+This area explores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Platform usability&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI-assisted documentation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;area-2-access-control-ownership--governance&quot;&gt;Area 2: Access Control, Ownership &amp;amp; Governance&lt;/h3&gt;
+
+&lt;p&gt;This became the core of my work with data platforms. 
+Shared data platforms are complex because they require 
+balancing access (enabling work) with control (maintaining privacy and safety). 
+This area explores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Defining ownership&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ownership resolution&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Self-serve access control&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Flexibility vs control&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;area-3-distributed-systems-architecture&quot;&gt;Area 3: Distributed Systems Architecture&lt;/h3&gt;
+
+&lt;p&gt;Data platforms are distributed systems. 
+Understanding consistency, concurrency, and trade-offs is a must.
+Once you think you know the theory, the practice and business constraints are another story.
+This area explores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CAP theorem in practice&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Distributed deletes and writes&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Concurrency control&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;area-4-cost-engineering--finops&quot;&gt;Area 4: Cost Engineering &amp;amp; FinOps&lt;/h3&gt;
+
+&lt;p&gt;Shared platforms need cost visibility. 
+If no one knows what things cost, no one optimizes.
+This area explores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Cost attribution&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data lifecycle management&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chargeback systems&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;area-5-fail-safety--compliance&quot;&gt;Area 5: Fail Safety &amp;amp; Compliance&lt;/h3&gt;
+
+&lt;p&gt;Compile-time errors are better than runtime errors. 
+Runtime errors are better than production incidents.
+This area explores:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fail-safe, fail fast&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compliance checks&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Production readiness checks&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;area-6-systems-design-decisions&quot;&gt;Area 6: Systems Design Decisions&lt;/h3&gt;
+
+&lt;p&gt;The final area reflects on architectural decisions and their consequences:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The multiple dimensions of privacy&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Privacy is architecture&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Architectural debt in data&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s start the conversation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions for readers&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Which of these six areas resonates most with your current work?&lt;/li&gt;
+  &lt;li&gt;What topics would you add to this list for a Data Platform engineer?&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>ArtMedia de la herencia histórica a la era digital</title>
