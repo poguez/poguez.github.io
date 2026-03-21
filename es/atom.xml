@@ -4,13 +4,841 @@
  <title>El blog de Noé Domínguez</title>
  <link href="https://www.noedominguez.com/es/atom.xml" rel="self"/>
  <link href="https://www.noedominguez.com/es/"/>
- <updated>2026-03-09T11:44:55+00:00</updated>
+ <updated>2026-03-21T00:53:04+00:00</updated>
  <id>https://www.noedominguez.com</id>
  <author>
    <name>Noé Domínguez Porras</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Documentación Asistida por IA: Enfoques y Trade-offs</title>
+   <link href="https://www.noedominguez.com/es/blog/documentacion-asistida-por-ia/"/>
+   <updated>2026-03-21T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/es/blog/documentacion-asistida-por-ia</id>
+   <content type="html">&lt;h1 id=&quot;documentación-asistida-por-ia-enfoques-y-trade-offs&quot;&gt;Documentación Asistida por IA: Enfoques y Trade-offs&lt;/h1&gt;
+
+&lt;h2 id=&quot;el-problema-de-la-deuda-de-documentación&quot;&gt;El Problema de la Deuda de Documentación&lt;/h2&gt;
+
+&lt;p&gt;La documentación se queda atrás del código. Siempre.&lt;/p&gt;
+
+&lt;p&gt;Durante mis últimos seis años manteniendo plataformas de datos, he visto este patrón repetirse a través de múltiples organizaciones y equipos. La documentación es la primera víctima de las prioridades cambiantes y el desarrollo acelerado. Cada vez que hay una reorganización, un nuevo proyecto, o una nueva funcionalidad, la documentación se queda atrás. Prometemos “documentar” después, creamos tickets para tareas de documentación, pero nunca llegamos a ellas. Solo los ingenieros con las mejores intenciones escriben docs conforme avanzan, pero cuando llegamos a ellas, a menudo la documentación se necesita urgentemente para dar soporte a los usuarios.&lt;/p&gt;
+
+&lt;p&gt;Creo que este es un escenario común para los equipos de plataforma, la documentación no es opcional, pero usualmente es tan importante que debería ser tratada como infraestructura. Cuando estás construyendo una plataforma de orquestación de datos que sirve a múltiples dominios de negocio, la documentación es una parte esencial de la plataforma. Permite a los usuarios entender cómo usar la plataforma, cómo solucionar problemas, y ayuda con el onboarding de nuevos usuarios.&lt;/p&gt;
+
+&lt;p&gt;Últimamente en Adevinta, me pidieron ayudar haciendo docs ya que en un equipo de plataforma de datos la documentación es crucial para onboarding, compartir conocimiento y autoservicio. Como estamos en un proceso de migrar un proyecto con un enfoque de lift and shift, la premisa es que tenemos una solución existente que tenía documentación, y necesitábamos migrarla a la nueva plataforma con diferentes herramientas de documentación. Teníamos que migrar la documentación también, y queríamos usar IA para ayudarnos con eso.&lt;/p&gt;
+
+&lt;p&gt;Ya habíamos implementado una solución de documentación basada en repositorios de GitHub y Spotify’s Backstage: TechDocs, pero teníamos mucha documentación en Confluence que necesitábamos migrar. Queríamos usar IA para ayudarnos con esa migración, y también queríamos usar IA para ayudarnos con la documentación continua de la nueva plataforma. La documentación no debería ser un cuello de botella, pero a menudo lo es. Queríamos ver si la IA mejoraba la situación o si introducía nuevos desafíos.&lt;/p&gt;
+
+&lt;h2 id=&quot;por-qué-fallan-los-workflows-tradicionales-de-documentación&quot;&gt;¿Por qué fallan los workflows tradicionales de documentación?&lt;/h2&gt;
+
+&lt;p&gt;A menudo tenemos un problema con la documentación porque se trata como una tarea separada del desarrollo. Escribes código, luego escribes los docs. Pero esto crea un problema estructural: la documentación se convierte en una idea tardía, separada del proceso de desarrollo.&lt;/p&gt;
+
+&lt;p&gt;El ciclo se ve familiar:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;El desarrollador implementa una funcionalidad&lt;/li&gt;
+  &lt;li&gt;El code review se enfoca en la implementación&lt;/li&gt;
+  &lt;li&gt;La funcionalidad se fusiona a main&lt;/li&gt;
+  &lt;li&gt;El desarrollador piensa: “Voy a documentar esto después”&lt;/li&gt;
+  &lt;li&gt;Creamos un ticket para documentación&lt;/li&gt;
+  &lt;li&gt;Después nunca sucede&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La trampa del “lo documentaré después” existe porque el cambio de contexto es costoso. Escribir documentación es una habilidad totalmente diferente que escribir código. El código es preciso: lógica, debug, test. La documentación es narrativa: explicar por qué, cuándo, cómo. Cambiar entre estos modos de pensar toma tiempo y energía mental.&lt;/p&gt;
+
+&lt;p&gt;La documentación también falla en escalar por otra razón. Tú y tu equipo son un grupo de ingenieros trabajando en la misma documentación. Creas código - y bugs 🐛- concurrentemente. Cuando llegas al paso de documentación, el estado del código podría haber cambiado. Ahora tienes que actualizar la documentación para reflejar los cambios en el código. El proceso es aún más largo, más difícil y frustrante.&lt;/p&gt;
+
+&lt;p&gt;Las prácticas de documentación han evolucionado con el tiempo. Nos movimos de wikis a docs as code, donde la documentación vive en el repositorio Git junto con el código. Esto ayudó con el control de versiones y mantener los docs cerca del código, pero no cambió el problema fundamental: los desarrolladores todavía necesitan escribir los docs. Si tienes una fecha límite ajustada, la documentación es lo primero que se corta, entonces puedes entregar tu trabajo antes.&lt;/p&gt;
+
+&lt;p&gt;El denominador común en estas situaciones es que la documentación es una tarea humana. El tiempo humano es un cuello de botella. La documentación requiere que alguien se siente, entienda las necesidades del usuario, el sistema y escriba una explicación clara. Conseguir suficiente tiempo es difícil. Está compitiendo con otra funcionalidad, objetivos trimestrales, el siguiente bug a arreglar, el siguiente incidente a resolver.&lt;/p&gt;
+
+&lt;h2 id=&quot;consideraciones-de-diseño-ia-como-asistente-de-documentación&quot;&gt;Consideraciones de Diseño: IA como Asistente de Documentación&lt;/h2&gt;
+
+&lt;p&gt;Usar IA para documentación introduce nuevos trade-offs. Explorémoslos.&lt;/p&gt;
+
+&lt;h3 id=&quot;calidad-vs-velocidad&quot;&gt;Calidad vs Velocidad&lt;/h3&gt;
+
+&lt;p&gt;Algo que encontré asombroso sobre la IA es que puede redactar documentación muy rápido. Resumir el código, extraer parámetros y generar un bloque de código de ejemplo en minutos. Escribir documentación desde cero toma mucho más tiempo, especialmente si quieres hacerlo bien. Sin embargo, la velocidad viene con advertencias.&lt;/p&gt;
+
+&lt;p&gt;La IA sobresale en estructura de nivel superficial: extrayendo firmas de funciones, identificando parámetros, generando bloques de código de ejemplo. Lucha con los matices humanos y organizacionales: ¿por qué existe una regla de validación? ¿Cómo solicitas acceso a un sistema? ¿Cómo configuras accesos a sistemas fuera de este código? Estos requieren juicio humano y contexto.&lt;/p&gt;
+
+&lt;p&gt;La revisión humana detecta estas brechas, pero la revisión toma tiempo. ¿Cuánta revisión es suficiente? Si pasas el mismo tiempo revisando docs generados por IA como escribiendo desde cero, ¿has ganado algo?, más de uno se lo ha preguntado.&lt;/p&gt;
+
+&lt;p&gt;El balance depende de qué estás documentando. Documentación de referencia como: endpoints de API, opciones de configuración, esquemas de datos, con patrones claros deberían ser fáciles. Documentación conceptual como decisiones de arquitectura, tutoriales, y runbooks operacionales, necesitan revisión humana preferiblemente profunda porque requiere entender la intención y un contexto más amplio.&lt;/p&gt;
+
+&lt;h3 id=&quot;modelos-de-human-in-the-loop&quot;&gt;Modelos de Human in-the-loop&lt;/h3&gt;
+
+&lt;p&gt;La primera vez que escuché sobre humans in the loop fue en el contexto de machine learning, era 2016, y todavía vuelvo a mi trabajo favorito sobre Human Computation: &lt;a href=&quot;https://www.youtube.com/watch?v=hEPDa4POUAQ&quot;&gt;Soylent: a word processor with a crowd inside&lt;/a&gt; de Michael S. Bernstein.
+Los modelos de ML no son perfectos, cometen errores, y pueden estar sesgados. La idea de tener un human in the loop es tener a alguien que revise la salida del modelo y corrija cualquier error antes de que se use. Si no has hecho click al demo de Soylent, ahora es cuando. La idea de traer al crowd a los Sistemas Computacionales es mejorar su inteligencia y capacidad. En estos días, los LLMs son mucho mejores que los modelos ML tradicionales para propósito general, sin embargo todavía cometen errores. Pueden alucinar, pueden perder detalles críticos, y pueden producir documentación inexacta o engañosa si no se revisa cuidadosamente.&lt;/p&gt;
+
+&lt;p&gt;Al mínimo: precisión técnica. ¿La API documentada realmente funciona de esta manera? ¿Puedes comprobarlo? ¿Son correctos los ejemplos de código? ¿Puedes ejecutarlos? ¿La configuración coincide con la realidad? ¿Puedes comparar los ejemplos con config files?. Me he encontrado con documentación que describe escenarios que no coinciden con el entorno real que tenemos en producción. Esto es una señal de que la documentación no es precisa y puede llevar a confusión para los usuarios.&lt;/p&gt;
+
+&lt;p&gt;Más allá de eso: completitud. ¿La IA perdió casos límite críticos? ¿Están documentados los escenarios de error? ¿Qué hay de los modos de fallo?. La mayoría de las veces, veo docs exhaustivos que cubren la mayoría de los casos límite, pero a veces pierden los críticos que pueden llevar a confusión para los usuarios.&lt;/p&gt;
+
+&lt;p&gt;Más profundo: contexto y juicio. ¿Por qué existe esta funcionalidad? ¿Qué problemas de negocio resuelve? ¿Cómo encaja en la arquitectura del sistema más amplia?. ¿Cuáles son los supuestos? Estas son las cosas que la IA no puede inferir solo del código. Requieren conocimiento y juicio humano. A veces los ADRs, Design Documents o Explanations son el único lugar donde vive este contexto.&lt;/p&gt;
+
+&lt;p&gt;He encontrado que un enfoque por niveles funciona: revisión ligera para docs de referencia directos, un test flight con tutoriales para ver que el procedimiento funciona, revisión pesada para cualquier cosa que involucre decisiones arquitectónicas o procedimientos operacionales, intento llevar estos detalles al prompt, pedir diagramas en formato mermaid, y durante las revisiones cortar tanto como sea posible para mantenerlo mínimo.&lt;/p&gt;
+
+&lt;h3 id=&quot;selección-de-herramienta-por-qué-claude-code--mcp&quot;&gt;Selección de Herramienta: Por Qué Claude Code + MCP&lt;/h3&gt;
+
+&lt;p&gt;¿Por qué Claude Code con Model Context Protocol sobre otros asistentes de IA?&lt;/p&gt;
+
+&lt;p&gt;Tengo que decir que no he probado muchos asistentes para codificar, pero he estado usando Github Copilot con mi IDE por más de 2 años. He encontrado que es bueno para generar snippets de código, lo usé por un tiempo generando código escribiendo los comentarios primero y dejando que Github Copilot completara las líneas, pero no tenía la habilidad de leer el codebase completo y entender el contexto. Puede generar código basado en el archivo actual, pero no tiene acceso al historial de commits, discusiones de pull request, u otra documentación que podría proporcionar contexto para lo que el código está haciendo. Fue alucinante obtener explicaciones más precisas del código cuando cambié a Claude Code, el CLI es directo y aunque me gusta usar IDEs visuales, todavía estoy acostumbrado a usar la terminal para muchas tareas.&lt;/p&gt;
+
+&lt;p&gt;MCP proporciona contexto multi-fuente. Para mi tarea de docs comencé con mis primeras pruebas con links http, pero se quedaron cortos mientras scrapeaba información y buscaba la información que quería. Además, tenía que migrar docs de diferentes repositorios y páginas de confluence, así que necesitaba una forma de conectar a múltiples fuentes de información. MCP me permitió integrar tanto GitHub como Atlassian Confluence, dando a la IA acceso a un contexto más rico.&lt;/p&gt;
+
+&lt;p&gt;La integración &lt;code&gt;mcp-github&lt;/code&gt; lee repositorios de Github enterprise, su estructura, historial de commits, discusiones de pull request, contexto que hace los docs generados por IA más precisos. La IA no está adivinando qué hace el código, está leyendo el código real y las discusiones relacionadas. También, había algo de documentación que tenía documentación en el codebase, así que era importante tener acceso a esa documentación también.&lt;/p&gt;
+
+&lt;p&gt;La integración &lt;code&gt;mcp-atlassian&lt;/code&gt; resolvió un problema diferente: migración. Data analysts, ML y Data Science people en la empresa preferían Confluence a GitHub. Forzar a todos a migrar manualmente no funcionaría. Convencer a todos de traer docs a Markdown no era una opción tampoco. En cambio, &lt;code&gt;mcp-atlassian&lt;/code&gt; lee páginas de Confluence en su formato HTML, Claude las convierte a Markdown sin problemas, y las migra a repositorios de GitHub. Esto soportó ambos enfoques de documentación sin forzar un workflow en todos.&lt;/p&gt;
+
+&lt;p&gt;La conversión de Confluence-a-Markdown funcionó sorprendentemente bien, la estructura HTML se tradujo limpiamente a Markdown, preservando formato, links, las tablas se ven increíbles. Migramos documentación a través de múltiples repositorios de GitHub y docenas de páginas de Confluence sin reformateo manual.&lt;/p&gt;
+
+&lt;h2 id=&quot;enfoque-arquitectura-de-documentación-multi-fuente&quot;&gt;Enfoque: Arquitectura de Documentación Multi-Fuente&lt;/h2&gt;
+
+&lt;p&gt;Aquí está cómo estructuramos la documentación con LLMs en cada paso del ciclo de vida.&lt;/p&gt;
+
+&lt;h3 id=&quot;arquitectura-de-integración-de-documentación&quot;&gt;Arquitectura de Integración de Documentación&lt;/h3&gt;
+
+&lt;p&gt;Necesitábamos documentación en tres lugares, para permitir a diferentes equipos trabajar en sus herramientas preferidas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Repositorios de GitHub&lt;/strong&gt;: Con control de versiones, docs-as-code, integrados con PRs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify’s Backstage TechDocs&lt;/strong&gt;: Portal de desarrollador centralizado para descubrimiento, docs-as-code con mejor renderizado y navegación.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Atlassian Confluence&lt;/strong&gt;: Para equipos que lo preferían, pero indexado en RAG para búsqueda unificada.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El desafío: mantenerlos indexados en un lugar. No queríamos documentación fragmentada a través de los sistemas sin forma de buscar en todas las fuentes.&lt;/p&gt;
+
+&lt;p&gt;Solución: una capa de indexación RAG (Retrieval Augmented Generation) que indexa las tres fuentes. Los ingenieros pueden buscar una vez y encontrar documentación sin importar dónde viva. La solución RAG entiende contexto, por ejemplo buscar “data quality validation” devuelve docs relevantes de GitHub, Backstage, o Confluence, clasificados por relevancia.&lt;/p&gt;
+
+&lt;h3 id=&quot;filosofía-de-diseño-ia-como-asistente&quot;&gt;Filosofía de Diseño: IA como Asistente&lt;/h3&gt;
+
+&lt;p&gt;Nuestra filosofía: IA asiste, humanos revisan y deciden.
+La IA maneja:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Estructura&lt;/strong&gt;: Organizando docs siguiendo frameworks, y templates&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Redacción&lt;/strong&gt;: Explicaciones de primera pasada del código&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Formateo&lt;/strong&gt;: Markdown consistente, tablas, bloques de código, diagramas mermaid&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extracción de información&lt;/strong&gt;: Sacando detalles relevantes de mensajes de commit, PRs, comentarios de código&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Los humanos manejan:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Contexto&lt;/strong&gt;: ¿Por qué existe esto? ¿Qué problemas resuelve? ¿Cuáles son los supuestos?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precisión&lt;/strong&gt;: Verificando que el contenido generado por IA coincide con la realidad, especialmente para procedimientos operacionales&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Juicio&lt;/strong&gt;: ¿Qué detalles importan? ¿Qué puede ser omitido?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;el-framework-diátaxis&quot;&gt;El Framework Diátaxis&lt;/h3&gt;
+
+&lt;p&gt;Adoptamos &lt;a href=&quot;https://diataxis.fr/&quot;&gt;Diátaxis.fr&lt;/a&gt;, un framework de documentación que organiza contenido por intención del usuario:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;: Orientados al aprendizaje, guías paso a paso para principiantes&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How-to guides&lt;/strong&gt;: Orientados a objetivos, pasos prácticos para tareas específicas&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reference&lt;/strong&gt;: Orientados a información, descripciones técnicas (APIs, configs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explanation&lt;/strong&gt;: Orientados al entendimiento, trasfondo conceptual (arquitectura, trade-offs)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La IA demostró ser excelente generando documentación que encaja en las categorías de Diátaxis. Apúntala al código y especifica “genera una guía how-to para configurar este pipeline,” y produce documentación orientada a objetivos. Pide documentación de referencia, y extrae parámetros de configuración y tipos de datos.&lt;/p&gt;
+
+&lt;p&gt;Implementamos esto usando el agente &lt;code&gt;code-documenter-diataxis&lt;/code&gt;, que entiende el framework y estructura los docs generados por IA en consecuencia. Esto aseguró consistencia: todas las guías how-to seguían el mismo patrón, todos los docs de referencia tenían la misma estructura.&lt;/p&gt;
+
+&lt;h3 id=&quot;patrones-de-documentación&quot;&gt;Patrones de Documentación&lt;/h3&gt;
+
+&lt;p&gt;Emergieron cinco patrones, a grandes rasgos:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Code-to-docs&lt;/strong&gt;: Nueva funcionalidad implementada → IA genera how-to estructurado en Diátaxis → Humano revisa y añade contexto de negocio → Docs committed con código&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Patrón de actualización&lt;/strong&gt;: Cambio de código fusionado → IA identifica documentación afectada → IA actualiza docs para reflejar cambios → Humano verifica precisión&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Extracción de contexto&lt;/strong&gt;: Creas un PR → IA lee mensajes de commit y cambios → IA resume cambios para descripciones de PR → Humano edita para claridad o requisitos de descripción de PR&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Generación de estructura&lt;/strong&gt;: Código existente sin docs → IA hace investigación de la implementación → IA aplica estructura Diátaxis → Humano llena brechas conceptuales&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Patrón de migración&lt;/strong&gt;: Página de Confluence existe → &lt;code&gt;mcp-atlassian&lt;/code&gt; lee HTML → IA convierte a Markdown → Humano valida formateo → Committed a GitHub → Backstage publica&lt;/p&gt;
+
+&lt;h2 id=&quot;implementación-del-código-a-la-documentación&quot;&gt;Implementación: Del Código a la Documentación&lt;/h2&gt;
+
+&lt;p&gt;Caminemos a través de un ejemplo concreto: documentando un pipeline de orquestación de datos.&lt;/p&gt;
+
+&lt;h3 id=&quot;el-workflow-en-pocas-palabras&quot;&gt;El Workflow en pocas palabras&lt;/h3&gt;
+
+&lt;p&gt;Disculpa si hay pocos detalles técnicos, pero se omiten a propósito para enfocarnos en el proceso.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 1: Implementación del Código&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El ingeniero escribe un nuevo DAG de Apache Airflow para orquestación de datos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Programado diariamente a las 2 AM UTC&lt;/li&gt;
+  &lt;li&gt;Lee desde bucket fuente S3&lt;/li&gt;
+  &lt;li&gt;Valida cumplimiento de esquema AVRO&lt;/li&gt;
+  &lt;li&gt;Escribe a tablas Delta Lake&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 2: Análisis de IA&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Claude Code en CLI lee los contenidos del repositorio, incluyendo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Código fuente del DAG&lt;/li&gt;
+  &lt;li&gt;Mensajes de commit explicando por qué existe el pipeline&lt;/li&gt;
+  &lt;li&gt;Discusiones de PR relacionadas sobre decisiones de diseño&lt;/li&gt;
+  &lt;li&gt;Documentación existente para pipelines similares&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La IA identifica:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trigger de schedule (expresión cron)&lt;/li&gt;
+  &lt;li&gt;Dependencias (datasets upstream requeridos)&lt;/li&gt;
+  &lt;li&gt;Parámetros de configuración (rutas S3, nombres de tablas)&lt;/li&gt;
+  &lt;li&gt;Manejo de errores (lógica de retry, alerting)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 3: Generación de Borrador&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;IA genera documentación estructurada en Diátaxis:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guía How-to&lt;/strong&gt; (orientada a objetivos):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## Ejecutando el Pipeline de Ingesta de Datos
+
+**Propósito**: Ingerir datos diarios de sistemas fuente con validación de esquema
+
+**Prerequisitos**:
+
+- Acceso al bucket fuente S3
+- Permisos de escritura en tabla Delta Lake
+
+**Pasos**:
+
+1. Triggear el DAG desde el UI de Airflow
+2. Monitorear ejecución en logs
+3. Verificar que los datos llegaron a la tabla destino
+4. Revisar métricas de calidad de datos en el dashboard
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentación de Referencia&lt;/strong&gt; (orientada a información):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## Configuración del Pipeline
+
+**Schedule**: Diario a las 02:00 UTC
+**Owner**: Data Platform Team
+**Source**: `s3://source-bucket/data/`
+**Target**: `delta_lake.analytics.daily_ingestion`
+**Schema**: `avro/ingestion-v2.avsc`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 4: Revisión Humana y Mejora&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;El ingeniero revisa el borrador de IA y añade:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Contexto de negocio&lt;/strong&gt;: “Este pipeline alimenta el dashboard de marketing, así que los retrasos afectan el seguimiento de campañas”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Casos límite&lt;/strong&gt;: “Maneja datos que llegan tarde usando timestamps de eventos, no tiempo de ingesta, las particiones no se cierran”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;: “Si la validación falla, revisa el schema registry por discrepancias de versión”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Notas operacionales&lt;/strong&gt;: “El pipeline puede ser backfilled usando el parámetro –start-date”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Alertas&lt;/strong&gt;: “- Envía alertas en fallo, definimos esto fuera del codebase, pero es importante documentarlo también, este es un buen ejemplo del tipo de detalles operacionales que la IA no puede inferir del código por sí misma”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Paso 5: Publicar a Múltiples Destinos&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Documentación committed a GitHub → Pipeline CI/CD se triggerea → Backstage TechDocs auto-publica → Indexador RAG añade a búsqueda&lt;/p&gt;
+
+&lt;p&gt;Ahora la documentación existe en:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitHub (con control de versiones, atado al código)&lt;/li&gt;
+  &lt;li&gt;Backstage (descubrible en el portal de desarrollador)&lt;/li&gt;
+  &lt;li&gt;Índice RAG para chat bots (buscable a través de todas las fuentes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;migración-confluence-a-github&quot;&gt;Migración: Confluence a GitHub&lt;/h3&gt;
+
+&lt;p&gt;Los data analysts preferían Confluence por su formato rico y experiencia de edición familiar. No podíamos forzarlos a cambiar, pero necesitábamos documentación buscable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Workflow de migración&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;El data analyst mantiene documentación del pipeline en Confluence (tablas, diagramas, texto formateado)&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;mcp-atlassian&lt;/code&gt; lee páginas de Confluence (formato HTML)&lt;/li&gt;
+  &lt;li&gt;IA convierte HTML a Markdown:
+    &lt;ul&gt;
+      &lt;li&gt;Tablas → Tablas Markdown&lt;/li&gt;
+      &lt;li&gt;Bloques de código → Bloques de código cercados&lt;/li&gt;
+      &lt;li&gt;Links → Links Markdown&lt;/li&gt;
+      &lt;li&gt;Imágenes → copiadas a GitHub y enlazadas, algunas necesitaron intervención manual&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Humano valida conversión (algunos casos límite de formateo necesitaron arreglos manuales)&lt;/li&gt;
+  &lt;li&gt;Docs migrados committed a repositorios de GitHub&lt;/li&gt;
+  &lt;li&gt;Backstage TechDocs recoge nuevos docs automáticamente&lt;/li&gt;
+  &lt;li&gt;Solución RAG indexa documentación unificada a través de fuentes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La conversión HTML-a-Markdown manejó la mayoría del formateo automáticamente. Las tablas complejas ocasionalmente necesitaron ajuste manual, pero 80% a 90% del contenido se convirtió limpiamente.&lt;/p&gt;
+
+&lt;h3 id=&quot;controles-de-calidad&quot;&gt;Controles de Calidad&lt;/h3&gt;
+
+&lt;p&gt;Implementamos varias verificaciones de calidad:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Precisión técnica&lt;/strong&gt;: Ejecutar ejemplos de código en docs como integration tests. Si el ejemplo falla, los docs están mal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Completitud&lt;/strong&gt;: PRs con cambios de código requieren actualizaciones de documentación. CI falla si las nuevas funcionalidades carecen de docs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Validación de links&lt;/strong&gt;: Verificaciones automatizadas verifican que los links internos no se rompan cuando los archivos se mueven. Creamos un comando para verificar links rotos en la documentación, y lo ejecutamos como parte de nuestro agente.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;herramientas-en-el-stack&quot;&gt;Herramientas en el Stack&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Claude Code&lt;/strong&gt;: Motor de IA generando borradores de documentación, usando Sonnet 4.5&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MCP&lt;/strong&gt;: Protocolo conectando IA a múltiples fuentes de datos&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mcp-github&lt;/strong&gt;: Lee repositorios, commits, PRs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mcp-atlassian&lt;/strong&gt;: Lee páginas de Confluence, convierte HTML a Markdown&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Framework Diátaxis&lt;/strong&gt;: Estructura documentación por intención del usuario&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;code-documenter-diataxis&lt;/strong&gt;: Agente aplicando patrones Diátaxis, añadiendo metadata de backstage y formateando Markdown&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Backstage TechDocs&lt;/strong&gt;: Portal de desarrollador auto-publicando desde GitHub, solo añadimos configs de mkdocs a nuestros repositorios. Es originalmente de Spotify, pero ahora es un proyecto de código abierto mantenido por la comunidad.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Indexación RAG&lt;/strong&gt;: Búsqueda unificada a través de Backstage, y Confluence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lecciones-aprendidas-qué-funcionó-qué-no&quot;&gt;Lecciones Aprendidas: Qué Funcionó, Qué No&lt;/h2&gt;
+
+&lt;h3 id=&quot;donde-la-ia-sobresale&quot;&gt;Donde la IA Sobresale&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Estructura y consistencia&lt;/strong&gt;: IA aplica templates de forma confiable. Cada guía how-to sigue el mismo formato. Cada página de referencia tiene las mismas secciones, semánticamente. Sin embargo, el contenido a veces pierde metadata que es importante para Backstage. Esperamos que esto mejore a medida que iteramos el prompt del agente con ejemplos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Primeros borradores&lt;/strong&gt;: Empezar desde una página en blanco es difícil, especialmente cuando haces cambio de contexto. Los borradores generados por IA proporcionan andamiaje. Incluso si reescribes 40% de los prompts de planificación, eres más rápido que empezar desde cero. También iteras más rápido proporcionando retroalimentación a planes y borradores antes de que el LLM escriba la versión final.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Extracción de información&lt;/strong&gt;: IA lee código y extrae detalles que los humanos podrían perder—tipos de parámetros, valores por defecto, códigos de error.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tareas repetitivas&lt;/strong&gt;: Documentar funcionalidades similares (múltiples endpoints de API, opciones de configuración) se beneficia de IA. Mismo patrón, detalles diferentes. También, es bastante útil solo pedir crear diagramas en formato mermaid, este es un buen ejemplo de cómo la IA puede ayudar con formateo y estructuración de la documentación.&lt;/p&gt;
+
+&lt;h3 id=&quot;donde-la-ia-lucha&quot;&gt;Donde la IA Lucha&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Contexto de negocio&lt;/strong&gt;: IA no puede inferir por qué existe una funcionalidad. “Construimos esto para apoyar el nuevo seguimiento de campañas del equipo de marketing” requiere conocimiento humano.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casos límite&lt;/strong&gt;: Modos de fallo sutiles y corner cases a menudo viven en las cabezas de los ingenieros, no en el código. La IA los pierde.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Política organizacional&lt;/strong&gt;: IA no entiende dinámicas organizacionales, y cosas que se deciden en reuniones, o que no están documentadas en ningún lugar. Escribir design documents, ADRs es la única forma de capturar este contexto, pero no siempre se hace.&lt;/p&gt;
+
+&lt;h3 id=&quot;el-patrón-de-colaboración-humano-ia&quot;&gt;El Patrón de Colaboración Humano-IA&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;IA hace&lt;/strong&gt;: Estructura, redacción, formateo, extracción de información del código&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Humano hace&lt;/strong&gt;: Añadir contexto, verificar precisión, hacer llamados de juicio&lt;/p&gt;
+
+&lt;p&gt;Esta división de trabajo funciona porque cada uno maneja lo que hace bien. IA proporciona velocidad y consistencia. Humanos proporcionan entendimiento y juicio.&lt;/p&gt;
+
+&lt;h3 id=&quot;beneficios-inesperados&quot;&gt;Beneficios Inesperados&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Fuerza pensamiento de estructura&lt;/strong&gt;: Usar Diátaxis significa decidir por adelantado: ¿es esto un tutorial o un how-to? Esa claridad mejora la calidad de la documentación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Baja la barrera de documentación&lt;/strong&gt;: Ingenieros menos intimidados cuando están editando borradores de IA en lugar de empezar desde cero.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fomenta docs-as-workflow&lt;/strong&gt;: Cuando la documentación se vuelve rápida, cambia de “impuesto” a “parte del proceso.”&lt;/p&gt;
+
+&lt;h2 id=&quot;discusión-tus-experiencias-y-preguntas&quot;&gt;Discusión: Tus Experiencias y Preguntas&lt;/h2&gt;
+
+&lt;p&gt;He compartido nuestro enfoque y trade-offs. Ahora tengo curiosidad sobre los tuyos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Preguntas para ti&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;¿Has usado IA para documentación?&lt;/strong&gt; ¿Qué herramientas? ¿Qué funcionó bien? ¿Qué no?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;¿Cómo balanceas redacción de IA y revisión humana?&lt;/strong&gt; ¿Dónde trazas la línea entre “shipear la versión de IA” y “reescribirla completamente”?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;¿Cómo mides calidad de documentación?&lt;/strong&gt; Más allá de cobertura, ¿cómo implementarías la métrica?, ¿cómo mides si los docs son realmente útiles?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;¿Qué tareas de documentación querrías más que la IA ayude?&lt;/strong&gt; ¿Docs de API? ¿Diagramas de arquitectura? ¿Runbooks (difícil, en mi opinión)?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;¿Preocupaciones sobre documentación generada por IA?&lt;/strong&gt; ¿Cómo abordas la precisión, y confiabilidad?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Este post documenta nuestro enfoque—usando Claude Code, MCP, Backstage, y Diátaxis para acelerar la documentación mientras mantenemos la calidad. Pero es un enfoque entre muchos. Me encantaría escuchar de ti cómo has abordado este problema.&lt;/p&gt;
+
+&lt;p&gt;¿Has encontrado patrones que funcionen mejor? ¿Herramientas que deberíamos explorar? ¿Trade-offs que no hemos considerado? Comparte tus experiencias. Aprendamos unos de otros, sharing is caring :)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AI-Assisted Documentation: Approaches and Trade-offs</title>
+   <link href="https://www.noedominguez.com/en/blog/ai-assisted-documentation/"/>
+   <updated>2026-03-21T00:00:00+00:00</updated>
+   <id>https://www.noedominguez.com/en/blog/ai-assisted-documentation</id>
+   <content type="html">&lt;h1 id=&quot;ai-assisted-documentation-approaches-and-trade-offs&quot;&gt;AI-Assisted Documentation: Approaches and Trade-offs&lt;/h1&gt;
+
+&lt;h2 id=&quot;the-documentation-debt-problem&quot;&gt;The Documentation Debt Problem&lt;/h2&gt;
+
+&lt;p&gt;Documentation lags behind code. Always.&lt;/p&gt;
+
+&lt;p&gt;During my last six years maintaining data platforms, I’ve seen this pattern repeat across multiple organizations and
+teams. Documentation is the first casualty of shifting priorities and fast-moving development. Everytime there is a
+reorganization, a new project, or a new feature, the documentation falls behind. We promise to “document” it later,
+we create tickets for documentation tasks, but we never get to them. Only the best-intentioned engineers write docs as
+they go, but when we get to them, often the doc is urgently needed for giving support to users.&lt;/p&gt;
+
+&lt;p&gt;I think this is a common escenario for platform teams, the documentation isn’t optional, but usually it is so important
+that it should be treated as infrastructure. When you’re building a data orchestration platform serving multiple
+business
+domains, documentation is an essential part of the platform. It enables users to understand how to use the platform,
+how to troubleshoot issues, and it helps with onboarding new users.&lt;/p&gt;
+
+&lt;p&gt;Lately in Adevinta, I was asked to help doing docs since in a data platform team the documentation is crucial for
+onboarding, knowledge sharing and self-service. Since we are in a process of migrating a project with a lift and shift
+approach, the premise is that we have an existing solution that had documentation, and we needed to migrate it to the
+new platform with different documentation tools. We had to migrate the documentation as well, and we wanted to use AI
+to help us with that.&lt;/p&gt;
+
+&lt;p&gt;We had already implemented a documentation solution based on GitHub repositories and Spotify’s Backstage TechDocs, but
+we had a lot of documentation in Confluence that we needed to migrate. We wanted to use AI to help us with that
+migration, and we also wanted to use AI to help us with the ongoing documentation of the new platform. Documentation
+shouldn’t be a bottleneck, but it often is. We wanted to see if AI improved the situation or if it introduced new
+challenges.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-traditional-documentation-workflows-fail&quot;&gt;Why Traditional Documentation Workflows Fail&lt;/h2&gt;
+
+&lt;p&gt;We often have a problem with documentation because it’s treated as a separate task from development. You write code,
+then you write the docs. But this creates a structural problem: the documentation becomes an afterthought, separate from
+the development process.&lt;/p&gt;
+
+&lt;p&gt;The cycle looks familiar:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Developer implements feature&lt;/li&gt;
+  &lt;li&gt;Code review focuses on implementation&lt;/li&gt;
+  &lt;li&gt;Feature merges to main&lt;/li&gt;
+  &lt;li&gt;Developer thinks “I’ll document this later”&lt;/li&gt;
+  &lt;li&gt;We create a ticket for documentation&lt;/li&gt;
+  &lt;li&gt;Later never happens&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The “I’ll document it later” trap exists because context-switching is expensive. Writing documentation is a totally
+different ability than writing code. Code is precise: logic, debug, test. Documentation is narrative: explaining
+why, when, how. Shifting between these modes takes time and mental energy.&lt;/p&gt;
+
+&lt;p&gt;Documentation also fails to scale for another reason. You are a group of engineers working on the same documentation.
+You create code - and bugs 🐛- concurrently. When you arrive to the documentation step, the state of the code
+might have changed. Now you have to update the documentation to reflect the changes in the code. The process is even
+longer, harder and frustrating.&lt;/p&gt;
+
+&lt;p&gt;The documentation practices have evolved over time. We moved from wikis to docs as code, where the documentation
+lives in the Git repository alongside the codebase. This helped with version control and keeping docs close to code, but
+it didn’t change the fundamental problem: developers still need to write the docs. If you have a tight
+deadline, documentation is the first thing to get cut, then you can deliver your work earlier.&lt;/p&gt;
+
+&lt;p&gt;The common denominator in these situations is that documentation is a human task. Human time is a bottleneck.
+Documentation requires someone to sit down, understand the user’s needs, the system and write a clear explanation.
+Getting enough time is hard. It is competing with another feature, quarterly goals, the next bug to fix, the next
+incident to solve.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-considerations-ai-as-documentation-assistant&quot;&gt;Design Considerations: AI as Documentation Assistant&lt;/h2&gt;
+
+&lt;p&gt;Using AI for documentation introduces new trade-offs. Let’s explore them.&lt;/p&gt;
+
+&lt;h3 id=&quot;quality-vs-speed&quot;&gt;Quality vs Speed&lt;/h3&gt;
+
+&lt;p&gt;Something I found amazing about AI is that it can draft documentation very fast. Summarize the code, extract parameters
+and generate an example code block in minutes. Writing documentation from scratch takes much longer, especially if you
+want to do it well. However, speed comes with caveats.&lt;/p&gt;
+
+&lt;p&gt;AI excels at surface-level structure: extracting function signatures, identifying parameters, generating example code
+blocks. It struggles with the human and organizational nuances: why does a validation rule exist? How do you request
+for access to a system? How do you configure accesses to systems outside this codebase? These require human judgment and
+context.&lt;/p&gt;
+
+&lt;p&gt;Human review catches these gaps, but review takes time. How much review is enough? If you spend the same time reviewing
+AI-generated docs as you would writing from scratch, have you gained anything?&lt;/p&gt;
+
+&lt;p&gt;The balance depends on what you’re documenting. Reference documentation like: API endpoints, configuration options, data
+schemas, with clear patterns should be easy. Conceptual documentation like architecture decisions, tutorials,
+and operational runbooks, needs deep human input because it requires understanding intent.&lt;/p&gt;
+
+&lt;h3 id=&quot;human-in-the-loop-models&quot;&gt;Human in-the-loop Models&lt;/h3&gt;
+
+&lt;p&gt;The first time I was listening about humans in the loop was in the context of machine learning it was 2016, and
+I still go back to my favorite work on Human
+Computation: &lt;a href=&quot;https://www.youtube.com/watch?v=hEPDa4POUAQ&quot;&gt;Soylent: a word processor with a crowd inside&lt;/a&gt; by Michael S.
+Bernstein .
+ML models are not perfect, they make mistakes, and they can be biased. The idea of having a human in the loop is to have
+someone review the output of the model and correct any mistakes before it is used. The idea of bringing the crowd
+to Computer Systems is to improve its intelligente. These days, LLMs are much better than traditional ML models for
+general purpose, however they still make mistakes. They can hallucinate, they can miss critical
+details, and they can produce inaccurate or misleading documentation if not reviewed carefully.&lt;/p&gt;
+
+&lt;p&gt;At minimum: technical accuracy. Does the documented API actually work this way? Are the code examples correct? Does the
+configuration match reality?. I have came across documentation that describes scenarios that don’t match the actual
+environment we have in production. This is a sign that the documentation is not accurate and can lead to confusion for
+users.&lt;/p&gt;
+
+&lt;p&gt;Beyond that: completeness. Did AI miss critical edge cases? Are error scenarios documented? What about failure modes?.
+Most of the time, I see exhaustive docs that cover most of the edge cases, but sometimes they miss critical ones that
+can lead to confusion for users.&lt;/p&gt;
+
+&lt;p&gt;Deepest: context and judgment. Why does this feature exist? What business problems does it solve? How does it fit into
+the broader system architecture?. What are the assumptions? These are the things that AI can’t infer from code alone.
+They require human knowledge and judgment. Sometimes ADRs, Design Documents or Explanations are the only place where
+this context lives.&lt;/p&gt;
+
+&lt;p&gt;I’ve found a tiered approach works: light review for straightforward reference docs, a test flight with tutorials to see
+the procedure works, heavy review for anything involving architectural decisions or operational procedures, I try to
+bring those to the minimum in the prompt, ask for diagrams in mermaid format, and during revisions cut as much as
+possible to keep it minimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;tool-selection-why-claude-code--mcp&quot;&gt;Tool Selection: Why Claude Code + MCP&lt;/h3&gt;
+
+&lt;p&gt;Why Claude Code with Model Context Protocol over other AI assistants?&lt;/p&gt;
+
+&lt;p&gt;I have to say that I have not tried a lot of assistants for coding, but I have been using Github Copilot with my IDE
+for more than 2 years. I have found that it is good for generating code snippets, I used for a while generating code by
+writing the comments first and let Github Copilot completing the lines , but it doesn’t have the ability to read the
+entire
+codebase and understand the context. It can generate code based on the current file, but it doesn’t have access to the
+commit history, pull request discussions, or other documentation that might provide context for what the code is doing.
+It was mind blowing to get more accurate explanations of code when I switched to Claude Code, the CLI is straightforward
+and even though I like to use visual IDEs, I am still used to using the terminal for a lot of tasks.&lt;/p&gt;
+
+&lt;p&gt;MCP provides multi-source context. For my docs task I started with my first tests with http links, but they fell short
+while scraping for information and searching the information I wanted. Moreover, I had to migrate docs from different
+repositories and confluence pages, so I needed a way to connect to multiple sources of information. MCP allowed me to
+integrate with both GitHub and Atlassian Confluence, giving the AI access to a richer context.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;mcp-github&lt;/code&gt; integration reads Github enterprise repositories, their structure, commit history, pull request
+discussions—context that makes AI-generated docs more accurate. The AI isn’t guessing what the code does, it is reading
+the actual code and related discussions. Also, there were some documentation that had documentation in the codebase,
+so it was important to have access to that documentation as well.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;mcp-atlassian&lt;/code&gt; integration solved a different problem: migration. Data analysts, ML and Data Science people in the
+company preferred Confluence to GitHub. Forcing everyone to migrate manually wouldn’t work. Convincing everyone
+to bring docs to Markdown wasn’t an option either. Instead, &lt;code&gt;mcp-atlassian&lt;/code&gt; reads Confluence pages in their HTML format,
+converts them to Markdown seamlessly, and migrates them to GitHub repositories. This supported both documentation
+approaches without forcing one workflow on everyone.&lt;/p&gt;
+
+&lt;p&gt;The Confluence-to-Markdown conversion worked surprisingly well—HTML structure translated cleanly to Markdown, preserving
+formatting, links, tables look amazing. We migrated documentation across multiple GitHub repositories and dozens of
+Confluence pages without manual reformatting.&lt;/p&gt;
+
+&lt;h2 id=&quot;approach-multi-source-documentation-architecture&quot;&gt;Approach: Multi-Source Documentation Architecture&lt;/h2&gt;
+
+&lt;p&gt;Here’s how we structured documentation with LLMs in every step of the lifecycle.&lt;/p&gt;
+
+&lt;h3 id=&quot;documentation-integration-architecture&quot;&gt;Documentation Integration Architecture&lt;/h3&gt;
+
+&lt;p&gt;We needed documentation in three places, to allow different teams to work in their preferred tools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub repositories&lt;/strong&gt;: Version-controlled, docs-as-code, integrated with PRs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify’s Backstage TechDocs&lt;/strong&gt;: Centralized developer portal for discovery, docs-as-code with better rendering and
+navigation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Atlassian Confluence&lt;/strong&gt;: For teams who preferred it, but indexed in RAG for unified search.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The challenge: keeping them indexed in one place. We didn’t want documentation fragmented across the systems with no
+way to search across all sources.&lt;/p&gt;
+
+&lt;p&gt;Solution: a RAG (Retrieval Augmented Generation) indexing layer that indexes all three sources. Engineers can search
+once and find documentation regardless of where it lives. The RAG solution understands context—searching for “data
+quality validation” returns relevant docs from GitHub, Backstage, or Confluence, ranked by relevance.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-philosophy-ai-as-assistant&quot;&gt;Design Philosophy: AI as Assistant&lt;/h3&gt;
+
+&lt;p&gt;Our philosophy: AI assists, humans revise &amp;amp; decide.&lt;/p&gt;
+
+&lt;p&gt;AI handles:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: Organizing docs following frameworks, and templates&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Drafting&lt;/strong&gt;: First-pass explanations from code&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Formatting&lt;/strong&gt;: Consistent Markdown, tables, code blocks, mermaid diagrams&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Information extraction&lt;/strong&gt;: Pulling relevant details from commit messages, PRs, code comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Humans handle:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Context&lt;/strong&gt;: Why does this exist? What problems does it solve? What are the assumptions?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Accuracy&lt;/strong&gt;: Verifying AI-generated content matches reality, especially for operational procedures&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Judgment&lt;/strong&gt;: Which details matter? What can be omitted?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-diátaxis-framework&quot;&gt;The Diátaxis Framework&lt;/h3&gt;
+
+&lt;p&gt;We adopted &lt;a href=&quot;https://diataxis.fr/&quot;&gt;Diátaxis.fr&lt;/a&gt;, a documentation framework that organizes content by user intent:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;: Learning-oriented, step-by-step guides for beginners&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How-to guides&lt;/strong&gt;: Goal-oriented, practical steps for specific tasks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reference&lt;/strong&gt;: Information-oriented, technical descriptions (APIs, configs)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explanation&lt;/strong&gt;: Understanding-oriented, conceptual background (architecture, trade-offs)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AI proved excellent at generating documentation that fits Diátaxis categories. Point it at code and specify “generate a
+how-to guide for configuring this pipeline,” and it produces goal-oriented documentation. Ask for reference
+documentation, and it extracts configuration parameters and data types.&lt;/p&gt;
+
+&lt;p&gt;We implemented this using the &lt;code&gt;code-documenter-diataxis&lt;/code&gt; agent, which understands the framework and structures
+AI-generated docs accordingly. This ensured consistency: all how-to guides followed the same pattern, all reference docs
+had the same structure.&lt;/p&gt;
+
+&lt;h3 id=&quot;documentation-patterns&quot;&gt;Documentation Patterns&lt;/h3&gt;
+
+&lt;p&gt;Five patterns emerged:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Code-to-docs&lt;/strong&gt;: New feature implemented → AI generates Diátaxis-structured how-to → Human reviews and adds business
+context → Docs committed with code&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Update pattern&lt;/strong&gt;: Code change merged → AI identifies affected documentation → AI updates docs to reflect changes →
+Human verifies accuracy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Context extraction&lt;/strong&gt;: You create a PR → AI reads commit messages and changes → AI summarizes changes for PR
+descriptions
+→ Human edits for clarity or PR description requirements&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Structure generation&lt;/strong&gt;: Existing code without docs → AI does a research of the implementation → AI applies
+Diátaxis structure → Human fills conceptual gaps&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Migration pattern&lt;/strong&gt;: Confluence page exists → &lt;code&gt;mcp-atlassian&lt;/code&gt; reads HTML → AI converts to Markdown → Human
+validates formatting → Committed to GitHub → Backstage publishes&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation-from-code-to-documentation&quot;&gt;Implementation: From Code to Documentation&lt;/h2&gt;
+
+&lt;p&gt;Let’s walk through a concrete example: documenting a data orchestration pipeline.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-workflow-in-a-nutshell&quot;&gt;The Workflow in a nutshell&lt;/h3&gt;
+
+&lt;p&gt;Sorry if there are few technical details, but they are ommited on purpose to focus on the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: Code Implementation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Engineer writes a new Apache Airflow DAG for data orchestration:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scheduled daily at 2 AM UTC&lt;/li&gt;
+  &lt;li&gt;Reads from S3 source bucket&lt;/li&gt;
+  &lt;li&gt;Validates AVRO schema compliance&lt;/li&gt;
+  &lt;li&gt;Writes to Delta Lake tables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2: AI Analysis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Claude Code in CLI reads the contents of repository, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DAG source code&lt;/li&gt;
+  &lt;li&gt;Commit messages explaining why the pipeline exists&lt;/li&gt;
+  &lt;li&gt;Related PR discussions about design decisions&lt;/li&gt;
+  &lt;li&gt;Existing documentation for similar pipelines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The AI identifies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Schedule trigger (cron expression)&lt;/li&gt;
+  &lt;li&gt;Dependencies (upstream datasets required)&lt;/li&gt;
+  &lt;li&gt;Configuration parameters (S3 paths, table names)&lt;/li&gt;
+  &lt;li&gt;Error handling (retry logic, alerting)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3: Draft Generation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;AI generates Diátaxis-structured documentation:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How-to Guide&lt;/strong&gt; (goal-oriented):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## Running the Data Ingestion Pipeline
+
+**Purpose**: Ingest daily data from source systems with schema validation
+
+**Prerequisites**:
+
+- Access to source S3 bucket
+- Delta Lake table write permissions
+
+**Steps**:
+
+1. Trigger the DAG from Airflow UI
+2. Monitor execution in logs
+3. Verify data landed in target table
+4. Check data quality metrics in dashboard
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference Documentation&lt;/strong&gt; (information-oriented):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-markdown&quot;&gt;## Pipeline Configuration
+
+**Schedule**: Daily at 02:00 UTC
+**Owner**: Data Platform Team
+**Source**: `s3://source-bucket/data/`
+**Target**: `delta_lake.analytics.daily_ingestion`
+**Schema**: `avro/ingestion-v2.avsc`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4: Human Review and Enhancement&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Engineer reviews AI draft and adds:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Business context&lt;/strong&gt;: “This pipeline powers the marketing dashboard, so delays affect campaign tracking”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Edge cases&lt;/strong&gt;: “Handles late-arriving data using event timestamps, not ingestion time, the partitions are not closed”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;: “If validation fails, check schema registry for version mismatches”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Operational notes&lt;/strong&gt;: “Pipeline can be backfilled using –start-date parameter”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Alerts&lt;/strong&gt;: “- Sends alerts on failure, we define this outside the codebase, but it is important to document it as
+well, this is a good example of the kind of operational details that AI can’t infer from code by itself”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 5: Publish to Multiple Destinations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Documentation committed to GitHub → CI/CD pipeline triggers → Backstage TechDocs auto-publishes → RAG indexer adds to
+search&lt;/p&gt;
+
+&lt;p&gt;Now the documentation exists in:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitHub (version-controlled, tied to code)&lt;/li&gt;
+  &lt;li&gt;Backstage (discoverable in developer portal)&lt;/li&gt;
+  &lt;li&gt;RAG index for chat bots (searchable across all sources)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;migration-confluence-to-github&quot;&gt;Migration: Confluence to GitHub&lt;/h3&gt;
+
+&lt;p&gt;Data analysts preferred Confluence for its rich formatting and familiar editing experience. We couldn’t force them to
+switch, but we needed searchable documentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Migration workflow&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Data analyst maintains pipeline documentation in Confluence (tables, diagrams, formatted text)&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;mcp-atlassian&lt;/code&gt; reads Confluence pages (HTML format)&lt;/li&gt;
+  &lt;li&gt;AI converts HTML to Markdown:
+    &lt;ul&gt;
+      &lt;li&gt;Tables → Markdown tables&lt;/li&gt;
+      &lt;li&gt;Code blocks → Fenced code blocks&lt;/li&gt;
+      &lt;li&gt;Links → Markdown links&lt;/li&gt;
+      &lt;li&gt;Images → copied to GitHub and linked, some of them needed manual intervention&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Human validates conversion (some formatting edge cases needed manual fixes)&lt;/li&gt;
+  &lt;li&gt;Migrated docs committed to GitHub repositories&lt;/li&gt;
+  &lt;li&gt;Backstage TechDocs picks up new docs automatically&lt;/li&gt;
+  &lt;li&gt;RAG solution indexes unified documentation across sources&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The HTML-to-Markdown conversion handled most formatting automatically. Complex tables occasionally needed manual
+adjustment, but 80% to 90% of content was converted cleanly.&lt;/p&gt;
+
+&lt;h3 id=&quot;quality-controls&quot;&gt;Quality Controls&lt;/h3&gt;
+
+&lt;p&gt;We implemented several quality checks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Technical accuracy&lt;/strong&gt;: Run code examples in docs as integration tests. If the example fails, docs are wrong.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Completeness&lt;/strong&gt;: PRs with code changes require documentation updates. CI fails if new features lack docs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Link validation&lt;/strong&gt;: Automated checks verify internal links don’t break when files move. We created a command to check
+for broken links in the documentation, and we run it as part of our agent.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tools-in-the-stack&quot;&gt;Tools in the Stack&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Claude Code&lt;/strong&gt;: AI engine generating documentation drafts, using Sonnet 4.5&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MCP&lt;/strong&gt;: Protocol connecting AI to multiple data sources&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mcp-github&lt;/strong&gt;: Reads repositories, commits, PRs&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mcp-atlassian&lt;/strong&gt;: Reads Confluence pages, converts HTML to Markdown&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Diátaxis framework&lt;/strong&gt;: Structures documentation by user intent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;code-documenter-diataxis&lt;/strong&gt;: Agent applying Diátaxis patterns, adding backstage metadata and formatting Markdown&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Backstage TechDocs&lt;/strong&gt;: Developer portal auto-publishing from GitHub, we just added mkdocs configs to our repositories&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;RAG indexing&lt;/strong&gt;: Unified search across Backstage,  and Confluence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lessons-learned-what-worked-what-didnt&quot;&gt;Lessons Learned: What Worked, What Didn’t&lt;/h2&gt;
+
+&lt;h3 id=&quot;where-ai-excels&quot;&gt;Where AI Excels&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure and consistency&lt;/strong&gt;: AI applies templates reliably. Every how-to guide follows the same format. Every
+reference page has the same sections, semantically. However, the content sometimes misses metadata that is important
+for Backstage. We expect this to improve as we iterate the agent prompt with examples.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First drafts&lt;/strong&gt;: Starting from a blank page is hard, specially when doing context switching. AI-generated drafts
+provide scaffolding. Even if you rewrite 40% of the planning prompts, you’re faster than starting from zero. Also
+you iterate faster by providing feedback to plans and drafts before writing the LLM writes the final version.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Information extraction&lt;/strong&gt;: AI reads code and extracts details humans might miss—parameter types, default values, error
+codes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Repetitive tasks&lt;/strong&gt;: Documenting similar features (multiple API endpoints, configuration options) benefits from AI.
+Same pattern, different details. Also, it is pretty useful to just ask to create diagrams in mermaid format, this is a 
+good example of how AI can help with formatting and structuring the documentation.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-ai-struggles&quot;&gt;Where AI Struggles&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Business context&lt;/strong&gt;: AI can’t infer why a feature exists. “We built this to support the marketing team’s new campaign
+tracking” requires human knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Edge cases&lt;/strong&gt;: Subtle failure modes and corner cases often live in engineers’ heads, not in code. AI misses them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Organizational politics&lt;/strong&gt;:  AI doesn’t understand organizational dynamics, and things that are decided on meetings, or
+that are not documented anywhere. Writing design documents, ADRs is the only way to capture this context, but it is not
+always done.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-human-ai-collaboration-pattern&quot;&gt;The Human-AI Collaboration Pattern&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;AI does&lt;/strong&gt;: Structure, drafting, formatting, extracting information from code&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Human does&lt;/strong&gt;: Adding context, verifying accuracy, making judgment calls&lt;/p&gt;
+
+&lt;p&gt;This division of labor works because each handles what it’s good at. AI provides speed and consistency. Humans provide
+understanding and judgment.&lt;/p&gt;
+
+&lt;h3 id=&quot;unexpected-benefits&quot;&gt;Unexpected Benefits&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Forces structure thinking&lt;/strong&gt;: Using Diátaxis means deciding upfront: is this a tutorial or a how-to? That clarity
+improves documentation quality.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lowers documentation barrier&lt;/strong&gt;: Engineers less intimidated when they’re editing AI drafts rather than starting from
+scratch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Encourages docs-as-workflow&lt;/strong&gt;: When documentation becomes quick, it shifts from “tax” to “part of the process.”&lt;/p&gt;
+
+&lt;h2 id=&quot;discussion-your-experiences-and-questions&quot;&gt;Discussion: Your Experiences and Questions&lt;/h2&gt;
+
+&lt;p&gt;I’ve shared our approach and trade-offs. Now I’m curious about yours.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions for you&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Have you used AI for documentation?&lt;/strong&gt; What tools? What worked well? What didn’t?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do you balance AI drafting and human review?&lt;/strong&gt; Where do you draw the line between “ship the AI version” and “
+rewrite it entirely”?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do you measure documentation quality?&lt;/strong&gt; Beyond coverage, how would you implement the metric?, 
+how do you measure if docs are actually useful?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What documentation tasks would you most want AI to help with?&lt;/strong&gt; API docs? Architecture diagrams? Runbooks (
+difficult one, IMO)?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Concerns about AI-generated documentation?&lt;/strong&gt; How do you address accuracy, and trustworthiness?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This post documents our approach—using Claude Code, MCP, Backstage, and Diátaxis to accelerate documentation while
+maintaining quality. But it’s one approach among many. I’d love to hear from you how you have approached this problem.&lt;/p&gt;
+
+&lt;p&gt;Have you found patterns that work better? Tools we should explore? Trade-offs we haven’t considered? Share your
+experiences. Let’s learn from each other, sharing is caring :)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Reflexiones sobre el desarrollo de plataformas de datos: Mi serie personal</title>

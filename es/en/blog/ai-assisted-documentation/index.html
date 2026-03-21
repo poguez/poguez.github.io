@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link href="/es//gmpg.org/xfn/11" rel="profile">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+	<meta name="description" content="Using AI to accelerate documentation without sacrificing quality" />
+	<meta itemprop="image" content="https://www.noedominguez.com/media/2026-03-21-ai-assisted-documentation/cover.png" />
+	<meta property="og:description" content="Using AI to accelerate documentation without sacrificing quality" />
+<meta property="og:image" content="https://www.noedominguez.com/media/2026-03-21-ai-assisted-documentation/cover.png" />
+<meta property="og:title" content="AI-Assisted Documentation: Approaches and Trade-offs" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.noedominguez.com/en/blog/ai-assisted-documentation/" />
+<meta property="fb:app_id" content="181345208885623" />
+<meta property="og:site_name" content="El blog de Noé Domínguez" />
+
+
+
+	<title>AI-Assisted Documentation: Approaches and Trade-offs &middot; El blog de Noé Domínguez</title>
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="/es/assets/css/desktop.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="/es/assets/css/mobile.css" />
+	<link rel="stylesheet" type="text/css" href="/es/assets/css/application.css" />
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="/es//fonts.googleapis.com/css?family=Fenix:400,400italic">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="apple-touch-icon" href="https://www.noedominguez.com/es/assets/images/icon.png">
+	<link rel="shortcut icon" href="https://www.noedominguez.com/es/assets/images/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.noedominguez.com/es/atom.xml">
+	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
+	
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8SHPB8MF9P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8SHPB8MF9P');
+    </script>	
+
+</head>
+
+	<body>
+		<header class="clean" style="background-image: url(/media/2026-03-21-ai-assisted-documentation/cover.png); height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+	
+	<label class="menu" for="_1">
+	<span class="genericon genericon-menu"></span>
+</label>
+<input id="_1" type="checkbox">
+<div class="menu-content">
+	<p class="menu-title">El blog de Noé Domínguez<p>
+	<div class="menu" style="background-color: #1a1a1a; z-index: -1;"></div>
+	
+		<a href="/es/">Home</a>
+	
+		<a href="/es/sobre-mi">Sobre mi</a>
+	
+	<hr>
+	
+		<a href="https://twitter.com/noe_dgz" class="social-links-menu" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" class="social-links-menu" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="https://www.noedominguez.com/es/atom.xml" class="social-links-menu" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+<div class="social-links" data-stellar-ratio="0.1">
+	
+		<a href="https://twitter.com/noe_dgz" target="_blank" title="Sígueme en Twitter"><span class="genericon genericon-twitter"></span></a>
+	
+		<a href="https://github.com/poguez" target="_blank" title="Sigue mis proyectos en Github"><span class="genericon genericon-github"></span></a>
+	
+		<a href="https://www.noedominguez.com/es/atom.xml" target="_blank" title="Suscríbete a mi feed"><span class="genericon genericon-feed"></span></a>
+	
+</div>
+
+	<div id="post-info" data-stellar-ratio="0.7">
+		<h1>AI-Assisted Documentation: Approaches and Trade-offs</h1>
+		
+			<h2>Using AI to accelerate documentation without sacrificing quality</h2>
+		
+		<a class="site-title" href="https://www.noedominguez.com"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>El blog de Noé Domínguez</a>, 21 March 2026
+	</div>
+	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-expand"></span></a>
+	</div>
+</header>
+<div id="middle">
+	<div id="article">
+		<h1 id="ai-assisted-documentation-approaches-and-trade-offs">AI-Assisted Documentation: Approaches and Trade-offs</h1>
+
+<h2 id="the-documentation-debt-problem">The Documentation Debt Problem</h2>
+
+<p>Documentation lags behind code. Always.</p>
+
+<p>During my last six years maintaining data platforms, I’ve seen this pattern repeat across multiple organizations and
+teams. Documentation is the first casualty of shifting priorities and fast-moving development. Everytime there is a
+reorganization, a new project, or a new feature, the documentation falls behind. We promise to “document” it later,
+we create tickets for documentation tasks, but we never get to them. Only the best-intentioned engineers write docs as
+they go, but when we get to them, often the doc is urgently needed for giving support to users.</p>
+
+<p>I think this is a common escenario for platform teams, the documentation isn’t optional, but usually it is so important
+that it should be treated as infrastructure. When you’re building a data orchestration platform serving multiple
+business
+domains, documentation is an essential part of the platform. It enables users to understand how to use the platform,
+how to troubleshoot issues, and it helps with onboarding new users.</p>
+
+<p>Lately in Adevinta, I was asked to help doing docs since in a data platform team the documentation is crucial for
+onboarding, knowledge sharing and self-service. Since we are in a process of migrating a project with a lift and shift
+approach, the premise is that we have an existing solution that had documentation, and we needed to migrate it to the
+new platform with different documentation tools. We had to migrate the documentation as well, and we wanted to use AI
+to help us with that.</p>
+
+<p>We had already implemented a documentation solution based on GitHub repositories and Spotify’s Backstage TechDocs, but
+we had a lot of documentation in Confluence that we needed to migrate. We wanted to use AI to help us with that
+migration, and we also wanted to use AI to help us with the ongoing documentation of the new platform. Documentation
+shouldn’t be a bottleneck, but it often is. We wanted to see if AI improved the situation or if it introduced new
+challenges.</p>
+
+<h2 id="why-traditional-documentation-workflows-fail">Why Traditional Documentation Workflows Fail</h2>
+
+<p>We often have a problem with documentation because it’s treated as a separate task from development. You write code,
+then you write the docs. But this creates a structural problem: the documentation becomes an afterthought, separate from
+the development process.</p>
+
+<p>The cycle looks familiar:</p>
+
+<ol>
+  <li>Developer implements feature</li>
+  <li>Code review focuses on implementation</li>
+  <li>Feature merges to main</li>
+  <li>Developer thinks “I’ll document this later”</li>
+  <li>We create a ticket for documentation</li>
+  <li>Later never happens</li>
+</ol>
+
+<p>The “I’ll document it later” trap exists because context-switching is expensive. Writing documentation is a totally
+different ability than writing code. Code is precise: logic, debug, test. Documentation is narrative: explaining
+why, when, how. Shifting between these modes takes time and mental energy.</p>
+
+<p>Documentation also fails to scale for another reason. You are a group of engineers working on the same documentation.
+You create code - and bugs 🐛- concurrently. When you arrive to the documentation step, the state of the code
+might have changed. Now you have to update the documentation to reflect the changes in the code. The process is even
+longer, harder and frustrating.</p>
+
+<p>The documentation practices have evolved over time. We moved from wikis to docs as code, where the documentation
+lives in the Git repository alongside the codebase. This helped with version control and keeping docs close to code, but
+it didn’t change the fundamental problem: developers still need to write the docs. If you have a tight
+deadline, documentation is the first thing to get cut, then you can deliver your work earlier.</p>
+
+<p>The common denominator in these situations is that documentation is a human task. Human time is a bottleneck.
+Documentation requires someone to sit down, understand the user’s needs, the system and write a clear explanation.
+Getting enough time is hard. It is competing with another feature, quarterly goals, the next bug to fix, the next
+incident to solve.</p>
+
+<h2 id="design-considerations-ai-as-documentation-assistant">Design Considerations: AI as Documentation Assistant</h2>
+
+<p>Using AI for documentation introduces new trade-offs. Let’s explore them.</p>
+
+<h3 id="quality-vs-speed">Quality vs Speed</h3>
+
+<p>Something I found amazing about AI is that it can draft documentation very fast. Summarize the code, extract parameters
+and generate an example code block in minutes. Writing documentation from scratch takes much longer, especially if you
+want to do it well. However, speed comes with caveats.</p>
+
+<p>AI excels at surface-level structure: extracting function signatures, identifying parameters, generating example code
+blocks. It struggles with the human and organizational nuances: why does a validation rule exist? How do you request
+for access to a system? How do you configure accesses to systems outside this codebase? These require human judgment and
+context.</p>
+
+<p>Human review catches these gaps, but review takes time. How much review is enough? If you spend the same time reviewing
+AI-generated docs as you would writing from scratch, have you gained anything?</p>
+
+<p>The balance depends on what you’re documenting. Reference documentation like: API endpoints, configuration options, data
+schemas, with clear patterns should be easy. Conceptual documentation like architecture decisions, tutorials,
+and operational runbooks, needs deep human input because it requires understanding intent.</p>
+
+<h3 id="human-in-the-loop-models">Human in-the-loop Models</h3>
+
+<p>The first time I was listening about humans in the loop was in the context of machine learning it was 2016, and
+I still go back to my favorite work on Human
+Computation: <a href="https://www.youtube.com/watch?v=hEPDa4POUAQ">Soylent: a word processor with a crowd inside</a> by Michael S.
+Bernstein .
+ML models are not perfect, they make mistakes, and they can be biased. The idea of having a human in the loop is to have
+someone review the output of the model and correct any mistakes before it is used. The idea of bringing the crowd
+to Computer Systems is to improve its intelligente. These days, LLMs are much better than traditional ML models for
+general purpose, however they still make mistakes. They can hallucinate, they can miss critical
+details, and they can produce inaccurate or misleading documentation if not reviewed carefully.</p>
+
+<p>At minimum: technical accuracy. Does the documented API actually work this way? Are the code examples correct? Does the
+configuration match reality?. I have came across documentation that describes scenarios that don’t match the actual
+environment we have in production. This is a sign that the documentation is not accurate and can lead to confusion for
+users.</p>
+
+<p>Beyond that: completeness. Did AI miss critical edge cases? Are error scenarios documented? What about failure modes?.
+Most of the time, I see exhaustive docs that cover most of the edge cases, but sometimes they miss critical ones that
+can lead to confusion for users.</p>
+
+<p>Deepest: context and judgment. Why does this feature exist? What business problems does it solve? How does it fit into
+the broader system architecture?. What are the assumptions? These are the things that AI can’t infer from code alone.
+They require human knowledge and judgment. Sometimes ADRs, Design Documents or Explanations are the only place where
+this context lives.</p>
+
+<p>I’ve found a tiered approach works: light review for straightforward reference docs, a test flight with tutorials to see
+the procedure works, heavy review for anything involving architectural decisions or operational procedures, I try to
+bring those to the minimum in the prompt, ask for diagrams in mermaid format, and during revisions cut as much as
+possible to keep it minimal.</p>
+
+<h3 id="tool-selection-why-claude-code--mcp">Tool Selection: Why Claude Code + MCP</h3>
+
+<p>Why Claude Code with Model Context Protocol over other AI assistants?</p>
+
+<p>I have to say that I have not tried a lot of assistants for coding, but I have been using Github Copilot with my IDE
+for more than 2 years. I have found that it is good for generating code snippets, I used for a while generating code by
+writing the comments first and let Github Copilot completing the lines , but it doesn’t have the ability to read the
+entire
+codebase and understand the context. It can generate code based on the current file, but it doesn’t have access to the
+commit history, pull request discussions, or other documentation that might provide context for what the code is doing.
+It was mind blowing to get more accurate explanations of code when I switched to Claude Code, the CLI is straightforward
+and even though I like to use visual IDEs, I am still used to using the terminal for a lot of tasks.</p>
+
+<p>MCP provides multi-source context. For my docs task I started with my first tests with http links, but they fell short
+while scraping for information and searching the information I wanted. Moreover, I had to migrate docs from different
+repositories and confluence pages, so I needed a way to connect to multiple sources of information. MCP allowed me to
+integrate with both GitHub and Atlassian Confluence, giving the AI access to a richer context.</p>
+
+<p>The <code>mcp-github</code> integration reads Github enterprise repositories, their structure, commit history, pull request
+discussions—context that makes AI-generated docs more accurate. The AI isn’t guessing what the code does, it is reading
+the actual code and related discussions. Also, there were some documentation that had documentation in the codebase,
+so it was important to have access to that documentation as well.</p>
+
+<p>The <code>mcp-atlassian</code> integration solved a different problem: migration. Data analysts, ML and Data Science people in the
+company preferred Confluence to GitHub. Forcing everyone to migrate manually wouldn’t work. Convincing everyone
+to bring docs to Markdown wasn’t an option either. Instead, <code>mcp-atlassian</code> reads Confluence pages in their HTML format,
+converts them to Markdown seamlessly, and migrates them to GitHub repositories. This supported both documentation
+approaches without forcing one workflow on everyone.</p>
+
+<p>The Confluence-to-Markdown conversion worked surprisingly well—HTML structure translated cleanly to Markdown, preserving
+formatting, links, tables look amazing. We migrated documentation across multiple GitHub repositories and dozens of
+Confluence pages without manual reformatting.</p>
+
+<h2 id="approach-multi-source-documentation-architecture">Approach: Multi-Source Documentation Architecture</h2>
+
+<p>Here’s how we structured documentation with LLMs in every step of the lifecycle.</p>
+
+<h3 id="documentation-integration-architecture">Documentation Integration Architecture</h3>
+
+<p>We needed documentation in three places, to allow different teams to work in their preferred tools:</p>
+
+<ul>
+  <li><strong>GitHub repositories</strong>: Version-controlled, docs-as-code, integrated with PRs.</li>
+  <li><strong>Spotify’s Backstage TechDocs</strong>: Centralized developer portal for discovery, docs-as-code with better rendering and
+navigation.</li>
+  <li><strong>Atlassian Confluence</strong>: For teams who preferred it, but indexed in RAG for unified search.</li>
+</ul>
+
+<p>The challenge: keeping them indexed in one place. We didn’t want documentation fragmented across the systems with no
+way to search across all sources.</p>
+
+<p>Solution: a RAG (Retrieval Augmented Generation) indexing layer that indexes all three sources. Engineers can search
+once and find documentation regardless of where it lives. The RAG solution understands context—searching for “data
+quality validation” returns relevant docs from GitHub, Backstage, or Confluence, ranked by relevance.</p>
+
+<h3 id="design-philosophy-ai-as-assistant">Design Philosophy: AI as Assistant</h3>
+
+<p>Our philosophy: AI assists, humans revise &amp; decide.</p>
+
+<p>AI handles:</p>
+
+<ul>
+  <li><strong>Structure</strong>: Organizing docs following frameworks, and templates</li>
+  <li><strong>Drafting</strong>: First-pass explanations from code</li>
+  <li><strong>Formatting</strong>: Consistent Markdown, tables, code blocks, mermaid diagrams</li>
+  <li><strong>Information extraction</strong>: Pulling relevant details from commit messages, PRs, code comments</li>
+</ul>
+
+<p>Humans handle:</p>
+
+<ul>
+  <li><strong>Context</strong>: Why does this exist? What problems does it solve? What are the assumptions?</li>
+  <li><strong>Accuracy</strong>: Verifying AI-generated content matches reality, especially for operational procedures</li>
+  <li><strong>Judgment</strong>: Which details matter? What can be omitted?</li>
+</ul>
+
+<h3 id="the-diátaxis-framework">The Diátaxis Framework</h3>
+
+<p>We adopted <a href="https://diataxis.fr/">Diátaxis.fr</a>, a documentation framework that organizes content by user intent:</p>
+
+<ul>
+  <li><strong>Tutorials</strong>: Learning-oriented, step-by-step guides for beginners</li>
+  <li><strong>How-to guides</strong>: Goal-oriented, practical steps for specific tasks</li>
+  <li><strong>Reference</strong>: Information-oriented, technical descriptions (APIs, configs)</li>
+  <li><strong>Explanation</strong>: Understanding-oriented, conceptual background (architecture, trade-offs)</li>
+</ul>
+
+<p>AI proved excellent at generating documentation that fits Diátaxis categories. Point it at code and specify “generate a
+how-to guide for configuring this pipeline,” and it produces goal-oriented documentation. Ask for reference
+documentation, and it extracts configuration parameters and data types.</p>
+
+<p>We implemented this using the <code>code-documenter-diataxis</code> agent, which understands the framework and structures
+AI-generated docs accordingly. This ensured consistency: all how-to guides followed the same pattern, all reference docs
+had the same structure.</p>
+
+<h3 id="documentation-patterns">Documentation Patterns</h3>
+
+<p>Five patterns emerged:</p>
+
+<p><strong>1. Code-to-docs</strong>: New feature implemented → AI generates Diátaxis-structured how-to → Human reviews and adds business
+context → Docs committed with code</p>
+
+<p><strong>2. Update pattern</strong>: Code change merged → AI identifies affected documentation → AI updates docs to reflect changes →
+Human verifies accuracy</p>
+
+<p><strong>3. Context extraction</strong>: You create a PR → AI reads commit messages and changes → AI summarizes changes for PR
+descriptions
+→ Human edits for clarity or PR description requirements</p>
+
+<p><strong>4. Structure generation</strong>: Existing code without docs → AI does a research of the implementation → AI applies
+Diátaxis structure → Human fills conceptual gaps</p>
+
+<p><strong>5. Migration pattern</strong>: Confluence page exists → <code>mcp-atlassian</code> reads HTML → AI converts to Markdown → Human
+validates formatting → Committed to GitHub → Backstage publishes</p>
+
+<h2 id="implementation-from-code-to-documentation">Implementation: From Code to Documentation</h2>
+
+<p>Let’s walk through a concrete example: documenting a data orchestration pipeline.</p>
+
+<h3 id="the-workflow-in-a-nutshell">The Workflow in a nutshell</h3>
+
+<p>Sorry if there are few technical details, but they are ommited on purpose to focus on the process.</p>
+
+<p><strong>Step 1: Code Implementation</strong></p>
+
+<p>Engineer writes a new Apache Airflow DAG for data orchestration:</p>
+
+<ul>
+  <li>Scheduled daily at 2 AM UTC</li>
+  <li>Reads from S3 source bucket</li>
+  <li>Validates AVRO schema compliance</li>
+  <li>Writes to Delta Lake tables</li>
+</ul>
+
+<p><strong>Step 2: AI Analysis</strong></p>
+
+<p>Claude Code in CLI reads the contents of repository, including:</p>
+
+<ul>
+  <li>DAG source code</li>
+  <li>Commit messages explaining why the pipeline exists</li>
+  <li>Related PR discussions about design decisions</li>
+  <li>Existing documentation for similar pipelines</li>
+</ul>
+
+<p>The AI identifies:</p>
+
+<ul>
+  <li>Schedule trigger (cron expression)</li>
+  <li>Dependencies (upstream datasets required)</li>
+  <li>Configuration parameters (S3 paths, table names)</li>
+  <li>Error handling (retry logic, alerting)</li>
+</ul>
+
+<p><strong>Step 3: Draft Generation</strong></p>
+
+<p>AI generates Diátaxis-structured documentation:</p>
+
+<p><strong>How-to Guide</strong> (goal-oriented):</p>
+
+<pre><code class="language-markdown">## Running the Data Ingestion Pipeline
+
+**Purpose**: Ingest daily data from source systems with schema validation
+
+**Prerequisites**:
+
+- Access to source S3 bucket
+- Delta Lake table write permissions
+
+**Steps**:
+
+1. Trigger the DAG from Airflow UI
+2. Monitor execution in logs
+3. Verify data landed in target table
+4. Check data quality metrics in dashboard
+</code></pre>
+
+<p><strong>Reference Documentation</strong> (information-oriented):</p>
+
+<pre><code class="language-markdown">## Pipeline Configuration
+
+**Schedule**: Daily at 02:00 UTC
+**Owner**: Data Platform Team
+**Source**: `s3://source-bucket/data/`
+**Target**: `delta_lake.analytics.daily_ingestion`
+**Schema**: `avro/ingestion-v2.avsc`
+</code></pre>
+
+<p><strong>Step 4: Human Review and Enhancement</strong></p>
+
+<p>Engineer reviews AI draft and adds:</p>
+
+<ul>
+  <li><strong>Business context</strong>: “This pipeline powers the marketing dashboard, so delays affect campaign tracking”</li>
+  <li><strong>Edge cases</strong>: “Handles late-arriving data using event timestamps, not ingestion time, the partitions are not closed”</li>
+  <li><strong>Troubleshooting</strong>: “If validation fails, check schema registry for version mismatches”</li>
+  <li><strong>Operational notes</strong>: “Pipeline can be backfilled using –start-date parameter”</li>
+  <li><strong>Alerts</strong>: “- Sends alerts on failure, we define this outside the codebase, but it is important to document it as
+well, this is a good example of the kind of operational details that AI can’t infer from code by itself”</li>
+</ul>
+
+<p><strong>Step 5: Publish to Multiple Destinations</strong></p>
+
+<p>Documentation committed to GitHub → CI/CD pipeline triggers → Backstage TechDocs auto-publishes → RAG indexer adds to
+search</p>
+
+<p>Now the documentation exists in:</p>
+
+<ul>
+  <li>GitHub (version-controlled, tied to code)</li>
+  <li>Backstage (discoverable in developer portal)</li>
+  <li>RAG index for chat bots (searchable across all sources)</li>
+</ul>
+
+<h3 id="migration-confluence-to-github">Migration: Confluence to GitHub</h3>
+
+<p>Data analysts preferred Confluence for its rich formatting and familiar editing experience. We couldn’t force them to
+switch, but we needed searchable documentation.</p>
+
+<p><strong>Migration workflow</strong>:</p>
+
+<ol>
+  <li>Data analyst maintains pipeline documentation in Confluence (tables, diagrams, formatted text)</li>
+  <li><code>mcp-atlassian</code> reads Confluence pages (HTML format)</li>
+  <li>AI converts HTML to Markdown:
+    <ul>
+      <li>Tables → Markdown tables</li>
+      <li>Code blocks → Fenced code blocks</li>
+      <li>Links → Markdown links</li>
+      <li>Images → copied to GitHub and linked, some of them needed manual intervention</li>
+    </ul>
+  </li>
+  <li>Human validates conversion (some formatting edge cases needed manual fixes)</li>
+  <li>Migrated docs committed to GitHub repositories</li>
+  <li>Backstage TechDocs picks up new docs automatically</li>
+  <li>RAG solution indexes unified documentation across sources</li>
+</ol>
+
+<p>The HTML-to-Markdown conversion handled most formatting automatically. Complex tables occasionally needed manual
+adjustment, but 80% to 90% of content was converted cleanly.</p>
+
+<h3 id="quality-controls">Quality Controls</h3>
+
+<p>We implemented several quality checks:</p>
+
+<ul>
+  <li>
+    <p><strong>Technical accuracy</strong>: Run code examples in docs as integration tests. If the example fails, docs are wrong.</p>
+  </li>
+  <li>
+    <p><strong>Completeness</strong>: PRs with code changes require documentation updates. CI fails if new features lack docs.</p>
+  </li>
+  <li>
+    <p><strong>Link validation</strong>: Automated checks verify internal links don’t break when files move. We created a command to check
+for broken links in the documentation, and we run it as part of our agent.</p>
+  </li>
+</ul>
+
+<h3 id="tools-in-the-stack">Tools in the Stack</h3>
+
+<ul>
+  <li><strong>Claude Code</strong>: AI engine generating documentation drafts, using Sonnet 4.5</li>
+  <li><strong>MCP</strong>: Protocol connecting AI to multiple data sources</li>
+  <li><strong>mcp-github</strong>: Reads repositories, commits, PRs</li>
+  <li><strong>mcp-atlassian</strong>: Reads Confluence pages, converts HTML to Markdown</li>
+  <li><strong>Diátaxis framework</strong>: Structures documentation by user intent</li>
+  <li><strong>code-documenter-diataxis</strong>: Agent applying Diátaxis patterns, adding backstage metadata and formatting Markdown</li>
+  <li><strong>Backstage TechDocs</strong>: Developer portal auto-publishing from GitHub, we just added mkdocs configs to our repositories</li>
+  <li><strong>RAG indexing</strong>: Unified search across Backstage,  and Confluence</li>
+</ul>
+
+<h2 id="lessons-learned-what-worked-what-didnt">Lessons Learned: What Worked, What Didn’t</h2>
+
+<h3 id="where-ai-excels">Where AI Excels</h3>
+
+<p><strong>Structure and consistency</strong>: AI applies templates reliably. Every how-to guide follows the same format. Every
+reference page has the same sections, semantically. However, the content sometimes misses metadata that is important
+for Backstage. We expect this to improve as we iterate the agent prompt with examples.</p>
+
+<p><strong>First drafts</strong>: Starting from a blank page is hard, specially when doing context switching. AI-generated drafts
+provide scaffolding. Even if you rewrite 40% of the planning prompts, you’re faster than starting from zero. Also
+you iterate faster by providing feedback to plans and drafts before writing the LLM writes the final version.</p>
+
+<p><strong>Information extraction</strong>: AI reads code and extracts details humans might miss—parameter types, default values, error
+codes.</p>
+
+<p><strong>Repetitive tasks</strong>: Documenting similar features (multiple API endpoints, configuration options) benefits from AI.
+Same pattern, different details. Also, it is pretty useful to just ask to create diagrams in mermaid format, this is a 
+good example of how AI can help with formatting and structuring the documentation.</p>
+
+<h3 id="where-ai-struggles">Where AI Struggles</h3>
+
+<p><strong>Business context</strong>: AI can’t infer why a feature exists. “We built this to support the marketing team’s new campaign
+tracking” requires human knowledge.</p>
+
+<p><strong>Edge cases</strong>: Subtle failure modes and corner cases often live in engineers’ heads, not in code. AI misses them.</p>
+
+<p><strong>Organizational politics</strong>:  AI doesn’t understand organizational dynamics, and things that are decided on meetings, or
+that are not documented anywhere. Writing design documents, ADRs is the only way to capture this context, but it is not
+always done.</p>
+
+<h3 id="the-human-ai-collaboration-pattern">The Human-AI Collaboration Pattern</h3>
+
+<p><strong>AI does</strong>: Structure, drafting, formatting, extracting information from code</p>
+
+<p><strong>Human does</strong>: Adding context, verifying accuracy, making judgment calls</p>
+
+<p>This division of labor works because each handles what it’s good at. AI provides speed and consistency. Humans provide
+understanding and judgment.</p>
+
+<h3 id="unexpected-benefits">Unexpected Benefits</h3>
+
+<p><strong>Forces structure thinking</strong>: Using Diátaxis means deciding upfront: is this a tutorial or a how-to? That clarity
+improves documentation quality.</p>
+
+<p><strong>Lowers documentation barrier</strong>: Engineers less intimidated when they’re editing AI drafts rather than starting from
+scratch.</p>
+
+<p><strong>Encourages docs-as-workflow</strong>: When documentation becomes quick, it shifts from “tax” to “part of the process.”</p>
+
+<h2 id="discussion-your-experiences-and-questions">Discussion: Your Experiences and Questions</h2>
+
+<p>I’ve shared our approach and trade-offs. Now I’m curious about yours.</p>
+
+<p><strong>Questions for you</strong>:</p>
+
+<ol>
+  <li>
+    <p><strong>Have you used AI for documentation?</strong> What tools? What worked well? What didn’t?</p>
+  </li>
+  <li>
+    <p><strong>How do you balance AI drafting and human review?</strong> Where do you draw the line between “ship the AI version” and “
+rewrite it entirely”?</p>
+  </li>
+  <li>
+    <p><strong>How do you measure documentation quality?</strong> Beyond coverage, how would you implement the metric?, 
+how do you measure if docs are actually useful?</p>
+  </li>
+  <li>
+    <p><strong>What documentation tasks would you most want AI to help with?</strong> API docs? Architecture diagrams? Runbooks (
+difficult one, IMO)?</p>
+  </li>
+  <li>
+    <p><strong>Concerns about AI-generated documentation?</strong> How do you address accuracy, and trustworthiness?</p>
+  </li>
+</ol>
+
+<p>This post documents our approach—using Claude Code, MCP, Backstage, and Diátaxis to accelerate documentation while
+maintaining quality. But it’s one approach among many. I’d love to hear from you how you have approached this problem.</p>
+
+<p>Have you found patterns that work better? Tools we should explore? Trade-offs we haven’t considered? Share your
+experiences. Let’s learn from each other, sharing is caring :)</p>
+
+	</div>
+	
+	<div id="comments">
+		
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+		var disqus_shortname = 'poguez';
+
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+	</div>
+	
+</div>
+
+<footer class="clean" style="background-image: url(/media/2026-03-21-ai-assisted-documentation/cover.png); height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+	<div id="nav-icon" style="top: 60px;" data-stellar-ratio="0.8">
+		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
+	</div>
+	<div id="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
+		<h3>Read next</h3>
+		<a href="/es/blog/documentacion-asistida-por-ia/">
+			<h1>Documentación Asistida por IA: Enfoques y Trade-offs</h1>
+			
+				<h2>Usando IA para acelerar la documentación sin sacrificar la calidad</h2>
+			
+		</a>
+	</div>
+	<p class="copyright">&copy;2026, <a href="https://www.noedominguez.com" target="_blank">Noé Domínguez</a>. <a href="https://creativecommons.org/licenses/by-nc/2.5" target="_blank">Algunos derechos reservados</a>.</p>
+</footer>
+<script src="/assets/js/smooth-scroll.js"></script>
+
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+		    $.stellar({
+		    	responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+		    });
+		});
+		</script>
+	</body>
+</html>
